@@ -58,6 +58,14 @@
       <Project>{bc3201d8-d27c-4960-adc2-f6e28d127b69}</Project>
       <Name>CeVIO Creative Studio.resources</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CeVIO.KnobControl.resources\CeVIO.KnobControl.resources.csproj">
+      <Project>{d3f346f1-e269-4921-a06a-42d985c5f2a0}</Project>
+      <Name>CeVIO.KnobControl.resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CeVIO.SevenSegmentControl.resources\CeVIO.SevenSegmentControl.resources.csproj">
+      <Project>{dd1f4b8f-fe98-40ce-bd5d-581b7d980d35}</Project>
+      <Name>CeVIO.SevenSegmentControl.resources</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CeVIO.SongEditorControl.resources\CeVIO.SongEditorControl.resources.csproj">
       <Project>{1625e30a-f355-485b-ae81-8357eed8f989}</Project>
       <Name>CeVIO.SongEditorControl.resources</Name>
