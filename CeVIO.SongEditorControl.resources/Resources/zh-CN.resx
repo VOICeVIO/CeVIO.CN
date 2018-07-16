@@ -1,0 +1,845 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PianoRollMenu_View_GuideLineToolTip" xml:space="preserve">
+    <value>高亮显示离鼠标最近的小节线。</value>
+    <comment>クオンタイズの補助カーソルを表示します。</comment>
+  </data>
+  <data name="PianoRollMenu_Tool_BulkSelect" xml:space="preserve">
+    <value>范围选择工具(_2)</value>
+    <comment>まとめ選択ツール(_2)</comment>
+  </data>
+  <data name="PianoRollMenu_VibratoDisableToolTip" xml:space="preserve">
+    <value>将本音轨的所有颤音无效化。</value>
+    <comment>このトラック全体でビブラートを無効化します。</comment>
+  </data>
+  <data name="PianoRollMenu_View_TuningLineToolTip" xml:space="preserve">
+    <value>調整画面にも拍やクオンタイズのラインを表示します。</value>
+    <comment>調整画面にも拍やクオンタイズのラインを表示します。</comment>
+  </data>
+  <data name="PianoRollMenu_Mode_Normal" xml:space="preserve">
+    <value>乐谱编辑(_1)</value>
+    <comment>楽譜を編集(_1)</comment>
+  </data>
+  <data name="MidiImportDialogCaption2" xml:space="preserve">
+    <value>トラック)</value>
+    <comment>トラック)</comment>
+  </data>
+  <data name="MidiImportDialogCaption1" xml:space="preserve">
+    <value>読み込むトラックを選択します。(最大</value>
+    <comment>読み込むトラックを選択します。(最大</comment>
+  </data>
+  <data name="BeatRowToolTip" xml:space="preserve">
+    <value>拍子行(全トラック共通)
+ダブルクリックで編集。ドラッグで移動。追加はペンでダブルクリック。</value>
+    <comment>拍子行(全トラック共通)
+ダブルクリックで編集。ドラッグで移動。追加はペンでダブルクリック。</comment>
+  </data>
+  <data name="MenuPaste" xml:space="preserve">
+    <value>粘贴(_P)</value>
+    <comment>貼り付け(_P)</comment>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Eraser" type="System.Byte[], mscorlib">
+    <value>
+        AAACAAEAICAAAAAAAACoCAAAFgAAACgAAAAgAAAAQAAAAAEACAAAAAAAgAQAAAAAAAAAAAAAAAAAAAAA
+        AAD/9esEkJCQBGZmZgT///8EEBAQBAAAAAQzMzMEzMzMBJmZmQRBAFwAcABwAGEARABhAHQAUgBcAGEA
+        bwBpAG0AZwBuAGkAXABvAHIAcwBtAGYAbwBfAHQAYQBkAGEAdAAzAFwAeAAyADIAMwBiAC4AcABtAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAABsAVAAA+gEAGKtMd8z6AQAYAOQAAAEAdX0AAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAABAAAC8AAAeAADnwAgApiLAAOfAAAAAAAAAAAAAAAAAEUAAAAoAAD7AQAYAgAAAADwAph4KAOf+5QA
+        GDzDd8w8S3fMNA53jgC0AAA6AAKYAJgCmC3oAphaAQozAJgAAC2QApj69AAYLaUCmN9Fd8sAAAAAAJgA
+        AC3GApgB2AAAqhQDn/tGABgCtwAAAAAAAADwAph4AAOfAEUAAAAARQAAAAAAibADnyRQApiPKAKYAgAA
+        AABAApgA8AAAeMQDn/u+ABg4OHfMAZoCmDind8w0AHeOAAAAAAD4Aph4+AOfePgDn3jzA594AAOfAAAA
+        AFsAADMA2AKYqpgDny0BApgAAAAAAJgCmC0TApgH/gBd/5j//y0EApgAAAQAEKIAACBGggAC8AAAeA4D
+        nwADAAAAAwAAAEYAAAJ/AAAHsAAABaIAACDGggABCAAAANgAAKqwA58FAAAAAAgAAACoAAAuAAKYAJgA
+        AC0DApgAsAAABfgAAHjYA5+qsAOfBUYAAAIAAAAAAwAAAAABAAAwAAAOAQAAAOQBAfoDABgAJAAA/NUA
+        GHEzd9AH/gBd/wP//wBEAAASAAKYAPgAAHj4A5940gOf+fJ3yrmwdXkFsAAABfgAAPs4ABgUAHcf3QMQ
+        BQBsAAAAPAAA/KEAGHpQEAQSCwKYFgMQBAAoAAAWABAEAFgAAMRYEAXEABAFABQAAPwEABgReBAE/BgA
+        GGtYApjEBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUEBAQEBAQEBAQEBAQFBQUFBQUFBQUFBQUFBQUFBQUFBQQDAwMDAwMD
+        AwMDBAUFBQUFBQUFBQUFBQUFBQUFBQUDBAMDAwMDAwMDAwMEBQUFBQUFBQUFBQUFBQUFBQUFAwMEAwMD
+        AwMDAwMDAwQFBQUFBQUFBQUFBQUFBQUFBQMDAwQEBAQEBAQEBAQEBAUFBQUFBQUFBQUFBQUFBQUDAwMF
+        AwMDAwMDAwMDAwQFBQUFBQUFBQUFBQUFBQUFAwMDBQMDAwMDAwMDAwMEBQUFBQUFBQUFBQUFBQUFBQMD
+        AwUDAwMDAwMDAwMDBAUFBQUFBQUFBQUFBQUFBQUDAwMFAwMDAwMDAwMDAwQFBQUFBQUFBQUFBQUFBQUF
+        AwMDBQMDAwMDAwMDAwMEBQUFBQUFBQUFBQUFBQUFBQMDAwUDAwMDAwMDAwMDBAUFBQUFBQUFBQUFBQUF
+        BQUFAwMFAwMDAwMDAwMDAwQFBQUFBQUFBQUFBQUFBQUFBQUDBQMDAwMDAwMDAwMEBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUDAwMDAwMDAwMDBAUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBf//////////////////////////////////////////////////////////////////
+        /////////////////////////8AD//+AA///AAP//gAD//wAA//4AAf/8AAP/+AAH//AAD//gAB//wAA
+        //8AAf//AAP//wAH//+AD///
+</value>
+  </data>
+  <data name="LyricError" xml:space="preserve">
+    <value>発音できない文字が含まれています。
+歌詞は全角かな／全角カナで入力してください。</value>
+    <comment>発音できない文字が含まれています。
+歌詞は全角かな／全角カナで入力してください。</comment>
+  </data>
+  <data name="PianoRollMenu_Tool_Line" xml:space="preserve">
+    <value>直线工具(_4)</value>
+    <comment>ラインツール(_4)</comment>
+  </data>
+  <data name="VibratoDisabled" xml:space="preserve">
+    <value>ビブラート無効</value>
+    <comment>ビブラート無効</comment>
+  </data>
+  <data name="BeatChangeConfirmationDialogTitle" xml:space="preserve">
+    <value>調号の位置補正の確認</value>
+    <comment>調号の位置補正の確認</comment>
+  </data>
+  <data name="MidiImportDialogSelect" xml:space="preserve">
+    <value>选择</value>
+    <comment>選択</comment>
+  </data>
+  <data name="PianoRollMenu_EnterLyricsWithPhoneme" xml:space="preserve">
+    <value>按音素输入歌词(_P)</value>
+    <comment>音素で歌詞入力(_P)</comment>
+  </data>
+  <data name="PianoRollMenu_OverLay_VibratoAmplitudeToolTip" xml:space="preserve">
+    <value>ビブラートの振幅を重ねます。</value>
+    <comment>ビブラートの振幅を重ねます。</comment>
+  </data>
+  <data name="NoteDialogTitle" xml:space="preserve">
+    <value>音符属性</value>
+    <comment>音符のプロパティ</comment>
+  </data>
+  <data name="AdjustNotesPosition" xml:space="preserve">
+    <value>已修正音符长度。</value>
+    <comment>音符の長さを補正しました。</comment>
+  </data>
+  <data name="Breath" xml:space="preserve">
+    <value>呼吸</value>
+    <comment>ブレス</comment>
+  </data>
+  <data name="Attribute" xml:space="preserve">
+    <value>属性</value>
+    <comment>属性</comment>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+    <comment>キャンセル</comment>
+  </data>
+  <data name="SplitterToolTip" xml:space="preserve">
+    <value>分割位置を調整(Ctrl+左クリックで既定位置)</value>
+    <comment>分割位置を調整(Ctrl+左クリックで既定位置)</comment>
+  </data>
+  <data name="PianoRollMenu_NotesOfOtherTracks" xml:space="preserve">
+    <value>別トラックの音符(_P)</value>
+    <comment>別トラックの音符(_P)</comment>
+  </data>
+  <data name="PianoRollMenu_EnterLyricsCollectively" xml:space="preserve">
+    <value>歌詞のまとめ入力(_I)...</value>
+    <comment>歌詞のまとめ入力(_I)...</comment>
+  </data>
+  <data name="SpaceDelimitedToolTip" xml:space="preserve">
+    <value>音符毎にスペースで区切られた文字を割り当てます。
+2文字以上の歌詞も割り当て可能です。</value>
+    <comment>音符毎にスペースで区切られた文字を割り当てます。
+2文字以上の歌詞も割り当て可能です。</comment>
+  </data>
+  <data name="MidiImportDialogCaptionB1" xml:space="preserve">
+    <value>テンポ(</value>
+    <comment>テンポ(</comment>
+  </data>
+  <data name="MidiImportDialogCaptionB3" xml:space="preserve">
+    <value>)も読み込む</value>
+    <comment>)も読み込む</comment>
+  </data>
+  <data name="MidiImportDialogCaptionB2" xml:space="preserve">
+    <value>)と拍子(</value>
+    <comment>)と拍子(</comment>
+  </data>
+  <data name="PianoRollMenu_Mode" xml:space="preserve">
+    <value>参数调整(_M)</value>
+    <comment>調整モード(_M)</comment>
+  </data>
+  <data name="PianoRollMenu_View" xml:space="preserve">
+    <value>表示(_V)</value>
+    <comment>表示(_V)</comment>
+  </data>
+  <data name="SlurEnd" xml:space="preserve">
+    <value>连音结束</value>
+    <comment>スラー終了</comment>
+  </data>
+  <data name="MusicXmlImportDialogTitle" xml:space="preserve">
+    <value>导入MusicXML</value>
+    <comment>MusicXMLインポート</comment>
+  </data>
+  <data name="PianoRollMenu_Mode_Pitch" xml:space="preserve">
+    <value>ピッチを調整(_4)</value>
+    <comment>ピッチを調整(_4)</comment>
+  </data>
+  <data name="Dynamics" xml:space="preserve">
+    <value>強弱記号</value>
+    <comment>強弱記号</comment>
+  </data>
+  <data name="PianoRollMenu_Tool_Pen" xml:space="preserve">
+    <value>画笔工具(_3)</value>
+    <comment>ペンツール(_3)</comment>
+  </data>
+  <data name="PianoRollMenu_Mode_VibratoFrequencyToolTip" xml:space="preserve">
+    <value>ビブラートの周期調整画面に切り替えます。</value>
+    <comment>ビブラートの周期調整画面に切り替えます。</comment>
+  </data>
+  <data name="SlurToolTip" xml:space="preserve">
+    <value>从连音开始标记到结束标记为止流畅地演唱。
+在乐谱编辑界面选中多个连续音符并按[Ctrl+R]也可以设置。</value>
+    <comment>スラー開始から終了までをなめらかに歌います。
+楽譜編集画面で音符を複数選択して[Ctrl+R]でも設定可能。</comment>
+  </data>
+  <data name="PianoRollMenu_FillSpacesToolTip" xml:space="preserve">
+    <value>選択中または全音符の細かい隙間(休符)を埋めます。</value>
+    <comment>選択中または全音符の細かい隙間(休符)を埋めます。</comment>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>位置</value>
+    <comment>位置</comment>
+  </data>
+  <data name="MidiImportFormatError" xml:space="preserve">
+    <value>不支持MIDI格式2。</value>
+    <comment>フォーマット2は非対応です。</comment>
+  </data>
+  <data name="MenuSelectAll" xml:space="preserve">
+    <value>全选(_A)</value>
+    <comment>すべて選択(_A)</comment>
+  </data>
+  <data name="OneNoteOneMoraToolTip" xml:space="preserve">
+    <value>音符毎に1文字ずつ割り当てます。
+小文字が続く場合のみ2文字割り当てられます。</value>
+    <comment>音符毎に1文字ずつ割り当てます。
+小文字が続く場合のみ2文字割り当てられます。</comment>
+  </data>
+  <data name="BeatChangeConfirmationDialogText" xml:space="preserve">
+    <value>拍子を編集すると、全ソングトラックの調号の位置が補正されます。</value>
+    <comment>拍子を編集すると、全ソングトラックの調号の位置が補正されます。</comment>
+  </data>
+  <data name="PianoRollMenu_OverLay_VibratoFrequency" xml:space="preserve">
+    <value>ビブラートの周期を表示(_6)</value>
+    <comment>ビブラートの周期を表示(_6)</comment>
+  </data>
+  <data name="ChannelNumber" xml:space="preserve">
+    <value>チャンネル</value>
+    <comment>チャンネル</comment>
+  </data>
+  <data name="PianoRollMenu_View_KeyRowToolTip" xml:space="preserve">
+    <value>显示调号（KEY）行的标尺。</value>
+    <comment>ルーラーに調号(キー)行を表示します。</comment>
+  </data>
+  <data name="PianoRollMenu_Quantize" xml:space="preserve">
+    <value>クオンタイズ(_Q)</value>
+    <comment>クオンタイズ(_Q)</comment>
+  </data>
+  <data name="PianoRollMenu_OverLay_Volume" xml:space="preserve">
+    <value>ボリュームを表示(_3)</value>
+    <comment>ボリュームを表示(_3)</comment>
+  </data>
+  <data name="PianoRollMenu_Properties" xml:space="preserve">
+    <value>属性(_R)...</value>
+    <comment>プロパティ(_R)...</comment>
+  </data>
+  <data name="PianoRollMenu_OverLay_Timing" xml:space="preserve">
+    <value>タイミングを表示(_2)</value>
+    <comment>タイミングを表示(_2)</comment>
+  </data>
+  <data name="TempoRowToolTip" xml:space="preserve">
+    <value>テンポ行(全トラック共通)
+ダブルクリックで編集。ドラッグで移動。追加はペンでダブルクリック。</value>
+    <comment>テンポ行(全トラック共通)
+ダブルクリックで編集。ドラッグで移動。追加はペンでダブルクリック。</comment>
+  </data>
+  <data name="BeatDialogTitle" xml:space="preserve">
+    <value>拍子属性</value>
+    <comment>拍子のプロパティ</comment>
+  </data>
+  <data name="PianoRollMenu_Quantize_Triplet8" xml:space="preserve">
+    <value>1/8(3连音)</value>
+    <comment>1/8(3連符)</comment>
+  </data>
+  <data name="PianoRollMenu_Quantize_Triplet2" xml:space="preserve">
+    <value>1/2(3连音)</value>
+    <comment>1/2(3連符)</comment>
+  </data>
+  <data name="PianoRollMenu_Quantize_Triplet4" xml:space="preserve">
+    <value>1/4(3连音)</value>
+    <comment>1/4(3連符)</comment>
+  </data>
+  <data name="PianoRollMenu_EnterLyricsWithPhonemeToolTip" xml:space="preserve">
+    <value>歌詞を音素記号で入力します。</value>
+    <comment>歌詞を音素記号で入力します。</comment>
+  </data>
+  <data name="MidiImportNoTrackError" xml:space="preserve">
+    <value>没有音轨。</value>
+    <comment>トラックがありません。</comment>
+  </data>
+  <data name="MidiImportDialogTitle" xml:space="preserve">
+    <value>导入MIDI</value>
+    <comment>MIDIインポート</comment>
+  </data>
+  <data name="MidiImportDialogNotes" xml:space="preserve">
+    <value>音符</value>
+    <comment>音符</comment>
+  </data>
+  <data name="FillSpacesDialogTitle" xml:space="preserve">
+    <value>細かい空白の除去</value>
+    <comment>細かい空白の除去</comment>
+  </data>
+  <data name="PianoRollMenu_Tool_Eraser" xml:space="preserve">
+    <value>橡皮擦工具(_5)</value>
+    <comment>消しゴムツール(_5)</comment>
+  </data>
+  <data name="SpaceDelimited" xml:space="preserve">
+    <value>空格分隔</value>
+    <comment>スペース区切り</comment>
+  </data>
+  <data name="PianoRollMenu_Mode_VibratoAmplitude" xml:space="preserve">
+    <value>ビブラートの振幅を調整(_5)</value>
+    <comment>ビブラートの振幅を調整(_5)</comment>
+  </data>
+  <data name="PianoRollMenu_View_DynamicsRowToolTip" xml:space="preserve">
+    <value>显示强弱记号（DYNAMICS）行的标尺。</value>
+    <comment>ルーラーに強弱記号行を表示します。</comment>
+  </data>
+  <data name="PianoRollMenu_Mode_NormalToolTip" xml:space="preserve">
+    <value>切换到乐谱编辑界面。</value>
+    <comment>楽譜編集画面に切り替えます。</comment>
+  </data>
+  <data name="Audition" xml:space="preserve">
+    <value>试听/停止 [Shift+Space]</value>
+    <comment>試聴/停止 [Shift+Space]</comment>
+  </data>
+  <data name="PianoRollMenu_View_KeyRow" xml:space="preserve">
+    <value>调号行(_K)</value>
+    <comment>調号行(_K)</comment>
+  </data>
+  <data name="PianoRollMenu_EnterLyricsCollectivelyToolTip" xml:space="preserve">
+    <value>選択中または先頭の音符から歌詞をまとめて入力します。</value>
+    <comment>選択中または先頭の音符から歌詞をまとめて入力します。</comment>
+  </data>
+  <data name="PianoRollMenu_Tool_Select" xml:space="preserve">
+    <value>选择工具(_1)</value>
+    <comment>選択ツール(_1)</comment>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+    <comment>OK</comment>
+  </data>
+  <data name="PianoRollMenu_Quantize_Triplet16" xml:space="preserve">
+    <value>1/16(3连音)</value>
+    <comment>1/16(3連符)</comment>
+  </data>
+  <data name="CalculatingParameters" xml:space="preserve">
+    <value>参数计算中</value>
+    <comment>パラメータ計算中</comment>
+  </data>
+  <data name="PianoRollMenu_Mode_TimingToolTip" xml:space="preserve">
+    <value>切换到时间调整界面。可调整每个音素的长短。</value>
+    <comment>タイミング調整画面に切り替えます。</comment>
+  </data>
+  <data name="PianoRollMenu_NotesOfOtherTracksToolTip" xml:space="preserve">
+    <value>楽譜編集画面に別トラックの音符も表示します。
+（ミュートしたトラックの音符は表示しません。）</value>
+    <comment>楽譜編集画面に別トラックの音符も表示します。
+（ミュートしたトラックの音符は表示しません。）</comment>
+  </data>
+  <data name="Eraser2" type="System.Byte[], mscorlib">
+    <value>
+        AAACAAEAICAAAAAAAACoCAAAFgAAACgAAAAgAAAAQAAAAAEACAAAAAAAgAQAAAAAAAAAAAAAAAAAAAAA
+        AAD/9esEmZmZBGZmZgT///8EDw8PBAAAAAQzMzMEzMzMBBAQEARBAFwAcABwAGEARABhAHQAUgBcAGEA
+        bwBpAG0AZwBuAGkAXABvAHIAcwBtAGYAbwBfAHQAYQBkAGEAdAAzAFwAeAAyADIAMwBiAC4AcABtAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAABsAVAAA+gEAGKtMd8D6AQAYAOQAABEAd3wAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAABAAAC8AAAeAAIUwDgACmPAAhTAAAAAAAAAAAAAAAAAN0AAAAoAAD7AQAYAgAAAADwACl4KAhT+5QA
+        GDzDd8A8EXfAXQ53IgC0AAA6AAApAJgAKS14ACnbAQkjAJgAAC2QACn6BAAYLqUAKd/dd78AAAAAAJgA
+        AC1eACkC+AAAeBQIU/veABgCtwAAAAAAAADwACl4AAhTAN0AAAAA3QAAAAAAicQIUwBoACmb6AApAgAA
+        AAAAACkA8EAAeMQIU/u+ABg4OHfAAZoAKTj9d8BdAHciAAAAAAD4ACl4+AhTePgIU3jzCFN4AAhTAJAA
+        ANsAACMAxAApAJgAKS0BACkAAAAAAJgAKS1JAClu/gCF/5j//y3uACk8AHfAEAgAABDeAAAC8AAAeA4I
+        UwADAAAAAwAAAN4AAALVAADb8Hd4BZAAAABekAACCAAAAGgAAJvwACkFAAAAAAgAAAAHAAAAAAAAAJgA
+        AC0DACkA8AAABfgAAHjECFMA8AApBd4AAAIAAAAAAwAAAAABAADwAAASAQAAAOQBAfoDABgAJAAA/NUA
+        GHFpd8Ru/gCF/wP//wBEAAASAAApAPgAAHj4CFN40ghT+VV3vsTwd3gF8AAABfgAAPs4ABgUAHZM3QMQ
+        BQBsAAAAPAAA/KEAGHpQEAQSCwApFgMQBAAoAAAWABAEAFgAAMRYEAXEABAFABQAAPwEABgReBAE/JgA
+        GChYACnEBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUEBAQEBAQEBAQEBAQFBQUFBQUFBQUFBQUFBQUFBQUFBQQDAwMDAwMD
+        AwMDBAUFBQUFBQUFBQUFBQUFBQUFBQUDBAMDAwMDAwMDAwMEBQUFBQUFBQUFBQUFBQUFBQUFAwMEAwMD
+        AwMDAwMDAwQFBQUFBQUFBQUFBQUFBQUFBQMDAwQEBAQEBAQEBAQEBAUFBQUFBQUFBQUFBQUFBQUDAwMF
+        CAMDAwMDAwMICAQFBQUFBQUFBQUFBQUFBQUFAwMDBQMIAwMDAwMICAMEBQUFBQUFBQUFBQUFBQUFBQMD
+        AwUDAwgDAwMICAMDBAUFBQUFBQUFBQUFBQUFBQUDAwMFAwMDCAMICAMDAwQFBQUFBQUFBQUFBQUFBQUF
+        AwMDBQMDAwMICAMDAwMEBQUFBQUFBQUFBQUFBQUFBQMDAwUDAwMICAMIAwMDBAUFBQUFBQUFBQUFBQUF
+        BQUFAwMFAwMICAMDAwgDAwQFBQUFBQUFBQUFBQUFBQUFBQUDBQMICAMDAwMDCAMEBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUICAMDAwMDAwMIBAUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBf//////////////////////////////////////////////////////////////////
+        /////////////////////////8AD//+AA///AAP//gAD//wAA//4AAf/8AAP/+AAH//AAD//gAB//wAA
+        //8AAf//AAP//wAH//+AD///
+</value>
+  </data>
+  <data name="MidiImportHeaderError" xml:space="preserve">
+    <value>文件头读取失败。</value>
+    <comment>ヘッダーの読み込みに失敗しました。</comment>
+  </data>
+  <data name="Key" xml:space="preserve">
+    <value>调号(Key)</value>
+    <comment>調号(キー)</comment>
+  </data>
+  <data name="Lyric" xml:space="preserve">
+    <value>歌词</value>
+    <comment>歌詞</comment>
+  </data>
+  <data name="Tempo" xml:space="preserve">
+    <value>テンポ</value>
+    <comment>テンポ</comment>
+  </data>
+  <data name="Sound" xml:space="preserve">
+    <value>音</value>
+    <comment>音</comment>
+  </data>
+  <data name="Pitch" xml:space="preserve">
+    <value>音高</value>
+    <comment>高さ</comment>
+  </data>
+  <data name="PianoRollMenu_OverLay_VolumeToolTip" xml:space="preserve">
+    <value>ボリュームを重ねます。</value>
+    <comment>ボリュームを重ねます。</comment>
+  </data>
+  <data name="MidiImportTimeBaseError" xml:space="preserve">
+    <value>不支持实际时间单位（支持Tick单位）。</value>
+    <comment>実時間単位は非対応です（ティック指定に対応）。</comment>
+  </data>
+  <data name="PianoRollMenu_OverLay_VibratoFrequencyToolTip" xml:space="preserve">
+    <value>ビブラートの周期を重ねます。</value>
+    <comment>ビブラートの周期を重ねます。</comment>
+  </data>
+  <data name="LyricDialogError" xml:space="preserve">
+    <value>発音できない文字が含まれています。
+歌詞は全角かな／全角カナで入力してください。
+このまま音符に反映しますか？</value>
+    <comment>発音できない文字が含まれています。
+歌詞は全角かな／全角カナで入力してください。
+このまま音符に反映しますか？</comment>
+  </data>
+  <data name="MenuDelete" xml:space="preserve">
+    <value>删除(_D)</value>
+    <comment>削除(_D)</comment>
+  </data>
+  <data name="PianoRollMenu_View_BeatRowToolTip" xml:space="preserve">
+    <value>显示拍子（BEAT）行的标尺。</value>
+    <comment>ルーラーに拍子行を表示します。</comment>
+  </data>
+  <data name="LyricDialogTitle" xml:space="preserve">
+    <value>歌詞のまとめ入力</value>
+    <comment>歌詞のまとめ入力</comment>
+  </data>
+  <data name="PianoRollMenu_FillSpaces" xml:space="preserve">
+    <value>細かい空白の除去(_F)...</value>
+    <comment>細かい空白の除去(_F)...</comment>
+  </data>
+  <data name="PianoRollMenu_Mode_PitchToolTip" xml:space="preserve">
+    <value>ピッチ調整画面に切り替えます。
+ビブラートの振幅や周期を重ねるとビブラート反映ピッチも重ね表示します。</value>
+    <comment>ピッチ調整画面に切り替えます。
+ビブラートの振幅や周期を重ねるとビブラート反映ピッチも重ね表示します。</comment>
+  </data>
+  <data name="KeyDialogTitle" xml:space="preserve">
+    <value>调号属性</value>
+    <comment>調号のプロパティ</comment>
+  </data>
+  <data name="PianoRollMenu_View_GuideLine" xml:space="preserve">
+    <value>光标指示器(_C)</value>
+    <comment>ガイドカーソル(_C)</comment>
+  </data>
+  <data name="MenuUndo" xml:space="preserve">
+    <value>撤销(_U)</value>
+    <comment>元に戻す(_U)</comment>
+  </data>
+  <data name="MenuCopy" xml:space="preserve">
+    <value>复制(_C)</value>
+    <comment>コピー(_C)</comment>
+  </data>
+  <data name="PianoRollMenu_View_TempoRowToolTip" xml:space="preserve">
+    <value>显示曲速（TEMPO）行的标尺。</value>
+    <comment>ルーラーにテンポ行を表示します。</comment>
+  </data>
+  <data name="PianoRollMenu_PropertiesToolTip2" xml:space="preserve">
+    <value>テンポや拍子、調号の値を編集します。</value>
+    <comment>テンポや拍子、調号の値を編集します。</comment>
+  </data>
+  <data name="VoiceAlpha" xml:space="preserve">
+    <value>音色</value>
+    <comment>声質（声线？）</comment>
+  </data>
+  <data name="KeyRowToolTip" xml:space="preserve">
+    <value>调号(Key)行
+双击以编辑。拖动以移动。用画笔工具双击以添加。</value>
+    <comment>調号(キー)行
+ダブルクリックで編集。ドラッグで移動。追加はペンでダブルクリック。</comment>
+  </data>
+  <data name="PhoneticWindowTitleJa" xml:space="preserve">
+    <value>日语 音素面板</value>
+    <comment>日本語 音素パレット</comment>
+  </data>
+  <data name="PhoneticWindowTitleEn" xml:space="preserve">
+    <value>英语 音素面板</value>
+    <comment>英語 音素パレット</comment>
+  </data>
+  <data name="AdjustNotesLength" xml:space="preserve">
+    <value>已修正音符位置。</value>
+    <comment>音符の位置を補正しました。</comment>
+  </data>
+  <data name="DynamicsDialogTitle" xml:space="preserve">
+    <value>強弱記号のプロパティ</value>
+    <comment>強弱記号のプロパティ</comment>
+  </data>
+  <data name="PianoRollMenu_View_QuantizeLine" xml:space="preserve">
+    <value>クオンタイズのライン(_Q)</value>
+    <comment>クオンタイズのライン(_Q)</comment>
+  </data>
+  <data name="PianoRollMenu_View_BeatLineToolTip" xml:space="preserve">
+    <value>拍のラインを表示します。</value>
+    <comment>拍のラインを表示します。</comment>
+  </data>
+  <data name="MidiImportChannelSelect" xml:space="preserve">
+    <value>1トラックに全チャンネルが含まれるファイルです。
+チャンネルをトラックに割り当てますか？</value>
+    <comment>1トラックに全チャンネルが含まれるファイルです。
+チャンネルをトラックに割り当てますか？</comment>
+  </data>
+  <data name="PianoRollMenu_OverLay_TimingToolTip" xml:space="preserve">
+    <value>タイミングを重ねます。</value>
+    <comment>タイミングを重ねます。</comment>
+  </data>
+  <data name="PianoRollMenu_OverLay_Pitch" xml:space="preserve">
+    <value>ピッチを表示(_4)</value>
+    <comment>ピッチを表示(_4)</comment>
+  </data>
+  <data name="PianoRollMenu_View_DynamicsRow" xml:space="preserve">
+    <value>强弱记号行(_D)</value>
+    <comment>強弱記号行(_D)</comment>
+  </data>
+  <data name="AuditionDisabledMessage" xml:space="preserve">
+    <value>固定トラックは試聴できません。再生してください。</value>
+    <comment>固定トラックは試聴できません。再生してください。</comment>
+  </data>
+  <data name="ParametersCannotBeCalculated" xml:space="preserve">
+    <value>再生中はパラメータ計算できません</value>
+    <comment>再生中はパラメータ計算できません</comment>
+  </data>
+  <data name="PianoRollMenu_VibratoDisable" xml:space="preserve">
+    <value>取消颤音(_V)</value>
+    <comment>ビブラート無効(_V)</comment>
+  </data>
+  <data name="PianoRollMenu_Mode_VibratoAmplitudeToolTip" xml:space="preserve">
+    <value>ビブラートの振幅調整画面に切り替えます。</value>
+    <comment>ビブラートの振幅調整画面に切り替えます。</comment>
+  </data>
+  <data name="PianoRollMenu_Mode_Timing" xml:space="preserve">
+    <value>时间(TMG)调整(_2)</value>
+    <comment>タイミングを調整(_2)</comment>
+  </data>
+  <data name="InvalidVoice" xml:space="preserve">
+    <value>ボイスが読み込まれていません</value>
+    <comment>ボイスが読み込まれていません</comment>
+  </data>
+  <data name="PianoRollMenu_View_TuningLine" xml:space="preserve">
+    <value>調整画面にもライン表示(_V)</value>
+    <comment>調整画面にもライン表示(_V)</comment>
+  </data>
+  <data name="PianoRollMenu_View_BeatLine" xml:space="preserve">
+    <value>拍のライン(_G)</value>
+    <comment>拍のライン(_G)</comment>
+  </data>
+  <data name="LyricDialogCaption4" xml:space="preserve">
+    <value>音符毎にスペースで区切られた文字を割り当てます。</value>
+    <comment>音符毎にスペースで区切られた文字を割り当てます。</comment>
+  </data>
+  <data name="LyricDialogCaption2" xml:space="preserve">
+    <value>音符)</value>
+    <comment>音符)</comment>
+  </data>
+  <data name="LyricDialogCaption3" xml:space="preserve">
+    <value>从选中的音符开始设置歌词。(最大</value>
+    <comment>選択中の音符から歌詞を設定します。(最大</comment>
+  </data>
+  <data name="LyricDialogCaption1" xml:space="preserve">
+    <value>从开头的音符开始设置歌词。(最大</value>
+    <comment>先頭の音符から歌詞を設定します。(最大</comment>
+  </data>
+  <data name="DynamicsRowToolTip" xml:space="preserve">
+    <value>強弱記号行
+ダブルクリックで編集。ドラッグで移動。追加はペンでダブルクリック。</value>
+    <comment>強弱記号行
+ダブルクリックで編集。ドラッグで移動。追加はペンでダブルクリック。</comment>
+  </data>
+  <data name="PianoRollMenu_View_BeatRow" xml:space="preserve">
+    <value>拍子行(_B)</value>
+    <comment>拍子行(_B)</comment>
+  </data>
+  <data name="BeatNumber" xml:space="preserve">
+    <value>拍子</value>
+    <comment>拍子</comment>
+  </data>
+  <data name="PianoRollMenu_OverLay_PitchToolTip" xml:space="preserve">
+    <value>ピッチを重ねます。重ね表示にはビブラートを反映。</value>
+    <comment>ピッチを重ねます。重ね表示にはビブラートを反映。</comment>
+  </data>
+  <data name="OneNoteOneMora" xml:space="preserve">
+    <value>1音符1文字</value>
+    <comment>1音符1文字</comment>
+  </data>
+  <data name="PianoRollMenu_Mode_Volume" xml:space="preserve">
+    <value>音量(VOL)调整(_3)</value>
+    <comment>ボリュームを調整(_3)</comment>
+  </data>
+  <data name="PianoRollMenu_OverLay_VibratoAmplitude" xml:space="preserve">
+    <value>ビブラートの振幅を表示(_5)</value>
+    <comment>ビブラートの振幅を表示(_5)</comment>
+  </data>
+  <data name="LyricTextBoxMenuPhonetic" xml:space="preserve">
+    <value>按音素输入歌词(_M)</value>
+    <comment>音素で歌詞入力(_M)</comment>
+  </data>
+  <data name="MidiImportTrackError" xml:space="preserve">
+    <value>音轨读取失败。</value>
+    <comment>トラックの読み込みに失敗しました。</comment>
+  </data>
+  <data name="MenuCut" xml:space="preserve">
+    <value>剪切(_T)</value>
+    <comment>切り取り(_T)</comment>
+  </data>
+  <data name="AdjustNotesPositionLength" xml:space="preserve">
+    <value>已修正音符位置和长度。</value>
+    <comment>音符の位置と長さを補正しました。</comment>
+  </data>
+  <data name="MusicXmlImportConfirmationText" xml:space="preserve">
+    <value>要读取曲速和拍子信息吗？
+（将作用于所有音轨）</value>
+    <comment>テンポと拍子を読み込みますか？
+（全トラックに反映されます。）</comment>
+  </data>
+  <data name="PianoRollMenu_Mode_VibratoFrequency" xml:space="preserve">
+    <value>ビブラートの周期を調整(_6)</value>
+    <comment>ビブラートの周期を調整(_6)</comment>
+  </data>
+  <data name="MeasureRowToolTip" xml:space="preserve">
+    <value>小节行
+ダブルクリックで再生／停止。
+（各行共通）左クリックでポジションカーソル移動。
+（各行共通）水平ドラッグで簡易スクロール。垂直ドラッグで簡易ズーム。</value>
+    <comment>小節行
+ダブルクリックで再生／停止。
+（各行共通）左クリックでポジションカーソル移動。
+（各行共通）水平ドラッグで簡易スクロール。垂直ドラッグで簡易ズーム。</comment>
+  </data>
+  <data name="PianoRollMenu_View_QuantizeLineToolTip" xml:space="preserve">
+    <value>クオンタイズのラインを表示します。</value>
+    <comment>クオンタイズのラインを表示します。</comment>
+  </data>
+  <data name="Phonemes" xml:space="preserve">
+    <value>音素</value>
+    <comment>音素</comment>
+  </data>
+  <data name="PianoRollMenu_Overlay" xml:space="preserve">
+    <value>重ね表示(_P)</value>
+    <comment>重ね表示(_P)</comment>
+  </data>
+  <data name="PianoRollMenu_PropertiesToolTip" xml:space="preserve">
+    <value>音符の詳細、ブレスやスラーを設定します。
+音符を複数選択してまとめて変更可能。数値の+-指定可能。</value>
+    <comment>音符の詳細、ブレスやスラーを設定します。
+音符を複数選択してまとめて変更可能。数値の+-指定可能。</comment>
+  </data>
+  <data name="LyricTextBoxMenuPhoneticToolTip" xml:space="preserve">
+    <value>歌詞を音素記号で入力します。</value>
+    <comment>歌詞を音素記号で入力します。</comment>
+  </data>
+  <data name="SlurBegin" xml:space="preserve">
+    <value>连音开始</value>
+    <comment>スラー開始</comment>
+  </data>
+  <data name="MidiImportDialogCheckBoxText" xml:space="preserve">
+    <value>テンポと拍子を読み込む</value>
+    <comment>テンポと拍子を読み込む</comment>
+  </data>
+  <data name="TrackName" xml:space="preserve">
+    <value>音轨名</value>
+    <comment>トラック名</comment>
+  </data>
+  <data name="AutoAudition" xml:space="preserve">
+    <value>自动试听</value>
+    <comment>自動試聴</comment>
+  </data>
+  <data name="PianoRollMenu_View_TempoRow" xml:space="preserve">
+    <value>曲速行(_T)</value>
+    <comment>テンポ行(_T)</comment>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>長さ</value>
+    <comment>長さ</comment>
+  </data>
+  <data name="PianoRollMenu_Mode_VolumeToolTip" xml:space="preserve">
+    <value>切换到音量调整界面。可调整每个时刻的音量。</value>
+    <comment>ボリューム調整画面に切り替えます。</comment>
+  </data>
+  <data name="TempoDialogTitle" xml:space="preserve">
+    <value>テンポのプロパティ</value>
+    <comment>テンポのプロパティ</comment>
+  </data>
+  <data name="FillSpacesDuration" xml:space="preserve">
+    <value>除去する空白の長さ</value>
+    <comment>除去する空白の長さ</comment>
+  </data>
+  <data name="BreathToolTip" xml:space="preserve">
+    <value>在这里喘气。</value>
+    <comment>息継ぎをします。</comment>
+  </data>
+  <data name="Beat" xml:space="preserve">
+    <value>拍子</value>
+    <comment>拍子</comment>
+  </data>
+  <data name="Tick" xml:space="preserve">
+    <value>Tick</value>
+    <comment>ティック</comment>
+  </data>
+  <data name="MeasureNumber" xml:space="preserve">
+    <value>小节</value>
+    <comment>小節</comment>
+  </data>
+</root>

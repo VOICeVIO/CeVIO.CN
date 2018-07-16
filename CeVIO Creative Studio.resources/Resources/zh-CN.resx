@@ -2565,7 +2565,7 @@ http://cevio.jp/</value>
     <value>将所有音轨导出为WAV格式(48kHz 16bit)音频。</value>
   </data>
   <data name="MainMenu_Song_GuideLine" xml:space="preserve">
-    <value>显示时间线(_L)</value>
+    <value>显示网格线(_L)</value>
   </data>
   <data name="PreferenceDialog_Ambient_RestorePreviousState_ToolTip" xml:space="preserve">
     <value>软件启动时自动复原上次关闭时的状态。</value>
@@ -4386,7 +4386,7 @@ http://cevio.jp/
     <value>トークエンジン</value>
   </data>
   <data name="Dialog_Import_Audio_Title" xml:space="preserve">
-    <value>オーディオファイルの読み込み</value>
+    <value>读取音频文件</value>
   </data>
   <data name="Dialog_FileFilter_TextOrCSVFile" xml:space="preserve">
     <value>文本文件 (*.txt)|*.txt|逗号分隔文件 (*.csv)|*.csv</value>
@@ -4517,7 +4517,7 @@ http://cevio.jp/
 （オーディオの自動整列オンのときオーディオ要素も対象。）</value>
   </data>
   <data name="PreferenceDialog_Ambient_AudioOutputDevice_Title" xml:space="preserve">
-    <value>オーディオデバイス</value>
+    <value>音频输出设备</value>
   </data>
   <data name="Message_License_Warning_NoNetworkConnection" xml:space="preserve">
     <value>目前没有连接网络。

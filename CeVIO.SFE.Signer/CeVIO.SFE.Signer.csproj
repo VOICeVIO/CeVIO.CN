@@ -58,6 +58,10 @@
       <Project>{bc3201d8-d27c-4960-adc2-f6e28d127b69}</Project>
       <Name>CeVIO Creative Studio.resources</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CeVIO.SongEditorControl.resources\CeVIO.SongEditorControl.resources.csproj">
+      <Project>{1625e30a-f355-485b-ae81-8357eed8f989}</Project>
+      <Name>CeVIO.SongEditorControl.resources</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CeVIO.ToolBarControl.resources\CeVIO.ToolBarControl.resources.csproj">
       <Project>{50e8a194-73f6-4c12-86f9-8add7fa301e3}</Project>
       <Name>CeVIO.ToolBarControl.resources</Name>
