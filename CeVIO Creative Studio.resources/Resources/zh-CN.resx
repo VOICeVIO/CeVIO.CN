@@ -121,7 +121,7 @@
     <value>选择列(_C)</value>
   </data>
   <data name="Message_Error_ImportMidi" xml:space="preserve">
-    <value>MIDIのインポートに失敗しました。</value>
+    <value>MIDI导入失败。</value>
   </data>
   <data name="Message_License_Warning_WebAccessFault" xml:space="preserve">
     <value>Webサイトへの自動アクセスに失敗しました。
@@ -163,7 +163,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>以下の場所にソングのWAVを書き出しました。</value>
   </data>
   <data name="Message_Error_StartUp" xml:space="preserve">
-    <value>アプリケーション起動時にエラーが発生しました。</value>
+    <value>程序启动时出现了错误。</value>
   </data>
   <data name="MainMenu_Song_Ruler_Key_ToolTip" xml:space="preserve">
     <value>显示调号（Key）行。</value>
@@ -175,7 +175,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>长段文本输入(_S)...</value>
   </data>
   <data name="Message_Export_MusicXML_File" xml:space="preserve">
-    <value>以下のファイルにMusicXMLを書き出しました。</value>
+    <value>已将MusicXML输出为以下文件。</value>
   </data>
   <data name="MainMenu_Transport_Repeating" xml:space="preserve">
     <value>循环(_R)</value>
@@ -250,7 +250,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>无</value>
   </data>
   <data name="VersionInfoDialog_ModuleVersion_SongDictionary_Title" xml:space="preserve">
-    <value>ソング辞書</value>
+    <value>歌唱词典</value>
   </data>
   <data name="Message_License_Warning_RequiresSongEditor" xml:space="preserve">
     <value>歌唱声库需要具有歌唱编辑功能的编辑器。
@@ -400,7 +400,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>打开文件</value>
   </data>
   <data name="Dialog_FileFilter_MidiFile" xml:space="preserve">
-    <value>Standard MIDIファイル (*.mid)|*.mid</value>
+    <value>Standard MIDI文件 (*.mid)|*.mid</value>
   </data>
   <data name="MainMenu_Transport_HorizontalLocation" xml:space="preserve">
     <value>走带控制器左右位置(_H)</value>
@@ -409,7 +409,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>钢琴键盘的标号降低1个八度</value>
   </data>
   <data name="TalkEditor_Menu_Insert_PlaceHolder" xml:space="preserve">
-    <value>挿入(_I)</value>
+    <value>插入(_I)</value>
   </data>
   <data name="Dialog_Extension_NeverNotifiesAnymoreSwitch_ToolTip" xml:space="preserve">
     <value>此设置可于“选项”中修改。</value>
@@ -998,7 +998,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
 よろしいですか？</value>
   </data>
   <data name="Fragment_SongVoice" xml:space="preserve">
-    <value>ソングボイス</value>
+    <value>歌唱声源</value>
   </data>
   <data name="Message_Information_AudioPreparation" xml:space="preserve">
     <value>播放准备中...</value>
@@ -1552,7 +1552,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>旧版音素图</value>
   </data>
   <data name="Dialog_FileFilter_AllFiles" xml:space="preserve">
-    <value>すべてのファイル (*.*)|*.*</value>
+    <value>所有文件 (*.*)|*.*</value>
   </data>
   <data name="Dialog_OpenSavedFolderButton_Title" xml:space="preserve">
     <value>打开保存文件夹</value>
@@ -1598,7 +1598,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>在指定的位置插入长段文本。</value>
   </data>
   <data name="Message_License_Warning_OfflineStartUp_ServerError" xml:space="preserve">
-    <value>许可认证时服务器产生了错误，因此离线启动。</value>
+    <value>许可认证时服务器产生了错误，因此将离线启动。</value>
   </data>
   <data name="TrackHeader_Menu_Solo_InputGesture" xml:space="preserve">
     <value>Shift+S</value>
@@ -1638,7 +1638,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>设置/解除循环播放。</value>
   </data>
   <data name="PreferenceDialog_Ambient_AudioOutputDevice_DefaultItem_Title" xml:space="preserve">
-    <value>(既定のデバイス)</value>
+    <value>(默认音频设备)</value>
   </data>
   <data name="Message_License_Warning_ServiceIsNotAvailable" xml:space="preserve">
     <value>您所使用的版本目前已停止服务。
@@ -1714,7 +1714,7 @@ http://cevio.jp/</value>
 请先认证具有语音编辑功能的主产品。</value>
   </data>
   <data name="Message_Export_Subtitle" xml:space="preserve">
-    <value>以下の字幕ファイルを保存しました。</value>
+    <value>已保存以下字幕文件。</value>
   </data>
   <data name="Message_Warning_InputSpeechText_NotAllowedSymbolOnly" xml:space="preserve">
     <value>台词不能只有符号。</value>
@@ -1764,7 +1764,7 @@ http://cevio.jp/</value>
     <value>停止播放时光标自动返回开始播放位置。</value>
   </data>
   <data name="Fragment_TalkStarter" xml:space="preserve">
-    <value>トークスターター</value>
+    <value>Talk Starter</value>
   </data>
   <data name="Fragment_Japanese" xml:space="preserve">
     <value>日语</value>
