@@ -157,10 +157,12 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>移动到起点标记(_J)</value>
   </data>
   <data name="Message_Export_WaveformOfText" xml:space="preserve">
-    <value>以下のファイルにセリフのWAVを書き出しました。</value>
+    <value>已将台词WAV输出为以下文件。</value>
+    <comment>以下のファイルにセリフのWAVを書き出しました。</comment>
   </data>
   <data name="Message_Export_WaveformOfSong" xml:space="preserve">
-    <value>以下の場所にソングのWAVを書き出しました。</value>
+    <value>已将歌唱WAV文件输出到以下位置。</value>
+    <comment>以下の場所にソングのWAVを書き出しました。</comment>
   </data>
   <data name="Message_Error_StartUp" xml:space="preserve">
     <value>程序启动时出现了错误。</value>
@@ -181,7 +183,8 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>循环(_R)</value>
   </data>
   <data name="PreferenceDialog_Talk_AutoAlignsOtherTracksToo_Title" xml:space="preserve">
-    <value>マルチトラック自動整列</value>
+    <value>多音轨自动排列</value>
+    <comment>マルチトラック自動整列</comment>
   </data>
   <data name="TrackLane_Menu_Export_Midi" xml:space="preserve">
     <value>导出MIDI (_D)...</value>
@@ -305,7 +308,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>切换到乐谱编辑界面。</value>
   </data>
   <data name="TrackHeader_Menu_Add_Talk_ToolTip" xml:space="preserve">
-    <value>在此音轨之下追加一个语音音轨。</value>
+    <value>在此音轨之下增加一个语音音轨。</value>
   </data>
   <data name="MainMenu_Help_Purchase" xml:space="preserve">
     <value>购买制品版(_P)</value>
@@ -994,8 +997,10 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>以下の場所にMusicXMLを書き出しました。</value>
   </data>
   <data name="Message_Confirm_DeleteAudio" xml:space="preserve">
-    <value>選択オーディオを削除します。
-よろしいですか？</value>
+    <value>将删除选定的音频。
+确定要删除吗？</value>
+    <comment>選択オーディオを削除します。
+よろしいですか？</comment>
   </data>
   <data name="Fragment_SongVoice" xml:space="preserve">
     <value>歌唱声源</value>
@@ -1004,7 +1009,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>播放准备中...</value>
   </data>
   <data name="TrackLane_Menu_Add_ShowTrackList_ToolTip" xml:space="preserve">
-    <value>このトラックの下に新規トラックを追加します。</value>
+    <value>在此音轨之下增加一个新音轨。</value>
   </data>
   <data name="MainMenu_Song_InputLyricByPhonemes_ToolTip" xml:space="preserve">
     <value>按音素记号来输入歌词。</value>
@@ -1032,7 +1037,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
   </data>
   <data name="Message_Confirm_DeleteQuote" xml:space="preserve">
     <value>将删除选定的台词。
-确定吗？</value>
+确定要删除吗？</value>
   </data>
   <data name="TrackLane_Menu_DeleteUnit_InputGesture" xml:space="preserve">
     <value>Del</value>
@@ -1059,7 +1064,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>设置/解除起点标记。</value>
   </data>
   <data name="PreferenceDialog_Ambient_ShowsAppLogoOnBootUp_Title" xml:space="preserve">
-    <value>スプラッシュ画面を表示する</value>
+    <value>显示启动画面</value>
   </data>
   <data name="MainMenu_Talk_PhonemeGraph_ShowsDurationManipulator" xml:space="preserve">
     <value>显示调整线(_L)</value>
@@ -1068,7 +1073,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>小节:拍</value>
   </data>
   <data name="MainMenu_Track_Add_ShowTrackList_ToolTip" xml:space="preserve">
-    <value>選択トラックの下に新規トラックを追加します。</value>
+    <value>在选中的音轨之下增加一个新音轨。</value>
   </data>
   <data name="TrackLane_Menu_Export_Waveform_InputGesture" xml:space="preserve">
     <value>Ctrl+W</value>
@@ -1396,7 +1401,8 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>保存路径</value>
   </data>
   <data name="Dialog_Import_Midi_Title" xml:space="preserve">
-    <value>MIDIの読み込み</value>
+    <value>读取MIDI</value>
+    <comment>MIDIの読み込み</comment>
   </data>
   <data name="Message_License_Information_InstallationCompleted" xml:space="preserve">
     <value>新しい製品がインストールされたため、アプリケーションを再起動してください。</value>
@@ -1426,7 +1432,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>音频音轨数量已经达到上限，因此无法再添加。</value>
   </data>
   <data name="TrackLane_Menu_Extra_ShowTrackList_ToolTip" xml:space="preserve">
-    <value>選択トラックの下に新規トラックを追加します。</value>
+    <value>在选中的音轨之下增加一个新音轨。</value>
   </data>
   <data name="Message_Error_AudioPlaybackRequest" xml:space="preserve">
     <value>播放时发生了错误。</value>
@@ -1516,7 +1522,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
 (制品版每次认证后可离线使用365天。)</value>
   </data>
   <data name="UpdateAnnounceDialog_CurrentVersion_Title" xml:space="preserve">
-    <value>現在ご利用のバージョン：</value>
+    <value>当前正在使用的版本：</value>
   </data>
   <data name="PreferenceDialog_Ambient_Image_Enlarges_Title" xml:space="preserve">
     <value>扩大显示</value>
@@ -1611,7 +1617,8 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
 支持8bit/16bit WAV。若非48kHz则会自动转换。</value>
   </data>
   <data name="Message_Export_Track" xml:space="preserve">
-    <value>以下の場所にトラック内容を保存しました。</value>
+    <value>已将音轨内容保存到以下位置。</value>
+    <comment>以下の場所にトラック内容を保存しました。</comment>
   </data>
   <data name="PreferenceDialog_Song_PianoRollColorScheme_Score_List_Blue_Title" xml:space="preserve">
     <value>Blue</value>
@@ -1620,7 +1627,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>许可认证时服务器连接超时，因此离线启动。</value>
   </data>
   <data name="PreferenceDialog_Talk_LocalewiseSettingButton_Title" xml:space="preserve">
-    <value>ポーズの設定</value>
+    <value>停顿设置</value>
   </data>
   <data name="TrackHeader_Menu_Clear" xml:space="preserve">
     <value>清空音轨的内容(_C)</value>
@@ -1677,7 +1684,8 @@ http://cevio.jp/</value>
     <value>Ctrl+1</value>
   </data>
   <data name="Message_Warning_ExceededTrackCount_AddTrack" xml:space="preserve">
-    <value>数が上限に達しているため、トラックを追加できません。</value>
+    <value>已达到音轨数量上限，无法增加新音轨。</value>
+    <comment>数が上限に達しているため、トラックを追加できません。</comment>
   </data>
   <data name="Timeline_AddTrackButton_List_Title_Audio" xml:space="preserve">
     <value>音频音轨</value>
@@ -1729,7 +1737,7 @@ http://cevio.jp/</value>
     <value>长度调整(_4)</value>
   </data>
   <data name="PreferenceDialog_Ambient_InitialTracks_Menu_MoveToDown" xml:space="preserve">
-    <value>下に移動</value>
+    <value>向下移动</value>
   </data>
   <data name="MainMenu_File_Import_MusicXML" xml:space="preserve">
     <value>导入MusicXML(_X)...</value>
@@ -1847,7 +1855,7 @@ http://cevio.jp/</value>
     <value>保存(_S)</value>
   </data>
   <data name="MainMenu_Track_Add_ShowTrackList" xml:space="preserve">
-    <value>トラックを追加(_T)...</value>
+    <value>追加音轨(_T)...</value>
   </data>
   <data name="MainMenu_Edit_Delete" xml:space="preserve">
     <value>删除(_L)</value>
@@ -2119,7 +2127,7 @@ http://cevio.jp/</value>
 </value>
   </data>
   <data name="Dialog_FileFilter_WaveFile" xml:space="preserve">
-    <value>Waveファイル (*.wav)|*.wav</value>
+    <value>波形文件 (*.wav)|*.wav</value>
   </data>
   <data name="Message_Error_CreateFolder" xml:space="preserve">
     <value>创建文件夹出错。</value>
@@ -2128,7 +2136,7 @@ http://cevio.jp/</value>
     <value>添加</value>
   </data>
   <data name="Message_Information_VocalSourceVersionDifference_TalkDataSource" xml:space="preserve">
-    <value>トークボイス</value>
+    <value>语音声源</value>
   </data>
   <data name="Message_Error_OutputFile" xml:space="preserve">
     <value>文件导出失败。</value>
@@ -2164,7 +2172,7 @@ http://cevio.jp/</value>
     <value>纵向显示倍率扩大。</value>
   </data>
   <data name="Message_Information_VocalSourceVersionDifference_SongDictionary" xml:space="preserve">
-    <value>ソング辞書</value>
+    <value>歌唱词典</value>
   </data>
   <data name="PreferenceDialog_Song_DisplayValueByOldStyle_ToolTip" xml:space="preserve">
     <value>参数将表示为0-100，而不是实际意义的值。（兼容旧版本）</value>
@@ -2236,7 +2244,7 @@ http://cevio.jp/</value>
     <value>F8</value>
   </data>
   <data name="TrackHeader_Menu_Add_Audio_ToolTip" xml:space="preserve">
-    <value>在此音轨之下追加一个外部音频音轨。</value>
+    <value>在此音轨之下增加一个外部音频音轨。</value>
   </data>
   <data name="Message_Error_AudioPlaybackFault" xml:space="preserve">
     <value>播放时出现了严重错误。
@@ -2261,7 +2269,7 @@ http://cevio.jp/</value>
 すべて置き換えますか?</value>
   </data>
   <data name="TrackLane_Menu_Add_Audio_ToolTip" xml:space="preserve">
-    <value>在此音轨之下追加一个外部音频音轨。</value>
+    <value>在此音轨之下增加一个外部音频音轨。</value>
   </data>
   <data name="TrackHeader_Menu_MoveToDown" xml:space="preserve">
     <value>下移音轨(_L)</value>
@@ -2270,10 +2278,10 @@ http://cevio.jp/</value>
     <value>请输入数值。</value>
   </data>
   <data name="TrackLane_Menu_Extra_ShowTrackList" xml:space="preserve">
-    <value>トラックを追加(_T)...</value>
+    <value>追加音轨(_T)...</value>
   </data>
   <data name="TrackHeader_Menu_Extra_ShowTrackList_ToolTip" xml:space="preserve">
-    <value>選択トラックの下に新規トラックを追加します。</value>
+    <value>在选中的音轨之下增加一个新音轨。</value>
   </data>
   <data name="VocalSourceVersionDialog_Title" xml:space="preserve">
     <value>声库版本</value>
@@ -2351,7 +2359,7 @@ http://cevio.jp/</value>
 之后重启本程序。</value>
   </data>
   <data name="PreferenceDialog_Ambient_InitialTracks_Menu_AddAudio" xml:space="preserve">
-    <value>オーディオトラックを追加</value>
+    <value>追加音频音轨</value>
   </data>
   <data name="PreferenceDialog_Ambient_Image_Enlarges_ToolTip" xml:space="preserve">
     <value>在右侧显示画像边栏(适合大屏幕)。</value>
@@ -2366,7 +2374,7 @@ http://cevio.jp/</value>
     <value>追加语音音轨(_T)</value>
   </data>
   <data name="LocalewiseSettingDialog_Title" xml:space="preserve">
-    <value>ポーズの設定</value>
+    <value>停顿设置</value>
   </data>
   <data name="PreferenceDialog_Ambient_ShowsAppLogoOnBootUp_ToolTip" xml:space="preserve">
     <value>起動時に画像を表示します。</value>
@@ -2446,10 +2454,10 @@ http://cevio.jp/
 否则将把点击位置所在的小节的开头作为光标位置。</value>
   </data>
   <data name="PreferenceDialog_Ambient_InitialTracks_Menu_AddTalk" xml:space="preserve">
-    <value>トークトラックを追加</value>
+    <value>追加语音音轨</value>
   </data>
   <data name="PreferenceDialog_Ambient_InitialTracks_Menu_AddSong" xml:space="preserve">
-    <value>ソングトラックを追加</value>
+    <value>追加歌唱音轨</value>
   </data>
   <data name="MainMenu_File_Import_Audio" xml:space="preserve">
     <value>导入音频文件(_A)...</value>
@@ -2586,7 +2594,7 @@ http://cevio.jp/</value>
     <value>将此音轨的内容清空。（不会删除音轨）</value>
   </data>
   <data name="TrackLane_Menu_Add_ShowTrackList" xml:space="preserve">
-    <value>トラックを追加(_T)...</value>
+    <value>追加音轨(_T)...</value>
   </data>
   <data name="Message_License_AlreadyAuthorized" xml:space="preserve">
     <value>输入的序列号已经认证完毕。</value>
@@ -2607,7 +2615,7 @@ http://cevio.jp/</value>
     <value>光标位置</value>
   </data>
   <data name="Timeline_Lane_InvalidTrack_ToolTip" xml:space="preserve">
-    <value>このトラックは再生できません。</value>
+    <value>无法播放此音轨。</value>
   </data>
   <data name="TalkEditor_Menu_Paste" xml:space="preserve">
     <value>粘贴(_P)</value>
@@ -2678,7 +2686,8 @@ http://cevio.jp/</value>
     <value>不支持24bit以上的WAV格式。</value>
   </data>
   <data name="MainMenu_Talk_PhonemeGraph_Placement_FillBottom" xml:space="preserve">
-    <value>下側</value>
+    <value>下侧</value>
+    <comment>下側</comment>
   </data>
   <data name="Message_License_AppTrial_Authorized_ContinuesTrial" xml:space="preserve">
     <value>※体験期間中は、引き続き体験版の機能とボイスをご利用頂けます。</value>
@@ -2717,7 +2726,7 @@ http://cevio.jp/</value>
     <value>以下功能可以被激活。</value>
   </data>
   <data name="TrackHeader_Menu_Extra_ShowTrackList" xml:space="preserve">
-    <value>トラックを追加(_T)...</value>
+    <value>追加音轨(_T)...</value>
   </data>
   <data name="TalkEditor_List_StartTimeCell_ToolTip" xml:space="preserve">
     <value>双击输入数值 [F2]</value>
@@ -2760,7 +2769,8 @@ http://cevio.jp/</value>
     <value>环境</value>
   </data>
   <data name="MainMenu_Talk_PhonemeGraph" xml:space="preserve">
-    <value>音素グラフ(_P)</value>
+    <value>音素图(_P)</value>
+    <comment>音素グラフ(_P)</comment>
   </data>
   <data name="MainMenu_Talk_AutoAlignment_InputGesture" xml:space="preserve">
     <value>F5</value>
@@ -2790,7 +2800,8 @@ http://cevio.jp/</value>
     <value>导出WAV(_S)...</value>
   </data>
   <data name="VersionInfoDialog_ModuleVersion_SongSynthesizer_Title" xml:space="preserve">
-    <value>ソングエンジン(SVSS)</value>
+    <value>歌唱引擎(SVSS)</value>
+    <comment>ソングエンジン(SVSS)</comment>
   </data>
   <data name="Dialog_NoButton_Title" xml:space="preserve">
     <value>不</value>
@@ -2805,7 +2816,8 @@ http://cevio.jp/</value>
     <value>セリフテキストを読み込んでいます...</value>
   </data>
   <data name="MainMenu_Talk_PhonemeGraph_Placement_FillRight" xml:space="preserve">
-    <value>右側（全体）</value>
+    <value>右侧（全部）</value>
+    <comment>右側（全体）</comment>
   </data>
   <data name="TrackSelectionDialog_OutputTextSwitch_Title" xml:space="preserve">
     <value>将台词导出为文本</value>
@@ -2820,8 +2832,9 @@ http://cevio.jp/</value>
     <value>F8</value>
   </data>
   <data name="MainMenu_Help_Purchase_ProductInformation_ToolTip" xml:space="preserve">
-    <value>製品の特長やサードパーティ製品を含むラインアップを
-紹介するサイトを表示します。</value>
+    <value>显示介绍本产品特色及第三方声源的页面。</value>
+    <comment>製品の特長やサードパーティ製品を含むラインアップを
+紹介するサイトを表示します。</comment>
   </data>
   <data name="TalkEditor_Menu_View_ListColumns_Cast" xml:space="preserve">
     <value>配音角色</value>
@@ -2830,7 +2843,7 @@ http://cevio.jp/</value>
     <value>台词</value>
   </data>
   <data name="TrackLane_Menu_Add_Talk_ToolTip" xml:space="preserve">
-    <value>在此音轨之下追加一个语音音轨。</value>
+    <value>在此音轨之下增加一个语音音轨。</value>
   </data>
   <data name="Message_Error_Register" xml:space="preserve">
     <value>注册失败。</value>
@@ -2851,7 +2864,7 @@ http://cevio.jp/</value>
     <value>以下音轨的配音角色当前未安装或无法使用。将用别的角色来代替。</value>
   </data>
   <data name="TalkEditor_Menu_View_ListColumns_Track" xml:space="preserve">
-    <value>トラック</value>
+    <value>音轨</value>
   </data>
   <data name="TrackLane_Menu_AutoAlignmentForText" xml:space="preserve">
     <value>自动排列台词(_A)</value>
@@ -2883,7 +2896,8 @@ http://cevio.jp/</value>
     <value>配音角色</value>
   </data>
   <data name="MainMenu_Song_EditMode_Overlay_Vibrato_Amplitude_ToolTip" xml:space="preserve">
-    <value>ビブラートの振幅を重ねます。</value>
+    <value>重叠显示颤音振幅。</value>
+    <comment>ビブラートの振幅を重ねます。</comment>
   </data>
   <data name="MainMenu_Song_CursorMode_Selector_ToolTip" xml:space="preserve">
     <value>切换为"选择工具"。</value>
@@ -2900,7 +2914,8 @@ http://cevio.jp/</value>
     <value>移动到</value>
   </data>
   <data name="Message_Warning_CannotChangeCast" xml:space="preserve">
-    <value>キャスト変更時にエラーが発生しました。</value>
+    <value>变更角色时出现了错误。</value>
+    <comment>キャスト変更時にエラーが発生しました。</comment>
   </data>
   <data name="Message_Warning_NotSupportedFileVersion" xml:space="preserve">
     <value>当前的程序版本无法支持指定的文件的版本。</value>
@@ -2925,18 +2940,23 @@ http://cevio.jp/</value>
 
 ※这将提前合成音轨，以缩短试听时的等待时间。
 ※当编辑音轨内容时会解除锁定。</value>
+    
   </data>
   <data name="InputSentenceDialog_StartTime_ToolTip" xml:space="preserve">
-    <value>いずれかの形式で数値を入力：
+    <value>输入格式：
+　"(分):(秒).(毫秒)"
+　"(秒).(毫秒)"
+　"(秒)"</value>
+    <comment>いずれかの形式で数値を入力：
 　(分):(秒).(ミリ秒)
 　(秒).(ミリ秒)
-　(秒)</value>
+　(秒)</comment>
   </data>
   <data name="MainMenu_File_SaveProjectAs_InputGesture" xml:space="preserve">
     <value>Ctrl+Shift+S</value>
   </data>
   <data name="Message_Information_VocalSourceVersionDifference_TalkDictionary" xml:space="preserve">
-    <value>トーク辞書</value>
+    <value>语音词典</value>
   </data>
   <data name="PreferenceDialog_Ambient_AudioFolder_ReferenceButton_Title" xml:space="preserve">
     <value>浏览</value>
@@ -2951,7 +2971,7 @@ http://cevio.jp/</value>
     <value>'{0}' 生成失败。</value>
   </data>
   <data name="MainMenu_Song_EditMode_Overlay" xml:space="preserve">
-    <value>重ね表示(_P)</value>
+    <value>重叠显示(_P)</value>
   </data>
   <data name="MainMenu_Edit_SelectAll_InputGesture" xml:space="preserve">
     <value>Ctrl+A</value>
@@ -2963,7 +2983,8 @@ http://cevio.jp/</value>
     <value>开始时间</value>
   </data>
   <data name="MainWindow_Title_TrialMark" xml:space="preserve">
-    <value>【体験版として使用中：{0} まで】</value>
+    <value>【正在使用体验版：{0} 截止】</value>
+    <comment>【体験版として使用中：{0} まで】</comment>
   </data>
   <data name="MainMenu_Track_Delete" xml:space="preserve">
     <value>删除音轨(_D)</value>
@@ -2978,7 +2999,7 @@ http://cevio.jp/</value>
     <value>音素图调整部分自动试听</value>
   </data>
   <data name="Message_Error_Save2" xml:space="preserve">
-    <value>ファイルの保存に失敗しました。</value>
+    <value>文件保存失败。</value>
   </data>
   <data name="MainMenu_Talk_PhonemeGraph_Expansion_6400p" xml:space="preserve">
     <value>6400%(_7)</value>
@@ -3096,10 +3117,14 @@ http://cevio.jp/</value>
     <value>音符の位置と長さを補正しました。</value>
   </data>
   <data name="MoveCursorDialog_Destination_ByMeasureNumber_ToolTip" xml:space="preserve">
-    <value>いずれかの形式で数値を入力：
+    <value>输入格式：
+  (小节):(拍).(Tick)
+  (小节):(拍)
+  (小节)</value>
+    <comment>いずれかの形式で数値を入力：
   (小節):(拍).(ティック)
   (小節):(拍)
-  (小節)</value>
+  (小節)</comment>
   </data>
   <data name="MainMenu_Talk_PhonemeGraph_Expansion_Shrink" xml:space="preserve">
     <value>缩小(_O)</value>
@@ -3166,7 +3191,7 @@ http://cevio.jp/</value>
 确定吗？</value>
   </data>
   <data name="Message_Error_AddTrack" xml:space="preserve">
-    <value>トラックの追加に失敗しました。</value>
+    <value>追加音轨失败。</value>
   </data>
   <data name="PreferenceDialog_Talk_ElementLocatingInterval_ToolTip" xml:space="preserve">
     <value>セリフ入力時や整列時の間隔を指定します。
@@ -3327,7 +3352,8 @@ http://cevio.jp/</value>
     <value>この位置にコピーした内容を挿入します。</value>
   </data>
   <data name="MainMenu_Song_GuideLine_OnAdjustmentToo" xml:space="preserve">
-    <value>調整画面にもライン表示(_V)</value>
+    <value>在调整界面也显示时间线(_V)</value>
+    <comment>調整画面にもライン表示(_V)</comment>
   </data>
   <data name="MainMenu_Transport_EndMarker_InputGesture" xml:space="preserve">
     <value>]</value>
@@ -3530,7 +3556,7 @@ http://cevio.jp/</value>
     <value>(追加)</value>
   </data>
   <data name="MainMenu_Song_CursorMode_Line" xml:space="preserve">
-    <value>ラインツール(_4)</value>
+    <value>直线工具(_4)</value>
   </data>
   <data name="MainMenu_Help_Version" xml:space="preserve">
     <value>版本信息(_A)...</value>
@@ -3567,7 +3593,8 @@ http://cevio.jp/</value>
     <value>管理（编辑/删除）用户定义的词典中的单词。</value>
   </data>
   <data name="MainMenu_Talk_PhraseClips" xml:space="preserve">
-    <value>セリフクリップ一覧(_L)...</value>
+    <value>浏览台词片段(_L)...</value>
+    <comment>セリフクリップ一覧(_L)...</comment>
   </data>
   <data name="PreferenceDialog_Song_DetailAdjustment_ValueDisplayStyle_Title" xml:space="preserve">
     <value>参数调整界面的数值显示</value>
@@ -3585,7 +3612,7 @@ http://cevio.jp/</value>
     <value>返回开头(_H)</value>
   </data>
   <data name="MainMenu_Song_EditMode_Overlay_Pitch" xml:space="preserve">
-    <value>ピッチを表示(_4)</value>
+    <value>显示音高(_4)</value>
   </data>
   <data name="MainMenu_Song_EditMode_Timing" xml:space="preserve">
     <value>时间(TMG)调整(_2)</value>
@@ -3610,7 +3637,8 @@ http://cevio.jp/</value>
     <value>导出字幕(_U)...</value>
   </data>
   <data name="TrackLane_Menu_AutoAlignmentForAudio" xml:space="preserve">
-    <value>オーディオの自動整列(_A)</value>
+    <value>音频自动排列(_A)</value>
+    <comment>オーディオの自動整列(_A)</comment>
   </data>
   <data name="Message_Confirm_OverwriteAllFiles" xml:space="preserve">
     <value>'{0}' は既に存在します。
@@ -3817,7 +3845,7 @@ CeVIO Creative Studio最新バージョンをご確認ください。</value>
     <value>导入(_I)</value>
   </data>
   <data name="TrackLane_Menu_Add_Song_ToolTip" xml:space="preserve">
-    <value>在此音轨之下追加一个歌唱音轨。</value>
+    <value>在此音轨之下增加一个歌唱音轨。</value>
   </data>
   <data name="TrackLane_Menu_Export_Subtitle_ToolTip" xml:space="preserve">
     <value>このトラックのセリフを字幕ファイルに書き出します。</value>
@@ -3826,7 +3854,7 @@ CeVIO Creative Studio最新バージョンをご確認ください。</value>
     <value>コマンド実行時にエラーが発生しました。</value>
   </data>
   <data name="TrackHeader_Menu_Add_Song_ToolTip" xml:space="preserve">
-    <value>在此音轨之下追加一个歌唱音轨。</value>
+    <value>在此音轨之下增加一个歌唱音轨。</value>
   </data>
   <data name="Message_License_Warning_NoProducts2" xml:space="preserve">
     <value>没有可以使用的声源。
@@ -4030,7 +4058,7 @@ http://cevio.jp/</value>
     <value>1</value>
   </data>
   <data name="UpdateAnnounceDialog_LatestVersion_Title" xml:space="preserve">
-    <value>最新バージョン：</value>
+    <value>最新版本：</value>
   </data>
   <data name="TrackLane_Menu_Delete" xml:space="preserve">
     <value>删除音轨(_D)</value>
@@ -4119,7 +4147,7 @@ http://cevio.jp/</value>
     <value>ソングボイス</value>
   </data>
   <data name="TrackHeader_Menu_Add_ShowTrackList" xml:space="preserve">
-    <value>トラックを追加(_T)...</value>
+    <value>追加音轨(_T)...</value>
   </data>
   <data name="MainMenu_Transport_MoveToStartMarker_InputGesture" xml:space="preserve">
     <value>小键盘 1</value>
@@ -4401,7 +4429,7 @@ http://cevio.jp/
     <value>1/32</value>
   </data>
   <data name="PreferenceDialog_Talk_DefaultPreset_Description" xml:space="preserve">
-    <value>※外部连接使用时，在改变设置后请重新启动外部程序。</value>
+    <value>※当用于外部调用时，在改变设置后请重新启动外部程序。</value>
   </data>
   <data name="PreferenceDialog_Song_PianoRollColorScheme_DetailAdjustment_List_Gray_Title" xml:space="preserve">
     <value>Gray</value>
@@ -4471,7 +4499,7 @@ http://cevio.jp/
 为了定期检查许可，请连接网络后再启动本程序。</value>
   </data>
   <data name="TrackHeader_Menu_Add_ShowTrackList_ToolTip" xml:space="preserve">
-    <value>このトラックの下に新規トラックを追加します。</value>
+    <value>在此音轨之下增加一个新音轨。</value>
   </data>
   <data name="PreferenceDialog_Ambient_InitialTracks_Title" xml:space="preserve">
     <value>默认音轨</value>
