@@ -18,10 +18,10 @@
 
 ## 来源
 
-本汉化项目继承自Project CeVIO SFE（已取得授权）。
+本汉化项目的部分中文文本继承自Project CeVIO SFE（已取得授权）。
 
 ---
 
-by VOICeVIO
+by **VOICeVIO**
 
 Contact: wdwxy12345@gmail.com
