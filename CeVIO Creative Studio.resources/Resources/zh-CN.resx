@@ -2504,9 +2504,12 @@ http://cevio.jp/
 文件可能已损坏。</value>
   </data>
   <data name="Message_License_Confirm_Authorization_UnlicensedProducts" xml:space="preserve">
-    <value>以下の製品は今回利用できません。
+    <value>以下产品现在无法使用。
 
 {0}</value>
+    <comment>以下の製品は今回利用できません。
+
+{0}</comment>
   </data>
   <data name="MainMenu_Song_CursorMode_Pen" xml:space="preserve">
     <value>画笔工具(_3)</value>
@@ -2759,7 +2762,8 @@ http://cevio.jp/</value>
     <value>扩大显示表情参数</value>
   </data>
   <data name="Message_Error_AudioPreparation" xml:space="preserve">
-    <value>再生準備中にエラーが発生しました。</value>
+    <value>准备播放时发生了错误。</value>
+    <comment>再生準備中にエラーが発生しました。</comment>
   </data>
   <data name="TrackSelectionDialog_Destination_Insert_TrackName_Title" xml:space="preserve">
     <value>音轨名</value>
@@ -3455,7 +3459,8 @@ http://cevio.jp/</value>
     <value>※当前暂无任何可激活功能。</value>
   </data>
   <data name="MainMenu_Talk_PhonemeGraph_Placement_RightBroad" xml:space="preserve">
-    <value>右側（広く）</value>
+    <value>右侧（较大）</value>
+    <comment>右側（広く）</comment>
   </data>
   <data name="TalkEditor_RegulatedParameter_Speed_Title" xml:space="preserve">
     <value>速度</value>
@@ -3761,7 +3766,8 @@ http://cevio.jp/</value>
 或者443端口被占用。</value>
   </data>
   <data name="Message_Warning_InvalidOperation_Playback" xml:space="preserve">
-    <value>再生中にこの操作は行えません。</value>
+    <value>播放时无法进行此操作。</value>
+    <comment>再生中にこの操作は行えません。</comment>
   </data>
   <data name="Message_License_Error_Authorization_UnrecognizableProductKey" xml:space="preserve">
     <value>{0} のシリアルナンバーが認識できないため、ライセンス認証に失敗しました。

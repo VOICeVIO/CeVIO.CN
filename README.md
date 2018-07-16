@@ -7,7 +7,7 @@
 
 ## 使用方式
 
-下载[Release版本](https://github.com/VOICeVIO/CeVIO.CN/releases)或[Dev版本](https://ci.appveyor.com/project/UlyssesWu/cevio-cn/build/artifacts)，将`zh-CN`文件夹置于CeVIO根目录即可。
+下载[稳定版本](https://github.com/VOICeVIO/CeVIO.CN/releases)或[测试版本](https://ci.appveyor.com/project/UlyssesWu/cevio-cn/build/artifacts)，将`zh-CN`文件夹置于CeVIO根目录即可。
 
 ## 许可协议
 

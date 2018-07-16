@@ -356,7 +356,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 すべてのファイル (*.*)|*.* 的本地化字符串。
+        ///   查找类似 所有文件 (*.*)|*.* 的本地化字符串。
         /// </summary>
         public static string Dialog_FileFilter_AllFiles {
             get {
@@ -383,7 +383,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 Standard MIDIファイル (*.mid)|*.mid 的本地化字符串。
+        ///   查找类似 Standard MIDI文件 (*.mid)|*.mid 的本地化字符串。
         /// </summary>
         public static string Dialog_FileFilter_MidiFile {
             get {
@@ -419,7 +419,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 Waveファイル (*.wav)|*.wav 的本地化字符串。
+        ///   查找类似 波形文件 (*.wav)|*.wav 的本地化字符串。
         /// </summary>
         public static string Dialog_FileFilter_WaveFile {
             get {
@@ -473,7 +473,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 MIDIの読み込み 的本地化字符串。
+        ///   查找类似 读取MIDI 的本地化字符串。
         /// </summary>
         public static string Dialog_Import_Midi_Title {
             get {
@@ -743,7 +743,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ソングボイス 的本地化字符串。
+        ///   查找类似 歌唱声源 的本地化字符串。
         /// </summary>
         public static string Fragment_SongVoice {
             get {
@@ -779,7 +779,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 トークスターター 的本地化字符串。
+        ///   查找类似 Talk Starter 的本地化字符串。
         /// </summary>
         public static string Fragment_TalkStarter {
             get {
@@ -887,10 +887,10 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 いずれかの形式で数値を入力：
-        ///　(分):(秒).(ミリ秒)
-        ///　(秒).(ミリ秒)
-        ///　(秒) 的本地化字符串。
+        ///   查找类似 输入格式：
+        ///　&quot;(分):(秒).(毫秒)&quot;
+        ///　&quot;(秒).(毫秒)&quot;
+        ///　&quot;(秒)&quot; 的本地化字符串。
         /// </summary>
         public static string InputSentenceDialog_StartTime_ToolTip {
             get {
@@ -1055,7 +1055,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ポーズの設定 的本地化字符串。
+        ///   查找类似 停顿设置 的本地化字符串。
         /// </summary>
         public static string LocalewiseSettingDialog_Title {
             get {
@@ -1662,7 +1662,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ライセンス認証(_L)... 的本地化字符串。
+        ///   查找类似 序列号认证(_L)... 的本地化字符串。
         /// </summary>
         public static string MainMenu_Help_ActivateLicense {
             get {
@@ -1773,8 +1773,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 製品の特長やサードパーティ製品を含むラインアップを
-        ///紹介するサイトを表示します。 的本地化字符串。
+        ///   查找类似 显示介绍本产品特色及第三方声源的页面。 的本地化字符串。
         /// </summary>
         public static string MainMenu_Help_Purchase_ProductInformation_ToolTip {
             get {
@@ -1783,7 +1782,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 楽天ブックス(_R) 的本地化字符串。
+        ///   查找类似 乐天Books (_R) 的本地化字符串。
         /// </summary>
         public static string MainMenu_Help_Purchase_Rakuten {
             get {
@@ -1894,7 +1893,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 消しゴムツール(_5) 的本地化字符串。
+        ///   查找类似 橡皮擦工具(_5) 的本地化字符串。
         /// </summary>
         public static string MainMenu_Song_CursorMode_Eraser {
             get {
@@ -1921,7 +1920,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ラインツール(_4) 的本地化字符串。
+        ///   查找类似 直线工具(_4) 的本地化字符串。
         /// </summary>
         public static string MainMenu_Song_CursorMode_Line {
             get {
@@ -2029,7 +2028,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 重ね表示(_P) 的本地化字符串。
+        ///   查找类似 重叠显示(_P) 的本地化字符串。
         /// </summary>
         public static string MainMenu_Song_EditMode_Overlay {
             get {
@@ -2038,7 +2037,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ピッチを表示(_4) 的本地化字符串。
+        ///   查找类似 显示音高PIT (_4) 的本地化字符串。
         /// </summary>
         public static string MainMenu_Song_EditMode_Overlay_Pitch {
             get {
@@ -2056,7 +2055,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 显示TMG时间(_2) 的本地化字符串。
+        ///   查找类似 显示时间TMG (_2) 的本地化字符串。
         /// </summary>
         public static string MainMenu_Song_EditMode_Overlay_Timing {
             get {
@@ -2065,7 +2064,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 タイミングを重ねます。 的本地化字符串。
+        ///   查找类似 重叠显示时间（TMG）。 的本地化字符串。
         /// </summary>
         public static string MainMenu_Song_EditMode_Overlay_Timing_ToolTip {
             get {
@@ -2074,7 +2073,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ビブラートの振幅を表示(_5) 的本地化字符串。
+        ///   查找类似 显示颤音振幅VIA (_5) 的本地化字符串。
         /// </summary>
         public static string MainMenu_Song_EditMode_Overlay_Vibrato_Amplitude {
             get {
@@ -2083,7 +2082,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ビブラートの振幅を重ねます。 的本地化字符串。
+        ///   查找类似 重叠显示颤音振幅（VIA）。 的本地化字符串。
         /// </summary>
         public static string MainMenu_Song_EditMode_Overlay_Vibrato_Amplitude_ToolTip {
             get {
@@ -2092,7 +2091,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 显示颤音周期(_6) 的本地化字符串。
+        ///   查找类似 显示颤音周期VIF (_6) 的本地化字符串。
         /// </summary>
         public static string MainMenu_Song_EditMode_Overlay_Vibrato_Frequency {
             get {
@@ -2101,7 +2100,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ビブラートの周期を重ねます。 的本地化字符串。
+        ///   查找类似 重叠显示颤音周期（VIF）。 的本地化字符串。
         /// </summary>
         public static string MainMenu_Song_EditMode_Overlay_Vibrato_Frequency_ToolTip {
             get {
@@ -2110,7 +2109,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 显示VOL音量(_3) 的本地化字符串。
+        ///   查找类似 显示音量VOL (_3) 的本地化字符串。
         /// </summary>
         public static string MainMenu_Song_EditMode_Overlay_Volume {
             get {
@@ -2128,7 +2127,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ピッチを調整(_4) 的本地化字符串。
+        ///   查找类似 音高(PIT)调整(_4) 的本地化字符串。
         /// </summary>
         public static string MainMenu_Song_EditMode_Pitch {
             get {
@@ -2264,7 +2263,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ボリュームを調整(_3) 的本地化字符串。
+        ///   查找类似 音量(VOL)调整(_3) 的本地化字符串。
         /// </summary>
         public static string MainMenu_Song_EditMode_Volume {
             get {
@@ -2291,7 +2290,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 細かい空白の除去(_F)... 的本地化字符串。
+        ///   查找类似 消除短空白(_F)... 的本地化字符串。
         /// </summary>
         public static string MainMenu_Song_FillSpaces {
             get {
@@ -2300,7 +2299,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 選択中または全音符の細かい隙間(休符)を埋めます。 的本地化字符串。
+        ///   查找类似 将选中的音符区间中的长音符进行扩展以填满其中的间隙。 的本地化字符串。
         /// </summary>
         public static string MainMenu_Song_FillSpaces_ToolTip {
             get {
@@ -2336,7 +2335,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 調整画面にもライン表示(_V) 的本地化字符串。
+        ///   查找类似 在调整界面也显示时间线(_V) 的本地化字符串。
         /// </summary>
         public static string MainMenu_Song_GuideLine_OnAdjustmentToo {
             get {
@@ -2525,7 +2524,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ガイドカーソル(_C) 的本地化字符串。
+        ///   查找类似 光标指示器(_C) 的本地化字符串。
         /// </summary>
         public static string MainMenu_Song_QuantizeIndicator {
             get {
@@ -2534,7 +2533,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 クオンタイズの補助カーソルを表示します。 的本地化字符串。
+        ///   查找类似 时刻显示当前鼠标位置所对应的小节位置。 的本地化字符串。
         /// </summary>
         public static string MainMenu_Song_QuantizeIndicator_ToolTip {
             get {
@@ -2543,7 +2542,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ルーラー表示(_R) 的本地化字符串。
+        ///   查找类似 显示标尺(_R) 的本地化字符串。
         /// </summary>
         public static string MainMenu_Song_Ruler {
             get {
@@ -2624,7 +2623,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 別トラックの音符表示(_T) 的本地化字符串。
+        ///   查找类似 显示其他音轨的音符(_T) 的本地化字符串。
         /// </summary>
         public static string MainMenu_Song_ShowNotesOfOtherTracks {
             get {
@@ -2868,7 +2867,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 音素グラフ(_P) 的本地化字符串。
+        ///   查找类似 音素图(_P) 的本地化字符串。
         /// </summary>
         public static string MainMenu_Talk_PhonemeGraph {
             get {
@@ -3103,7 +3102,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 下側 的本地化字符串。
+        ///   查找类似 下侧 的本地化字符串。
         /// </summary>
         public static string MainMenu_Talk_PhonemeGraph_Placement_FillBottom {
             get {
@@ -3112,7 +3111,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 右側（全体） 的本地化字符串。
+        ///   查找类似 右侧（全部） 的本地化字符串。
         /// </summary>
         public static string MainMenu_Talk_PhonemeGraph_Placement_FillRight {
             get {
@@ -3130,7 +3129,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 右側（広く） 的本地化字符串。
+        ///   查找类似 右侧（较大） 的本地化字符串。
         /// </summary>
         public static string MainMenu_Talk_PhonemeGraph_Placement_RightBroad {
             get {
@@ -3194,7 +3193,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 セリフクリップ一覧(_L)... 的本地化字符串。
+        ///   查找类似 浏览台词片段(_L)... 的本地化字符串。
         /// </summary>
         public static string MainMenu_Talk_PhraseClips {
             get {
@@ -3338,7 +3337,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 トラックを追加(_T)... 的本地化字符串。
+        ///   查找类似 追加音轨(_T)... 的本地化字符串。
         /// </summary>
         public static string MainMenu_Track_Add_ShowTrackList {
             get {
@@ -3347,7 +3346,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 選択トラックの下に新規トラックを追加します。 的本地化字符串。
+        ///   查找类似 在选中的音轨之下增加一个新音轨。 的本地化字符串。
         /// </summary>
         public static string MainMenu_Track_Add_ShowTrackList_ToolTip {
             get {
@@ -3763,7 +3762,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 指定位置へ移動(_T)... 的本地化字符串。
+        ///   查找类似 向指定位置移动(_T)... 的本地化字符串。
         /// </summary>
         public static string MainMenu_Transport_MoveToSpecifiedPosition {
             get {
@@ -4123,7 +4122,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 【体験版として使用中：{0} まで】 的本地化字符串。
+        ///   查找类似 【正在使用体验版：{0} 截止】 的本地化字符串。
         /// </summary>
         public static string MainWindow_Title_TrialMark {
             get {
@@ -4154,8 +4153,8 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 選択オーディオを削除します。
-        ///よろしいですか？ 的本地化字符串。
+        ///   查找类似 将删除选定的音频。
+        ///确定要删除吗？ 的本地化字符串。
         /// </summary>
         public static string Message_Confirm_DeleteAudio {
             get {
@@ -4175,7 +4174,7 @@ namespace CeVIO.Editor.Properties.Resources {
         
         /// <summary>
         ///   查找类似 将删除选定的台词。
-        ///确定吗？ 的本地化字符串。
+        ///确定要删除吗？ 的本地化字符串。
         /// </summary>
         public static string Message_Confirm_DeleteQuote {
             get {
@@ -4425,7 +4424,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 トラックの追加に失敗しました。 的本地化字符串。
+        ///   查找类似 追加音轨失败。 的本地化字符串。
         /// </summary>
         public static string Message_Error_AddTrack {
             get {
@@ -4474,7 +4473,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 再生準備中にエラーが発生しました。 的本地化字符串。
+        ///   查找类似 准备播放时发生了错误。 的本地化字符串。
         /// </summary>
         public static string Message_Error_AudioPreparation {
             get {
@@ -4596,7 +4595,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 MIDIのインポートに失敗しました。 的本地化字符串。
+        ///   查找类似 MIDI导入失败。 的本地化字符串。
         /// </summary>
         public static string Message_Error_ImportMidi {
             get {
@@ -4699,7 +4698,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ファイルの保存に失敗しました。 的本地化字符串。
+        ///   查找类似 文件保存失败。 的本地化字符串。
         /// </summary>
         public static string Message_Error_Save2 {
             get {
@@ -4743,7 +4742,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 アプリケーション起動時にエラーが発生しました。 的本地化字符串。
+        ///   查找类似 程序启动时出现了错误。 的本地化字符串。
         /// </summary>
         public static string Message_Error_StartUp {
             get {
@@ -4761,7 +4760,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 直前の処理を取り消す際にエラーが発生しました。 的本地化字符串。
+        ///   查找类似 在撤销时发生了错误。 的本地化字符串。
         /// </summary>
         public static string Message_Error_Undo {
             get {
@@ -4861,7 +4860,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 以下のファイルにMusicXMLを書き出しました。 的本地化字符串。
+        ///   查找类似 已将MusicXML输出为以下文件。 的本地化字符串。
         /// </summary>
         public static string Message_Export_MusicXML_File {
             get {
@@ -4870,7 +4869,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 以下の字幕ファイルを保存しました。 的本地化字符串。
+        ///   查找类似 已保存以下字幕文件。 的本地化字符串。
         /// </summary>
         public static string Message_Export_Subtitle {
             get {
@@ -4897,7 +4896,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 以下の場所にトラック内容を保存しました。 的本地化字符串。
+        ///   查找类似 已将音轨内容保存到以下位置。 的本地化字符串。
         /// </summary>
         public static string Message_Export_Track {
             get {
@@ -4924,7 +4923,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 以下の場所にソングのWAVを書き出しました。 的本地化字符串。
+        ///   查找类似 已将歌唱WAV文件输出到以下位置。 的本地化字符串。
         /// </summary>
         public static string Message_Export_WaveformOfSong {
             get {
@@ -4942,7 +4941,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 以下のファイルにセリフのWAVを書き出しました。 的本地化字符串。
+        ///   查找类似 已将台词WAV输出为以下文件。 的本地化字符串。
         /// </summary>
         public static string Message_Export_WaveformOfText {
             get {
@@ -5224,7 +5223,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ソング辞書 的本地化字符串。
+        ///   查找类似 歌唱词典 的本地化字符串。
         /// </summary>
         public static string Message_Information_VocalSourceVersionDifference_SongDictionary {
             get {
@@ -5242,7 +5241,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 トークボイス 的本地化字符串。
+        ///   查找类似 语音声源 的本地化字符串。
         /// </summary>
         public static string Message_Information_VocalSourceVersionDifference_TalkDataSource {
             get {
@@ -5251,7 +5250,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 トーク辞書 的本地化字符串。
+        ///   查找类似 语音词典 的本地化字符串。
         /// </summary>
         public static string Message_Information_VocalSourceVersionDifference_TalkDictionary {
             get {
@@ -5386,7 +5385,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 以下の製品は今回利用できません。
+        ///   查找类似 以下产品现在无法使用。
         ///
         ///{0} 的本地化字符串。
         /// </summary>
@@ -5504,7 +5503,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ライセンスの解除に失敗しました。 的本地化字符串。
+        ///   查找类似 解除产品认证失败。 的本地化字符串。
         /// </summary>
         public static string Message_License_Error_ClearAllLicenses {
             get {
@@ -5606,7 +5605,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ライセンスをすべて解除しました。 的本地化字符串。
+        ///   查找类似 已解除所有产品的认证绑定。 的本地化字符串。
         /// </summary>
         public static string Message_License_Information_ClearAllLicenses {
             get {
@@ -5840,7 +5839,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 许可认证时发生错误，因此离线启动。 的本地化字符串。
+        ///   查找类似 许可认证时发生错误，因此将离线启动。 的本地化字符串。
         /// </summary>
         public static string Message_License_Warning_OfflineStartUp {
             get {
@@ -5849,7 +5848,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 许可认证时服务器连接超时，因此离线启动。 的本地化字符串。
+        ///   查找类似 许可认证时服务器连接超时，因此将离线启动。 的本地化字符串。
         /// </summary>
         public static string Message_License_Warning_OfflineStartUp_RequestTimedOut {
             get {
@@ -5858,7 +5857,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 许可认证时连接服务器失败，因此离线启动。 的本地化字符串。
+        ///   查找类似 许可认证时连接服务器失败，因此将离线启动。 的本地化字符串。
         /// </summary>
         public static string Message_License_Warning_OfflineStartUp_ServerConnectionFailed {
             get {
@@ -5867,7 +5866,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 许可认证时服务器产生了错误，因此离线启动。 的本地化字符串。
+        ///   查找类似 许可认证时服务器产生了错误，因此将离线启动。 的本地化字符串。
         /// </summary>
         public static string Message_License_Warning_OfflineStartUp_ServerError {
             get {
@@ -6023,7 +6022,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 キャスト変更時にエラーが発生しました。 的本地化字符串。
+        ///   查找类似 变更角色时出现了错误。 的本地化字符串。
         /// </summary>
         public static string Message_Warning_CannotChangeCast {
             get {
@@ -6127,7 +6126,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 数が上限に達しているため、トラックを追加できません。 的本地化字符串。
+        ///   查找类似 已达到音轨数量上限，无法增加新音轨。 的本地化字符串。
         /// </summary>
         public static string Message_Warning_ExceededTrackCount_AddTrack {
             get {
@@ -6254,7 +6253,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 再生中にこの操作は行えません。 的本地化字符串。
+        ///   查找类似 播放时无法进行此操作。 的本地化字符串。
         /// </summary>
         public static string Message_Warning_InvalidOperation_Playback {
             get {
@@ -6395,10 +6394,10 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 いずれかの形式で数値を入力：
-        ///  (小節):(拍).(ティック)
-        ///  (小節):(拍)
-        ///  (小節) 的本地化字符串。
+        ///   查找类似 输入格式：
+        ///  (小节):(拍).(Tick)
+        ///  (小节):(拍)
+        ///  (小节) 的本地化字符串。
         /// </summary>
         public static string MoveCursorDialog_Destination_ByMeasureNumber_ToolTip {
             get {
@@ -6587,8 +6586,8 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 体験版の期限が満了しています。
-        ///引き続きご利用頂くには、製品ライセンスの登録が必要です。 的本地化字符串。
+        ///   查找类似 体验版已到期。
+        ///要继续使用，请输入产品序列号。 的本地化字符串。
         /// </summary>
         public static string NoticeAboutTrial1_Text {
             get {
@@ -6634,8 +6633,8 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 以下のボイスは体験期間が満了しています。
-        ///引き続きご利用頂くには、製品ライセンスの登録が必要です。 的本地化字符串。
+        ///   查找类似 以下声源的体验版已到期。
+        ///要继续使用，请输入序列号。 的本地化字符串。
         /// </summary>
         public static string NoticeAboutTrial3_Text2 {
             get {
@@ -6644,8 +6643,8 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 CeVIO Creative Studio 6 は以下のソフトウェアを使用しています。
-        ///選択したソフトウェアのライセンスを表示します。 的本地化字符串。
+        ///   查找类似 CeVIO Creative Studio使用了以下的软件/库。
+        ///选中项的License将显示在右侧。 的本地化字符串。
         /// </summary>
         public static string OuterLicenseDialog_Description {
             get {
@@ -7048,7 +7047,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 (既定のデバイス) 的本地化字符串。
+        ///   查找类似 (默认音频设备) 的本地化字符串。
         /// </summary>
         public static string PreferenceDialog_Ambient_AudioOutputDevice_DefaultItem_Title {
             get {
@@ -7266,7 +7265,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 オーディオトラックを追加 的本地化字符串。
+        ///   查找类似 追加音频音轨 的本地化字符串。
         /// </summary>
         public static string PreferenceDialog_Ambient_InitialTracks_Menu_AddAudio {
             get {
@@ -7275,7 +7274,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ソングトラックを追加 的本地化字符串。
+        ///   查找类似 追加歌唱音轨 的本地化字符串。
         /// </summary>
         public static string PreferenceDialog_Ambient_InitialTracks_Menu_AddSong {
             get {
@@ -7284,7 +7283,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 トークトラックを追加 的本地化字符串。
+        ///   查找类似 追加语音音轨 的本地化字符串。
         /// </summary>
         public static string PreferenceDialog_Ambient_InitialTracks_Menu_AddTalk {
             get {
@@ -7302,7 +7301,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 下に移動 的本地化字符串。
+        ///   查找类似 向下移动 的本地化字符串。
         /// </summary>
         public static string PreferenceDialog_Ambient_InitialTracks_Menu_MoveToDown {
             get {
@@ -7402,7 +7401,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 スプラッシュ画面を表示する 的本地化字符串。
+        ///   查找类似 显示启动画面 的本地化字符串。
         /// </summary>
         public static string PreferenceDialog_Ambient_ShowsAppLogoOnBootUp_Title {
             get {
@@ -7456,7 +7455,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 既定の歌詞 的本地化字符串。
+        ///   查找类似 默认的歌词 的本地化字符串。
         /// </summary>
         public static string PreferenceDialog_Song_DefaultLyric_Title {
             get {
@@ -7465,7 +7464,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 音符の入力直後の歌詞。空のときは「ドレミファソラシド」。 的本地化字符串。
+        ///   查找类似 输入音符后默认填写的歌词。留空时为「多莱米法卓拉希多」。 的本地化字符串。
         /// </summary>
         public static string PreferenceDialog_Song_DefaultLyric_ToolTip {
             get {
@@ -7781,7 +7780,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 オーディオにも適用 的本地化字符串。
+        ///   查找类似 对音频也应用 的本地化字符串。
         /// </summary>
         public static string PreferenceDialog_Talk_AppliesToAudioElements_Title {
             get {
@@ -7799,7 +7798,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 マルチトラック自動整列 的本地化字符串。
+        ///   查找类似 多音轨自动排列 的本地化字符串。
         /// </summary>
         public static string PreferenceDialog_Talk_AutoAlignsOtherTracksToo_Title {
             get {
@@ -7854,7 +7853,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ※外部连接使用时，在改变设置后请重新启动外部程序。 的本地化字符串。
+        ///   查找类似 ※当用于外部调用时，在改变设置后请重新启动外部程序。 的本地化字符串。
         /// </summary>
         public static string PreferenceDialog_Talk_DefaultPreset_Description {
             get {
@@ -7945,7 +7944,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ポーズの設定 的本地化字符串。
+        ///   查找类似 停顿设置 的本地化字符串。
         /// </summary>
         public static string PreferenceDialog_Talk_LocalewiseSettingButton_Title {
             get {
@@ -8544,7 +8543,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 挿入(_I) 的本地化字符串。
+        ///   查找类似 插入(_I) 的本地化字符串。
         /// </summary>
         public static string TalkEditor_Menu_Insert_PlaceHolder {
             get {
@@ -8553,7 +8552,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 この位置に空白行を挿入します。 的本地化字符串。
+        ///   查找类似 在此位置插入空白行。 的本地化字符串。
         /// </summary>
         public static string TalkEditor_Menu_Insert_PlaceHolder_ToolTip {
             get {
@@ -8742,7 +8741,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 トラック 的本地化字符串。
+        ///   查找类似 音轨 的本地化字符串。
         /// </summary>
         public static string TalkEditor_Menu_View_ListColumns_Track {
             get {
@@ -8913,7 +8912,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 このトラックは再生できません。 的本地化字符串。
+        ///   查找类似 无法播放此音轨。 的本地化字符串。
         /// </summary>
         public static string Timeline_Lane_InvalidTrack_ToolTip {
             get {
@@ -9021,7 +9020,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 在此音轨之下追加一个外部音频音轨。 的本地化字符串。
+        ///   查找类似 在此音轨之下增加一个外部音频音轨。 的本地化字符串。
         /// </summary>
         public static string TrackHeader_Menu_Add_Audio_ToolTip {
             get {
@@ -9030,7 +9029,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 トラックを追加(_T)... 的本地化字符串。
+        ///   查找类似 追加音轨(_T)... 的本地化字符串。
         /// </summary>
         public static string TrackHeader_Menu_Add_ShowTrackList {
             get {
@@ -9039,7 +9038,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 このトラックの下に新規トラックを追加します。 的本地化字符串。
+        ///   查找类似 在此音轨之下增加一个新音轨。 的本地化字符串。
         /// </summary>
         public static string TrackHeader_Menu_Add_ShowTrackList_ToolTip {
             get {
@@ -9057,7 +9056,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 在此音轨之下追加一个歌唱音轨。 的本地化字符串。
+        ///   查找类似 在此音轨之下增加一个歌唱音轨。 的本地化字符串。
         /// </summary>
         public static string TrackHeader_Menu_Add_Song_ToolTip {
             get {
@@ -9075,7 +9074,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 在此音轨之下追加一个语音音轨。 的本地化字符串。
+        ///   查找类似 在此音轨之下增加一个语音音轨。 的本地化字符串。
         /// </summary>
         public static string TrackHeader_Menu_Add_Talk_ToolTip {
             get {
@@ -9174,7 +9173,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 トラックを追加(_T)... 的本地化字符串。
+        ///   查找类似 追加音轨(_T)... 的本地化字符串。
         /// </summary>
         public static string TrackHeader_Menu_Extra_ShowTrackList {
             get {
@@ -9183,7 +9182,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 選択トラックの下に新規トラックを追加します。 的本地化字符串。
+        ///   查找类似 在选中的音轨之下增加一个新音轨。 的本地化字符串。
         /// </summary>
         public static string TrackHeader_Menu_Extra_ShowTrackList_ToolTip {
             get {
@@ -9364,7 +9363,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 在此音轨之下追加一个外部音频音轨。 的本地化字符串。
+        ///   查找类似 在此音轨之下增加一个外部音频音轨。 的本地化字符串。
         /// </summary>
         public static string TrackLane_Menu_Add_Audio_ToolTip {
             get {
@@ -9373,7 +9372,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 トラックを追加(_T)... 的本地化字符串。
+        ///   查找类似 追加音轨(_T)... 的本地化字符串。
         /// </summary>
         public static string TrackLane_Menu_Add_ShowTrackList {
             get {
@@ -9382,7 +9381,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 このトラックの下に新規トラックを追加します。 的本地化字符串。
+        ///   查找类似 在此音轨之下增加一个新音轨。 的本地化字符串。
         /// </summary>
         public static string TrackLane_Menu_Add_ShowTrackList_ToolTip {
             get {
@@ -9400,7 +9399,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 在此音轨之下追加一个歌唱音轨。 的本地化字符串。
+        ///   查找类似 在此音轨之下增加一个歌唱音轨。 的本地化字符串。
         /// </summary>
         public static string TrackLane_Menu_Add_Song_ToolTip {
             get {
@@ -9418,7 +9417,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 在此音轨之下追加一个语音音轨。 的本地化字符串。
+        ///   查找类似 在此音轨之下增加一个语音音轨。 的本地化字符串。
         /// </summary>
         public static string TrackLane_Menu_Add_Talk_ToolTip {
             get {
@@ -9427,7 +9426,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 オーディオの自動整列(_A) 的本地化字符串。
+        ///   查找类似 音频自动排列(_A) 的本地化字符串。
         /// </summary>
         public static string TrackLane_Menu_AutoAlignmentForAudio {
             get {
@@ -9725,7 +9724,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 トラックを追加(_T)... 的本地化字符串。
+        ///   查找类似 追加音轨(_T)... 的本地化字符串。
         /// </summary>
         public static string TrackLane_Menu_Extra_ShowTrackList {
             get {
@@ -9734,7 +9733,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 選択トラックの下に新規トラックを追加します。 的本地化字符串。
+        ///   查找类似 在选中的音轨之下增加一个新音轨。 的本地化字符串。
         /// </summary>
         public static string TrackLane_Menu_Extra_ShowTrackList_ToolTip {
             get {
@@ -10191,7 +10190,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 現在ご利用のバージョン： 的本地化字符串。
+        ///   查找类似 当前正在使用的版本： 的本地化字符串。
         /// </summary>
         public static string UpdateAnnounceDialog_CurrentVersion_Title {
             get {
@@ -10200,7 +10199,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 最新バージョン： 的本地化字符串。
+        ///   查找类似 最新版本： 的本地化字符串。
         /// </summary>
         public static string UpdateAnnounceDialog_LatestVersion_Title {
             get {
@@ -10263,7 +10262,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ソング辞書 的本地化字符串。
+        ///   查找类似 歌唱词典 的本地化字符串。
         /// </summary>
         public static string VersionInfoDialog_ModuleVersion_SongDictionary_Title {
             get {
@@ -10272,7 +10271,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ソングエンジン(SVSS) 的本地化字符串。
+        ///   查找类似 歌唱引擎(SVSS) 的本地化字符串。
         /// </summary>
         public static string VersionInfoDialog_ModuleVersion_SongSynthesizer_Title {
             get {
