@@ -225,7 +225,7 @@
     <comment>音素で歌詞入力(_P)</comment>
   </data>
   <data name="PianoRollMenu_OverLay_VibratoAmplitudeToolTip" xml:space="preserve">
-    <value>ビブラートの振幅を重ねます。</value>
+    <value>重叠显示颤音振幅（VIA）。</value>
     <comment>ビブラートの振幅を重ねます。</comment>
   </data>
   <data name="NoteDialogTitle" xml:space="preserve">
@@ -343,7 +343,7 @@
     <comment>拍子を編集すると、全ソングトラックの調号の位置が補正されます。</comment>
   </data>
   <data name="PianoRollMenu_OverLay_VibratoFrequency" xml:space="preserve">
-    <value>ビブラートの周期を表示(_6)</value>
+    <value>显示颤音周期(_6)</value>
     <comment>ビブラートの周期を表示(_6)</comment>
   </data>
   <data name="ChannelNumber" xml:space="preserve">
@@ -359,7 +359,7 @@
     <comment>クオンタイズ(_Q)</comment>
   </data>
   <data name="PianoRollMenu_OverLay_Volume" xml:space="preserve">
-    <value>ボリュームを表示(_3)</value>
+    <value>显示音量(_3)</value>
     <comment>ボリュームを表示(_3)</comment>
   </data>
   <data name="PianoRollMenu_Properties" xml:space="preserve">
@@ -367,7 +367,7 @@
     <comment>プロパティ(_R)...</comment>
   </data>
   <data name="PianoRollMenu_OverLay_Timing" xml:space="preserve">
-    <value>タイミングを表示(_2)</value>
+    <value>显示时间(_2)</value>
     <comment>タイミングを表示(_2)</comment>
   </data>
   <data name="TempoRowToolTip" xml:space="preserve">
@@ -537,7 +537,7 @@
     <comment>高さ</comment>
   </data>
   <data name="PianoRollMenu_OverLay_VolumeToolTip" xml:space="preserve">
-    <value>ボリュームを重ねます。</value>
+    <value>重叠显示音量（VOL）。</value>
     <comment>ボリュームを重ねます。</comment>
   </data>
   <data name="MidiImportTimeBaseError" xml:space="preserve">
@@ -545,7 +545,7 @@
     <comment>実時間単位は非対応です（ティック指定に対応）。</comment>
   </data>
   <data name="PianoRollMenu_OverLay_VibratoFrequencyToolTip" xml:space="preserve">
-    <value>ビブラートの周期を重ねます。</value>
+    <value>重叠显示颤音周期（VIF）。</value>
     <comment>ビブラートの周期を重ねます。</comment>
   </data>
   <data name="LyricDialogError" xml:space="preserve">
@@ -633,7 +633,7 @@
     <comment>クオンタイズのライン(_Q)</comment>
   </data>
   <data name="PianoRollMenu_View_BeatLineToolTip" xml:space="preserve">
-    <value>拍のラインを表示します。</value>
+    <value>显示拍子行的网格线。</value>
     <comment>拍のラインを表示します。</comment>
   </data>
   <data name="MidiImportChannelSelect" xml:space="preserve">
@@ -643,11 +643,11 @@
 チャンネルをトラックに割り当てますか？</comment>
   </data>
   <data name="PianoRollMenu_OverLay_TimingToolTip" xml:space="preserve">
-    <value>タイミングを重ねます。</value>
+    <value>重叠显示时间（TMG）。</value>
     <comment>タイミングを重ねます。</comment>
   </data>
   <data name="PianoRollMenu_OverLay_Pitch" xml:space="preserve">
-    <value>ピッチを表示(_4)</value>
+    <value>显示音高(_4)</value>
     <comment>ピッチを表示(_4)</comment>
   </data>
   <data name="PianoRollMenu_View_DynamicsRow" xml:space="preserve">
@@ -683,7 +683,7 @@
     <comment>調整画面にもライン表示(_V)</comment>
   </data>
   <data name="PianoRollMenu_View_BeatLine" xml:space="preserve">
-    <value>拍のライン(_G)</value>
+    <value>拍子网格线(_G)</value>
     <comment>拍のライン(_G)</comment>
   </data>
   <data name="LyricDialogCaption4" xml:space="preserve">
@@ -717,7 +717,7 @@
     <comment>拍子</comment>
   </data>
   <data name="PianoRollMenu_OverLay_PitchToolTip" xml:space="preserve">
-    <value>ピッチを重ねます。重ね表示にはビブラートを反映。</value>
+    <value>重叠显示音高（PIT）。重叠显示时额外显示颤音。</value>
     <comment>ピッチを重ねます。重ね表示にはビブラートを反映。</comment>
   </data>
   <data name="OneNoteOneMora" xml:space="preserve">
@@ -729,7 +729,7 @@
     <comment>ボリュームを調整(_3)</comment>
   </data>
   <data name="PianoRollMenu_OverLay_VibratoAmplitude" xml:space="preserve">
-    <value>ビブラートの振幅を表示(_5)</value>
+    <value>显示颤音振幅(_5)</value>
     <comment>ビブラートの振幅を表示(_5)</comment>
   </data>
   <data name="LyricTextBoxMenuPhonetic" xml:space="preserve">
@@ -777,7 +777,7 @@
     <comment>音素</comment>
   </data>
   <data name="PianoRollMenu_Overlay" xml:space="preserve">
-    <value>重ね表示(_P)</value>
+    <value>重叠显示(_P)</value>
     <comment>重ね表示(_P)</comment>
   </data>
   <data name="PianoRollMenu_PropertiesToolTip" xml:space="preserve">
