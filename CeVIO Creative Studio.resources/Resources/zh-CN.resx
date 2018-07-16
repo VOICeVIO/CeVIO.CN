@@ -1052,7 +1052,8 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>Ctrl+4</value>
   </data>
   <data name="MainMenu_Song_FillSpaces" xml:space="preserve">
-    <value>細かい空白の除去(_F)...</value>
+    <value>消除短空白(_F)...</value>
+    <comment>細かい空白の除去(_F)...</comment>
   </data>
   <data name="Message_Information_RevisedNoteLocation" xml:space="preserve">
     <value>音符の位置を補正しました。</value>
@@ -1392,7 +1393,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>将此音轨的所有片段分别输出为WAV格式（mono 48kHz 16bit）音频。</value>
   </data>
   <data name="MainMenu_Song_EditMode_Overlay_Timing" xml:space="preserve">
-    <value>显示TMG时间(_2)</value>
+    <value>显示时间TMG (_2)</value>
   </data>
   <data name="MainMenu_Transport_StartMarker_InputGesture" xml:space="preserve">
     <value>[</value>
@@ -1582,7 +1583,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>角色画像设置</value>
   </data>
   <data name="MainMenu_Song_EditMode_Overlay_Volume" xml:space="preserve">
-    <value>显示VOL音量(_3)</value>
+    <value>显示音量VOL (_3)</value>
   </data>
   <data name="MainMenu_Talk_PhonemeGraph_EditMode_Pitch" xml:space="preserve">
     <value>调整音高(_2)</value>
@@ -1624,7 +1625,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>Blue</value>
   </data>
   <data name="Message_License_Warning_OfflineStartUp_RequestTimedOut" xml:space="preserve">
-    <value>许可认证时服务器连接超时，因此离线启动。</value>
+    <value>许可认证时服务器连接超时，因此将离线启动。</value>
   </data>
   <data name="PreferenceDialog_Talk_LocalewiseSettingButton_Title" xml:space="preserve">
     <value>停顿设置</value>
@@ -1883,7 +1884,8 @@ http://cevio.jp/</value>
     <value>小键盘 *</value>
   </data>
   <data name="Message_License_Error_ClearAllLicenses" xml:space="preserve">
-    <value>ライセンスの解除に失敗しました。</value>
+    <value>解除产品认证失败。</value>
+    <comment>ライセンスの解除に失敗しました。</comment>
   </data>
   <data name="MainMenu_Song_CursorMode_Selector" xml:space="preserve">
     <value>选择工具(_1)</value>
@@ -1944,7 +1946,7 @@ http://cevio.jp/</value>
     <value>复制音轨(_R)</value>
   </data>
   <data name="MainMenu_Song_EditMode_Overlay_Vibrato_Frequency" xml:space="preserve">
-    <value>显示颤音周期(_6)</value>
+    <value>显示颤音周期VIF (_6)</value>
   </data>
   <data name="MainMenu_Track_Mute" xml:space="preserve">
     <value>使音轨静音(_M)</value>
@@ -1987,7 +1989,8 @@ http://cevio.jp/</value>
     <value>処理をやり直す際にエラーが発生しました。</value>
   </data>
   <data name="Message_Error_Undo" xml:space="preserve">
-    <value>直前の処理を取り消す際にエラーが発生しました。</value>
+    <value>在撤销时发生了错误。</value>
+    <comment>直前の処理を取り消す際にエラーが発生しました。</comment>
   </data>
   <data name="PreferenceDialog_Song_PianoRollColorScheme_Score_Title" xml:space="preserve">
     <value>乐谱编辑界面</value>
@@ -2466,7 +2469,8 @@ http://cevio.jp/
     <value>使光标移动到歌曲开头。</value>
   </data>
   <data name="PreferenceDialog_Talk_AppliesToAudioElements_Title" xml:space="preserve">
-    <value>オーディオにも適用</value>
+    <value>对音频也应用</value>
+    <comment>オーディオにも適用</comment>
   </data>
   <data name="MainMenu_Song_EditMode_DisableVibrato" xml:space="preserve">
     <value>取消颤音(_V)</value>
@@ -2530,7 +2534,8 @@ http://cevio.jp/
     <value>Ctrl+Shift+V</value>
   </data>
   <data name="Message_License_Information_ClearAllLicenses" xml:space="preserve">
-    <value>ライセンスをすべて解除しました。</value>
+    <value>已解除所有产品的认证绑定。</value>
+    <comment>ライセンスをすべて解除しました。</comment>
   </data>
   <data name="Dialog_Import_Text_Title" xml:space="preserve">
     <value>读取台词文本</value>
@@ -2551,6 +2556,7 @@ http://cevio.jp/
 请换个时间再试。
 此外可以到下面的网站查询消息或咨询。
 http://cevio.jp/</value>
+    
   </data>
   <data name="MainMenu_File_Export_MixedWaveform_ToolTip" xml:space="preserve">
     <value>将所有音轨导出为WAV格式(48kHz 16bit)音频。</value>
@@ -2785,7 +2791,8 @@ http://cevio.jp/</value>
     <value>选择</value>
   </data>
   <data name="MainMenu_Song_QuantizeIndicator_ToolTip" xml:space="preserve">
-    <value>クオンタイズの補助カーソルを表示します。</value>
+    <value>时刻显示当前鼠标位置所对应的小节位置。</value>
+    <comment>クオンタイズの補助カーソルを表示します。</comment>
   </data>
   <data name="MainMenu_Track_MoveToDown_ToolTip" xml:space="preserve">
     <value>将当前选中的音轨下移1个单位。</value>
@@ -2896,7 +2903,7 @@ http://cevio.jp/</value>
     <value>配音角色</value>
   </data>
   <data name="MainMenu_Song_EditMode_Overlay_Vibrato_Amplitude_ToolTip" xml:space="preserve">
-    <value>重叠显示颤音振幅。</value>
+    <value>重叠显示颤音振幅（VIA）。</value>
     <comment>ビブラートの振幅を重ねます。</comment>
   </data>
   <data name="MainMenu_Song_CursorMode_Selector_ToolTip" xml:space="preserve">
@@ -3130,15 +3137,18 @@ http://cevio.jp/</value>
     <value>缩小(_O)</value>
   </data>
   <data name="MainMenu_Song_QuantizeIndicator" xml:space="preserve">
-    <value>ガイドカーソル(_C)</value>
+    <value>光标指示器(_C)</value>
+    <comment>ガイドカーソル(_C)</comment>
   </data>
   <data name="MainMenu_File_Import_Text_ToolTip" xml:space="preserve">
     <value>トークトラックにテキストファイルを読み込みます。
 文字コードをオプションで指定可能。</value>
   </data>
   <data name="NoticeAboutTrial1_Text" xml:space="preserve">
-    <value>体験版の期限が満了しています。
-引き続きご利用頂くには、製品ライセンスの登録が必要です。</value>
+    <value>体验版已到期。
+要继续使用，请输入产品序列号。</value>
+    <comment>体験版の期限が満了しています。
+引き続きご利用頂くには、製品ライセンスの登録が必要です。</comment>
   </data>
   <data name="TrackLane_Menu_Export_Track" xml:space="preserve">
     <value>导出音轨单位文件(_T)...</value>
@@ -3223,8 +3233,10 @@ http://cevio.jp/</value>
     <value>此音轨独奏 [Shift+S]</value>
   </data>
   <data name="OuterLicenseDialog_Description" xml:space="preserve">
-    <value>CeVIO Creative Studio 6 は以下のソフトウェアを使用しています。
-選択したソフトウェアのライセンスを表示します。</value>
+    <value>CeVIO Creative Studio使用了以下的软件/库。
+选中项的License将显示在右侧。</value>
+    <comment>CeVIO Creative Studio 6 は以下のソフトウェアを使用しています。
+選択したソフトウェアのライセンスを表示します。</comment>
   </data>
   <data name="Message_Warning_CannotOutputWaveformOfInvalidSong" xml:space="preserve">
     <value>このトラックは生成時にエラーが発生したため、WAV書き出しできません。</value>
@@ -3281,7 +3293,8 @@ http://cevio.jp/</value>
     <value>复制选中的音轨。</value>
   </data>
   <data name="PreferenceDialog_Song_DefaultLyric_ToolTip" xml:space="preserve">
-    <value>音符の入力直後の歌詞。空のときは「ドレミファソラシド」。</value>
+    <value>输入音符后默认填写的歌词。留空时为「多莱米法卓拉希多」。</value>
+    <comment>音符の入力直後の歌詞。空のときは「ドレミファソラシド」。</comment>
   </data>
   <data name="MainMenu_Song_CursorMode_DeepSelector_ToolTip" xml:space="preserve">
     <value>切换为"范围选择工具"。</value>
@@ -3328,7 +3341,7 @@ http://cevio.jp/</value>
     <value>システムエラーが発生しました。</value>
   </data>
   <data name="Message_License_Warning_OfflineStartUp_ServerConnectionFailed" xml:space="preserve">
-    <value>许可认证时连接服务器失败，因此离线启动。</value>
+    <value>许可认证时连接服务器失败，因此将离线启动。</value>
   </data>
   <data name="PreferenceDialog_Ambient_AudioFolder_ClearButton_ToolTip" xml:space="preserve">
     <value>删除临时文件，以（暂时）减少硬盘空间使用量。</value>
@@ -3612,7 +3625,7 @@ http://cevio.jp/</value>
     <value>返回开头(_H)</value>
   </data>
   <data name="MainMenu_Song_EditMode_Overlay_Pitch" xml:space="preserve">
-    <value>显示音高(_4)</value>
+    <value>显示音高PIT (_4)</value>
   </data>
   <data name="MainMenu_Song_EditMode_Timing" xml:space="preserve">
     <value>时间(TMG)调整(_2)</value>
@@ -3651,7 +3664,7 @@ http://cevio.jp/</value>
     <value>全选(_A)</value>
   </data>
   <data name="MainMenu_Song_ShowNotesOfOtherTracks" xml:space="preserve">
-    <value>別トラックの音符表示(_T)</value>
+    <value>显示其他音轨的音符(_T)</value>
   </data>
   <data name="MainMenu_Edit_Paste_InputGesture" xml:space="preserve">
     <value>Ctrl+V</value>
@@ -3688,7 +3701,7 @@ http://cevio.jp/</value>
     <value>F8</value>
   </data>
   <data name="MainMenu_Song_EditMode_Pitch" xml:space="preserve">
-    <value>ピッチを調整(_4)</value>
+    <value>音高(PIT)调整(_4)</value>
   </data>
   <data name="PreferenceDialog_Song_PianoRollColorScheme_Score_List_Gray_Title" xml:space="preserve">
     <value>Gray</value>
@@ -3817,7 +3830,7 @@ http://cevio.jp/</value>
     <value>没有可以使用的声源。请在安装声源后进行声源许可验证。</value>
   </data>
   <data name="MainMenu_Song_EditMode_Volume" xml:space="preserve">
-    <value>ボリュームを調整(_3)</value>
+    <value>音量(VOL)调整(_3)</value>
   </data>
   <data name="Message_Warning_UnavailableOnCurrent" xml:space="preserve">
     <value>【{0}】は現在のバージョンではご利用になれません。
@@ -3870,7 +3883,7 @@ CeVIO Creative Studio最新バージョンをご確認ください。</value>
     <value>移动到终点标记(_K)</value>
   </data>
   <data name="MainMenu_Song_EditMode_Overlay_Timing_ToolTip" xml:space="preserve">
-    <value>タイミングを重ねます。</value>
+    <value>重叠显示时间（TMG）。</value>
   </data>
   <data name="ProxyServerCredentialDialog_Title" xml:space="preserve">
     <value>输入认证信息</value>
@@ -3895,7 +3908,8 @@ CeVIO Creative Studio最新バージョンをご確認ください。</value>
     <value>今后，此通知将不再显示</value>
   </data>
   <data name="TalkEditor_Menu_Insert_PlaceHolder_ToolTip" xml:space="preserve">
-    <value>この位置に空白行を挿入します。</value>
+    <value>在此位置插入空白行。</value>
+    <comment>この位置に空白行を挿入します。</comment>
   </data>
   <data name="Message_Information_LatestVersion" xml:space="preserve">
     <value>当前您使用的版本是最新的。</value>
@@ -3913,7 +3927,7 @@ CeVIO Creative Studio最新バージョンをご確認ください。</value>
     <value>音轨名</value>
   </data>
   <data name="MainMenu_Help_Purchase_Rakuten" xml:space="preserve">
-    <value>楽天ブックス(_R)</value>
+    <value>乐天Books (_R)</value>
   </data>
   <data name="Message_Confirm_SaveProjectAsName" xml:space="preserve">
     <value>要保存当前编辑的内容吗？</value>
@@ -3935,7 +3949,8 @@ CeVIO Creative Studio最新バージョンをご確認ください。</value>
 确定吗？</value>
   </data>
   <data name="MainMenu_Song_FillSpaces_ToolTip" xml:space="preserve">
-    <value>選択中または全音符の細かい隙間(休符)を埋めます。</value>
+    <value>将选中的音符区间中的长音符进行扩展以填满其中的间隙。</value>
+    <comment>選択中または全音符の細かい隙間(休符)を埋めます。</comment>
   </data>
   <data name="Message_Confirm_CreateNewTrack_ElementOverlapping" xml:space="preserve">
     <value>同一音轨上的元素不能重叠。
@@ -3986,7 +4001,7 @@ CeVIO Creative Studio最新バージョンをご確認ください。</value>
     <value>Ctrl+C</value>
   </data>
   <data name="MainMenu_Help_ActivateLicense" xml:space="preserve">
-    <value>ライセンス認証(_L)...</value>
+    <value>序列号认证(_L)...</value>
   </data>
   <data name="TalkEditor_Menu_View_LineOfOtherTrack" xml:space="preserve">
     <value>其他音轨的台词(_T)</value>
@@ -4019,7 +4034,7 @@ CeVIO Creative Studio最新バージョンをご確認ください。</value>
     <value>面板显示(_V)</value>
   </data>
   <data name="Message_License_Warning_OfflineStartUp" xml:space="preserve">
-    <value>许可认证时发生错误，因此离线启动。</value>
+    <value>许可认证时发生错误，因此将离线启动。</value>
   </data>
   <data name="Message_Warning_EmptyFile" xml:space="preserve">
     <value>文件内容无效。</value>
@@ -4033,7 +4048,8 @@ CeVIO Creative Studio最新バージョンをご確認ください。</value>
 http://cevio.jp/</value>
   </data>
   <data name="MainMenu_Song_CursorMode_Eraser" xml:space="preserve">
-    <value>消しゴムツール(_5)</value>
+    <value>橡皮擦工具(_5)</value>
+    <comment>消しゴムツール(_5)</comment>
   </data>
   <data name="Fragment_Product" xml:space="preserve">
     <value>制品</value>
@@ -4408,16 +4424,17 @@ http://cevio.jp/
     <value>仅当前值</value>
   </data>
   <data name="MainMenu_Song_EditMode_Overlay_Vibrato_Amplitude" xml:space="preserve">
-    <value>ビブラートの振幅を表示(_5)</value>
+    <value>显示颤音振幅VIA (_5)</value>
   </data>
   <data name="MainMenu_Transport_MoveToSpecifiedPosition" xml:space="preserve">
-    <value>指定位置へ移動(_T)...</value>
+    <value>向指定位置移动(_T)...</value>
   </data>
   <data name="TrackHeader_FreezeButton_ON_ToolTip" xml:space="preserve">
     <value>解除固定此音轨</value>
   </data>
   <data name="PreferenceDialog_Song_DefaultLyric_Title" xml:space="preserve">
-    <value>既定の歌詞</value>
+    <value>默认的歌词</value>
+    <comment>既定の歌詞</comment>
   </data>
   <data name="Message_Warning_ExceededTrackCount_DuplicateTrack" xml:space="preserve">
     <value>数量已经达到上限，因此无法复制。</value>
@@ -4441,8 +4458,10 @@ http://cevio.jp/
     <value>以下音源当前处于体验版状态。</value>
   </data>
   <data name="NoticeAboutTrial3_Text2" xml:space="preserve">
-    <value>以下のボイスは体験期間が満了しています。
-引き続きご利用頂くには、製品ライセンスの登録が必要です。</value>
+    <value>以下声源的体验版已到期。
+要继续使用，请输入序列号。</value>
+    <comment>以下のボイスは体験期間が満了しています。
+引き続きご利用頂くには、製品ライセンスの登録が必要です。</comment>
   </data>
   <data name="MainMenu_Help_Manual" xml:space="preserve">
     <value>显示联机帮助(_V)</value>
@@ -4560,7 +4579,8 @@ http://cevio.jp/</value>
     <value>请输入台词。</value>
   </data>
   <data name="MainMenu_Song_EditMode_Overlay_Vibrato_Frequency_ToolTip" xml:space="preserve">
-    <value>ビブラートの周期を重ねます。</value>
+    <value>重叠显示颤音周期（VIF）。</value>
+    <comment>ビブラートの周期を重ねます。</comment>
   </data>
   <data name="MainMenu_Talk_PhonemeGraph_EditByPhonemes_InputGesture" xml:space="preserve">
     <value>Ctrl+P</value>
@@ -4578,6 +4598,6 @@ http://cevio.jp/</value>
     <value>中间</value>
   </data>
   <data name="MainMenu_Song_Ruler" xml:space="preserve">
-    <value>ルーラー表示(_R)</value>
+    <value>显示标尺(_R)</value>
   </data>
 </root>
