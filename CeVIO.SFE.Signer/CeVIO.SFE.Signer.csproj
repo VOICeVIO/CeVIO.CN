@@ -70,6 +70,10 @@
       <Project>{1625e30a-f355-485b-ae81-8357eed8f989}</Project>
       <Name>CeVIO.SongEditorControl.resources</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CeVIO.TalkAnalyzeControl.resources\CeVIO.TalkAnalyzeControl.resources.csproj">
+      <Project>{22144294-d768-44c4-a909-2b281bddc346}</Project>
+      <Name>CeVIO.TalkAnalyzeControl.resources</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CeVIO.ToolBarControl.resources\CeVIO.ToolBarControl.resources.csproj">
       <Project>{50e8a194-73f6-4c12-86f9-8add7fa301e3}</Project>
       <Name>CeVIO.ToolBarControl.resources</Name>

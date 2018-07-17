@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Menu_Mode" xml:space="preserve">
+    <value>调整模式(_M)</value>
+    <comment>調整モード(_M)</comment>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Eraser" type="System.Byte[], mscorlib">
+    <value>
+        AAACAAEAICAAAAAAAACoCAAAFgAAACgAAAAgAAAAQAAAAAEACAAAAAAAgAQAAAAAAAAAAAAAAAAAAAAA
+        AAD/9esEkJCQBGZmZgT///8EEBAQBAAAAAQzMzMEzMzMBJmZmQRBAFwAcABwAGEARABhAHQAUgBcAGEA
+        bwBpAG0AZwBuAGkAXABvAHIAcwBtAGYAbwBfAHQAYQBkAGEAdAAzAFwAeAAyADIAMwBiAC4AcABtAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAABsAVAAA+gEAGKtMd8z6AQAYAOQAAAEAdX0AAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAABAAAC8AAAeAADnwAgApiLAAOfAAAAAAAAAAAAAAAAAEUAAAAoAAD7AQAYAgAAAADwAph4KAOf+5QA
+        GDzDd8w8S3fMNA53jgC0AAA6AAKYAJgCmC3oAphaAQozAJgAAC2QApj69AAYLaUCmN9Fd8sAAAAAAJgA
+        AC3GApgB2AAAqhQDn/tGABgCtwAAAAAAAADwAph4AAOfAEUAAAAARQAAAAAAibADnyRQApiPKAKYAgAA
+        AABAApgA8AAAeMQDn/u+ABg4OHfMAZoCmDind8w0AHeOAAAAAAD4Aph4+AOfePgDn3jzA594AAOfAAAA
+        AFsAADMA2AKYqpgDny0BApgAAAAAAJgCmC0TApgH/gBd/5j//y0EApgAAAQAEKIAACBGggAC8AAAeA4D
+        nwADAAAAAwAAAEYAAAJ/AAAHsAAABaIAACDGggABCAAAANgAAKqwA58FAAAAAAgAAACoAAAuAAKYAJgA
+        AC0DApgAsAAABfgAAHjYA5+qsAOfBUYAAAIAAAAAAwAAAAABAAAwAAAOAQAAAOQBAfoDABgAJAAA/NUA
+        GHEzd9AH/gBd/wP//wBEAAASAAKYAPgAAHj4A5940gOf+fJ3yrmwdXkFsAAABfgAAPs4ABgUAHcf3QMQ
+        BQBsAAAAPAAA/KEAGHpQEAQSCwKYFgMQBAAoAAAWABAEAFgAAMRYEAXEABAFABQAAPwEABgReBAE/BgA
+        GGtYApjEBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUEBAQEBAQEBAQEBAQFBQUFBQUFBQUFBQUFBQUFBQUFBQQDAwMDAwMD
+        AwMDBAUFBQUFBQUFBQUFBQUFBQUFBQUDBAMDAwMDAwMDAwMEBQUFBQUFBQUFBQUFBQUFBQUFAwMEAwMD
+        AwMDAwMDAwQFBQUFBQUFBQUFBQUFBQUFBQMDAwQEBAQEBAQEBAQEBAUFBQUFBQUFBQUFBQUFBQUDAwMF
+        AwMDAwMDAwMDAwQFBQUFBQUFBQUFBQUFBQUFAwMDBQMDAwMDAwMDAwMEBQUFBQUFBQUFBQUFBQUFBQMD
+        AwUDAwMDAwMDAwMDBAUFBQUFBQUFBQUFBQUFBQUDAwMFAwMDAwMDAwMDAwQFBQUFBQUFBQUFBQUFBQUF
+        AwMDBQMDAwMDAwMDAwMEBQUFBQUFBQUFBQUFBQUFBQMDAwUDAwMDAwMDAwMDBAUFBQUFBQUFBQUFBQUF
+        BQUFAwMFAwMDAwMDAwMDAwQFBQUFBQUFBQUFBQUFBQUFBQUDBQMDAwMDAwMDAwMEBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUDAwMDAwMDAwMDBAUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBf//////////////////////////////////////////////////////////////////
+        /////////////////////////8AD//+AA///AAP//gAD//wAA//4AAf/8AAP/+AAH//AAD//gAB//wAA
+        //8AAf//AAP//wAH//+AD///
+</value>
+  </data>
+  <data name="VolumeButtonToolTip" xml:space="preserve">
+    <value>音量调整
+在图中拖拽调整。按住Shift可水平拖拽。
+Ctrl+左键单击恢复初始值。</value>
+    <comment>音の大きさを調整
+グラフをドラッグして調整。Shift+ドラッグで水平。
+Ctrl+左クリックでリセット。</comment>
+  </data>
+  <data name="SpeedButtonToolTip" xml:space="preserve">
+    <value>音长调整
+在图中拖拽调整。按住Shift可水平拖拽。
+Ctrl+左键单击恢复初始值。</value>
+    <comment>音の長さを調整
+グラフをドラッグして調整。Shift+ドラッグで水平。
+Ctrl+左クリックでリセット。</comment>
+  </data>
+  <data name="VolumeButtonToolTip2" xml:space="preserve">
+    <value>音量与音长调整
+在图中拖拽调整。按住Shift可水平拖拽。
+Ctrl+左键单击恢复初始值。</value>
+    <comment>音の大きさと長さを調整
+グラフをドラッグして調整。Shift+ドラッグで水平。
+Ctrl+左クリックでリセット。</comment>
+  </data>
+  <data name="Menu_Reset" xml:space="preserve">
+    <value>恢复初始值(_R)</value>
+    <comment>初期値に戻す(_R)</comment>
+  </data>
+  <data name="Menu_PhonemeMode" xml:space="preserve">
+    <value>按音素单位调整(_P)</value>
+    <comment>音素単位で調整(_P)</comment>
+  </data>
+  <data name="Menu_Mode_Pitch" xml:space="preserve">
+    <value>音高调整(_2)</value>
+    <comment>音の高さを調整(_2)</comment>
+  </data>
+  <data name="Menu_PhonemeModeToolTip" xml:space="preserve">
+    <value>切换音素/假名显示模式。
+(在假名模式中，使用Alt+拖拽仍可按音素单位调整。)</value>
+    <comment>オフでカナ表示。
+(カナ表示中も、Alt+ドラッグで音素単位の調整可能。)</comment>
+  </data>
+  <data name="PitchButtonToolTip" xml:space="preserve">
+    <value>音高调整
+在图中拖拽调整。按住Shift可水平拖拽。
+Ctrl+左键单击恢复初始值。</value>
+    <comment>音の高さを調整
+グラフをドラッグして調整。Shift+ドラッグで水平。
+Ctrl+左クリックでリセット。</comment>
+  </data>
+  <data name="Menu_OverlayDurationToolTip" xml:space="preserve">
+    <value>取消后不显示音长界线。
+(音长仍可在上下侧的文字区域通过拖拽或滚动鼠标滚轮调整。)</value>
+    <comment>オフでラインを消します。
+(長さは上下の文字エリアでも、ドラッグやマウスホイールで調整可能。)</comment>
+  </data>
+  <data name="Menu_AuditionToolTip" xml:space="preserve">
+    <value>试听整句台词。
+在图中左键单击，可从指定位置开始试听/停止。</value>
+    <comment>このセリフを先頭から試聴します。
+グラフを左クリックして指定位置から試聴／停止も可能。</comment>
+  </data>
+  <data name="AccentButtonToolTip" xml:space="preserve">
+    <value>重音调整
+通过拖拽或左键单击指定重音。Ctrl+左键单击恢复初始值。</value>
+    <comment>アクセントを調整
+ドラッグまたは左クリックでアクセント指定。Ctrl+左クリックでリセット。</comment>
+  </data>
+  <data name="Menu_Audition" xml:space="preserve">
+    <value>试听(_A)</value>
+    <comment>試聴(_A)</comment>
+  </data>
+  <data name="Menu_ResetToolTip" xml:space="preserve">
+    <value>将当前台词恢复到未修改状态。</value>
+    <comment>このセリフを初期状態に戻します。</comment>
+  </data>
+  <data name="Menu_Mode_Volume" xml:space="preserve">
+    <value>音量调整(_3)</value>
+    <comment>音の大きさを調整(_3)</comment>
+  </data>
+  <data name="Menu_OverlayDuration" xml:space="preserve">
+    <value>显示音长界线(_L)</value>
+    <comment>長さのラインを重ねて表示(_L)</comment>
+  </data>
+  <data name="Menu_Mode_Duration" xml:space="preserve">
+    <value>音长调整(_4)</value>
+    <comment>音の長さを調整(_4)</comment>
+  </data>
+  <data name="PitchButtonToolTip2" xml:space="preserve">
+    <value>音高与音长调整
+在图中拖拽调整。按住Shift可水平拖拽。
+Ctrl+左键单击恢复初始值。</value>
+    <comment>音の高さと長さを調整
+グラフをドラッグして調整。Shift+ドラッグで水平。
+Ctrl+左クリックでリセット。</comment>
+  </data>
+  <data name="Menu_Mode_Accent" xml:space="preserve">
+    <value>重音调整(_1)</value>
+    <comment>アクセントを調整(_1)</comment>
+  </data>
+</root>
