@@ -365,7 +365,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>使用旧版参数显示</value>
   </data>
   <data name="Message_Error_ImportTrack" xml:space="preserve">
-    <value>トラックのインポートに失敗しました。</value>
+    <value>音轨导入失败。</value>
   </data>
   <data name="MainMenu_Talk_PhonemeGraph_EditByPhonemes" xml:space="preserve">
     <value>按音素单位调整(_P)</value>
@@ -1027,7 +1027,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>缩放(_Z)</value>
   </data>
   <data name="PreferenceDialog_Ambient_InitialTracks_AddButton_ToolTip" xml:space="preserve">
-    <value>在末尾追加一个音轨。</value>
+    <value>在末尾添加一个音轨。</value>
   </data>
   <data name="MainMenu_Track_Add_Audio" xml:space="preserve">
     <value>音频音轨(_A)</value>
@@ -1074,7 +1074,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>小节:拍</value>
   </data>
   <data name="MainMenu_Track_Add_ShowTrackList_ToolTip" xml:space="preserve">
-    <value>在选中的音轨之下增加一个新音轨。</value>
+    <value>在选中的音轨之下添加一个新音轨。</value>
   </data>
   <data name="TrackLane_Menu_Export_Waveform_InputGesture" xml:space="preserve">
     <value>Ctrl+W</value>
@@ -1409,7 +1409,8 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>新しい製品がインストールされたため、アプリケーションを再起動してください。</value>
   </data>
   <data name="Message_Warning_CreateInvalidTracks" xml:space="preserve">
-    <value>トラック生成時にエラーが発生しました。以下のトラックは編集できません。</value>
+    <value>创建音轨时发生了错误。以下音轨将无法编辑。</value>
+    <comment>トラック生成時にエラーが発生しました。以下のトラックは編集できません。</comment>
   </data>
   <data name="Message_Information_AudioTrackCountLimit" xml:space="preserve">
     <value>音频音轨最多有{0}个。</value>
@@ -1931,7 +1932,8 @@ http://cevio.jp/</value>
     <value>许可认证完成的产品已可以使用。</value>
   </data>
   <data name="Message_Information_FreezingTrack" xml:space="preserve">
-    <value>トラックのスナップショットを作成しています...</value>
+    <value>正在生成音轨的快照...</value>
+    <comment>トラックのスナップショットを作成しています...</comment>
   </data>
   <data name="Message_Warning_FolderNotFound_InstallFolder" xml:space="preserve">
     <value>以下のキーに関連するインストールフォルダが見つかりません。</value>
@@ -1996,7 +1998,8 @@ http://cevio.jp/</value>
     <value>乐谱编辑界面</value>
   </data>
   <data name="Message_Error_UndoImportingSongTrack" xml:space="preserve">
-    <value>ソングトラックインポートのリドゥに失敗しました。</value>
+    <value>对导入歌唱音轨的撤销已失败。</value>
+    <comment>ソングトラックインポートのリドゥに失敗しました。</comment>
   </data>
   <data name="Message_Error_NetworkConnectionFault" xml:space="preserve">
     <value>ネットワーク接続に失敗しました。
@@ -2089,7 +2092,8 @@ http://cevio.jp/</value>
     <value>导入</value>
   </data>
   <data name="PreferenceDialog_Ambient_Image_ShowsTrackThumbnail_ToolTip" xml:space="preserve">
-    <value>トラックヘッダにキャストの画像を表示します。</value>
+    <value>在音轨头部显示角色的画像。</value>
+    <comment>トラックヘッダにキャストの画像を表示します。</comment>
   </data>
   <data name="MainMenu_Help_Purchase_Vector_ToolTip" xml:space="preserve">
     <value>ダウンロード販売サイトを表示します。
@@ -2222,7 +2226,8 @@ http://cevio.jp/</value>
     <value>购买制品版</value>
   </data>
   <data name="TrackLane_Menu_Export_Midi_ToolTip" xml:space="preserve">
-    <value>このトラックをMIDI形式で書き出します。</value>
+    <value>将此音轨导出为MIDI。</value>
+    <comment>このトラックをMIDI形式で書き出します。</comment>
   </data>
   <data name="Message_License_Error_Activation_UnrecognizableProductKey" xml:space="preserve">
     <value>無効なシリアルナンバーです。入力内容をご確認ください。</value>
@@ -2299,7 +2304,7 @@ http://cevio.jp/</value>
     <value>不要なタイ記号を削除しました。</value>
   </data>
   <data name="TrackLane_Menu_MoveUnit_ToolTip" xml:space="preserve">
-    <value>選択要素を移動します。</value>
+    <value>移动已选择的元素。</value>
   </data>
   <data name="TalkEditor_AutoPlaybackSwitch_ToolTip" xml:space="preserve">
     <value>自动试听</value>
@@ -2531,7 +2536,8 @@ http://cevio.jp/
     <value>搜索已注册的台词片段。</value>
   </data>
   <data name="TrackLane_Menu_AutoAlignmentForAudio_ToolTip" xml:space="preserve">
-    <value>オーディオ要素が重ならないよう位置を調整します。</value>
+    <value>自动防止音频元素互相重叠。</value>
+    <comment>オーディオ要素が重ならないよう位置を調整します。</comment>
   </data>
   <data name="TalkEditor_Menu_Insert_InputGesture" xml:space="preserve">
     <value>Ctrl+Shift+V</value>
@@ -2673,8 +2679,10 @@ http://cevio.jp/</value>
     <value>移动到当前时间轴光标所在的位置。</value>
   </data>
   <data name="TrackLane_Menu_Export_Track_ToolTip" xml:space="preserve">
-    <value>このトラックの編集内容を保存します。
-別のプロジェクトにインポートして再利用可能です。</value>
+    <value>保存此音轨的内容。
+可以导入到别的工程。</value>
+    <comment>このトラックの編集内容を保存します。
+別のプロジェクトにインポートして再利用可能です。</comment>
   </data>
   <data name="Message_Warning_CastNotFound" xml:space="preserve">
     <value>指定的角色不存在。</value>
@@ -2891,8 +2899,9 @@ http://cevio.jp/</value>
 此外可以到下面的网站查询消息或咨询。
 http://cevio.jp/</value>
   </data>
-  <data name="Dialog_AddTrack_Title" xml:space="preserve">
-    <value>追加音轨</value>
+  <data name="このトラックの編集内容を保存します。" xml:space="preserve">
+    <value>このトラックの編集内容を保存します。</value>
+    <comment>このトラックの編集内容を保存します。</comment>
   </data>
   <data name="MainMenu_Help_Version_ToolTip" xml:space="preserve">
     <value>查看版本信息。</value>
@@ -3106,8 +3115,10 @@ http://cevio.jp/</value>
     <value>メールアドレスは正しく入力してください。</value>
   </data>
   <data name="TrackLane_Menu_Rearrange_ToolTip" xml:space="preserve">
-    <value>このトラックまたはマルチトラックで要素を等間隔に配置します。
-（マルチトラック自動整列オンのとき別トラックの要素も対象。）</value>
+    <value>将此音轨或多音轨中的元素按等间隔排列。
+（启用“多音轨自动排列”时，会同时作用于其他音轨。）</value>
+    <comment>このトラックまたはマルチトラックで要素を等間隔に配置します。
+（マルチトラック自動整列オンのとき別トラックの要素も対象。）</comment>
   </data>
   <data name="MainMenu_View_Widen_InputGesture" xml:space="preserve">
     <value>F11</value>
@@ -3119,10 +3130,12 @@ http://cevio.jp/</value>
     <value>固定音轨(_Z)</value>
   </data>
   <data name="Message_Error_UndoDuplicatingTrack" xml:space="preserve">
-    <value>トラック複製のリドゥに失敗しました。</value>
+    <value>对音轨复制副本的撤销已失败。</value>
+    <comment>トラック複製のリドゥに失敗しました。</comment>
   </data>
   <data name="Message_Error_UndoRemovingSongTrack" xml:space="preserve">
-    <value>ソングトラック削除のアンドゥに失敗しました。</value>
+    <value>对删除歌唱音轨的撤销已失败。</value>
+    <comment>ソングトラック削除のアンドゥに失敗しました。</comment>
   </data>
   <data name="Message_Information_RevisedNoteLocationAndDuration" xml:space="preserve">
     <value>音符の位置と長さを補正しました。</value>
@@ -3272,6 +3285,7 @@ http://cevio.jp/</value>
   </data>
   <data name="TrackLane_Menu_Solo" xml:space="preserve">
     <value>使音轨独奏(_S)</value>
+    
   </data>
   <data name="TrackLane_Menu_Mute" xml:space="preserve">
     <value>使音轨静音(_M)</value>
@@ -3392,7 +3406,8 @@ http://cevio.jp/</value>
 以降すべて上書きしますか?</value>
   </data>
   <data name="Message_Export_Track_File" xml:space="preserve">
-    <value>以下のファイルにトラック内容を保存しました。</value>
+    <value>已将音轨内容保存为以下文件。</value>
+    <comment>以下のファイルにトラック内容を保存しました。</comment>
   </data>
   <data name="MainMenu_Talk_RegisterWord" xml:space="preserve">
     <value>注册单词(_R)...</value>
@@ -3518,8 +3533,10 @@ http://cevio.jp/</value>
     <value>在当前选中的音轨下方添加一个语音音轨。</value>
   </data>
   <data name="MainMenu_Track_Freeze_ToolTip" xml:space="preserve">
-    <value>選択トラックの音声を固定し、再生時の負荷を軽減します。
-トラック内容を編集すると解除されます。</value>
+    <value>将选择的音轨锁定并预先生成音频，以减少播放时的合成运算。
+当编辑该音轨时会解除锁定。</value>
+    <comment>選択トラックの音声を固定し、再生時の負荷を軽減します。
+トラック内容を編集すると解除されます。</comment>
   </data>
   <data name="PreferenceDialog_Ambient_InitialTracks_ListColumn_Cast_Title" xml:space="preserve">
     <value>配音角色</value>
@@ -3867,7 +3884,8 @@ CeVIO Creative Studio最新バージョンをご確認ください。</value>
     <value>在此音轨之下增加一个歌唱音轨。</value>
   </data>
   <data name="TrackLane_Menu_Export_Subtitle_ToolTip" xml:space="preserve">
-    <value>このトラックのセリフを字幕ファイルに書き出します。</value>
+    <value>将此音轨的台词导出为字幕文件。</value>
+    <comment>このトラックのセリフを字幕ファイルに書き出します。</comment>
   </data>
   <data name="Message_Error_ExecuteCommand" xml:space="preserve">
     <value>コマンド実行時にエラーが発生しました。</value>
@@ -3980,7 +3998,7 @@ CeVIO Creative Studio最新バージョンをご確認ください。</value>
     <value>歌唱音轨(_S)</value>
   </data>
   <data name="PreferenceDialog_Ambient_InitialTracks_Menu_MoveToUp" xml:space="preserve">
-    <value>上に移動</value>
+    <value>向上移动</value>
   </data>
   <data name="MainMenu_File_Export_Midi" xml:space="preserve">
     <value>导出MIDI (_D)...</value>
@@ -4068,13 +4086,15 @@ http://cevio.jp/</value>
     <value>再生中のタイムライン、セリフリスト、ピアノロールの自動／手動スクロールを選択します。</value>
   </data>
   <data name="Message_Error_FreezeTrack" xml:space="preserve">
-    <value>トラックの固定に失敗しました。</value>
+    <value>音轨固定失败。</value>
+    <comment>トラックの固定に失敗しました。</comment>
   </data>
   <data name="Message_License_Error_ProxyServer_AuthorizingData" xml:space="preserve">
     <value>指定されたユーザー名、パスワードで認証できませんでした。</value>
   </data>
   <data name="MainMenu_Song_ShowNotesOfOtherTracks_ToolTip" xml:space="preserve">
-    <value>楽譜編集画面に別トラックの音符も表示します。</value>
+    <value>在乐谱编辑界面也显示其他音轨的音符。</value>
+    <comment>楽譜編集画面に別トラックの音符も表示します。</comment>
   </data>
   <data name="MainMenu_Song_EditMode_Score_InputGesture" xml:space="preserve">
     <value>1</value>
@@ -4133,7 +4153,7 @@ http://cevio.jp/</value>
     <value>小节(_Q)</value>
   </data>
   <data name="MainMenu_Talk_ListColumns_Track" xml:space="preserve">
-    <value>トラック</value>
+    <value>音轨</value>
   </data>
   <data name="Message_Information_VocalSourceVersionDifference_SongDataSource" xml:space="preserve">
     <value>ソングボイス</value>
@@ -4205,8 +4225,10 @@ B.当前系统的区域设置不兼容。
 　2.使用日语Windows系统或转区工具。</value>
   </data>
   <data name="MainMenu_File_Export_Track_ToolTip" xml:space="preserve">
-    <value>選択トラックの編集内容を保存します。
-別のプロジェクトにインポートして再利用可能です。</value>
+    <value>保存选定音轨的内容。
+可导入到别的工程中使用。</value>
+    <comment>選択トラックの編集内容を保存します。
+別のプロジェクトにインポートして再利用可能です。</comment>
   </data>
   <data name="TalkEditor_Menu_Delete" xml:space="preserve">
     <value>删除(_D)</value>
@@ -4219,6 +4241,7 @@ B.当前系统的区域设置不兼容。
   </data>
   <data name="TrackLane_Menu_Export_WaveformForEachText" xml:space="preserve">
     <value>导出所有片段的WAV(_W)...</value>
+    
   </data>
   <data name="MainMenu_Track_ClearContents" xml:space="preserve">
     <value>清空音轨的内容(_C)</value>
@@ -4320,7 +4343,8 @@ http://cevio.jp/
     <value>音调</value>
   </data>
   <data name="Message_Information_CanNotFreezeEmptyTrack" xml:space="preserve">
-    <value>内容が空のトラックは固定できません。</value>
+    <value>无法固定空音轨。</value>
+    <comment>内容が空のトラックは固定できません。</comment>
   </data>
   <data name="MainMenu_Help_ProductKeys" xml:space="preserve">
     <value>序列号确认(_S)...</value>
@@ -4417,14 +4441,16 @@ http://cevio.jp/
     <value>撤销(_U)</value>
   </data>
   <data name="Message_Error_DuplicateTrack" xml:space="preserve">
-    <value>トラックの複製に失敗しました。</value>
+    <value>音轨复制副本失败。</value>
   </data>
   <data name="TrackSelectionDialog_Destination_Insert_DateTime_DisplayTitle" xml:space="preserve">
     <value>日期</value>
   </data>
   <data name="MainMenu_Track_RearrangeContents_ToolTip" xml:space="preserve">
-    <value>このトラックまたはマルチトラックで要素を等間隔に配置します。
-（マルチトラック自動整列オンのとき別トラックの要素も対象。）</value>
+    <value>将此音轨或多音轨中的元素按等间隔排列。
+（启用“多音轨自动排列”时，会同时作用于其他音轨。）</value>
+    <comment>このトラックまたはマルチトラックで要素を等間隔に配置します。
+（マルチトラック自動整列オンのとき別トラックの要素も対象。）</comment>
   </data>
   <data name="PreferenceDialog_Talk_PhonemeGraph_ValueDisplayStyle_List_Current" xml:space="preserve">
     <value>仅当前值</value>
@@ -4443,7 +4469,7 @@ http://cevio.jp/
     <comment>既定の歌詞</comment>
   </data>
   <data name="Message_Warning_ExceededTrackCount_DuplicateTrack" xml:space="preserve">
-    <value>数量已经达到上限，因此无法复制。</value>
+    <value>数量已经达到上限，因此无法复制副本。</value>
   </data>
   <data name="MainMenu_Song_Quantize_1_16" xml:space="preserve">
     <value>1/16</value>
@@ -4513,8 +4539,10 @@ http://cevio.jp/
     <value>Ctrl+M</value>
   </data>
   <data name="PreferenceDialog_Talk_AutoAlignsOtherTracksToo_ToolTip" xml:space="preserve">
-    <value>別トラックのセリフも重ならないようにします。
-（オーディオの自動整列オンのときオーディオ要素も対象。）</value>
+    <value>使其他音轨的台词不会产生重叠。
+（启用“音频自动排列”时，会同时作用于音频元素。）</value>
+    <comment>別トラックのセリフも重ならないようにします。
+（オーディオの自動整列オンのときオーディオ要素も対象。）</comment>
   </data>
   <data name="PreferenceDialog_Ambient_AudioOutputDevice_Title" xml:space="preserve">
     <value>音频输出设备</value>

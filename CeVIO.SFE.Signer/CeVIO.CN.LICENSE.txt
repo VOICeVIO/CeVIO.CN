@@ -1,11 +1,11 @@
-CeVIO.CN (CeVIO zh-CN Translation Project) binaries are licensed under CC BY-NC-SA 4.0.
+CeVIO.CN (CeVIO zh-CN Translation Project) binaries (the "patch") are licensed under CC BY-NC-SA 4.0.
 AUTHOR: VOICeVIO/Ulysses (wdwxy12345@gmail.com)
 
-[BY] You should ALWAYS keep this license file and the binaries in the same folder. And you should clarify the author when mentioning this project.
+[BY] You should ALWAYS keep this license file and the patch in the same folder. And you should clarify the author when mentioning this project.
 
-[NC] You can use the binaries with a legal copy of CeVIO(*). However, you can NOT use this patch for commercial purposes (e.g. sell this patch, or provide this patch when selling any software).
+[NC] You can use the patch with a legal copy of CeVIO(*). However, you can NOT use this patch for commercial purposes (e.g. sell this patch, or provide this patch when selling any software).
 
-[SA] You must use the same LICENSE when you share the modified texts/binaries.
+[SA] You must use the same LICENSE when you share the modified patch(texts).
 
 Please read CC BY-NC-SA 4.0 LICENSE here: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
