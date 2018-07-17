@@ -209,7 +209,7 @@
     <comment>ラインツール(_4)</comment>
   </data>
   <data name="VibratoDisabled" xml:space="preserve">
-    <value>ビブラート無効</value>
+    <value>取消颤音</value>
     <comment>ビブラート無効</comment>
   </data>
   <data name="BeatChangeConfirmationDialogTitle" xml:space="preserve">
@@ -253,7 +253,7 @@
     <comment>分割位置を調整(Ctrl+左クリックで既定位置)</comment>
   </data>
   <data name="PianoRollMenu_NotesOfOtherTracks" xml:space="preserve">
-    <value>別トラックの音符(_P)</value>
+    <value>其他音轨的音符(_P)</value>
     <comment>別トラックの音符(_P)</comment>
   </data>
   <data name="PianoRollMenu_EnterLyricsCollectively" xml:space="preserve">
@@ -295,11 +295,11 @@
     <comment>MusicXMLインポート</comment>
   </data>
   <data name="PianoRollMenu_Mode_Pitch" xml:space="preserve">
-    <value>ピッチを調整(_4)</value>
+    <value>音高(PIT)调整(_4)</value>
     <comment>ピッチを調整(_4)</comment>
   </data>
   <data name="Dynamics" xml:space="preserve">
-    <value>強弱記号</value>
+    <value>强弱记号</value>
     <comment>強弱記号</comment>
   </data>
   <data name="PianoRollMenu_Tool_Pen" xml:space="preserve">
@@ -347,7 +347,7 @@
     <comment>ビブラートの周期を表示(_6)</comment>
   </data>
   <data name="ChannelNumber" xml:space="preserve">
-    <value>チャンネル</value>
+    <value>轨道</value>
     <comment>チャンネル</comment>
   </data>
   <data name="PianoRollMenu_View_KeyRowToolTip" xml:space="preserve">
@@ -409,7 +409,7 @@
     <comment>音符</comment>
   </data>
   <data name="FillSpacesDialogTitle" xml:space="preserve">
-    <value>細かい空白の除去</value>
+    <value>消除短空白</value>
     <comment>細かい空白の除去</comment>
   </data>
   <data name="PianoRollMenu_Tool_Eraser" xml:space="preserve">
@@ -421,7 +421,7 @@
     <comment>スペース区切り</comment>
   </data>
   <data name="PianoRollMenu_Mode_VibratoAmplitude" xml:space="preserve">
-    <value>ビブラートの振幅を調整(_5)</value>
+    <value>颤音振幅(VIA)调整(_5)</value>
     <comment>ビブラートの振幅を調整(_5)</comment>
   </data>
   <data name="PianoRollMenu_View_DynamicsRowToolTip" xml:space="preserve">
@@ -465,8 +465,8 @@
     <comment>タイミング調整画面に切り替えます。</comment>
   </data>
   <data name="PianoRollMenu_NotesOfOtherTracksToolTip" xml:space="preserve">
-    <value>楽譜編集画面に別トラックの音符も表示します。
-（ミュートしたトラックの音符は表示しません。）</value>
+    <value>在乐谱编辑界面也显示别的音轨中的音符。
+（不会显示已静音的音轨的音符。）</value>
     <comment>楽譜編集画面に別トラックの音符も表示します。
 （ミュートしたトラックの音符は表示しません。）</comment>
   </data>
@@ -569,7 +569,7 @@
     <comment>歌詞のまとめ入力</comment>
   </data>
   <data name="PianoRollMenu_FillSpaces" xml:space="preserve">
-    <value>細かい空白の除去(_F)...</value>
+    <value>消除短空白(_F)...</value>
     <comment>細かい空白の除去(_F)...</comment>
   </data>
   <data name="PianoRollMenu_Mode_PitchToolTip" xml:space="preserve">
@@ -625,7 +625,7 @@
     <comment>音符の位置を補正しました。</comment>
   </data>
   <data name="DynamicsDialogTitle" xml:space="preserve">
-    <value>強弱記号のプロパティ</value>
+    <value>强弱记号属性</value>
     <comment>強弱記号のプロパティ</comment>
   </data>
   <data name="PianoRollMenu_View_QuantizeLine" xml:space="preserve">
@@ -755,7 +755,7 @@
 （全トラックに反映されます。）</comment>
   </data>
   <data name="PianoRollMenu_Mode_VibratoFrequency" xml:space="preserve">
-    <value>ビブラートの周期を調整(_6)</value>
+    <value>颤音周期(VIF)调整(_6)</value>
     <comment>ビブラートの周期を調整(_6)</comment>
   </data>
   <data name="MeasureRowToolTip" xml:space="preserve">
@@ -811,7 +811,7 @@
     <comment>テンポ行(_T)</comment>
   </data>
   <data name="Duration" xml:space="preserve">
-    <value>長さ</value>
+    <value>长度</value>
     <comment>長さ</comment>
   </data>
   <data name="PianoRollMenu_Mode_VolumeToolTip" xml:space="preserve">

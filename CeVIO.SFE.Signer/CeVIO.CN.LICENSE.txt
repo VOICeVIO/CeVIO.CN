@@ -1,7 +1,7 @@
 CeVIO.CN (CeVIO zh-CN Translation Project) binaries (the "patch") are licensed under CC BY-NC-SA 4.0.
 AUTHOR: VOICeVIO/Ulysses (wdwxy12345@gmail.com)
 
-[BY] You should ALWAYS keep this license file and the patch in the same folder. And you should clarify the author when mentioning this project.
+[BY] You should ALWAYS keep this license file and the patch in the same folder. And you should clarify the author when mentioning this patch.
 
 [NC] You can use the patch with a legal copy of CeVIO(*). However, you can NOT use this patch for commercial purposes (e.g. sell this patch, or provide this patch when selling any software).
 
@@ -28,4 +28,4 @@ CeVIO.CN (CeVIO汉化补丁) 基于CC BY-NC-SA 4.0协议发布。
 
 ---------------------------------------
 
-CeVIO.CN is a project by [VOICeVIO]
+CeVIO.CN is a project by [VOICeVIO](https://github.com/VOICeVIO)
