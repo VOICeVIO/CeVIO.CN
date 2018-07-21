@@ -161,7 +161,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <comment>以下のファイルにセリフのWAVを書き出しました。</comment>
   </data>
   <data name="Message_Export_WaveformOfSong" xml:space="preserve">
-    <value>已将歌唱WAV文件输出到以下位置。</value>
+    <value>已将歌唱WAV导出到以下位置。</value>
     <comment>以下の場所にソングのWAVを書き出しました。</comment>
   </data>
   <data name="Message_Error_StartUp" xml:space="preserve">
@@ -177,7 +177,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>长段文本输入(_S)...</value>
   </data>
   <data name="Message_Export_MusicXML_File" xml:space="preserve">
-    <value>已将MusicXML输出为以下文件。</value>
+    <value>已将MusicXML导出为以下文件。</value>
   </data>
   <data name="MainMenu_Transport_Repeating" xml:space="preserve">
     <value>循环(_R)</value>
@@ -239,6 +239,45 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
 入店 [ニュウテン] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="一般",POS_GROUP3="*",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="入店",READ="ニュウテン",ACCENT="4"
 滑舌 [カツゼツ] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="一般",POS_GROUP3="*",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="滑舌",READ="カツゼツ",ACCENT="4"
 </value>
+    <comment>Ｃｒｅａｔｉｖｅ　Ｓｔｕｄｉｏ [クリエイティブスタジオ] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="一般",POS_GROUP3="*",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="Ｃｒｅａｔｉｖｅ　Ｓｔｕｄｉｏ",READ="クリエイティブスタジオ",ACCENT="8"
+ＯＮＥ [オネ] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="一般",POS_GROUP3="*",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="ＯＮＥ",READ="オネ",ACCENT="1"
+ＩＡ [イア] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="一般",POS_GROUP3="*",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="ＩＡ",READ="イア",ACCENT="1"
+ＡＲＩＡ　ＯＮ　ＴＨＥ　ＰＬＡＮＥＴＥＳ [アリアオンザプラネテス] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="人名",POS_GROUP3="一般",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="ＡＲＩＡ　ＯＮ　ＴＨＥ　ＰＬＡＮＥＴＥＳ",READ="アリアオンザプラネテス",ACCENT="8"
+亮 [リョオ] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="人名",POS_GROUP3="名",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="亮",READ="リョオ",ACCENT="1"
+叔功 [ヨシノリ] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="人名",POS_GROUP3="名",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="叔功",READ="ヨシノリ",ACCENT="2"
+仁紀 [ヒトキ] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="人名",POS_GROUP3="名",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="仁紀",READ="ヒトキ",ACCENT="1"
+皆川 [ミナガワ] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="人名",POS_GROUP3="姓",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="皆川",READ="ミナガワ",ACCENT="4"
+喬子 [キョオコ] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="人名",POS_GROUP3="名",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="喬子",READ="キョオコ",ACCENT="1"
+宇津木 [ウツギ] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="人名",POS_GROUP3="姓",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="宇津木",READ="ウツギ",ACCENT="3"
+七海 [ナナミ] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="人名",POS_GROUP3="名",CTYPE="*",CFORM="*",PRIORITY="5",ORIGINAL="七海",READ="ナナミ",ACCENT="3"
+一樹 [カズキ] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="人名",POS_GROUP3="名",CTYPE="*",CFORM="*",PRIORITY="5",ORIGINAL="一樹",READ="カズキ",ACCENT="1"
+彩 [アヤ] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="人名",POS_GROUP3="名",CTYPE="*",CFORM="*",PRIORITY="5",ORIGINAL="彩",READ="アヤ",ACCENT="1"
+成美 [ナルミ] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="人名",POS_GROUP3="名",CTYPE="*",CFORM="*",PRIORITY="5",ORIGINAL="成美",READ="ナルミ",ACCENT="3"
+梅園 [バイエン] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="一般",POS_GROUP3="*",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="梅園",READ="バイエン",ACCENT="4"
+八代市 [ヤツシロシ] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="地域",POS_GROUP3="一般",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="八代市",READ="ヤツシロシ",ACCENT="4"
+八代市街地 [ヤツシロシガイチ] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="地域",POS_GROUP3="一般",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="八代市街地",READ="ヤツシロシガイチ",ACCENT="7"
+吉田町 [ヨシダチョオ] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="地域",POS_GROUP3="一般",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="吉田町",READ="ヨシダチョオ",ACCENT="5"
+馬連 [ウマレン] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="一般",POS_GROUP3="*",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="馬連",READ="ウマレン",ACCENT="2"
+歩様 [ホヨオ] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="一般",POS_GROUP3="*",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="歩様",READ="ホヨオ",ACCENT="3"
+ＣＳ６ [シーエスシックス] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="一般",POS_GROUP3="*",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="ＣＳ６",READ="シーエスシックス",ACCENT="5"
+＝ [イコール] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="一般",POS_GROUP3="*",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="＝",READ="イコール",ACCENT="1"
+道支部 [ドオシブ] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="一般",POS_GROUP3="*",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="道支部",READ="ドオシブ",ACCENT="3"
+Ａｄｂｅ [アドビ] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="一般",POS_GROUP3="*",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="Ａｄｂｅ",READ="アドビ",ACCENT="1"
+アドビ [アドビ] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="一般",POS_GROUP3="*",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="アドビ",READ="アドビ",ACCENT="1"
+ＥＸＰＯ [エキスポ] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="一般",POS_GROUP3="*",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="ＥＸＰＯ",READ="エキスポ",ACCENT="1"
+コンピューティング [コンピューティング] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="一般",POS_GROUP3="*",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="コンピューティング",READ="コンピューティング",ACCENT="3"
+Ｒｅａｄｅｒ [リーダー] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="一般",POS_GROUP3="*",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="Ｒｅａｄｅｒ",READ="リーダー",ACCENT="1"
+Ｓｏｎｙ [ソニー] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="一般",POS_GROUP3="*",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="Ｓｏｎｙ",READ="ソニー",ACCENT="1"
+Ｗｅｅｋ [ウィーク] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="一般",POS_GROUP3="*",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="Ｗｅｅｋ",READ="ウィーク",ACCENT="1"
+設備投資 [セツビトオシ] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="一般",POS_GROUP3="*",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="設備投資",READ="セツビトオシ",ACCENT="4"
+経済報告 [ケエザイホオコク] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="一般",POS_GROUP3="*",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="経済報告",READ="ケエザイホオコク",ACCENT="5"
+Ｅｘｐｏ [エキスポ] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="一般",POS_GROUP3="*",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="Ｅｘｐｏ",READ="エキスポ",ACCENT="4"
+Ｃｉｔｙ [シティイ] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="一般",POS_GROUP3="*",CTYPE="*",CFORM="*",PRIORITY="2",ORIGINAL="Ｃｉｔｙ",READ="シティイ",ACCENT="1"
+ＣＩＴＹ [シティイ] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="一般",POS_GROUP3="*",CTYPE="*",CFORM="*",PRIORITY="2",ORIGINAL="ＣＩＴＹ",READ="シティイ",ACCENT="1"
+平昌 [ピョンチャン] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="地域",POS_GROUP3="一般",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="平昌",READ="ピョンチャン",ACCENT="1"
+入店 [ニュウテン] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="一般",POS_GROUP3="*",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="入店",READ="ニュウテン",ACCENT="4"
+滑舌 [カツゼツ] POS="名詞",POS_GROUP1="固有名詞",POS_GROUP2="一般",POS_GROUP3="*",CTYPE="*",CFORM="*",PRIORITY="3",ORIGINAL="滑舌",READ="カツゼツ",ACCENT="4"
+</comment>
   </data>
   <data name="MainMenu_Transport_MoveToSpecifiedPosition_ToolTip" xml:space="preserve">
     <value>使光标移动到指定位置。</value>
@@ -332,7 +371,8 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>音频音轨(_A)</value>
   </data>
   <data name="Message_Error_CanExecuteCommand" xml:space="preserve">
-    <value>コマンド実行判定にてエラーが発生しました。</value>
+    <value>在判断是否可执行命令时发生了错误。</value>
+    <comment>コマンド実行判定にてエラーが発生しました。</comment>
   </data>
   <data name="Message_License_Confirm_ClearAllLicenses" xml:space="preserve">
     <value>このPCで認証済みのライセンスを一旦すべて解除します。
@@ -372,7 +412,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
   </data>
   <data name="Message_Confirm_Overwrite" xml:space="preserve">
     <value>'{0}' 已经存在。
-要替换吗？</value>
+要覆盖吗？</value>
   </data>
   <data name="PhraseClipDialog_Search_NoResult" xml:space="preserve">
     <value>没有符合搜索条件的项目。</value>
@@ -994,7 +1034,8 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>模块版本：</value>
   </data>
   <data name="Message_Export_MusicXML" xml:space="preserve">
-    <value>以下の場所にMusicXMLを書き出しました。</value>
+    <value>已将MusicXML导出到以下位置。</value>
+    <comment>以下の場所にMusicXMLを書き出しました。</comment>
   </data>
   <data name="Message_Confirm_DeleteAudio" xml:space="preserve">
     <value>将删除选定的音频。
@@ -1056,7 +1097,8 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <comment>細かい空白の除去(_F)...</comment>
   </data>
   <data name="Message_Information_RevisedNoteLocation" xml:space="preserve">
-    <value>音符の位置を補正しました。</value>
+    <value>已修正音符的位置。</value>
+    <comment>音符の位置を補正しました。</comment>
   </data>
   <data name="PreferenceDialog_Song_FontSetting_Title" xml:space="preserve">
     <value>歌词的字体</value>
@@ -1117,7 +1159,8 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>拍子(_B)</value>
   </data>
   <data name="Fragment_TalkEditor" xml:space="preserve">
-    <value>トークエディタ</value>
+    <value>语音编辑器</value>
+    <comment>トークエディタ</comment>
   </data>
   <data name="MainMenu_Song_EditMode_Pitch_InputGesture" xml:space="preserve">
     <value>4</value>
@@ -1510,7 +1553,8 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>CeVIO官方网站(_C)</value>
   </data>
   <data name="Message_Export_MixedWaveform" xml:space="preserve">
-    <value>以下のファイルにミックスダウンWAVを書き出しました。</value>
+    <value>已将混合WAV保存为以下文件。</value>
+    <comment>以下のファイルにミックスダウンWAVを書き出しました。</comment>
   </data>
   <data name="Dialog_GenericSave_Title" xml:space="preserve">
     <value>保存</value>
@@ -1590,11 +1634,14 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>调整音高(_2)</value>
   </data>
   <data name="ActivationDialog_Selector_Registration_Description" xml:space="preserve">
-    <value>ご購入された製品のシリアルナンバーを入力してください。
-※1ライセンスにつきPC1台で使用可能です。</value>
+    <value>请输入已购买产品的序列号。
+※每1份授权仅限1台PC使用。</value>
+    <comment>ご購入された製品のシリアルナンバーを入力してください。
+※1ライセンスにつきPC1台で使用可能です。</comment>
   </data>
   <data name="Message_Error_UndoImportingMidi" xml:space="preserve">
-    <value>MIDIインポートのリドゥに失敗しました。</value>
+    <value>未能撤销[导入MIDI]。</value>
+    <comment>MIDIインポートのリドゥに失敗しました。</comment>
   </data>
   <data name="PreferenceDialog_Ambient_Image_Title" xml:space="preserve">
     <value>画像</value>
@@ -1774,7 +1821,8 @@ http://cevio.jp/</value>
     <value>停止播放时光标自动返回开始播放位置。</value>
   </data>
   <data name="Fragment_TalkStarter" xml:space="preserve">
-    <value>Talk Starter</value>
+    <value>语音入门包</value>
+    <comment>Talk Starter</comment>
   </data>
   <data name="Fragment_Japanese" xml:space="preserve">
     <value>日语</value>
@@ -1783,7 +1831,8 @@ http://cevio.jp/</value>
     <value>终点标记(_B)</value>
   </data>
   <data name="Message_Export_Text_File" xml:space="preserve">
-    <value>以下のファイルにセリフのテキストを書き出しました。</value>
+    <value>已将台词文本导出为以下文件。</value>
+    <comment>以下のファイルにセリフのテキストを書き出しました。</comment>
   </data>
   <data name="MainMenu_Song_GuideLine_Quantize" xml:space="preserve">
     <value>小节线(_Q)</value>
@@ -1820,16 +1869,19 @@ http://cevio.jp/</value>
     <value>语调调整(_1)</value>
   </data>
   <data name="Message_Error_ImportMusicXml" xml:space="preserve">
-    <value>MusicXMLのインポートに失敗しました。</value>
+    <value>MusicXML导入失败。</value>
+    <comment>MusicXMLのインポートに失敗しました。</comment>
   </data>
   <data name="MainMenu_Song_Ruler_Tempo" xml:space="preserve">
     <value>曲速(_T)</value>
   </data>
   <data name="Message_Error_GenerateWaveformOfSong" xml:space="preserve">
-    <value>ソングの波形生成に失敗しました。</value>
+    <value>歌唱波形生成失败。</value>
+    <comment>ソングの波形生成に失敗しました。</comment>
   </data>
   <data name="Fragment_TalkAndSongEditor" xml:space="preserve">
-    <value>トーク／ソングエディタ</value>
+    <value>语音／歌唱编辑器</value>
+    <comment>トーク／ソングエディタ</comment>
   </data>
   <data name="MainMenu_Song_Quantize_1_1" xml:space="preserve">
     <value>1/1</value>
@@ -1905,11 +1957,16 @@ http://cevio.jp/</value>
     <value>结束时间</value>
   </data>
   <data name="Message_Error_ShowPurchaseSite" xml:space="preserve">
-    <value>Webサイトへの自動アクセスに失敗しました。
+    <value>自动打开网站失败了。
+可能是由于未设置默认浏览器或无法调用默认浏览器所致。
+
+请手动访问以下URL链接。
+　产品购买页 ＞ {0}</value>
+    <comment>Webサイトへの自動アクセスに失敗しました。
 既定のWebブラウザが設定されていない可能性があります。
 
 お使いのWebブラウザにて下記URLへアクセスしてください。
-　製品購入ページ ＞ {0}</value>
+　製品購入ページ ＞ {0}</comment>
   </data>
   <data name="TriableSoundSourceDialog_Selector_Registration_Description" xml:space="preserve">
     <value>ご購入された製品のシリアルナンバーを入力してください。
@@ -1917,7 +1974,8 @@ http://cevio.jp/</value>
 ※後で[ヘルプ]メニューからも行えます。</value>
   </data>
   <data name="Message_Information_ProductTrial_NotConnectedToNetwork" xml:space="preserve">
-    <value>体験版ボイスをご利用の際は、インターネットに接続してください。</value>
+    <value>使用体验版声源时，请保持联网。</value>
+    <comment>体験版ボイスをご利用の際は、インターネットに接続してください。</comment>
   </data>
   <data name="PreferenceDialog_Song_PianoRollColorScheme_Score_List_Black_Title" xml:space="preserve">
     <value>Black</value>
@@ -1969,7 +2027,8 @@ http://cevio.jp/</value>
     <value>从光标位置开始播放或暂停。</value>
   </data>
   <data name="Message_Export_WaveformOfSong_File" xml:space="preserve">
-    <value>以下のファイルにソングのWAVを書き出しました。</value>
+    <value>已将歌唱WAV导出为以下文件。</value>
+    <comment>以下のファイルにソングのWAVを書き出しました。</comment>
   </data>
   <data name="MainMenu_File_Export_Text_ToolTip" xml:space="preserve">
     <value>将选择的音轨的台词输出为CSV文件。
@@ -1979,16 +2038,19 @@ http://cevio.jp/</value>
     <value>切り取った内容の挿入(_J)</value>
   </data>
   <data name="Fragment_SongEditor" xml:space="preserve">
-    <value>ソングエディタ</value>
+    <value>歌唱编辑器</value>
+    <comment>ソングエディタ</comment>
   </data>
   <data name="Message_Error_Save" xml:space="preserve">
     <value>未能保存文件。</value>
   </data>
   <data name="Message_Error_Read" xml:space="preserve">
-    <value>読み込み中にエラーが発生しました。</value>
+    <value>读取时发生了错误。</value>
+    <comment>読み込み中にエラーが発生しました。</comment>
   </data>
   <data name="Message_Error_Redo" xml:space="preserve">
-    <value>処理をやり直す際にエラーが発生しました。</value>
+    <value>重做时发生了错误。</value>
+    <comment>処理をやり直す際にエラーが発生しました。</comment>
   </data>
   <data name="Message_Error_Undo" xml:space="preserve">
     <value>在撤销时发生了错误。</value>
@@ -1998,12 +2060,14 @@ http://cevio.jp/</value>
     <value>乐谱编辑界面</value>
   </data>
   <data name="Message_Error_UndoImportingSongTrack" xml:space="preserve">
-    <value>对导入歌唱音轨的撤销已失败。</value>
+    <value>未能撤销[导入歌唱音轨]。</value>
     <comment>ソングトラックインポートのリドゥに失敗しました。</comment>
   </data>
   <data name="Message_Error_NetworkConnectionFault" xml:space="preserve">
-    <value>ネットワーク接続に失敗しました。
-時間を置いて再度お試しください。</value>
+    <value>连接网络失败。
+请过一会儿再试。</value>
+    <comment>ネットワーク接続に失敗しました。
+時間を置いて再度お試しください。</comment>
   </data>
   <data name="PreferenceDialog_Song_PianoRollColorScheme_Score_List_Pastel_Title" xml:space="preserve">
     <value>Pastel</value>
@@ -2024,7 +2088,8 @@ http://cevio.jp/</value>
     <value>混合</value>
   </data>
   <data name="Message_Information_AudioDevice_UseDefaultDeviceInsteadOfUsingDevice" xml:space="preserve">
-    <value>前回終了時の音声出力デバイスが開けないため、既定のデバイスを利用します。</value>
+    <value>之前退出时使用的音频输出设备现未启用，因此将使用默认音频设备。</value>
+    <comment>前回終了時の音声出力デバイスが開けないため、既定のデバイスを利用します。</comment>
   </data>
   <data name="TalkEditor_TextBox_Menu_InsertPhraseClip_ToolTip" xml:space="preserve">
     <value>在这个位置插入一个台词片段。</value>
@@ -2048,7 +2113,8 @@ http://cevio.jp/</value>
     <value>参数将表示为0-100，而不是实际意义的值。（兼容旧版本）</value>
   </data>
   <data name="Message_Information_VocalSourceVersionDifference" xml:space="preserve">
-    <value>読み込まれたプロジェクトは、以下の項目が現在と異なるバージョンで作成されました。</value>
+    <value>在读入的工程中，以下项目是用与当前版本号不同的声源或引擎制作的。</value>
+    <comment>読み込まれたプロジェクトは、以下の項目が現在と異なるバージョンで作成されました。</comment>
   </data>
   <data name="MainMenu_Talk_PhonemeGraph_EditByPhonemes_ToolTip" xml:space="preserve">
     <value>关闭显示假名。
@@ -2067,20 +2133,27 @@ http://cevio.jp/</value>
     <value>左：</value>
   </data>
   <data name="ActivationDialog_Selector_StartTrial_Description" xml:space="preserve">
-    <value>30日間無料で製品を体験できます。
+    <value>可以在30天内体验本产品。
+※体验版不提供用户支持服务。
+※体验版启动时必须联网。
+　（制品版每次认证后可离线使用365天。）</value>
+    <comment>30日間無料で製品を体験できます。
 ※体験版はユーザーサポートが提供されません。
 ※体験版は起動時にインターネット接続が必要です。
-　（製品版は365日間はオフライン使用可能です。）</value>
+　（製品版は365日間はオフライン使用可能です。）</comment>
   </data>
   <data name="MainMenu_Edit_Undo_ToolTip" xml:space="preserve">
     <value>撤回上一次的操作。</value>
   </data>
   <data name="MainMenu_Help_Purchase_Rakuten_ToolTip" xml:space="preserve">
-    <value>ダウンロード販売サイトを表示します。
-トークまたはソングのエディタ機能と、好みの1ボイスを組み合わせて購入可能です。</value>
+    <value>显示下载版的售卖网站。
+可以仅购买语音或歌唱编辑功能、或是单个声源，也可以自由组合购买。</value>
+    <comment>ダウンロード販売サイトを表示します。
+トークまたはソングのエディタ機能と、好みの1ボイスを組み合わせて購入可能です。</comment>
   </data>
   <data name="Fragment_VoicePackage" xml:space="preserve">
-    <value>ボイスパッケージ</value>
+    <value>声源合集</value>
+    <comment>ボイスパッケージ</comment>
   </data>
   <data name="TrackLane_Menu_Export_Subtitle" xml:space="preserve">
     <value>导出字幕(_U)...</value>
@@ -2096,8 +2169,10 @@ http://cevio.jp/</value>
     <comment>トラックヘッダにキャストの画像を表示します。</comment>
   </data>
   <data name="MainMenu_Help_Purchase_Vector_ToolTip" xml:space="preserve">
-    <value>ダウンロード販売サイトを表示します。
-トークまたはソングのエディタ機能と、好みの1ボイスを組み合わせて購入可能です。</value>
+    <value>显示下载版的售卖网站。
+可以仅购买语音或歌唱编辑功能、或是单个声源，也可以自由组合购买。</value>
+    <comment>ダウンロード販売サイトを表示します。
+トークまたはソングのエディタ機能と、好みの1ボイスを組み合わせて購入可能です。</comment>
   </data>
   <data name="PreferenceDialog_OpenFolderButton_Title" xml:space="preserve">
     <value>打开设定文件夹</value>
@@ -2236,8 +2311,10 @@ http://cevio.jp/</value>
     <value>在光标位置插入[日期]</value>
   </data>
   <data name="MainMenu_Song_EditMode_Pitch_ToolTip" xml:space="preserve">
-    <value>ピッチ調整画面に切り替えます。
-ビブラートの振幅や周期を重ねるとビブラート反映ピッチも重ね表示します。</value>
+    <value>切换到音高调整界面。
+当与颤音振幅/周期重叠显示时，会额外显示颤音的音高。</value>
+    <comment>ピッチ調整画面に切り替えます。
+ビブラートの振幅や周期を重ねるとビブラート反映ピッチも重ね表示します。</comment>
   </data>
   <data name="Message_Warning_RegisteredCountLimit" xml:space="preserve">
     <value>注册数量已达到上限，无法继续注册。</value>
@@ -2264,7 +2341,8 @@ http://cevio.jp/</value>
 请连接网络以进行许可认证。</value>
   </data>
   <data name="Message_Import_Text" xml:space="preserve">
-    <value>セリフのテキスト読み込みが完了しました。</value>
+    <value>已导入台词文本。</value>
+    <comment>セリフのテキスト読み込みが完了しました。</comment>
   </data>
   <data name="MainMenu_Talk_PhonemeGraph_EditMode_Length_InputGesture" xml:space="preserve">
     <value>Ctrl+4</value>
@@ -2273,8 +2351,10 @@ http://cevio.jp/</value>
     <value>设置音轨的内容为等间隔排列(_F)</value>
   </data>
   <data name="Message_Confirm_OverwriteAll" xml:space="preserve">
-    <value>'{0}' は既に存在します。
-すべて置き換えますか?</value>
+    <value>'{0}' 已经存在。
+要全部覆盖吗?</value>
+    <comment>'{0}' は既に存在します。
+すべて置き換えますか?</comment>
   </data>
   <data name="TrackLane_Menu_Add_Audio_ToolTip" xml:space="preserve">
     <value>在此音轨之下增加一个外部音频音轨。</value>
@@ -2301,7 +2381,8 @@ http://cevio.jp/</value>
     <value>この位置にコピーした内容を挿入します。</value>
   </data>
   <data name="Message_Information_TrimmedSurplusTies" xml:space="preserve">
-    <value>不要なタイ記号を削除しました。</value>
+    <value>已删除不必要的连音记号。</value>
+    <comment>不要なタイ記号を削除しました。</comment>
   </data>
   <data name="TrackLane_Menu_MoveUnit_ToolTip" xml:space="preserve">
     <value>移动已选择的元素。</value>
@@ -2322,16 +2403,19 @@ http://cevio.jp/</value>
     <value>F11</value>
   </data>
   <data name="Message_Export_Midi" xml:space="preserve">
-    <value>以下のファイルにMIDIファイルを保存しました。</value>
+    <value>已将MIDI保存为以下文件。</value>
+    <comment>以下のファイルにMIDIファイルを保存しました。</comment>
   </data>
   <data name="Fragment_TalkTrack" xml:space="preserve">
     <value>语音音轨</value>
   </data>
   <data name="Message_Export_Text" xml:space="preserve">
-    <value>以下の場所にセリフのテキストを書き出しました。</value>
+    <value>已将台词文本导出到以下位置。</value>
+    <comment>以下の場所にセリフのテキストを書き出しました。</comment>
   </data>
   <data name="Fragment_TalkVoice" xml:space="preserve">
-    <value>トークボイス</value>
+    <value>语音声源</value>
+    <comment>トークボイス</comment>
   </data>
   <data name="TrackHeader_Menu_Freeze_ToolTip" xml:space="preserve">
     <value>将选择的音轨锁定并预先生成音频，以降低播放时的合成运算量。
@@ -2344,7 +2428,8 @@ http://cevio.jp/</value>
     <value>画像</value>
   </data>
   <data name="MainMenu_Song_GuideLine_OnAdjustmentToo_ToolTip" xml:space="preserve">
-    <value>調整画面にも拍やクオンタイズのラインを表示します。</value>
+    <value>在调整界面也显示拍子或是小节的网格线。</value>
+    <comment>調整画面にも拍やクオンタイズのラインを表示します。</comment>
   </data>
   <data name="TrackLane_Menu_MoveToDown_ToolTip" xml:space="preserve">
     <value>将此音轨下移1个单位。</value>
@@ -2391,10 +2476,12 @@ http://cevio.jp/</value>
     <value>左侧</value>
   </data>
   <data name="Dialog_Import_MusicXML_Title" xml:space="preserve">
-    <value>MusicXMLの読み込み</value>
+    <value>读取MusicXML</value>
+    <comment>MusicXMLの読み込み</comment>
   </data>
   <data name="Message_Information_VocalSourceVersionDifference_SongSynthesizer" xml:space="preserve">
-    <value>ソングエンジン</value>
+    <value>歌唱引擎</value>
+    <comment>ソングエンジン</comment>
   </data>
   <data name="MainMenu_File_Export_WaveformOfSong" xml:space="preserve">
     <value>导出歌唱部分为WAV音频文件(_S)...</value>
@@ -2445,8 +2532,10 @@ http://cevio.jp/
     <value>将显示扩展到全屏，并自动隐藏菜单栏。</value>
   </data>
   <data name="Message_Confirm_OverwriteAllFiles2" xml:space="preserve">
-    <value>'{0}' は既に存在します。
-以降すべて上書きしますか？</value>
+    <value>'{0}' 已经存在。
+要将以上全部覆盖吗?</value>
+    <comment>'{0}' は既に存在します。
+以降すべて上書きしますか？</comment>
   </data>
   <data name="MainMenu_File_Import_Track" xml:space="preserve">
     <value>导入音轨单位文件(_T)...</value>
@@ -2580,7 +2669,8 @@ http://cevio.jp/</value>
     <value>双击可以编辑。</value>
   </data>
   <data name="Message_Error_ClearSong_Undo" xml:space="preserve">
-    <value>ソングトラックの内容を復元できませんでした。</value>
+    <value>无法恢复歌唱音轨的内容。</value>
+    <comment>ソングトラックの内容を復元できませんでした。</comment>
   </data>
   <data name="Message_Information_UnfrozeTrack" xml:space="preserve">
     <value>以下音轨的固定状态已解除。
@@ -2654,7 +2744,8 @@ http://cevio.jp/</value>
     <value>Shift+S</value>
   </data>
   <data name="Message_Error_UndoImportingMusicXml" xml:space="preserve">
-    <value>MusicXMLインポートのリドゥに失敗しました。</value>
+    <value>未能撤销[导入MusicXML]。</value>
+    <comment>MusicXMLインポートのリドゥに失敗しました。</comment>
   </data>
   <data name="MainMenu_Transport_AutoScrolling" xml:space="preserve">
     <value>播放时自动滚动(_F)</value>
@@ -2707,7 +2798,8 @@ http://cevio.jp/</value>
     <comment>下側</comment>
   </data>
   <data name="Message_License_AppTrial_Authorized_ContinuesTrial" xml:space="preserve">
-    <value>※体験期間中は、引き続き体験版の機能とボイスをご利用頂けます。</value>
+    <value>※在体验期间，可继续使用体验版的功能和声源。</value>
+    <comment>※体験期間中は、引き続き体験版の機能とボイスをご利用頂けます。</comment>
   </data>
   <data name="Message_Confirm_DeleteSelection" xml:space="preserve">
     <value>将删除选定的项目。确定吗？</value>
@@ -2810,7 +2902,8 @@ http://cevio.jp/</value>
     <value>将当前选中的音轨下移1个单位。</value>
   </data>
   <data name="MainMenu_Song_GuideLine_Beat_ToolTip" xml:space="preserve">
-    <value>拍のラインを表示します。</value>
+    <value>显示拍子的网格线。</value>
+    <comment>拍のラインを表示します。</comment>
   </data>
   <data name="Portrait_Menu_ForcesForeground" xml:space="preserve">
     <value>永在最前(_F)</value>
@@ -2832,7 +2925,8 @@ http://cevio.jp/</value>
     <value>设置音轨的内容为等间隔排列(_F)</value>
   </data>
   <data name="Message_Information_LoadingText" xml:space="preserve">
-    <value>セリフテキストを読み込んでいます...</value>
+    <value>正在读取台词文本...</value>
+    <comment>セリフテキストを読み込んでいます...</comment>
   </data>
   <data name="MainMenu_Talk_PhonemeGraph_Placement_FillRight" xml:space="preserve">
     <value>右侧（全部）</value>
@@ -2953,7 +3047,8 @@ http://cevio.jp/</value>
     <value>使光标移动到当前选中的的台词/外部音频的左端。</value>
   </data>
   <data name="Message_Export_WaveformForEachText" xml:space="preserve">
-    <value>以下の場所にセリフのWAVを書き出しました。</value>
+    <value>已将台词WAV导出到以下位置。</value>
+    <comment>以下の場所にセリフのWAVを書き出しました。</comment>
   </data>
   <data name="Message_Confirm_FreezeTrack" xml:space="preserve">
     <value>即将固定此音轨。确定吗？
@@ -3074,7 +3169,8 @@ http://cevio.jp/</value>
     <value>当前+相对</value>
   </data>
   <data name="Message_Error_Abort" xml:space="preserve">
-    <value>エラーが発生したため処理を中断します。</value>
+    <value>因发生错误，处理已中断。</value>
+    <comment>エラーが発生したため処理を中断します。</comment>
   </data>
   <data name="Message_Warning_InvalidTimeFormat" xml:space="preserve">
     <value>请参照下面的任意一种格式输入时间。
@@ -3124,21 +3220,23 @@ http://cevio.jp/</value>
     <value>F11</value>
   </data>
   <data name="Message_Information_AppTrial_CannotOutputWaveform" xml:space="preserve">
-    <value>体験版はWAV書き出しできません。</value>
+    <value>体验版无法导出WAV文件。</value>
+    <comment>体験版はWAV書き出しできません。</comment>
   </data>
   <data name="MainMenu_Track_Freeze" xml:space="preserve">
     <value>固定音轨(_Z)</value>
   </data>
   <data name="Message_Error_UndoDuplicatingTrack" xml:space="preserve">
-    <value>对音轨复制副本的撤销已失败。</value>
+    <value>未能撤销[音轨复制副本]。</value>
     <comment>トラック複製のリドゥに失敗しました。</comment>
   </data>
   <data name="Message_Error_UndoRemovingSongTrack" xml:space="preserve">
-    <value>对删除歌唱音轨的撤销已失败。</value>
+    <value>未能撤销[删除歌唱音轨]。</value>
     <comment>ソングトラック削除のアンドゥに失敗しました。</comment>
   </data>
   <data name="Message_Information_RevisedNoteLocationAndDuration" xml:space="preserve">
-    <value>音符の位置と長さを補正しました。</value>
+    <value>已修正音符的长度和位置。</value>
+    <comment>音符の位置と長さを補正しました。</comment>
   </data>
   <data name="MoveCursorDialog_Destination_ByMeasureNumber_ToolTip" xml:space="preserve">
     <value>输入格式：
@@ -3158,8 +3256,10 @@ http://cevio.jp/</value>
     <comment>ガイドカーソル(_C)</comment>
   </data>
   <data name="MainMenu_File_Import_Text_ToolTip" xml:space="preserve">
-    <value>トークトラックにテキストファイルを読み込みます。
-文字コードをオプションで指定可能。</value>
+    <value>向语音音轨中导入文本文件。
+文本编码可在“选项”中设置。</value>
+    <comment>トークトラックにテキストファイルを読み込みます。
+文字コードをオプションで指定可能。</comment>
   </data>
   <data name="NoticeAboutTrial1_Text" xml:space="preserve">
     <value>体验版已到期。
@@ -3177,8 +3277,10 @@ http://cevio.jp/</value>
     <value>打开文件</value>
   </data>
   <data name="Message_Confirm_Overwrite_ImageFile" xml:space="preserve">
-    <value>'{0}' は既にイメージフォルダに存在します。
-上書きしますか？</value>
+    <value>'{0}' 已经存在于图像文件夹中。
+要覆盖吗？</value>
+    <comment>'{0}' は既にイメージフォルダに存在します。
+上書きしますか？</comment>
   </data>
   <data name="MainMenu_Transport_MoveToSelectedItem_InputGesture" xml:space="preserve">
     <value>小键盘 3</value>
@@ -3218,7 +3320,7 @@ http://cevio.jp/</value>
 确定吗？</value>
   </data>
   <data name="Message_Error_AddTrack" xml:space="preserve">
-    <value>追加音轨失败。</value>
+    <value>添加音轨失败。</value>
   </data>
   <data name="PreferenceDialog_Talk_ElementLocatingInterval_ToolTip" xml:space="preserve">
     <value>セリフ入力時や整列時の間隔を指定します。
@@ -3237,8 +3339,10 @@ http://cevio.jp/</value>
     <value>Space</value>
   </data>
   <data name="Message_Confirm_DeletePreset" xml:space="preserve">
-    <value>プリセット "{0}" を削除します。よろしいですか？
-※この操作は元に戻せません。</value>
+    <value>预设 "{0}" 将被删除。确定吗？
+※本操作无法撤消。</value>
+    <comment>プリセット "{0}" を削除します。よろしいですか？
+※この操作は元に戻せません。</comment>
   </data>
   <data name="Timeline_AddTrackButton_List_Title_Talk" xml:space="preserve">
     <value>语音音轨</value>
@@ -3268,8 +3372,10 @@ http://cevio.jp/</value>
     <value>取消</value>
   </data>
   <data name="MainMenu_Help_Manual_ToolTip" xml:space="preserve">
-    <value>操作説明サイトを表示します。
-よくある質問にはトラブルや利用に関する説明があります。</value>
+    <value>显示操作说明的网页。
+也包括常见问题解答和使用规约等内容。</value>
+    <comment>操作説明サイトを表示します。
+よくある質問にはトラブルや利用に関する説明があります。</comment>
   </data>
   <data name="Dialog_YesButton_Title" xml:space="preserve">
     <value>好</value>
@@ -3356,7 +3462,8 @@ http://cevio.jp/</value>
     <value>Ctrl+V</value>
   </data>
   <data name="Message_Error_System" xml:space="preserve">
-    <value>システムエラーが発生しました。</value>
+    <value>出现了系统错误。</value>
+    <comment>システムエラーが発生しました。</comment>
   </data>
   <data name="Message_License_Warning_OfflineStartUp_ServerConnectionFailed" xml:space="preserve">
     <value>许可认证时连接服务器失败，因此将离线启动。</value>
@@ -3383,7 +3490,7 @@ http://cevio.jp/</value>
     <value>この位置にコピーした内容を挿入します。</value>
   </data>
   <data name="MainMenu_Song_GuideLine_OnAdjustmentToo" xml:space="preserve">
-    <value>在调整界面也显示时间线(_V)</value>
+    <value>在调整界面也显示网格线(_V)</value>
     <comment>調整画面にもライン表示(_V)</comment>
   </data>
   <data name="MainMenu_Transport_EndMarker_InputGesture" xml:space="preserve">
@@ -3402,8 +3509,10 @@ http://cevio.jp/</value>
     <value>正在进行序列号认证</value>
   </data>
   <data name="Message_Confirm_OverwriteAll2" xml:space="preserve">
-    <value>'{0}' は既に存在します。
-以降すべて上書きしますか?</value>
+    <value>'{0}' 已经存在。
+要将以上全部覆盖吗?</value>
+    <comment>'{0}' は既に存在します。
+以降すべて上書きしますか?</comment>
   </data>
   <data name="Message_Export_Track_File" xml:space="preserve">
     <value>已将音轨内容保存为以下文件。</value>
@@ -3419,7 +3528,8 @@ http://cevio.jp/</value>
     <value>波形文件</value>
   </data>
   <data name="Fragment_SongAndTalkVoice" xml:space="preserve">
-    <value>ソング＆トークボイス</value>
+    <value>歌唱＆语音声源</value>
+    <comment>ソング＆トークボイス</comment>
   </data>
   <data name="PhraseClipDialog_Grid_Column_Cast" xml:space="preserve">
     <value>配音角色</value>
@@ -3478,10 +3588,11 @@ http://cevio.jp/</value>
     <comment>右側（広く）</comment>
   </data>
   <data name="TalkEditor_RegulatedParameter_Speed_Title" xml:space="preserve">
-    <value>速度</value>
+    <value>语速</value>
   </data>
   <data name="Dialog_Export_MixedWaveform_Title" xml:space="preserve">
-    <value>ミックスダウンWAV書き出し</value>
+    <value>导出混合WAV文件</value>
+    <comment>ミックスダウンWAV書き出し</comment>
   </data>
   <data name="NoticeAboutTrial2_Text1" xml:space="preserve">
     <value>ご購入ありがとうございます。
@@ -3509,7 +3620,8 @@ http://cevio.jp/</value>
     <value>角色画像设置</value>
   </data>
   <data name="Message_License_AlreadyAuthorized4" xml:space="preserve">
-    <value>入力されたシリアルナンバーは別のPCでライセンス認証済みです。</value>
+    <value>输入的序列号已经在另一台PC上认证了。</value>
+    <comment>入力されたシリアルナンバーは別のPCでライセンス認証済みです。</comment>
   </data>
   <data name="Message_License_AlreadyAuthorized2" xml:space="preserve">
     <value>输入的序列号对应的声库已经认证完毕。</value>
@@ -3521,7 +3633,8 @@ http://cevio.jp/</value>
     <value>上部</value>
   </data>
   <data name="Fragment_SongAndTalkStarter" xml:space="preserve">
-    <value>ソング＆トークスターター</value>
+    <value>歌唱＆语音入门包</value>
+    <comment>ソング＆トークスターター</comment>
   </data>
   <data name="Message_Information_RegisteredSymbol" xml:space="preserve">
     <value>输入的记号已注册完成。</value>
@@ -3554,7 +3667,8 @@ http://cevio.jp/</value>
     <value>在台词列表中过长的台词会自动换行以完整显示。</value>
   </data>
   <data name="Dialog_Extension_NeverNotifiesAnymoreSwitch_Title" xml:space="preserve">
-    <value>今後、このメッセージを表示しない</value>
+    <value>今后，此信息将不再显示</value>
+    <comment>今後、このメッセージを表示しない</comment>
   </data>
   <data name="MainMenu_Talk_PhonemeGraph_EditMode_Pitch_InputGesture" xml:space="preserve">
     <value>Ctrl+2</value>
@@ -3569,8 +3683,10 @@ http://cevio.jp/</value>
     <value>音量</value>
   </data>
   <data name="ActivationDialog_InputMailAddress_Description" xml:space="preserve">
-    <value>お客様のメールアドレスを入力してください。
-正規ユーザーとして登録し、シリアルナンバー紛失などの場合に使用します。正確に入力してください。</value>
+    <value>请输入您的电子邮箱地址。
+此邮箱地址在售后服务、序列号丢失、再认证等场合是必要的，请务必正确填写。</value>
+    <comment>お客様のメールアドレスを入力してください。
+正規ユーザーとして登録し、シリアルナンバー紛失などの場合に使用します。正確に入力してください。</comment>
   </data>
   <data name="MainMenu_Talk_InputContinuously_InputGesture" xml:space="preserve">
     <value>F6</value>
@@ -3662,8 +3778,10 @@ http://cevio.jp/</value>
     <value />
   </data>
   <data name="MainMenu_Song_AddMeasure_ToolTip" xml:space="preserve">
-    <value>末尾に小節を追加します。
-[Shift+マウスホイール]や右スクロールボタンでも可能。</value>
+    <value>向音轨末尾添加小节。
+[Shift+鼠标滚轮]或右滚动按钮也可以扩展音轨区域。</value>
+    <comment>末尾に小節を追加します。
+[Shift+マウスホイール]や右スクロールボタンでも可能。</comment>
   </data>
   <data name="MainMenu_Transport_AutoScrolling_InputGesture" xml:space="preserve">
     <value>F7</value>
@@ -3676,8 +3794,10 @@ http://cevio.jp/</value>
     <comment>オーディオの自動整列(_A)</comment>
   </data>
   <data name="Message_Confirm_OverwriteAllFiles" xml:space="preserve">
-    <value>'{0}' は既に存在します。
-すべて置き換えますか?</value>
+    <value>'{0}' 已经存在。
+要全部覆盖吗?</value>
+    <comment>'{0}' は既に存在します。
+すべて置き換えますか?</comment>
   </data>
   <data name="PhraseClipDialog_InsertButton_ToolTip" xml:space="preserve">
     <value>插入到台词列表的当前位置。</value>
@@ -3695,8 +3815,10 @@ http://cevio.jp/</value>
     <value>音频</value>
   </data>
   <data name="CastImageMappingDialog_ImageList_ToolTip" xml:space="preserve">
-    <value>クリックで画像選択
-画像のドラッグ＆ドロップ可</value>
+    <value>点击选择画像
+可以拖放图片</value>
+    <comment>クリックで画像選択
+画像のドラッグ＆ドロップ可</comment>
   </data>
   <data name="PreferenceDialog_Talk_PhonemeGraph_AdjustsLEN_ToolTip" xml:space="preserve">
     <value>自动调整LEN的显示比例。</value>
@@ -3823,7 +3945,8 @@ http://cevio.jp/</value>
     <value>小键盘 /</value>
   </data>
   <data name="CastImageMappingDialog_ImageList_Title" xml:space="preserve">
-    <value>{0}({1})の画像</value>
+    <value>{0}({1})的画像</value>
+    <comment>{0}({1})の画像</comment>
   </data>
   <data name="LocalewiseSettingDialog_PauseSetting_Menu_Delete_InputGesture" xml:space="preserve">
     <value>Del</value>
@@ -3888,7 +4011,8 @@ CeVIO Creative Studio最新バージョンをご確認ください。</value>
     <comment>このトラックのセリフを字幕ファイルに書き出します。</comment>
   </data>
   <data name="Message_Error_ExecuteCommand" xml:space="preserve">
-    <value>コマンド実行時にエラーが発生しました。</value>
+    <value>执行命令时发生了错误。</value>
+    <comment>コマンド実行時にエラーが発生しました。</comment>
   </data>
   <data name="TrackHeader_Menu_Add_Song_ToolTip" xml:space="preserve">
     <value>在此音轨之下增加一个歌唱音轨。</value>
@@ -3898,7 +4022,8 @@ CeVIO Creative Studio最新バージョンをご確認ください。</value>
 请先进行声源许可验证以使用本程序。</value>
   </data>
   <data name="MainMenu_Song_GuideLine_Quantize_ToolTip" xml:space="preserve">
-    <value>クオンタイズのラインを表示します。</value>
+    <value>显示小节的网格线。</value>
+    <comment>クオンタイズのラインを表示します。</comment>
   </data>
   <data name="PreferenceDialog_Talk_TextFileEncoding_Write_Title" xml:space="preserve">
     <value>导出</value>
@@ -3916,8 +4041,10 @@ CeVIO Creative Studio最新バージョンをご確認ください。</value>
     <value>向上移动选中的音轨</value>
   </data>
   <data name="MainMenu_Talk_InputContinuously_ToolTip" xml:space="preserve">
-    <value>セリフ入力後に続けて次の行を入力します。
-[Shift+Enter]で前行。[Ctrl+Enter]で入力終了。</value>
+    <value>输入一行台词后立即进入下一行。
+[Shift+Enter]回到上一行。[Ctrl+Enter]结束输入。</value>
+    <comment>セリフ入力後に続けて次の行を入力します。
+[Shift+Enter]で前行。[Ctrl+Enter]で入力終了。</comment>
   </data>
   <data name="OuterLicenseDialog_Title" xml:space="preserve">
     <value>License信息</value>
@@ -3939,7 +4066,8 @@ CeVIO Creative Studio最新バージョンをご確認ください。</value>
     <value>当前您使用的版本是最新的。</value>
   </data>
   <data name="Dialog_Extension_TheSameAppliesHereinafter_Title" xml:space="preserve">
-    <value>同じ処理を以降すべてに適用</value>
+    <value>对以下全部应用</value>
+    <comment>同じ処理を以降すべてに適用</comment>
   </data>
   <data name="Message_Information_AudioResampling" xml:space="preserve">
     <value>正在读取...</value>
@@ -3986,7 +4114,7 @@ CeVIO Creative Studio最新バージョンをご確認ください。</value>
     <value>不能输入半角字符。</value>
   </data>
   <data name="Message_License_Information_ProductTrial_Part_ValidityPeriod" xml:space="preserve">
-    <value>（{0:M/d} まで）</value>
+    <value>（{0:M/d} 截止）</value>
   </data>
   <data name="TrackLane_Menu_MoveToUp_ToolTip" xml:space="preserve">
     <value>将此音轨上移1个单位。</value>
@@ -4013,7 +4141,8 @@ CeVIO Creative Studio最新バージョンをご確認ください。</value>
     <value>在这个位置插入一个台词片段。</value>
   </data>
   <data name="Message_Information_ProductTrial_NotInPeriod" xml:space="preserve">
-    <value>{0}の体験は{1:M/d}をもって終了しました。</value>
+    <value>{0}的体验期已于{1:M/d}结束。</value>
+    <comment>{0}の体験は{1:M/d}をもって終了しました。</comment>
   </data>
   <data name="Dialog_Export_Subtitle_Title" xml:space="preserve">
     <value>导出字幕</value>
@@ -4079,11 +4208,14 @@ http://cevio.jp/</value>
     <value>制品</value>
   </data>
   <data name="Message_Confirm_ProductTrial_StartPeriod" xml:space="preserve">
-    <value>{0}の体験を開始しますか？
-{1:M/d}まで体験できます。</value>
+    <value>要开始使用{0}的体验版吗？
+可体验至{1:M/d}。</value>
+    <comment>{0}の体験を開始しますか？
+{1:M/d}まで体験できます。</comment>
   </data>
   <data name="MainMenu_Transport_AutoScrolling_ToolTip" xml:space="preserve">
-    <value>再生中のタイムライン、セリフリスト、ピアノロールの自動／手動スクロールを選択します。</value>
+    <value>是否在播放时自动滚动时间轴、台词列表和钢琴卷帘。</value>
+    <comment>再生中のタイムライン、セリフリスト、ピアノロールの自動／手動スクロールを選択します。</comment>
   </data>
   <data name="Message_Error_FreezeTrack" xml:space="preserve">
     <value>音轨固定失败。</value>
@@ -4118,7 +4250,8 @@ http://cevio.jp/</value>
   (+/-)(秒)</value>
   </data>
   <data name="MainMenu_Song_GuideLine_Beat" xml:space="preserve">
-    <value>拍のライン(_G)</value>
+    <value>拍子线(_G)</value>
+    <comment>拍のライン(_G)</comment>
   </data>
   <data name="MainMenu_File_NewProject_InputGesture" xml:space="preserve">
     <value>Ctrl+N</value>
@@ -4156,13 +4289,15 @@ http://cevio.jp/</value>
     <value>音轨</value>
   </data>
   <data name="Message_Information_VocalSourceVersionDifference_SongDataSource" xml:space="preserve">
-    <value>ソングボイス</value>
+    <value>歌唱声源</value>
+    <comment>ソングボイス</comment>
   </data>
   <data name="MainMenu_Talk_InputSentence_ToolTip" xml:space="preserve">
     <value>从选中行的位置开始，输入长段文本。</value>
   </data>
   <data name="MainMenu_Talk_PhraseClips_ToolTip" xml:space="preserve">
-    <value>登録したセリフクリップを削除／挿入します。</value>
+    <value>删除或插入已注册的台词片段。</value>
+    <comment>登録したセリフクリップを削除／挿入します。</comment>
   </data>
   <data name="MainMenu_File_OpenProject_InputGesture" xml:space="preserve">
     <value>Ctrl+O</value>
@@ -4174,7 +4309,8 @@ http://cevio.jp/</value>
     <value>台词WAV分段导出</value>
   </data>
   <data name="MainMenu_Song_Ruler_Dynamics" xml:space="preserve">
-    <value>強弱記号(_D)</value>
+    <value>强弱记号(_D)</value>
+    <comment>強弱記号(_D)</comment>
   </data>
   <data name="MainMenu_Help_Purchase_Amazon" xml:space="preserve">
     <value>Amazon(_A)</value>
@@ -4279,7 +4415,8 @@ http://cevio.jp/
     <value>预置</value>
   </data>
   <data name="Fragment_SongStarter" xml:space="preserve">
-    <value>ソングスターター</value>
+    <value>歌唱入门包</value>
+    <comment>ソングスターター</comment>
   </data>
   <data name="VersionInfoDialog_ModuleVersion_TalkDictionary_Title" xml:space="preserve">
     <value>トーク辞書</value>
@@ -4311,9 +4448,12 @@ http://cevio.jp/
     <value>上移音轨(_H)</value>
   </data>
   <data name="Message_Error_AudioDevice_CannotOpenDevice" xml:space="preserve">
-    <value>既定のデバイスが開けないため、音声を再生できません。
+    <value>由于无法打开默认声音播放设备，因此无法播放声音。
+请在控制面板中正确设置声音播放设备，
+并重启本程序。</value>
+    <comment>既定のデバイスが開けないため、音声を再生できません。
 コントロールパネルのサウンドで既定の再生デバイスを設定し、
-アプリケーションを再起動してください。</value>
+アプリケーションを再起動してください。</comment>
   </data>
   <data name="PreferenceDialog_Ambient_InitialTracks_Menu_Delete" xml:space="preserve">
     <value>删除</value>
@@ -4377,7 +4517,7 @@ http://cevio.jp/
     <value>中部</value>
   </data>
   <data name="MainMenu_Song_Ruler_Dynamics_ToolTip" xml:space="preserve">
-    <value>強弱記号行を表示します。</value>
+    <value>显示强弱记号（DYNAMICS）行。</value>
   </data>
   <data name="PreferenceDialog_Ambient_Image_ChangesByCast_Title" xml:space="preserve">
     <value>显示当前音轨的角色画像</value>
@@ -4395,7 +4535,7 @@ http://cevio.jp/
     <value>导入MIDI音轨到歌唱音轨。</value>
   </data>
   <data name="PhraseClipDialog_Description" xml:space="preserve">
-    <value>右键单击选择的台词可试听/删除。</value>
+    <value>右键单击台词，可试听或删除。</value>
   </data>
   <data name="MainMenu_Transport_VerticalLocation_Bottom" xml:space="preserve">
     <value>下部</value>
@@ -4407,7 +4547,8 @@ http://cevio.jp/
     <value>选择/添加/删除预置的感情参数设置。</value>
   </data>
   <data name="Message_Information_VocalSourceVersionDifference_TalkSynthesizer" xml:space="preserve">
-    <value>トークエンジン</value>
+    <value>语音引擎</value>
+    <comment>トークエンジン</comment>
   </data>
   <data name="Dialog_Import_Audio_Title" xml:space="preserve">
     <value>读取音频文件</value>
@@ -4422,11 +4563,16 @@ http://cevio.jp/
     <value>Vocaloid</value>
   </data>
   <data name="Message_Error_ShowHelp" xml:space="preserve">
-    <value>Webサイトへの自動アクセスに失敗しました。
+    <value>自动打开网站失败了。
+可能是由于未设置默认浏览器或无法调用默认浏览器所致。
+
+请手动访问以下URL链接。
+　CeVIO Creative Studio 帮助页 ＞ {0}</value>
+    <comment>Webサイトへの自動アクセスに失敗しました。
 既定のWebブラウザが設定されていない可能性があります。
 
 お使いのWebブラウザにて下記URLへアクセスしてください。
-　CeVIO Creative Studio ヘルプページ ＞ {0}</value>
+　CeVIO Creative Studio ヘルプページ ＞ {0}</comment>
   </data>
   <data name="AcceptedProductKeysDialog_List_Title" xml:space="preserve">
     <value>已认证产品：</value>
@@ -4524,16 +4670,19 @@ http://cevio.jp/
     <value>从列表中选择角色，并设置对应的画像。</value>
   </data>
   <data name="Message_Information_AudioDevice_UseDefaultDeviceInsteadOfSpecifiedDevice" xml:space="preserve">
-    <value>指定された音声出力デバイスが開けないため、既定のデバイスを利用します。</value>
+    <value>指定的音频输出设备未启用，因此将使用默认音频设备。</value>
+    <comment>指定された音声出力デバイスが開けないため、既定のデバイスを利用します。</comment>
   </data>
   <data name="Message_Information_NowLoading" xml:space="preserve">
     <value>正在读取 "{0}" ...</value>
   </data>
   <data name="MainMenu_File_Export_Midi_ToolTip" xml:space="preserve">
-    <value>選択ソングトラックをひとつのMIDIファイルに書き出します。</value>
+    <value>将选中的歌唱音轨输出为一个MIDI文件。</value>
+    <comment>選択ソングトラックをひとつのMIDIファイルに書き出します。</comment>
   </data>
   <data name="Dialog_FileFilter_SubtitleFile" xml:space="preserve">
-    <value>SubRipファイル (*.srt)|*.srt|SubViewerファイル (*.sbv)|*.sbv</value>
+    <value>SubRip文件 (*.srt)|*.srt|SubViewer文件 (*.sbv)|*.sbv</value>
+    <comment>SubRipファイル (*.srt)|*.srt|SubViewerファイル (*.sbv)|*.sbv</comment>
   </data>
   <data name="TalkEditor_Menu_Move_InputGesture" xml:space="preserve">
     <value>Ctrl+M</value>
@@ -4564,7 +4713,8 @@ http://cevio.jp/
     <value>选择右侧显示的画像。</value>
   </data>
   <data name="Message_Information_RevisedNoteDuration" xml:space="preserve">
-    <value>音符の長さを補正しました。</value>
+    <value>已修正音符的长度。</value>
+    <comment>音符の長さを補正しました。</comment>
   </data>
   <data name="PreferenceDialog_Ambient_RevisesPlaybackPosition_Title" xml:space="preserve">
     <value>时间轴光标位置校正</value>
@@ -4607,7 +4757,7 @@ http://cevio.jp/</value>
     <value>切换到颤音周期调整界面。可调整颤音的周期。</value>
   </data>
   <data name="Message_Error_StartRemoteService" xml:space="preserve">
-    <value>启动服务时产生了错误</value>
+    <value>启动服务时发生了错误</value>
   </data>
   <data name="Message_Warning_InputSpeechText" xml:space="preserve">
     <value>请输入台词。</value>
@@ -4620,7 +4770,8 @@ http://cevio.jp/</value>
     <value>Ctrl+P</value>
   </data>
   <data name="MainMenu_Song_EditMode_Overlay_Volume_ToolTip" xml:space="preserve">
-    <value>ボリュームを重ねます。</value>
+    <value>重叠显示音量（VOL）。</value>
+    <comment>ボリュームを重ねます。</comment>
   </data>
   <data name="PreferenceDialog_Talk_PhonemeGraph_ValueDisplayStyle_Title" xml:space="preserve">
     <value>音素图数值的显示方式</value>
