@@ -2655,7 +2655,7 @@ http://cevio.jp/</comment>
     <comment>以下のファイルにセリフのテキストを書き出しました。</comment>
   </data>
   <data name="MainMenu_Song_GuideLine_Quantize" xml:space="preserve">
-    <value>小节线(_Q)</value>
+    <value>量化线(_Q)</value>
   </data>
   <data name="Message_Confirm_Preference_CreateAudioFolder" xml:space="preserve">
     <value>将创建以下文件夹，确定吗？
@@ -3261,7 +3261,7 @@ http://cevio.jp/</comment>
     <value>画像</value>
   </data>
   <data name="MainMenu_Song_GuideLine_OnAdjustmentToo_ToolTip" xml:space="preserve">
-    <value>在调整界面也显示拍子或是小节的网格线。</value>
+    <value>在调整界面也显示拍子或是量化的网格线。</value>
     <comment>調整画面にも拍やクオンタイズのラインを表示します。</comment>
   </data>
   <data name="TrackLane_Menu_MoveToDown_ToolTip" xml:space="preserve">
@@ -3382,8 +3382,8 @@ http://cevio.jp/
     <value>语音音轨(_T)</value>
   </data>
   <data name="PreferenceDialog_Song_SnapsIndicatorToCloserSide_ToolTip" xml:space="preserve">
-    <value>勾选后点击标尺栏时将把距离最近的小节线设置为光标位置（类似于DAW）。
-否则将把点击位置所在的小节的开头作为光标位置。</value>
+    <value>勾选后点击标尺栏时将把距离最近的量化线设置为光标位置（类似于DAW）。
+否则将把点击位置所在的量化段的开头作为光标位置。</value>
   </data>
   <data name="PreferenceDialog_Ambient_InitialTracks_Menu_AddTalk" xml:space="preserve">
     <value>追加语音音轨</value>
@@ -3738,7 +3738,7 @@ http://cevio.jp/</value>
     <value>选择</value>
   </data>
   <data name="MainMenu_Song_QuantizeIndicator_ToolTip" xml:space="preserve">
-    <value>时刻显示当前鼠标位置所对应的小节位置。</value>
+    <value>时刻显示当前鼠标位置所对应的量化位置。</value>
     <comment>クオンタイズの補助カーソルを表示します。</comment>
   </data>
   <data name="MainMenu_Track_MoveToDown_ToolTip" xml:space="preserve">
@@ -3972,7 +3972,7 @@ http://cevio.jp/</value>
     <value>3200%(_6)</value>
   </data>
   <data name="PreferenceDialog_Song_SnapsIndicatorToCloserSide_Title" xml:space="preserve">
-    <value>点击标尺栏时以最近的小节线作为光标位置</value>
+    <value>点击标尺栏时以最近的量化线作为光标位置</value>
   </data>
   <data name="MainMenu_Talk_PhonemeGraph_Expansion_1600p" xml:space="preserve">
     <value>1600%(_5)</value>
@@ -4910,7 +4910,7 @@ CeVIO Creative Studio最新バージョンをご確認ください。</comment>
 请先进行声源许可验证以使用本程序。</value>
   </data>
   <data name="MainMenu_Song_GuideLine_Quantize_ToolTip" xml:space="preserve">
-    <value>显示小节的网格线。</value>
+    <value>显示最小量化单位的网格线。</value>
     <comment>クオンタイズのラインを表示します。</comment>
   </data>
   <data name="PreferenceDialog_Talk_TextFileEncoding_Write_Title" xml:space="preserve">
@@ -5187,7 +5187,7 @@ http://cevio.jp/</comment>
 ダウンロードしてインストールしますか？</comment>
   </data>
   <data name="MainMenu_Song_Quantize" xml:space="preserve">
-    <value>小节(_Q)</value>
+    <value>量化(_Q)</value>
   </data>
   <data name="MainMenu_Talk_ListColumns_Track" xml:space="preserve">
     <value>音轨</value>

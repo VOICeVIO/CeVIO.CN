@@ -173,7 +173,7 @@ VIA,VIFを重ねるとビブラート反映ピッチも重ね表示。</comment>
   </data>
   <data name="BulkButtonToolTip" xml:space="preserve">
     <value>范围选择工具 [Ctrl+2]
-选择范围内所有的音符或参数值。按住Alt键不吸附小节。
+选择范围内所有的音符或参数值。按住Alt键不吸附量化线。
 （按住左Ctrl：画笔工具）</value>
     <comment>まとめ選択ツール [Ctrl+2]
 範囲内の音符と全調整値をまとめて選択。Alt押下でクオンタイズなし。
@@ -260,7 +260,7 @@ PIT等の文字クリックで重ね表示。
 停止中は再生開始位置、先頭の順に移動。</comment>
   </data>
   <data name="Indicator_QuantizeToolTip" xml:space="preserve">
-    <value>小节量化
+    <value>音符量化
 点击以更换。</value>
     <comment>音符のクオンタイズ
 クリックで切替。</comment>
@@ -324,7 +324,7 @@ PIT等の文字クリックで重ね表示。</comment>
   <data name="ArrowButtonToolTip" xml:space="preserve">
     <value>选择工具 [Ctrl+1]
 乐谱编辑：选择（单个或范围）音符或标记。
-调整界面：指定复制或删除的范围。按住Alt键不吸附小节。
+调整界面：指定复制或删除的范围。按住Alt键不吸附量化线。
 （按住左Ctrl：画笔工具）</value>
     <comment>選択ツール [Ctrl+1]
 楽譜編集：音符やテンポなどの選択、音符の範囲選択。

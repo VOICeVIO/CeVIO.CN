@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="PianoRollMenu_View_GuideLineToolTip" xml:space="preserve">
-    <value>高亮显示离鼠标最近的小节线。</value>
+    <value>高亮显示离鼠标最近的量化线。</value>
     <comment>クオンタイズの補助カーソルを表示します。</comment>
   </data>
   <data name="PianoRollMenu_Tool_BulkSelect" xml:space="preserve">
@@ -130,7 +130,7 @@
     <comment>このトラック全体でビブラートを無効化します。</comment>
   </data>
   <data name="PianoRollMenu_View_TuningLineToolTip" xml:space="preserve">
-    <value>在调整界面也显示拍子或是小节的网格线。</value>
+    <value>在调整界面也显示拍子或是量化的网格线。</value>
     <comment>調整画面にも拍やクオンタイズのラインを表示します。</comment>
   </data>
   <data name="PianoRollMenu_Mode_Normal" xml:space="preserve">
@@ -355,7 +355,7 @@
     <comment>ルーラーに調号(キー)行を表示します。</comment>
   </data>
   <data name="PianoRollMenu_Quantize" xml:space="preserve">
-    <value>小节(_Q)</value>
+    <value>量化(_Q)</value>
     <comment>クオンタイズ(_Q)</comment>
   </data>
   <data name="PianoRollMenu_OverLay_Volume" xml:space="preserve">
@@ -629,7 +629,7 @@
     <comment>強弱記号のプロパティ</comment>
   </data>
   <data name="PianoRollMenu_View_QuantizeLine" xml:space="preserve">
-    <value>小节线(_Q)</value>
+    <value>量化线(_Q)</value>
     <comment>クオンタイズのライン(_Q)</comment>
   </data>
   <data name="PianoRollMenu_View_BeatLineToolTip" xml:space="preserve">
@@ -769,7 +769,7 @@
 （各行共通）水平ドラッグで簡易スクロール。垂直ドラッグで簡易ズーム。</comment>
   </data>
   <data name="PianoRollMenu_View_QuantizeLineToolTip" xml:space="preserve">
-    <value>显示小节的网格线。</value>
+    <value>显示最小量化单位的网格线。</value>
     <comment>クオンタイズのラインを表示します。</comment>
   </data>
   <data name="Phonemes" xml:space="preserve">
