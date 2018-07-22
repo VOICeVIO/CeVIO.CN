@@ -130,7 +130,7 @@
     <comment>このトラック全体でビブラートを無効化します。</comment>
   </data>
   <data name="PianoRollMenu_View_TuningLineToolTip" xml:space="preserve">
-    <value>調整画面にも拍やクオンタイズのラインを表示します。</value>
+    <value>在调整界面也显示拍子或是小节的网格线。</value>
     <comment>調整画面にも拍やクオンタイズのラインを表示します。</comment>
   </data>
   <data name="PianoRollMenu_Mode_Normal" xml:space="preserve">
@@ -138,16 +138,16 @@
     <comment>楽譜を編集(_1)</comment>
   </data>
   <data name="MidiImportDialogCaption2" xml:space="preserve">
-    <value>トラック)</value>
+    <value>音轨)</value>
     <comment>トラック)</comment>
   </data>
   <data name="MidiImportDialogCaption1" xml:space="preserve">
-    <value>読み込むトラックを選択します。(最大</value>
+    <value>选择要读取的音轨。(最大</value>
     <comment>読み込むトラックを選択します。(最大</comment>
   </data>
   <data name="BeatRowToolTip" xml:space="preserve">
-    <value>拍子行(全トラック共通)
-ダブルクリックで編集。ドラッグで移動。追加はペンでダブルクリック。</value>
+    <value>拍子行(全音轨共用)
+双击编辑。拖拽移动。用画笔工具双击空白处添加。</value>
     <comment>拍子行(全トラック共通)
 ダブルクリックで編集。ドラッグで移動。追加はペンでダブルクリック。</comment>
   </data>
@@ -199,8 +199,8 @@
 </value>
   </data>
   <data name="LyricError" xml:space="preserve">
-    <value>発音できない文字が含まれています。
-歌詞は全角かな／全角カナで入力してください。</value>
+    <value>包含不能发音的字符。
+请用全角假名输入歌词。</value>
     <comment>発音できない文字が含まれています。
 歌詞は全角かな／全角カナで入力してください。</comment>
   </data>
@@ -213,7 +213,7 @@
     <comment>ビブラート無効</comment>
   </data>
   <data name="BeatChangeConfirmationDialogTitle" xml:space="preserve">
-    <value>調号の位置補正の確認</value>
+    <value>调号位置修正确认</value>
     <comment>調号の位置補正の確認</comment>
   </data>
   <data name="MidiImportDialogSelect" xml:space="preserve">
@@ -249,7 +249,7 @@
     <comment>キャンセル</comment>
   </data>
   <data name="SplitterToolTip" xml:space="preserve">
-    <value>分割位置を調整(Ctrl+左クリックで既定位置)</value>
+    <value>调整分隔位置(Ctrl+左键单击恢复默认)</value>
     <comment>分割位置を調整(Ctrl+左クリックで既定位置)</comment>
   </data>
   <data name="PianoRollMenu_NotesOfOtherTracks" xml:space="preserve">
@@ -257,25 +257,25 @@
     <comment>別トラックの音符(_P)</comment>
   </data>
   <data name="PianoRollMenu_EnterLyricsCollectively" xml:space="preserve">
-    <value>歌詞のまとめ入力(_I)...</value>
+    <value>长段歌词输入(_I)...</value>
     <comment>歌詞のまとめ入力(_I)...</comment>
   </data>
   <data name="SpaceDelimitedToolTip" xml:space="preserve">
-    <value>音符毎にスペースで区切られた文字を割り当てます。
-2文字以上の歌詞も割り当て可能です。</value>
+    <value>按空格将歌词分配到音符。
+此时一个音符可能包含2个及以上的字符。</value>
     <comment>音符毎にスペースで区切られた文字を割り当てます。
 2文字以上の歌詞も割り当て可能です。</comment>
   </data>
   <data name="MidiImportDialogCaptionB1" xml:space="preserve">
-    <value>テンポ(</value>
+    <value>曲速(</value>
     <comment>テンポ(</comment>
   </data>
   <data name="MidiImportDialogCaptionB3" xml:space="preserve">
-    <value>)も読み込む</value>
+    <value>)也一并读取</value>
     <comment>)も読み込む</comment>
   </data>
   <data name="MidiImportDialogCaptionB2" xml:space="preserve">
-    <value>)と拍子(</value>
+    <value>)和拍子(</value>
     <comment>)と拍子(</comment>
   </data>
   <data name="PianoRollMenu_Mode" xml:space="preserve">
@@ -307,7 +307,7 @@
     <comment>ペンツール(_3)</comment>
   </data>
   <data name="PianoRollMenu_Mode_VibratoFrequencyToolTip" xml:space="preserve">
-    <value>ビブラートの周期調整画面に切り替えます。</value>
+    <value>切换到颤音周期调整界面。</value>
     <comment>ビブラートの周期調整画面に切り替えます。</comment>
   </data>
   <data name="SlurToolTip" xml:space="preserve">
@@ -317,7 +317,7 @@
 楽譜編集画面で音符を複数選択して[Ctrl+R]でも設定可能。</comment>
   </data>
   <data name="PianoRollMenu_FillSpacesToolTip" xml:space="preserve">
-    <value>選択中または全音符の細かい隙間(休符)を埋めます。</value>
+    <value>将选中的音符区间中的长音符进行扩展以填满其中的间隙。</value>
     <comment>選択中または全音符の細かい隙間(休符)を埋めます。</comment>
   </data>
   <data name="Position" xml:space="preserve">
@@ -333,13 +333,13 @@
     <comment>すべて選択(_A)</comment>
   </data>
   <data name="OneNoteOneMoraToolTip" xml:space="preserve">
-    <value>音符毎に1文字ずつ割り当てます。
-小文字が続く場合のみ2文字割り当てられます。</value>
+    <value>每个字符对应一个音符。
+只有当连续出现小写（半角）字符时才会把两个字符划分到一个音符。</value>
     <comment>音符毎に1文字ずつ割り当てます。
 小文字が続く場合のみ2文字割り当てられます。</comment>
   </data>
   <data name="BeatChangeConfirmationDialogText" xml:space="preserve">
-    <value>拍子を編集すると、全ソングトラックの調号の位置が補正されます。</value>
+    <value>编辑拍子后，将对所有歌唱音轨的调号的位置进行修正。</value>
     <comment>拍子を編集すると、全ソングトラックの調号の位置が補正されます。</comment>
   </data>
   <data name="PianoRollMenu_OverLay_VibratoFrequency" xml:space="preserve">
@@ -355,7 +355,7 @@
     <comment>ルーラーに調号(キー)行を表示します。</comment>
   </data>
   <data name="PianoRollMenu_Quantize" xml:space="preserve">
-    <value>クオンタイズ(_Q)</value>
+    <value>小节(_Q)</value>
     <comment>クオンタイズ(_Q)</comment>
   </data>
   <data name="PianoRollMenu_OverLay_Volume" xml:space="preserve">
@@ -371,8 +371,8 @@
     <comment>タイミングを表示(_2)</comment>
   </data>
   <data name="TempoRowToolTip" xml:space="preserve">
-    <value>テンポ行(全トラック共通)
-ダブルクリックで編集。ドラッグで移動。追加はペンでダブルクリック。</value>
+    <value>曲速行(全音轨共用)
+双击编辑。拖拽移动。用画笔工具双击空白处添加。</value>
     <comment>テンポ行(全トラック共通)
 ダブルクリックで編集。ドラッグで移動。追加はペンでダブルクリック。</comment>
   </data>
@@ -393,7 +393,7 @@
     <comment>1/4(3連符)</comment>
   </data>
   <data name="PianoRollMenu_EnterLyricsWithPhonemeToolTip" xml:space="preserve">
-    <value>歌詞を音素記号で入力します。</value>
+    <value>使用音素记号输入歌词。</value>
     <comment>歌詞を音素記号で入力します。</comment>
   </data>
   <data name="MidiImportNoTrackError" xml:space="preserve">
@@ -441,7 +441,7 @@
     <comment>調号行(_K)</comment>
   </data>
   <data name="PianoRollMenu_EnterLyricsCollectivelyToolTip" xml:space="preserve">
-    <value>選択中または先頭の音符から歌詞をまとめて入力します。</value>
+    <value>从选中的第一个音符的位置开始输入歌词。</value>
     <comment>選択中または先頭の音符から歌詞をまとめて入力します。</comment>
   </data>
   <data name="PianoRollMenu_Tool_Select" xml:space="preserve">
@@ -525,7 +525,7 @@
     <comment>歌詞</comment>
   </data>
   <data name="Tempo" xml:space="preserve">
-    <value>テンポ</value>
+    <value>曲速</value>
     <comment>テンポ</comment>
   </data>
   <data name="Sound" xml:space="preserve">
@@ -549,9 +549,9 @@
     <comment>ビブラートの周期を重ねます。</comment>
   </data>
   <data name="LyricDialogError" xml:space="preserve">
-    <value>発音できない文字が含まれています。
-歌詞は全角かな／全角カナで入力してください。
-このまま音符に反映しますか？</value>
+    <value>包含不能发音的字符。
+请用全角假名输入歌词。
+仍要使用这些歌词吗？</value>
     <comment>発音できない文字が含まれています。
 歌詞は全角かな／全角カナで入力してください。
 このまま音符に反映しますか？</comment>
@@ -565,7 +565,7 @@
     <comment>ルーラーに拍子行を表示します。</comment>
   </data>
   <data name="LyricDialogTitle" xml:space="preserve">
-    <value>歌詞のまとめ入力</value>
+    <value>长段歌词输入</value>
     <comment>歌詞のまとめ入力</comment>
   </data>
   <data name="PianoRollMenu_FillSpaces" xml:space="preserve">
@@ -573,8 +573,8 @@
     <comment>細かい空白の除去(_F)...</comment>
   </data>
   <data name="PianoRollMenu_Mode_PitchToolTip" xml:space="preserve">
-    <value>ピッチ調整画面に切り替えます。
-ビブラートの振幅や周期を重ねるとビブラート反映ピッチも重ね表示します。</value>
+    <value>切换到音高调整界面。
+当与颤音振幅/周期重叠显示时，会额外显示颤音的音高。</value>
     <comment>ピッチ調整画面に切り替えます。
 ビブラートの振幅や周期を重ねるとビブラート反映ピッチも重ね表示します。</comment>
   </data>
@@ -599,7 +599,7 @@
     <comment>ルーラーにテンポ行を表示します。</comment>
   </data>
   <data name="PianoRollMenu_PropertiesToolTip2" xml:space="preserve">
-    <value>テンポや拍子、調号の値を編集します。</value>
+    <value>编辑曲速、拍子、调号。</value>
     <comment>テンポや拍子、調号の値を編集します。</comment>
   </data>
   <data name="VoiceAlpha" xml:space="preserve">
@@ -608,7 +608,7 @@
   </data>
   <data name="KeyRowToolTip" xml:space="preserve">
     <value>调号(Key)行
-双击以编辑。拖动以移动。用画笔工具双击以添加。</value>
+双击编辑。拖动移动。用画笔工具双击空白处添加。</value>
     <comment>調号(キー)行
 ダブルクリックで編集。ドラッグで移動。追加はペンでダブルクリック。</comment>
   </data>
@@ -629,7 +629,7 @@
     <comment>強弱記号のプロパティ</comment>
   </data>
   <data name="PianoRollMenu_View_QuantizeLine" xml:space="preserve">
-    <value>クオンタイズのライン(_Q)</value>
+    <value>小节线(_Q)</value>
     <comment>クオンタイズのライン(_Q)</comment>
   </data>
   <data name="PianoRollMenu_View_BeatLineToolTip" xml:space="preserve">
@@ -637,8 +637,8 @@
     <comment>拍のラインを表示します。</comment>
   </data>
   <data name="MidiImportChannelSelect" xml:space="preserve">
-    <value>1トラックに全チャンネルが含まれるファイルです。
-チャンネルをトラックに割り当てますか？</value>
+    <value>此文件在1个音轨中包含所有的Channel。
+要将Channel分割到不同的音轨中吗？</value>
     <comment>1トラックに全チャンネルが含まれるファイルです。
 チャンネルをトラックに割り当てますか？</comment>
   </data>
@@ -655,11 +655,11 @@
     <comment>強弱記号行(_D)</comment>
   </data>
   <data name="AuditionDisabledMessage" xml:space="preserve">
-    <value>固定トラックは試聴できません。再生してください。</value>
+    <value>已固定的音轨无法试听，请直接播放。</value>
     <comment>固定トラックは試聴できません。再生してください。</comment>
   </data>
   <data name="ParametersCannotBeCalculated" xml:space="preserve">
-    <value>再生中はパラメータ計算できません</value>
+    <value>播放中无法计算参数</value>
     <comment>再生中はパラメータ計算できません</comment>
   </data>
   <data name="PianoRollMenu_VibratoDisable" xml:space="preserve">
@@ -667,7 +667,7 @@
     <comment>ビブラート無効(_V)</comment>
   </data>
   <data name="PianoRollMenu_Mode_VibratoAmplitudeToolTip" xml:space="preserve">
-    <value>ビブラートの振幅調整画面に切り替えます。</value>
+    <value>切换到颤音振幅调整界面。</value>
     <comment>ビブラートの振幅調整画面に切り替えます。</comment>
   </data>
   <data name="PianoRollMenu_Mode_Timing" xml:space="preserve">
@@ -675,11 +675,11 @@
     <comment>タイミングを調整(_2)</comment>
   </data>
   <data name="InvalidVoice" xml:space="preserve">
-    <value>ボイスが読み込まれていません</value>
+    <value>无法读取声源</value>
     <comment>ボイスが読み込まれていません</comment>
   </data>
   <data name="PianoRollMenu_View_TuningLine" xml:space="preserve">
-    <value>調整画面にもライン表示(_V)</value>
+    <value>在调整界面也显示网格线(_V)</value>
     <comment>調整画面にもライン表示(_V)</comment>
   </data>
   <data name="PianoRollMenu_View_BeatLine" xml:space="preserve">
@@ -687,7 +687,7 @@
     <comment>拍のライン(_G)</comment>
   </data>
   <data name="LyricDialogCaption4" xml:space="preserve">
-    <value>音符毎にスペースで区切られた文字を割り当てます。</value>
+    <value>按空格划分并分配每个音符的歌词。</value>
     <comment>音符毎にスペースで区切られた文字を割り当てます。</comment>
   </data>
   <data name="LyricDialogCaption2" xml:space="preserve">
@@ -703,8 +703,8 @@
     <comment>先頭の音符から歌詞を設定します。(最大</comment>
   </data>
   <data name="DynamicsRowToolTip" xml:space="preserve">
-    <value>強弱記号行
-ダブルクリックで編集。ドラッグで移動。追加はペンでダブルクリック。</value>
+    <value>强弱记号行
+双击编辑。拖拽移动。用画笔工具双击空白处添加。</value>
     <comment>強弱記号行
 ダブルクリックで編集。ドラッグで移動。追加はペンでダブルクリック。</comment>
   </data>
@@ -721,7 +721,7 @@
     <comment>ピッチを重ねます。重ね表示にはビブラートを反映。</comment>
   </data>
   <data name="OneNoteOneMora" xml:space="preserve">
-    <value>1音符1文字</value>
+    <value>1音符1字符</value>
     <comment>1音符1文字</comment>
   </data>
   <data name="PianoRollMenu_Mode_Volume" xml:space="preserve">
@@ -760,16 +760,16 @@
   </data>
   <data name="MeasureRowToolTip" xml:space="preserve">
     <value>小节行
-ダブルクリックで再生／停止。
-（各行共通）左クリックでポジションカーソル移動。
-（各行共通）水平ドラッグで簡易スクロール。垂直ドラッグで簡易ズーム。</value>
+双击播放／停止。
+（各行通用）左键单击移动光标。
+（各行通用）水平拖动滚动。垂直拖动缩放。</value>
     <comment>小節行
 ダブルクリックで再生／停止。
 （各行共通）左クリックでポジションカーソル移動。
 （各行共通）水平ドラッグで簡易スクロール。垂直ドラッグで簡易ズーム。</comment>
   </data>
   <data name="PianoRollMenu_View_QuantizeLineToolTip" xml:space="preserve">
-    <value>クオンタイズのラインを表示します。</value>
+    <value>显示小节的网格线。</value>
     <comment>クオンタイズのラインを表示します。</comment>
   </data>
   <data name="Phonemes" xml:space="preserve">
@@ -781,13 +781,13 @@
     <comment>重ね表示(_P)</comment>
   </data>
   <data name="PianoRollMenu_PropertiesToolTip" xml:space="preserve">
-    <value>音符の詳細、ブレスやスラーを設定します。
-音符を複数選択してまとめて変更可能。数値の+-指定可能。</value>
+    <value>设置音符的详细属性，包括呼吸和连音。
+选中多个音符可同时设置。数值可用+-来指定相对值。</value>
     <comment>音符の詳細、ブレスやスラーを設定します。
 音符を複数選択してまとめて変更可能。数値の+-指定可能。</comment>
   </data>
   <data name="LyricTextBoxMenuPhoneticToolTip" xml:space="preserve">
-    <value>歌詞を音素記号で入力します。</value>
+    <value>用音素记号输入歌词。</value>
     <comment>歌詞を音素記号で入力します。</comment>
   </data>
   <data name="SlurBegin" xml:space="preserve">
@@ -795,7 +795,7 @@
     <comment>スラー開始</comment>
   </data>
   <data name="MidiImportDialogCheckBoxText" xml:space="preserve">
-    <value>テンポと拍子を読み込む</value>
+    <value>读取曲速和拍子</value>
     <comment>テンポと拍子を読み込む</comment>
   </data>
   <data name="TrackName" xml:space="preserve">
@@ -819,11 +819,11 @@
     <comment>ボリューム調整画面に切り替えます。</comment>
   </data>
   <data name="TempoDialogTitle" xml:space="preserve">
-    <value>テンポのプロパティ</value>
+    <value>曲速属性</value>
     <comment>テンポのプロパティ</comment>
   </data>
   <data name="FillSpacesDuration" xml:space="preserve">
-    <value>除去する空白の長さ</value>
+    <value>要去除的空白的最大长度</value>
     <comment>除去する空白の長さ</comment>
   </data>
   <data name="BreathToolTip" xml:space="preserve">
