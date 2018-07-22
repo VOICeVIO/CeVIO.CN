@@ -1646,7 +1646,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>音频音轨(_A)</value>
   </data>
   <data name="PreferenceDialog_Song_DefaultAlpha_Title" xml:space="preserve">
-    <value>默认音质</value>
+    <value>默认音色</value>
   </data>
   <data name="Message_Confirm_DeleteQuote" xml:space="preserve">
     <value>将删除选定的台词。
@@ -3541,7 +3541,7 @@ http://cevio.jp/</value>
     <value>输入的序列号已经认证完毕。</value>
   </data>
   <data name="TalkEditor_RegulatedParameter_Alpha_Title" xml:space="preserve">
-    <value>音质</value>
+    <value>音色</value>
   </data>
   <data name="MainMenu_Song_CursorMode_Selector_InputGesture" xml:space="preserve">
     <value>Ctrl+1</value>
