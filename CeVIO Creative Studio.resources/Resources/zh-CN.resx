@@ -1631,7 +1631,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>标准(_N)</value>
   </data>
   <data name="MainMenu_Talk_AddEmptyRow_ToolTip" xml:space="preserve">
-    <value>在最后追加一个空白行。</value>
+    <value>在最后添加一个空白行。</value>
   </data>
   <data name="Fragment_SongTrack" xml:space="preserve">
     <value>歌唱音轨</value>
@@ -2729,7 +2729,7 @@ http://cevio.jp/</comment>
     <value>保存(_S)</value>
   </data>
   <data name="MainMenu_Track_Add_ShowTrackList" xml:space="preserve">
-    <value>追加音轨(_T)...</value>
+    <value>添加音轨(_T)...</value>
   </data>
   <data name="MainMenu_Edit_Delete" xml:space="preserve">
     <value>删除(_L)</value>
@@ -2838,7 +2838,7 @@ http://cevio.jp/</comment>
     <value>使音轨静音(_M)</value>
   </data>
   <data name="Timeline_AddTrackButton_ToolTip" xml:space="preserve">
-    <value>追加音轨</value>
+    <value>添加音轨</value>
   </data>
   <data name="TrackHeader_MuteButton_ToolTip" xml:space="preserve">
     <value>此音轨静音 [Shift+M]</value>
@@ -3198,7 +3198,7 @@ http://cevio.jp/</comment>
     <value>请输入数值。</value>
   </data>
   <data name="TrackLane_Menu_Extra_ShowTrackList" xml:space="preserve">
-    <value>追加音轨(_T)...</value>
+    <value>添加音轨(_T)...</value>
   </data>
   <data name="TrackHeader_Menu_Extra_ShowTrackList_ToolTip" xml:space="preserve">
     <value>在选中的音轨之下增加一个新音轨。</value>
@@ -3285,7 +3285,7 @@ http://cevio.jp/</comment>
 之后重启本程序。</value>
   </data>
   <data name="PreferenceDialog_Ambient_InitialTracks_Menu_AddAudio" xml:space="preserve">
-    <value>追加音频音轨</value>
+    <value>添加音频音轨</value>
   </data>
   <data name="PreferenceDialog_Ambient_Image_Enlarges_ToolTip" xml:space="preserve">
     <value>在右侧显示画像边栏(适合大屏幕)。</value>
@@ -3294,10 +3294,10 @@ http://cevio.jp/</comment>
     <value>自动防止同一音轨的台词重叠。</value>
   </data>
   <data name="TrackHeader_Menu_Extra_AddSong" xml:space="preserve">
-    <value>追加歌唱音轨(_T)</value>
+    <value>添加歌唱音轨(_T)</value>
   </data>
   <data name="TrackHeader_Menu_Extra_AddTalk" xml:space="preserve">
-    <value>追加语音音轨(_T)</value>
+    <value>添加语音音轨(_T)</value>
   </data>
   <data name="LocalewiseSettingDialog_Title" xml:space="preserve">
     <value>停顿设置</value>
@@ -3386,10 +3386,10 @@ http://cevio.jp/
 否则将把点击位置所在的量化段的开头作为光标位置。</value>
   </data>
   <data name="PreferenceDialog_Ambient_InitialTracks_Menu_AddTalk" xml:space="preserve">
-    <value>追加语音音轨</value>
+    <value>添加语音音轨</value>
   </data>
   <data name="PreferenceDialog_Ambient_InitialTracks_Menu_AddSong" xml:space="preserve">
-    <value>追加歌唱音轨</value>
+    <value>添加歌唱音轨</value>
   </data>
   <data name="MainMenu_File_Import_Audio" xml:space="preserve">
     <value>导入音频文件(_A)...</value>
@@ -3535,7 +3535,7 @@ http://cevio.jp/</value>
     <value>将此音轨的内容清空。（不会删除音轨）</value>
   </data>
   <data name="TrackLane_Menu_Add_ShowTrackList" xml:space="preserve">
-    <value>追加音轨(_T)...</value>
+    <value>添加音轨(_T)...</value>
   </data>
   <data name="Message_License_AlreadyAuthorized" xml:space="preserve">
     <value>输入的序列号已经认证完毕。</value>
@@ -3678,7 +3678,7 @@ http://cevio.jp/</value>
     <value>以下功能可以被激活。</value>
   </data>
   <data name="TrackHeader_Menu_Extra_ShowTrackList" xml:space="preserve">
-    <value>追加音轨(_T)...</value>
+    <value>添加音轨(_T)...</value>
   </data>
   <data name="TalkEditor_List_StartTimeCell_ToolTip" xml:space="preserve">
     <value>双击输入数值 [F2]</value>
@@ -4424,10 +4424,10 @@ http://cevio.jp/</value>
     <value>导入音频文件(_A)...</value>
   </data>
   <data name="TrackLane_Menu_Extra_AddSong" xml:space="preserve">
-    <value>追加歌唱音轨(_T)</value>
+    <value>添加歌唱音轨(_T)</value>
   </data>
   <data name="TrackLane_Menu_Extra_AddTalk" xml:space="preserve">
-    <value>追加语音音轨(_T)</value>
+    <value>添加语音音轨(_T)</value>
   </data>
   <data name="MainMenu_Transport_HorizontalLocation_Right" xml:space="preserve">
     <value>右侧</value>
@@ -4577,7 +4577,7 @@ http://cevio.jp/</value>
     <value>音轨(_R)</value>
   </data>
   <data name="TalkEditor_PresetSelector_AddItem_Title" xml:space="preserve">
-    <value>(追加)</value>
+    <value>(添加)</value>
   </data>
   <data name="MainMenu_Song_CursorMode_Line" xml:space="preserve">
     <value>直线工具(_4)</value>
@@ -5231,7 +5231,7 @@ http://cevio.jp/</comment>
     <comment>ソングボイス</comment>
   </data>
   <data name="TrackHeader_Menu_Add_ShowTrackList" xml:space="preserve">
-    <value>追加音轨(_T)...</value>
+    <value>添加音轨(_T)...</value>
   </data>
   <data name="MainMenu_Transport_MoveToStartMarker_InputGesture" xml:space="preserve">
     <value>小键盘 1</value>
@@ -5401,7 +5401,7 @@ http://cevio.jp/
     <value>固定音轨(_Z)</value>
   </data>
   <data name="TalkEditor_RegulatedParameter_LogF0Scale_Title" xml:space="preserve">
-    <value>音调</value>
+    <value>语调</value>
   </data>
   <data name="Message_Information_CanNotFreezeEmptyTrack" xml:space="preserve">
     <value>无法固定空音轨。</value>
