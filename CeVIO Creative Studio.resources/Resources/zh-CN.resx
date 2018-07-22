@@ -124,10 +124,14 @@
     <value>MIDI导入失败。</value>
   </data>
   <data name="Message_License_Warning_WebAccessFault" xml:space="preserve">
-    <value>Webサイトへの自動アクセスに失敗しました。
+    <value>自动打开网站失败。
+可能没有设置默认浏览器，或无法调用默认浏览器。
+
+请手动打开以下URL链接。</value>
+    <comment>Webサイトへの自動アクセスに失敗しました。
 既定のWebブラウザが設定されていない可能性があります。
 
-お使いのWebブラウザにて下記URLへアクセスしてください。</value>
+お使いのWebブラウザにて下記URLへアクセスしてください。</comment>
   </data>
   <data name="Message_Confirm_UnfreezeTrack" xml:space="preserve">
     <value>将解除音轨的固定状态。确定吗？</value>
@@ -378,8 +382,10 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <comment>コマンド実行判定にてエラーが発生しました。</comment>
   </data>
   <data name="Message_License_Confirm_ClearAllLicenses" xml:space="preserve">
-    <value>このPCで認証済みのライセンスを一旦すべて解除します。
-よろしいですか？</value>
+    <value>将此PC已认证完成的授权全部解除。
+确定吗？</value>
+    <comment>このPCで認証済みのライセンスを一旦すべて解除します。
+よろしいですか？</comment>
   </data>
   <data name="MainMenu_Edit_Paste" xml:space="preserve">
     <value>粘贴(_P)</value>
@@ -404,8 +410,10 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>输入选中音符的歌词。</value>
   </data>
   <data name="Message_License_Information_Download_Appendix" xml:space="preserve">
-    <value>※ダウンロードが進まないときは一旦キャンセルして、
-もう一度お試しください。</value>
+    <value>※下载进度若长期停滞不前，
+请取消并再试一次。</value>
+    <comment>※ダウンロードが進まないときは一旦キャンセルして、
+もう一度お試しください。</comment>
   </data>
   <data name="PreferenceDialog_Talk_DisplayValueByOldStyle_Title" xml:space="preserve">
     <value>使用旧版参数显示</value>
@@ -2254,7 +2262,8 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <comment>MIDIの読み込み</comment>
   </data>
   <data name="Message_License_Information_InstallationCompleted" xml:space="preserve">
-    <value>新しい製品がインストールされたため、アプリケーションを再起動してください。</value>
+    <value>已安装新产品，因此需要重新启动应用程序。</value>
+    <comment>新しい製品がインストールされたため、アプリケーションを再起動してください。</comment>
   </data>
   <data name="Message_Warning_CreateInvalidTracks" xml:space="preserve">
     <value>创建音轨时发生了错误。以下音轨将无法编辑。</value>
@@ -2516,9 +2525,12 @@ http://cevio.jp/</value>
     <value>切换到颤音振幅调整界面。可调整颤音的幅度。</value>
   </data>
   <data name="Message_License_Error_Authorization_ActiveOtherLicensesNotDetected" xml:space="preserve">
-    <value>{0} のライセンス情報が判別できないため、ライセンス認証に失敗しました。
-下記公式サイトからお問い合わせください。
+    <value>{0} 的授权信息无法判定，认证已失败。
+请到下面的网站查询或咨询。
 http://cevio.jp/</value>
+    <comment>{0} のライセンス情報が判別できないため、ライセンス認証に失敗しました。
+下記公式サイトからお問い合わせください。
+http://cevio.jp/</comment>
   </data>
   <data name="MainMenu_File_Import_Audio_ToolTip" xml:space="preserve">
     <value>将音频加载到当前光标的位置。
@@ -2606,7 +2618,7 @@ http://cevio.jp/</value>
     <value>删除选定的行。</value>
   </data>
   <data name="Message_License_Error_ProductTrial_Authorization" xml:space="preserve">
-    <value>体验版声源认证时产生了错误。</value>
+    <value>体验版声源认证时发生了错误。</value>
   </data>
   <data name="Portrait_Menu_ViewMode_Normal_InputGesture" xml:space="preserve">
     <value />
@@ -2758,8 +2770,10 @@ http://cevio.jp/</value>
     <value>音轨数量已经达到上限，因此无法再添加。</value>
   </data>
   <data name="Message_Warning_CannotOverwriteFile_ReadOnly" xml:space="preserve">
-    <value>'{0}' は読み取り専用のため、上書き保存できません。
-変更内容を保存するには、新しい名前または別の場所を指定してください。</value>
+    <value>'{0}' 是只读的，无法进行写入。
+请保存为其他文件名，或保存到其他位置。</value>
+    <comment>'{0}' は読み取り専用のため、上書き保存できません。
+変更内容を保存するには、新しい名前または別の場所を指定してください。</comment>
   </data>
   <data name="MainMenu_Talk_ListColumns_EndTime" xml:space="preserve">
     <value>结束时间</value>
@@ -2805,7 +2819,8 @@ http://cevio.jp/</value>
     <comment>トラックのスナップショットを作成しています...</comment>
   </data>
   <data name="Message_Warning_FolderNotFound_InstallFolder" xml:space="preserve">
-    <value>以下のキーに関連するインストールフォルダが見つかりません。</value>
+    <value>未能找到以下键关联的安装文件夹。</value>
+    <comment>以下のキーに関連するインストールフォルダが見つかりません。</comment>
   </data>
   <data name="MainMenu_Track_Solo" xml:space="preserve">
     <value>使音轨独奏(_S)</value>
@@ -2907,7 +2922,8 @@ http://cevio.jp/</value>
     <value>在这个位置插入一个台词片段。</value>
   </data>
   <data name="Message_Warning_Import_NoValidData" xml:space="preserve">
-    <value>インポート可能なデータが存在しませんでした。</value>
+    <value>没有可导入的数据。</value>
+    <comment>インポート可能なデータが存在しませんでした。</comment>
   </data>
   <data name="MainMenu_View_Portrait_ToolTip" xml:space="preserve">
     <value>只显示一个人物画像，通过右键菜单进行播放。</value>
@@ -2990,9 +3006,12 @@ http://cevio.jp/</value>
     <value>打开设定文件夹</value>
   </data>
   <data name="Message_License_Error_Activation" xml:space="preserve">
-    <value>ライセンス登録に失敗しました。(Error={0})
-下記公式サイトからお問い合わせください。
+    <value>授权注册失败。(Error={0})
+请到下面的网站查询或咨询。
 http://cevio.jp/</value>
+    <comment>ライセンス登録に失敗しました。(Error={0})
+下記公式サイトからお問い合わせください。
+http://cevio.jp/</comment>
   </data>
   <data name="MainMenu_View_Default_ToolTip" xml:space="preserve">
     <value>正常窗口界面。</value>
@@ -3117,7 +3136,8 @@ http://cevio.jp/</value>
     <comment>このトラックをMIDI形式で書き出します。</comment>
   </data>
   <data name="Message_License_Error_Activation_UnrecognizableProductKey" xml:space="preserve">
-    <value>無効なシリアルナンバーです。入力内容をご確認ください。</value>
+    <value>序列号无效。请检查输入的内容。</value>
+    <comment>無効なシリアルナンバーです。入力内容をご確認ください。</comment>
   </data>
   <data name="TrackSelectionDialog_Destination_Insert_DateTime_ToolTip" xml:space="preserve">
     <value>在光标位置插入[日期]</value>
@@ -3573,8 +3593,10 @@ http://cevio.jp/</value>
     <value>播放/停止(_P)</value>
   </data>
   <data name="Message_Warning_MissingSystemResources" xml:space="preserve">
-    <value>再生を行うためのシステムリソースが確保できません。
-再度再生を実行すると改善する場合があります。</value>
+    <value>当前系统资源不足以执行播放。
+请确保有足够的系统资源，然后再次执行播放。</value>
+    <comment>再生を行うためのシステムリソースが確保できません。
+再度再生を実行すると改善する場合があります。</comment>
   </data>
   <data name="MainMenu_Transport_EndMarker_ToolTip" xml:space="preserve">
     <value>设置/解除终点标记。</value>
@@ -3593,6 +3615,7 @@ http://cevio.jp/</value>
   </data>
   <data name="Message_Warning_CastNotFound" xml:space="preserve">
     <value>指定的角色不存在。</value>
+    <comment>指定されたキャストは存在しません。</comment>
   </data>
   <data name="MainMenu_File_Import_Track_ToolTip" xml:space="preserve">
     <value>导入已保存的音轨单位文件。</value>
@@ -3627,10 +3650,14 @@ http://cevio.jp/</value>
     <value>无</value>
   </data>
   <data name="Message_License_Confirm_Activation_InputSubstituteProductKey" xml:space="preserve">
-    <value>このシリアルナンバーは別のPCで認証済みです。
+    <value>此序列号已经在别的PC完成认证了。
+授权迁移后，需要等待24小时才能再次迁移。(还需 {0})
+
+要用其他的序列号继续认证吗？</value>
+    <comment>このシリアルナンバーは別のPCで認証済みです。
 ライセンスの移行後、24時間は再びライセンスを移行できません。({0} まで)
 
-別のシリアルナンバーを入力してライセンス認証しますか？</value>
+別のシリアルナンバーを入力してライセンス認証しますか？</comment>
   </data>
   <data name="PreferenceDialog_Ambient_Image_ShowsTrackThumbnail_Title" xml:space="preserve">
     <value>在音轨上显示角色画像</value>
@@ -3836,9 +3863,12 @@ http://cevio.jp/</value>
     <value>编号</value>
   </data>
   <data name="Message_License_Confirm_Authorization_InputSubstituteProductKey" xml:space="preserve">
-    <value>以下の製品は別のPCで認証されました。
-代わりのシリアルナンバーを入力してライセンス認証しますか？
+    <value>以下产品已经在别的PC完成认证了。
+要用其他的序列号继续认证吗？
 {0}</value>
+    <comment>以下の製品は別のPCで認証されました。
+代わりのシリアルナンバーを入力してライセンス認証しますか？
+{0}</comment>
   </data>
   <data name="MoveCursorDialog_Destination_Title" xml:space="preserve">
     <value>移动到</value>
@@ -4019,13 +4049,15 @@ http://cevio.jp/</value>
 http://cevio.jp/</value>
   </data>
   <data name="Message_License_Information_InstallationCanceled" xml:space="preserve">
-    <value>ボイスのインストールがキャンセルされました。</value>
+    <value>声源的安装已被取消。</value>
+    <comment>ボイスのインストールがキャンセルされました。</comment>
   </data>
   <data name="TrackSelectionDialog_TargetTracks_UnselectAllButton_Title" xml:space="preserve">
     <value>取消全选</value>
   </data>
   <data name="Message_Warning_WrongMailAddress" xml:space="preserve">
-    <value>メールアドレスは正しく入力してください。</value>
+    <value>输入的电子邮件地址不正确。</value>
+    <comment>メールアドレスは正しく入力してください。</comment>
   </data>
   <data name="TrackLane_Menu_Rearrange_ToolTip" xml:space="preserve">
     <value>将此音轨或多音轨中的元素按等间隔排列。
@@ -4056,7 +4088,7 @@ http://cevio.jp/</value>
     <comment>音符の位置と長さを補正しました。</comment>
   </data>
   <data name="MoveCursorDialog_Destination_ByMeasureNumber_ToolTip" xml:space="preserve">
-    <value>输入格式：
+    <value>支持的输入格式：
   (小节):(拍).(Tick)
   (小节):(拍)
   (小节)</value>
@@ -4146,13 +4178,16 @@ http://cevio.jp/</value>
 セリフの連続WAV書き出しの末尾無音の長さにも反映されます。</comment>
   </data>
   <data name="Message_License_ExceededReconfigurationLimit_Guide1" xml:space="preserve">
-    <value>※インターネット接続した状態で、変更から一定期間は使用できます。</value>
+    <value>※在连接网络的状态下，变更后仍能使用一段时间。</value>
+    <comment>※インターネット接続した状態で、変更から一定期間は使用できます。</comment>
   </data>
   <data name="Message_License_ExceededReconfigurationLimit_Guide3" xml:space="preserve">
-    <value>※再認証されないと、{0}日後に使用できなくなります。</value>
+    <value>※若不进行再认证，{0}天后将无法继续使用。</value>
+    <comment>※再認証されないと、{0}日後に使用できなくなります。</comment>
   </data>
   <data name="Message_License_ExceededReconfigurationLimit_Guide2" xml:space="preserve">
-    <value>※あと{0}時間{1}分後に使用できなくなります。</value>
+    <value>※在{0}小时{1}分钟后将无法继续使用。</value>
+    <comment>※あと{0}時間{1}分後に使用できなくなります。</comment>
   </data>
   <data name="PhraseClipDialog_Grid_Menu_Play_InputGesture" xml:space="preserve">
     <value>Space</value>
@@ -4179,7 +4214,8 @@ http://cevio.jp/</value>
 選択したソフトウェアのライセンスを表示します。</comment>
   </data>
   <data name="Message_Warning_CannotOutputWaveformOfInvalidSong" xml:space="preserve">
-    <value>このトラックは生成時にエラーが発生したため、WAV書き出しできません。</value>
+    <value>此音轨合成时发生了错误，因此无法输出WAV。</value>
+    <comment>このトラックは生成時にエラーが発生したため、WAV書き出しできません。</comment>
   </data>
   <data name="MainMenu_Talk_EditorDisplayAllocation_PhonemeGraphOnly" xml:space="preserve">
     <value>只显示音素图</value>
@@ -4222,9 +4258,12 @@ http://cevio.jp/</value>
     <value>音轨配音角色(_K)</value>
   </data>
   <data name="Message_License_Confirm_Activation_MigrateLicense" xml:space="preserve">
-    <value>このシリアルナンバーは別のPCで認証済みです。
+    <value>此序列号已经在别的PC完成认证了。
+要解除其授权，并将授权迁移到当前的PC上吗？
+（每次授权迁移后，需要等待24小时才能再次迁移。）</value>
+    <comment>このシリアルナンバーは別のPCで認証済みです。
 現在の認証を解除し、このPCにライセンスを移行しますか？
-（ライセンスの移行後、24時間は再びライセンスを移行できません。）</value>
+（ライセンスの移行後、24時間は再びライセンスを移行できません。）</comment>
   </data>
   <data name="Dialog_Extension_OutputTimingDataSwitch_Title" xml:space="preserve">
     <value>将时间信息导出为文本</value>
@@ -4248,10 +4287,14 @@ http://cevio.jp/</value>
 要恢复之前备份的内容吗？</value>
   </data>
   <data name="MoveUnitDialog_Destination_ByTime_ToolTip" xml:space="preserve">
-    <value>いずれかの形式で数値を入力：
+    <value>支持的输入格式：
+  (分):(秒).(毫秒)
+  (秒).(毫秒)
+  (秒)</value>
+    <comment>いずれかの形式で数値を入力：
   (分):(秒).(ミリ秒)
   (秒).(ミリ秒)
-  (秒)</value>
+  (秒)</comment>
   </data>
   <data name="TrackHeader_Menu_MoveToDown_ToolTip" xml:space="preserve">
     <value>将此音轨下移1个单位。</value>
@@ -4260,7 +4303,8 @@ http://cevio.jp/</value>
     <value>分:秒 (0:00 - {0:m\:ss})</value>
   </data>
   <data name="Message_Warning_Unavailable_Expired" xml:space="preserve">
-    <value>【{0}】は有効期限を過ぎているため、現在ご利用になれません。</value>
+    <value>【{0}】的有效期已过，现在已经无法使用。</value>
+    <comment>【{0}】は有効期限を過ぎているため、現在ご利用になれません。</comment>
   </data>
   <data name="Message_Warning_RuntimeSettingLoadingFault" xml:space="preserve">
     <value>环境配置文件读取失败。将以初始化设置启动。</value>
@@ -4542,14 +4586,20 @@ http://cevio.jp/</value>
     <value>版本信息(_A)...</value>
   </data>
   <data name="Message_Warning_CastNotFound_AssignSubstitute" xml:space="preserve">
-    <value>このPCにインストールされていないキャストがトラックに含まれています。
+    <value>此PC上未安装此音轨的配音角色。
+因此将使用别的角色自动替换未安装的配音角色。
+若不存在同语言的已安装角色，相关音轨将无法读取。</value>
+    <comment>このPCにインストールされていないキャストがトラックに含まれています。
 それらはこのPCにインストールされている別のキャストに自動的に置き換えられますが、
-同じ言語のキャストが見つからない場合は読み込まれません。</value>
+同じ言語のキャストが見つからない場合は読み込まれません。</comment>
   </data>
   <data name="Message_License_ProductTrial_FoundNewTriableProduct" xml:space="preserve">
-    <value>【{0}】がインストールされています。
+    <value>【{0}】已安装。
+要开始使用体验版吗？
+{1}之前可以体验。</value>
+    <comment>【{0}】がインストールされています。
 体験利用を開始しますか？
-{1}まで体験できます。</value>
+{1}まで体験できます。</comment>
   </data>
   <data name="TrackHeader_CastButton_ToolTip_WithName" xml:space="preserve">
     <value>角色: {0} [Shift+C]</value>
@@ -4659,7 +4709,8 @@ http://cevio.jp/</value>
     <value>5</value>
   </data>
   <data name="Message_License_Information_Download" xml:space="preserve">
-    <value>ダウンロードしています...</value>
+    <value>正在下载...</value>
+    <comment>ダウンロードしています...</comment>
   </data>
   <data name="Message_Warning_ElementOverlapping" xml:space="preserve">
     <value>移动的目标位置已经有别的元素了。请移动到不会重叠的地方。</value>
@@ -4740,9 +4791,12 @@ http://cevio.jp/</value>
     <comment>再生中にこの操作は行えません。</comment>
   </data>
   <data name="Message_License_Error_Authorization_UnrecognizableProductKey" xml:space="preserve">
-    <value>{0} のシリアルナンバーが認識できないため、ライセンス認証に失敗しました。
-下記公式サイトからお問い合わせください。
+    <value>{0} 的序列号不匹配，认证已失败。
+请到下面的网站查询或咨询。
 http://cevio.jp/</value>
+    <comment>{0} のシリアルナンバーが認識できないため、ライセンス認証に失敗しました。
+下記公式サイトからお問い合わせください。
+http://cevio.jp/</comment>
   </data>
   <data name="MainMenu_File_NewProject_ToolTip" xml:space="preserve">
     <value>创建一个新的工程。</value>
@@ -4795,7 +4849,8 @@ http://cevio.jp/</value>
     <value>用户名：</value>
   </data>
   <data name="Message_Error_Application" xml:space="preserve">
-    <value>アプリケーションエラーが発生しました。</value>
+    <value>发生了应用程序错误。</value>
+    <comment>アプリケーションエラーが発生しました。</comment>
   </data>
   <data name="MainMenu_Talk_PhonemeGraph_Expansion_Shrink_ToolTip" xml:space="preserve">
     <value>纵向显示倍率缩小。</value>
@@ -4810,8 +4865,10 @@ http://cevio.jp/</value>
     <value>音量(VOL)调整(_3)</value>
   </data>
   <data name="Message_Warning_UnavailableOnCurrent" xml:space="preserve">
-    <value>【{0}】は現在のバージョンではご利用になれません。
-CeVIO Creative Studio最新バージョンをご確認ください。</value>
+    <value>【{0}】不能在当前版本中使用。
+请使用CeVIO Creative Studio的最新版本。</value>
+    <comment>【{0}】は現在のバージョンではご利用になれません。
+CeVIO Creative Studio最新バージョンをご確認ください。</comment>
   </data>
   <data name="UpdateAnnounceDialog_ShowHelpButton_Title" xml:space="preserve">
     <value>显示帮助页面</value>
@@ -5003,7 +5060,8 @@ CeVIO Creative Studio最新バージョンをご確認ください。</value>
     <value>输入的序列号无法使用。</value>
   </data>
   <data name="Message_Warning_NowProcessing" xml:space="preserve">
-    <value>現在処理中のため終了できません。</value>
+    <value>正在进行处理，现在无法退出。</value>
+    <comment>現在処理中のため終了できません。</comment>
   </data>
   <data name="PreferenceDialog_Ambient_InitialTracks_DeleteButton_ToolTip" xml:space="preserve">
     <value>删除选定的行。</value>
@@ -5024,12 +5082,16 @@ CeVIO Creative Studio最新バージョンをご確認ください。</value>
     <value>文件内容无效。</value>
   </data>
   <data name="Message_License_Error_ProxyServer" xml:space="preserve">
-    <value>プロキシサーバ認証時にエラーが発生しました。</value>
+    <value>代理服务器认证时发生了错误。</value>
+    <comment>プロキシサーバ認証時にエラーが発生しました。</comment>
   </data>
   <data name="Message_License_Error_Authorization_LicenseNotFound" xml:space="preserve">
-    <value>{0} のライセンス情報が見つからないため、ライセンス認証に失敗しました。
-下記公式サイトからお問い合わせください。
+    <value>{0} 的授权信息丢失，认证已失败。
+请到下面的网站查询或咨询。
 http://cevio.jp/</value>
+    <comment>{0} のライセンス情報が見つからないため、ライセンス認証に失敗しました。
+下記公式サイトからお問い合わせください。
+http://cevio.jp/</comment>
   </data>
   <data name="MainMenu_Song_CursorMode_Eraser" xml:space="preserve">
     <value>橡皮擦工具(_5)</value>
@@ -5053,7 +5115,8 @@ http://cevio.jp/</value>
     <comment>トラックの固定に失敗しました。</comment>
   </data>
   <data name="Message_License_Error_ProxyServer_AuthorizingData" xml:space="preserve">
-    <value>指定されたユーザー名、パスワードで認証できませんでした。</value>
+    <value>指定的用户名和密码认证失败。</value>
+    <comment>指定されたユーザー名、パスワードで認証できませんでした。</comment>
   </data>
   <data name="MainMenu_Song_ShowNotesOfOtherTracks_ToolTip" xml:space="preserve">
     <value>在乐谱编辑界面也显示其他音轨的音符。</value>
@@ -5075,10 +5138,14 @@ http://cevio.jp/</value>
     <value>导出(_E)</value>
   </data>
   <data name="MoveUnitDialog_Destination_ByDelta_ToolTip" xml:space="preserve">
-    <value>いずれかの形式で数値を入力：
+    <value>支持的输入格式：
+  (+/-)(分):(秒).(毫秒)
+  (+/-)(秒).(毫秒)
+  (+/-)(秒)</value>
+    <comment>いずれかの形式で数値を入力：
   (+/-)(分):(秒).(ミリ秒)
   (+/-)(秒).(ミリ秒)
-  (+/-)(秒)</value>
+  (+/-)(秒)</comment>
   </data>
   <data name="MainMenu_Song_GuideLine_Beat" xml:space="preserve">
     <value>拍子线(_G)</value>
@@ -5103,15 +5170,21 @@ http://cevio.jp/</value>
     <value>添加音轨(_T)</value>
   </data>
   <data name="MoveCursorDialog_Destination_ByTime_ToolTip" xml:space="preserve">
-    <value>いずれかの形式で数値を入力：
+    <value>支持的输入格式：
+  (分):(秒).(毫秒)
+  (秒).(毫秒)
+  (秒)</value>
+    <comment>いずれかの形式で数値を入力：
   (分):(秒).(ミリ秒)
   (秒).(ミリ秒)
-  (秒)</value>
+  (秒)</comment>
   </data>
   <data name="Message_License_Warning_ProductNotFound_Download" xml:space="preserve">
-    <value>入力されたシリアルナンバーに対応するボイスパッケージが
+    <value>输入的序列号对应的声源还没有安装。
+要现在下载并安装吗？</value>
+    <comment>入力されたシリアルナンバーに対応するボイスパッケージが
 インストールされていません。
-ダウンロードしてインストールしますか？</value>
+ダウンロードしてインストールしますか？</comment>
   </data>
   <data name="MainMenu_Song_Quantize" xml:space="preserve">
     <value>小节(_Q)</value>
@@ -5226,21 +5299,34 @@ http://cevio.jp/
 ※若不进行再认证，{0}日后将无法使用。</value>
   </data>
   <data name="Message_License_Warning_ExceededReconfigurationLimit2" xml:space="preserve">
-    <value>{0} のインストール先の機器構成が規定回数を超えて変更されたため、
+    <value>以{0}为安装目标的PC的软硬件配置变更次数已超过限制。
+需要通过Email进行授权的再认证。
+再认证的相关说明，请到下面的网站查看或咨询。
+http://cevio.jp/
+
+※本软件的每份授权在同一时间只能用于1台PC。</value>
+    <comment>{0} のインストール先の機器構成が規定回数を超えて変更されたため、
 メールによるライセンス再認証のお手続きが必要です。
 再認証のため、下記公式サイトからお問い合わせください。
 http://cevio.jp/
 
-※本ソフトは1ライセンスにつきPC1台で使用可能です。</value>
+※本ソフトは1ライセンスにつきPC1台で使用可能です。</comment>
   </data>
   <data name="Message_License_Warning_ExceededReconfigurationLimit4" xml:space="preserve">
-    <value>{0} のインストール先の機器構成が規定回数を超えて変更されたため、
+    <value>以{0}为安装目标的PC的软硬件配置变更次数已超过限制。
+需要通过Email进行授权的再认证。
+再认证的相关说明，请到下面的网站查看或咨询。
+http://cevio.jp/
+
+※本软件的每份授权在同一时间只能用于1台PC。
+※若不进行再认证，{1}天后将无法使用。</value>
+    <comment>{0} のインストール先の機器構成が規定回数を超えて変更されたため、
 メールによるライセンス再認証のお手続きが必要です。
 再認証のため、下記公式サイトからお問い合わせください。
 http://cevio.jp/
 
 ※本ソフトは1ライセンスにつきPC1台で使用可能です。
-※再認証されないと、{1}日後に使用できなくなります。</value>
+※再認証されないと、{1}日後に使用できなくなります。</comment>
   </data>
   <data name="PreferenceDialog_Song_PianoRollColorScheme_Score_List_Rainbow_Title" xml:space="preserve">
     <value>彩虹</value>
@@ -5325,7 +5411,8 @@ http://cevio.jp/
     <value>序列号确认(_S)...</value>
   </data>
   <data name="Message_License_Warning_InstallationError" xml:space="preserve">
-    <value>ボイスのインストール時にエラーが発生しました。</value>
+    <value>声源安装时发生了错误。</value>
+    <comment>ボイスのインストール時にエラーが発生しました。</comment>
   </data>
   <data name="MainMenu_Transport_VerticalLocation" xml:space="preserve">
     <value>走带控制器上下位置(_V)</value>
@@ -5489,8 +5576,10 @@ http://cevio.jp/
     <value>删除音轨(_D)</value>
   </data>
   <data name="Message_License_Warning_Activation_CanNotMigrateLicense" xml:space="preserve">
-    <value>このシリアルナンバーは別のPCで認証済みです。
-ライセンスの移行後、24時間は再びライセンスを移行できません。({0} まで)</value>
+    <value>此序列号已经在别的PC上完成了认证。
+迁移授权到别的PC后，需要等待24小时才能再次迁移。(还需 {0})</value>
+    <comment>このシリアルナンバーは別のPCで認証済みです。
+ライセンスの移行後、24時間は再びライセンスを移行できません。({0} まで)</comment>
   </data>
   <data name="MainMenu_File_Export_WaveformForEachText_ToolTip" xml:space="preserve">
     <value>将选择的语音音轨导出为WAV格式（mono 48kHz 16bit）音频。</value>
@@ -5558,8 +5647,10 @@ http://cevio.jp/
     <value>将当前选中的音轨上移1个单位。</value>
   </data>
   <data name="Message_Warning_CannotOverwriteFile_FolderNotFound" xml:space="preserve">
-    <value>フォルダ '{0}' が存在しないため保存できません。
-変更内容を保存するには別の場所を指定してください。</value>
+    <value>文件 '{0}' 已不存在，所以无法保存。
+请保存到其他位置。</value>
+    <comment>フォルダ '{0}' が存在しないため保存できません。
+変更内容を保存するには別の場所を指定してください。</comment>
   </data>
   <data name="MainMenu_File_SaveProjectAs" xml:space="preserve">
     <value>另存为(_A)...</value>
@@ -5571,18 +5662,21 @@ http://cevio.jp/
 画像のドラッグ＆ドロップ可</comment>
   </data>
   <data name="Message_License_Error_Authorization3" xml:space="preserve">
-    <value>无法确认 {0} 的许可信息。
+    <value>无法确认 {0} 的授权信息。
 请到下面的网站查询或咨询。
 http://cevio.jp/</value>
   </data>
   <data name="Message_License_Error_Authorization2" xml:space="preserve">
     <value>无法读取保存在本PC中的许可证信息。
-请再次进行许可认证，对于给您带来的不便我们表示歉意。</value>
+请再次进行授权认证，对于给您带来的不便我们表示歉意。</value>
   </data>
   <data name="Message_License_Error_Authorization4" xml:space="preserve">
-    <value>{0} のライセンス情報が確認できませんでした。(Error={1})
-下記公式サイトからお問い合わせください。
+    <value>无法确认 {0} 的授权信息。(Error={1})
+请到下面的网站查询或咨询。
 http://cevio.jp/</value>
+    <comment>{0} のライセンス情報が確認できませんでした。(Error={1})
+下記公式サイトからお問い合わせください。
+http://cevio.jp/</comment>
   </data>
   <data name="MainMenu_File_Export_MusicXML_ToolTip" xml:space="preserve">
     <value>将选择的歌唱音轨导出为MusicXML。</value>
