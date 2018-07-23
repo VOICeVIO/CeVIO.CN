@@ -8,6 +8,7 @@ namespace CeVIO.SFE.Signer
     {
         private static string zhCN = "zh-CN";
         private static string jaJP = "ja-JP";
+
         static void Main(string[] args)
         {
             Console.WriteLine("CeVIO.CN Signer");
@@ -19,26 +20,16 @@ namespace CeVIO.SFE.Signer
                 Console.WriteLine("No Key.");
                 return;
             }
-
-            DirectoryInfo dir = null;
             string locale = zhCN;
-            if (Directory.Exists(jaJP))
+            if (args.Length > 1)
             {
-                if (File.Exists("CeVIO.CN.LICENSE.txt"))
-                {
-                    File.Copy("CeVIO.CN.LICENSE.txt", $"{jaJP}\\CeVIO.CN.LICENSE.txt", true);
-                }
-                dir = new DirectoryInfo(jaJP);
-                locale = jaJP;
+                locale = args[1];
             }
-            else
+
+            DirectoryInfo dir = Directory.CreateDirectory(locale);
+            if (File.Exists("CeVIO.CN.LICENSE.txt"))
             {
-                dir = Directory.CreateDirectory(zhCN);
-                locale = zhCN;
-                if (File.Exists("CeVIO.CN.LICENSE.txt"))
-                {
-                    File.Copy("CeVIO.CN.LICENSE.txt", $"{zhCN}\\CeVIO.CN.LICENSE.txt", true);
-                }
+                File.Copy("CeVIO.CN.LICENSE.txt", $"{locale}\\CeVIO.CN.LICENSE.txt", true);
             }
 
             if (dir?.Parent == null)
