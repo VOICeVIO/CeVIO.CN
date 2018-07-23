@@ -8,5 +8,5 @@ using System.Resources;
 [assembly: AssemblyTitle("CeVIO.KnobControl")]
 [assembly: AssemblyTrademark("wdwxy12345@gmail.com")]
 [assembly: AssemblyVersion("5.3.6.1")]
-[assembly: NeutralResourcesLanguage("zh-CN")]
-[assembly: AssemblyCulture("zh-CN")]
+[assembly: NeutralResourcesLanguage("ja-JP")]
+[assembly: AssemblyCulture("ja-JP")]

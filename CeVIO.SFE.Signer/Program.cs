@@ -6,6 +6,8 @@ namespace CeVIO.SFE.Signer
 {
     class Program
     {
+        private static string zhCN = "zh-CN";
+        private static string jaJP = "ja-JP";
         static void Main(string[] args)
         {
             Console.WriteLine("CeVIO.CN Signer");
@@ -18,17 +20,37 @@ namespace CeVIO.SFE.Signer
                 return;
             }
 
-            var dir = Directory.CreateDirectory("zh-CN");
-
-            if (File.Exists("CeVIO.CN.LICENSE.txt"))
+            DirectoryInfo dir = null;
+            string locale = zhCN;
+            if (Directory.Exists(jaJP))
             {
-                File.Copy("CeVIO.CN.LICENSE.txt", "zh-CN\\CeVIO.CN.LICENSE.txt", true);
+                if (File.Exists("CeVIO.CN.LICENSE.txt"))
+                {
+                    File.Copy("CeVIO.CN.LICENSE.txt", $"{jaJP}\\CeVIO.CN.LICENSE.txt", true);
+                }
+                dir = new DirectoryInfo(jaJP);
+                locale = jaJP;
+            }
+            else
+            {
+                dir = Directory.CreateDirectory(zhCN);
+                locale = zhCN;
+                if (File.Exists("CeVIO.CN.LICENSE.txt"))
+                {
+                    File.Copy("CeVIO.CN.LICENSE.txt", $"{zhCN}\\CeVIO.CN.LICENSE.txt", true);
+                }
+            }
+
+            if (dir?.Parent == null)
+            {
+                Console.WriteLine("Directory not found.");
+                return;
             }
 
             foreach (var file in Directory.EnumerateFiles(dir.Parent.FullName, "*.resources.dll"))
             {
                 Console.WriteLine($"Signing {file} ...");
-                Sign(file, args[0]);
+                Sign(file, args[0], locale);
             }
             Console.WriteLine("All Done!");
         }
@@ -36,12 +58,12 @@ namespace CeVIO.SFE.Signer
         /// <summary>
         /// Faker!
         /// </summary>
-        static void Sign(string path, string key)
+        static void Sign(string path, string key, string locale)
         {
             var dll = AssemblyDef.Load(path);
             dll.HasPublicKey = true;
             dll.PublicKey = new PublicKey(key);
-            dll.Write($"zh-CN\\{dll.Name}.dll");
+            dll.Write($"{locale}\\{dll.Name}.dll");
         }
     }
 }

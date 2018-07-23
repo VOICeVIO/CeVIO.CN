@@ -70,7 +70,7 @@ namespace CeVIO.KnobControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 パン: 的本地化字符串。
+        ///   查找类似 PAN: 的本地化字符串。
         /// </summary>
         public static string ToolTipPan {
             get {
@@ -79,7 +79,7 @@ namespace CeVIO.KnobControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ボリューム: 的本地化字符串。
+        ///   查找类似 音量: 的本地化字符串。
         /// </summary>
         public static string ToolTipVolume {
             get {

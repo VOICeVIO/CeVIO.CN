@@ -9,6 +9,6 @@ using System.Reflection;
 [assembly: AssemblyCopyright("© 2018 CeVIO & VOICeVIO")]
 [assembly: AssemblyTrademark("wdwxy12345@gmail.com")]
 [assembly: AssemblyFileVersion("6.1.12.0")]
-[assembly: NeutralResourcesLanguage("zh-CN")]
-[assembly: AssemblyCulture("zh-CN")]
+[assembly: NeutralResourcesLanguage("ja-JP")]
+[assembly: AssemblyCulture("ja-JP")]
 
