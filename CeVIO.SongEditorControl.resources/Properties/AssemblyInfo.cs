@@ -7,6 +7,6 @@ using System.Resources;
 [assembly: AssemblyProduct("CeVIO.CN")]
 [assembly: AssemblyTitle("CeVIO.SongEditorControl")]
 [assembly: AssemblyTrademark("wdwxy12345@gmail.com")]
-[assembly: AssemblyVersion("6.1.11.1")]
+[assembly: AssemblyVersion("6.1.13.2")]
 [assembly: NeutralResourcesLanguage("ja-JP")]
 [assembly: AssemblyCulture("ja-JP")]
