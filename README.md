@@ -3,11 +3,11 @@
 
 本项目将提供CeVIO的非官方简体中文汉化。
 
-当前对应版本： **6.1.12.0** （在此版本下确保为完整汉化，但也可用于新版本）
+当前对应版本： **6.1.14.1** （在此版本下确保为完整汉化，但也可用于新版本）
 
 ## 使用方式
 
-下载[稳定版本](https://github.com/VOICeVIO/CeVIO.CN/releases)或[测试版本](https://ci.appveyor.com/project/UlyssesWu/cevio-cn/build/artifacts)，将`zh-CN`（或`ja-JP`）文件夹置于CeVIO根目录即可。
+下载[稳定版本](https://github.com/VOICeVIO/CeVIO.CN/releases)或[测试版本](https://ci.appveyor.com/project/UlyssesWu/cevio-cn/build/artifacts)，将`zh-CN`或`ja-JP`文件夹置于CeVIO根目录即可。
 
 注：本项目仅对简体中文系统生效，对日文、英文或繁体中文系统不会生效。
 
