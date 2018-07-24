@@ -22,14 +22,14 @@ namespace CeVIO.SevenSegmentControl.Properties.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class zh_CN {
+    public class ja_JP {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal zh_CN() {
+        internal ja_JP() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace CeVIO.SevenSegmentControl.Properties.Resources {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CeVIO.SevenSegmentControl.Properties.Resources.zh-CN", typeof(zh_CN).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CeVIO.SevenSegmentControl.Properties.Resources.ja-JP", typeof(ja_JP).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,7 +61,7 @@ namespace CeVIO.SevenSegmentControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ダブルクリックで数値入力 的本地化字符串。
+        ///   查找类似 双击输入数值 的本地化字符串。
         /// </summary>
         public static string ToolTip {
             get {
@@ -70,7 +70,7 @@ namespace CeVIO.SevenSegmentControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 声質: 的本地化字符串。
+        ///   查找类似 音色: 的本地化字符串。
         /// </summary>
         public static string ToolTipAlpha {
             get {
@@ -79,7 +79,7 @@ namespace CeVIO.SevenSegmentControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 抑揚: 的本地化字符串。
+        ///   查找类似 语调: 的本地化字符串。
         /// </summary>
         public static string ToolTipIntonation {
             get {
@@ -88,7 +88,7 @@ namespace CeVIO.SevenSegmentControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 高さ: 的本地化字符串。
+        ///   查找类似 音高: 的本地化字符串。
         /// </summary>
         public static string ToolTipPitch {
             get {
@@ -97,7 +97,7 @@ namespace CeVIO.SevenSegmentControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 速さ: 的本地化字符串。
+        ///   查找类似 语速: 的本地化字符串。
         /// </summary>
         public static string ToolTipSpeed {
             get {
@@ -106,7 +106,7 @@ namespace CeVIO.SevenSegmentControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 大きさ: 的本地化字符串。
+        ///   查找类似 音量: 的本地化字符串。
         /// </summary>
         public static string ToolTipVolume {
             get {

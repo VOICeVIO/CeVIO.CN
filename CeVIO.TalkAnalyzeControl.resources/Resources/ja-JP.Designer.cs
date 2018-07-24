@@ -22,14 +22,14 @@ namespace CeVIO.TalkAnalyzeControl.Properties.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class zh_CN {
+    public class ja_JP {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal zh_CN() {
+        internal ja_JP() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace CeVIO.TalkAnalyzeControl.Properties.Resources {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CeVIO.TalkAnalyzeControl.Properties.Resources.zh-CN", typeof(zh_CN).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CeVIO.TalkAnalyzeControl.Properties.Resources.ja-JP", typeof(ja_JP).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,8 +61,8 @@ namespace CeVIO.TalkAnalyzeControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 アクセントを調整
-        ///ドラッグまたは左クリックでアクセント指定。Ctrl+左クリックでリセット。 的本地化字符串。
+        ///   查找类似 重音调整
+        ///通过拖拽或左键单击指定重音。Ctrl+左键单击恢复初始值。 的本地化字符串。
         /// </summary>
         public static string AccentButtonToolTip {
             get {
@@ -81,7 +81,7 @@ namespace CeVIO.TalkAnalyzeControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 試聴(_A) 的本地化字符串。
+        ///   查找类似 试听(_A) 的本地化字符串。
         /// </summary>
         public static string Menu_Audition {
             get {
@@ -90,8 +90,8 @@ namespace CeVIO.TalkAnalyzeControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 このセリフを先頭から試聴します。
-        ///グラフを左クリックして指定位置から試聴／停止も可能。 的本地化字符串。
+        ///   查找类似 试听整句台词。
+        ///在图中左键单击，可从指定位置开始试听/停止。 的本地化字符串。
         /// </summary>
         public static string Menu_AuditionToolTip {
             get {
@@ -100,7 +100,7 @@ namespace CeVIO.TalkAnalyzeControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 調整モード(_M) 的本地化字符串。
+        ///   查找类似 调整模式(_M) 的本地化字符串。
         /// </summary>
         public static string Menu_Mode {
             get {
@@ -109,7 +109,7 @@ namespace CeVIO.TalkAnalyzeControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 アクセントを調整(_1) 的本地化字符串。
+        ///   查找类似 重音调整(_1) 的本地化字符串。
         /// </summary>
         public static string Menu_Mode_Accent {
             get {
@@ -118,7 +118,7 @@ namespace CeVIO.TalkAnalyzeControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 音の長さを調整(_4) 的本地化字符串。
+        ///   查找类似 音长调整(_4) 的本地化字符串。
         /// </summary>
         public static string Menu_Mode_Duration {
             get {
@@ -127,7 +127,7 @@ namespace CeVIO.TalkAnalyzeControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 音の高さを調整(_2) 的本地化字符串。
+        ///   查找类似 音高调整(_2) 的本地化字符串。
         /// </summary>
         public static string Menu_Mode_Pitch {
             get {
@@ -136,7 +136,7 @@ namespace CeVIO.TalkAnalyzeControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 音の大きさを調整(_3) 的本地化字符串。
+        ///   查找类似 音量调整(_3) 的本地化字符串。
         /// </summary>
         public static string Menu_Mode_Volume {
             get {
@@ -145,7 +145,7 @@ namespace CeVIO.TalkAnalyzeControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 長さのラインを重ねて表示(_L) 的本地化字符串。
+        ///   查找类似 显示音长界线(_L) 的本地化字符串。
         /// </summary>
         public static string Menu_OverlayDuration {
             get {
@@ -154,8 +154,8 @@ namespace CeVIO.TalkAnalyzeControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 オフでラインを消します。
-        ///(長さは上下の文字エリアでも、ドラッグやマウスホイールで調整可能。) 的本地化字符串。
+        ///   查找类似 取消后不显示音长界线。
+        ///(音长仍可在上下侧的文字区域通过拖拽或滚动鼠标滚轮调整。) 的本地化字符串。
         /// </summary>
         public static string Menu_OverlayDurationToolTip {
             get {
@@ -164,7 +164,7 @@ namespace CeVIO.TalkAnalyzeControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 音素単位で調整(_P) 的本地化字符串。
+        ///   查找类似 按音素单位调整(_P) 的本地化字符串。
         /// </summary>
         public static string Menu_PhonemeMode {
             get {
@@ -173,8 +173,8 @@ namespace CeVIO.TalkAnalyzeControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 オフでカナ表示。
-        ///(カナ表示中も、Alt+ドラッグで音素単位の調整可能。) 的本地化字符串。
+        ///   查找类似 切换音素/假名显示模式。
+        ///(在假名模式中，使用Alt+拖拽仍可按音素单位调整。) 的本地化字符串。
         /// </summary>
         public static string Menu_PhonemeModeToolTip {
             get {
@@ -183,7 +183,7 @@ namespace CeVIO.TalkAnalyzeControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 初期値に戻す(_R) 的本地化字符串。
+        ///   查找类似 恢复初始值(_R) 的本地化字符串。
         /// </summary>
         public static string Menu_Reset {
             get {
@@ -192,7 +192,7 @@ namespace CeVIO.TalkAnalyzeControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 このセリフを初期状態に戻します。 的本地化字符串。
+        ///   查找类似 将当前台词恢复到未修改状态。 的本地化字符串。
         /// </summary>
         public static string Menu_ResetToolTip {
             get {
@@ -201,9 +201,9 @@ namespace CeVIO.TalkAnalyzeControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 音の高さを調整
-        ///グラフをドラッグして調整。Shift+ドラッグで水平。
-        ///Ctrl+左クリックでリセット。 的本地化字符串。
+        ///   查找类似 音高调整
+        ///在图中拖拽调整。按住Shift可水平拖拽。
+        ///Ctrl+左键单击恢复初始值。 的本地化字符串。
         /// </summary>
         public static string PitchButtonToolTip {
             get {
@@ -212,9 +212,9 @@ namespace CeVIO.TalkAnalyzeControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 音の高さと長さを調整
-        ///グラフをドラッグして調整。Shift+ドラッグで水平。
-        ///Ctrl+左クリックでリセット。 的本地化字符串。
+        ///   查找类似 音高与音长调整
+        ///在图中拖拽调整。按住Shift可水平拖拽。
+        ///Ctrl+左键单击恢复初始值。 的本地化字符串。
         /// </summary>
         public static string PitchButtonToolTip2 {
             get {
@@ -223,9 +223,9 @@ namespace CeVIO.TalkAnalyzeControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 音の長さを調整
-        ///グラフをドラッグして調整。Shift+ドラッグで水平。
-        ///Ctrl+左クリックでリセット。 的本地化字符串。
+        ///   查找类似 音长调整
+        ///在图中拖拽调整。按住Shift可水平拖拽。
+        ///Ctrl+左键单击恢复初始值。 的本地化字符串。
         /// </summary>
         public static string SpeedButtonToolTip {
             get {
@@ -234,9 +234,9 @@ namespace CeVIO.TalkAnalyzeControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 音の大きさを調整
-        ///グラフをドラッグして調整。Shift+ドラッグで水平。
-        ///Ctrl+左クリックでリセット。 的本地化字符串。
+        ///   查找类似 音量调整
+        ///在图中拖拽调整。按住Shift可水平拖拽。
+        ///Ctrl+左键单击恢复初始值。 的本地化字符串。
         /// </summary>
         public static string VolumeButtonToolTip {
             get {
@@ -245,9 +245,9 @@ namespace CeVIO.TalkAnalyzeControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 音の大きさと長さを調整
-        ///グラフをドラッグして調整。Shift+ドラッグで水平。
-        ///Ctrl+左クリックでリセット。 的本地化字符串。
+        ///   查找类似 音量与音长调整
+        ///在图中拖拽调整。按住Shift可水平拖拽。
+        ///Ctrl+左键单击恢复初始值。 的本地化字符串。
         /// </summary>
         public static string VolumeButtonToolTip2 {
             get {

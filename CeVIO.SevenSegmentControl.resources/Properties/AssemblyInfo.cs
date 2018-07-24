@@ -8,5 +8,5 @@ using System.Resources;
 [assembly: AssemblyTitle("SevenSegmentControl")]
 [assembly: AssemblyTrademark("wdwxy12345@gmail.com")]
 [assembly: AssemblyVersion("6.1.0.0")]
-[assembly: NeutralResourcesLanguage("zh-CN")]
-[assembly: AssemblyCulture("zh-CN")]
+[assembly: NeutralResourcesLanguage("ja-JP")]
+[assembly: AssemblyCulture("ja-JP")]

@@ -33,9 +33,9 @@
     <RootNamespace>CeVIO.SevenSegmentControl.Properties</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\zh-CN.resx">
+    <EmbeddedResource Include="Resources\ja-JP.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>zh-CN.Designer.cs</LastGenOutput>
+      <LastGenOutput>ja-JP.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -43,10 +43,10 @@
       <AutoGen>false</AutoGen>
       <DesignTimeSharedInput>false</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Resources\zh-CN.Designer.cs">
+    <Compile Include="Resources\ja-JP.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>zh-CN.resx</DependentUpon>
+      <DependentUpon>ja-JP.resx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />

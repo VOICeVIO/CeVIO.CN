@@ -22,14 +22,14 @@ namespace CeVIO.KnobControl.Properties.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class zh_CN {
+    public class ja_JP {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal zh_CN() {
+        internal ja_JP() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace CeVIO.KnobControl.Properties.Resources {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CeVIO.KnobControl.Properties.Resources.zh-CN", typeof(zh_CN).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CeVIO.KnobControl.Properties.Resources.ja-JP", typeof(ja_JP).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -70,7 +70,7 @@ namespace CeVIO.KnobControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 パン: 的本地化字符串。
+        ///   查找类似 PAN: 的本地化字符串。
         /// </summary>
         public static string ToolTipPan {
             get {
@@ -79,7 +79,7 @@ namespace CeVIO.KnobControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ボリューム: 的本地化字符串。
+        ///   查找类似 音量: 的本地化字符串。
         /// </summary>
         public static string ToolTipVolume {
             get {

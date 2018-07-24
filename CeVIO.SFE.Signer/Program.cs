@@ -6,6 +6,9 @@ namespace CeVIO.SFE.Signer
 {
     class Program
     {
+        private static string zhCN = "zh-CN";
+        private static string jaJP = "ja-JP";
+
         static void Main(string[] args)
         {
             Console.WriteLine("CeVIO.CN Signer");
@@ -17,18 +20,28 @@ namespace CeVIO.SFE.Signer
                 Console.WriteLine("No Key.");
                 return;
             }
+            string locale = zhCN;
+            if (args.Length > 1)
+            {
+                locale = args[1];
+            }
 
-            var dir = Directory.CreateDirectory("zh-CN");
-
+            DirectoryInfo dir = Directory.CreateDirectory(locale);
             if (File.Exists("CeVIO.CN.LICENSE.txt"))
             {
-                File.Copy("CeVIO.CN.LICENSE.txt", "zh-CN\\CeVIO.CN.LICENSE.txt", true);
+                File.Copy("CeVIO.CN.LICENSE.txt", $"{locale}\\CeVIO.CN.LICENSE.txt", true);
+            }
+
+            if (dir?.Parent == null)
+            {
+                Console.WriteLine("Directory not found.");
+                return;
             }
 
             foreach (var file in Directory.EnumerateFiles(dir.Parent.FullName, "*.resources.dll"))
             {
                 Console.WriteLine($"Signing {file} ...");
-                Sign(file, args[0]);
+                Sign(file, args[0], locale);
             }
             Console.WriteLine("All Done!");
         }
@@ -36,12 +49,12 @@ namespace CeVIO.SFE.Signer
         /// <summary>
         /// Faker!
         /// </summary>
-        static void Sign(string path, string key)
+        static void Sign(string path, string key, string locale)
         {
             var dll = AssemblyDef.Load(path);
             dll.HasPublicKey = true;
             dll.PublicKey = new PublicKey(key);
-            dll.Write($"zh-CN\\{dll.Name}.dll");
+            dll.Write($"{locale}\\{dll.Name}.dll");
         }
     }
 }

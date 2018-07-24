@@ -22,14 +22,14 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class zh_CN {
+    public class ja_JP {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal zh_CN() {
+        internal ja_JP() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CeVIO.ToolBarControl.Properties.Resources.zh-CN", typeof(zh_CN).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CeVIO.ToolBarControl.Properties.Resources.ja-JP", typeof(ja_JP).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,10 +61,10 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 選択ツール [Ctrl+1]
-        ///楽譜編集：音符やテンポなどの選択、音符の範囲選択。
-        ///調整画面：コピーや削除の範囲指定。Alt押下でクオンタイズなし。
-        ///(左Ctrl押下中：ペンツール) 的本地化字符串。
+        ///   查找类似 选择工具 [Ctrl+1]
+        ///乐谱编辑：选择（单个或范围）音符或标记。
+        ///调整界面：指定复制或删除的范围。按住Alt键不吸附量化线。
+        ///（按住左Ctrl：画笔工具） 的本地化字符串。
         /// </summary>
         public static string ArrowButtonToolTip {
             get {
@@ -73,7 +73,7 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 再生中の自動スクロール [F7] 的本地化字符串。
+        ///   查找类似 播放时自动滚动 [F7] 的本地化字符串。
         /// </summary>
         public static string AutoScrollButtonToolTip {
             get {
@@ -82,7 +82,7 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 始点マーカー 的本地化字符串。
+        ///   查找类似 起点标记 的本地化字符串。
         /// </summary>
         public static string BeginMarkerButtonToolTip {
             get {
@@ -91,9 +91,9 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 まとめ選択ツール [Ctrl+2]
-        ///範囲内の音符と全調整値をまとめて選択。Alt押下でクオンタイズなし。
-        ///(左Ctrl押下中：ペンツール) 的本地化字符串。
+        ///   查找类似 范围选择工具 [Ctrl+2]
+        ///选择范围内所有的音符或参数值。按住Alt键不吸附量化线。
+        ///（按住左Ctrl：画笔工具） 的本地化字符串。
         /// </summary>
         public static string BulkButtonToolTip {
             get {
@@ -102,9 +102,9 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ピッチを調整 [4]
-        ///ビブラートを含まない基本ピッチを調整。
-        ///VIA,VIFを重ねるとビブラート反映ピッチも重ね表示。 的本地化字符串。
+        ///   查找类似 音高(PIT)调整 [4]
+        ///调整每个音每个时刻的音高（不考虑颤音）。
+        ///当与VIA/VIF参数重叠显示时，会额外显示颤音的效果。 的本地化字符串。
         /// </summary>
         public static string EditPitchButtonToolTip {
             get {
@@ -113,7 +113,7 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 楽譜を編集 [1] 的本地化字符串。
+        ///   查找类似 乐谱编辑 [1] 的本地化字符串。
         /// </summary>
         public static string EditScoreButtonToolTip {
             get {
@@ -122,9 +122,9 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 タイミングを調整 [2]
-        ///PIT等の文字クリックで重ね表示。
-        ///下段の黒背景の音素ラインをドラッグすると前後の状態ラインも連動。 的本地化字符串。
+        ///   查找类似 时间(TMG)调整 [2]
+        ///点击PIT等按钮的文字部分可以重叠显示。
+        ///拖动黑色方框的边界线，可以对整个音符及前后的状态进行整体调整。 的本地化字符串。
         /// </summary>
         public static string EditTimingButtonToolTip {
             get {
@@ -133,8 +133,8 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ビブラートの振幅を調整 [5]
-        ///PIT等の文字クリックで重ね表示。 的本地化字符串。
+        ///   查找类似 颤音振幅(VIA)调整 [5]
+        ///点击PIT等按钮的文字部分可以重叠显示。 的本地化字符串。
         /// </summary>
         public static string EditVibratoAmplitudeButtonToolTip {
             get {
@@ -143,8 +143,8 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ビブラートの周期を調整 [6]
-        ///PIT等の文字クリックで重ね表示。 的本地化字符串。
+        ///   查找类似 颤音周期(VIF)调整 [6]
+        ///点击PIT等按钮的文字部分可以重叠显示。 的本地化字符串。
         /// </summary>
         public static string EditVibratoFrequencyButtonToolTip {
             get {
@@ -153,8 +153,8 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ボリュームを調整 [3]
-        ///PIT等の文字クリックで重ね表示。 的本地化字符串。
+        ///   查找类似 音量(VOL)调整 [3]
+        ///点击PIT等按钮的文字部分可以重叠显示。 的本地化字符串。
         /// </summary>
         public static string EditVolumeButtonToolTip {
             get {
@@ -163,7 +163,7 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 終点マーカー 的本地化字符串。
+        ///   查找类似 终点标记 的本地化字符串。
         /// </summary>
         public static string EndMarkerButtonToolTip {
             get {
@@ -172,10 +172,10 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 消しゴムツール [Ctrl+5]
-        ///楽譜編集：音符やテンポなどを削除。
-        ///調整画面：調整した値を削除。(PIT/VIA/VIF)Shift押下で元の値を無効化。
-        ///(左Ctrl押下中：選択ツール) 的本地化字符串。
+        ///   查找类似 橡皮擦工具 [Ctrl+5]
+        ///乐谱编辑：删除音符或标记。。
+        ///調整界面：清除参数的调整值。(PIT/VIA/VIF)按住Shift绘制可将原始值也无效化。
+        ///（按住左Ctrl：选择工具） 的本地化字符串。
         /// </summary>
         public static string EraserButtonToolTip {
             get {
@@ -184,7 +184,7 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 先頭 [テンキーの.] 的本地化字符串。
+        ///   查找类似 回开头 [小键盘 .] 的本地化字符串。
         /// </summary>
         public static string HeadButtonToolTip {
             get {
@@ -193,8 +193,8 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ポジションカーソル位置の拍子
-        ///クリックで変更。追加はピアノロールの拍子行。 的本地化字符串。
+        ///   查找类似 光标处的拍子
+        ///点击以修改。将会添加到钢琴卷帘的拍子行。 的本地化字符串。
         /// </summary>
         public static string Indicator_BeatToolTip {
             get {
@@ -203,7 +203,7 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 1/16(3連符) 的本地化字符串。
+        ///   查找类似 1/16(3连音) 的本地化字符串。
         /// </summary>
         public static string Indicator_QuantizeMenu_Triplet16 {
             get {
@@ -212,7 +212,7 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 1/2(3連符) 的本地化字符串。
+        ///   查找类似 1/2(3连音) 的本地化字符串。
         /// </summary>
         public static string Indicator_QuantizeMenu_Triplet2 {
             get {
@@ -221,7 +221,7 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 1/4(3連符) 的本地化字符串。
+        ///   查找类似 1/4(3连音) 的本地化字符串。
         /// </summary>
         public static string Indicator_QuantizeMenu_Triplet4 {
             get {
@@ -230,7 +230,7 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 1/8(3連符) 的本地化字符串。
+        ///   查找类似 1/8(3连音) 的本地化字符串。
         /// </summary>
         public static string Indicator_QuantizeMenu_Triplet8 {
             get {
@@ -239,8 +239,8 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 音符のクオンタイズ
-        ///クリックで切替。 的本地化字符串。
+        ///   查找类似 音符量化
+        ///点击以更换。 的本地化字符串。
         /// </summary>
         public static string Indicator_QuantizeToolTip {
             get {
@@ -249,8 +249,8 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ポジションカーソル位置のテンポ
-        ///クリックで変更。追加はピアノロールのテンポ行。 的本地化字符串。
+        ///   查找类似 光标处的曲速
+        ///点击以修改。将会添加到钢琴卷帘的节奏行。 的本地化字符串。
         /// </summary>
         public static string Indicator_TempoToolTip {
             get {
@@ -259,7 +259,7 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 小節 的本地化字符串。
+        ///   查找类似 小节 的本地化字符串。
         /// </summary>
         public static string Indicator_TimeMenu_Bars {
             get {
@@ -277,8 +277,8 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ポジションカーソルの位置
-        ///左クリックで位置指定。右クリックで秒／小節の表示切替。 的本地化字符串。
+        ///   查找类似 时间轴光标位置
+        ///鼠标左键指定位置。鼠标右键切换显示方式。 的本地化字符串。
         /// </summary>
         public static string Indicator_TimeToolTip {
             get {
@@ -287,10 +287,10 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ラインツール [Ctrl+4]
-        ///楽譜編集：ペンツールと同じ働き。
-        ///調整画面：(TMG以外)直線を引く。Alt押下で既定値接続調整。Shift押下で水平線。
-        ///(左Ctrl押下中：消しゴムツール) 的本地化字符串。
+        ///   查找类似 直线工具 [Ctrl+4]
+        ///乐谱编辑：与画笔工具相同。
+        ///调整界面：(除TMG外)绘制直线。按住Alt绘制则可被原始值切断。按住Shift绘制水平线。
+        ///（按住左Ctrl：橡皮擦工具） 的本地化字符串。
         /// </summary>
         public static string LineButtonToolTip {
             get {
@@ -299,10 +299,10 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ペンツール [Ctrl+3]
-        ///楽譜編集：音符やテンポなどの入力や選択、移動。
-        ///調整画面：値を調整。Alt押下で既定値接続調整。
-        ///(左Ctrl押下中：消しゴムツール) 的本地化字符串。
+        ///   查找类似 画笔工具 [Ctrl+3]
+        ///乐谱编辑：输入（或移动）音符或标记。
+        ///调整界面：调整参数值。按住Alt绘制则可被原始值切断。
+        ///（按住左Ctrl：橡皮擦工具） 的本地化字符串。
         /// </summary>
         public static string PenButtonToolTip {
             get {
@@ -311,7 +311,7 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 再生 [Space] 的本地化字符串。
+        ///   查找类似 播放 [Space] 的本地化字符串。
         /// </summary>
         public static string PlayButtonToolTip {
             get {
@@ -320,7 +320,7 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 繰り返し [テンキーの/] 的本地化字符串。
+        ///   查找类似 循环 [小键盘 /] 的本地化字符串。
         /// </summary>
         public static string RepeatButtonToolTip {
             get {
@@ -329,8 +329,8 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ピッチを表示
-        ///重ね表示にはビブラートを反映。 的本地化字符串。
+        ///   查找类似 显示音高
+        ///当重叠显示时会额外显示颤音效果。 的本地化字符串。
         /// </summary>
         public static string ShowPitchButtonToolTip {
             get {
@@ -339,7 +339,7 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 タイミングを表示 的本地化字符串。
+        ///   查找类似 显示时间 的本地化字符串。
         /// </summary>
         public static string ShowTimingButtonToolTip {
             get {
@@ -348,7 +348,7 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ビブラートの振幅を表示 的本地化字符串。
+        ///   查找类似 显示颤音振幅 的本地化字符串。
         /// </summary>
         public static string ShowVibratoAmplitudeButtonToolTip {
             get {
@@ -357,7 +357,7 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ビブラートの周期を表示 的本地化字符串。
+        ///   查找类似 显示颤音周期 的本地化字符串。
         /// </summary>
         public static string ShowVibratoFrequencyButtonToolTip {
             get {
@@ -366,7 +366,7 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 ボリュームを表示 的本地化字符串。
+        ///   查找类似 显示音量 的本地化字符串。
         /// </summary>
         public static string ShowVolumeButtonToolTip {
             get {
@@ -375,8 +375,8 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 停止 [テンキーの0]
-        ///停止中は再生開始位置、先頭の順に移動。 的本地化字符串。
+        ///   查找类似 停止 [小键盘 0]
+        ///停止状态下再点击会依次回到播放开始位置、歌曲开头。 的本地化字符串。
         /// </summary>
         public static string StopButtonToolTip {
             get {
@@ -385,7 +385,7 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 左右の表示位置(_V) 的本地化字符串。
+        ///   查找类似 水平显示位置(_V) 的本地化字符串。
         /// </summary>
         public static string ToolBarMenu_HorizontalLocation {
             get {
@@ -394,7 +394,7 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 中央 的本地化字符串。
+        ///   查找类似 中间 的本地化字符串。
         /// </summary>
         public static string ToolBarMenu_HorizontalLocationCenter {
             get {
@@ -403,7 +403,7 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 左寄せ 的本地化字符串。
+        ///   查找类似 左侧 的本地化字符串。
         /// </summary>
         public static string ToolBarMenu_HorizontalLocationLeft {
             get {
@@ -412,7 +412,7 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 右寄せ 的本地化字符串。
+        ///   查找类似 右侧 的本地化字符串。
         /// </summary>
         public static string ToolBarMenu_HorizontalLocationRight {
             get {
@@ -421,7 +421,7 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 上下の表示位置(_H) 的本地化字符串。
+        ///   查找类似 垂直显示位置(_H) 的本地化字符串。
         /// </summary>
         public static string ToolBarMenu_VerticalLocation {
             get {
@@ -430,7 +430,7 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 下段 的本地化字符串。
+        ///   查找类似 底部 的本地化字符串。
         /// </summary>
         public static string ToolBarMenu_VerticalLocationBottom {
             get {
@@ -439,7 +439,7 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 中段 的本地化字符串。
+        ///   查找类似 中间 的本地化字符串。
         /// </summary>
         public static string ToolBarMenu_VerticalLocationMiddle {
             get {
@@ -448,7 +448,7 @@ namespace CeVIO.ToolBarControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 上段 的本地化字符串。
+        ///   查找类似 顶部 的本地化字符串。
         /// </summary>
         public static string ToolBarMenu_VerticalLocationTop {
             get {
