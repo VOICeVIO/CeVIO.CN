@@ -335,4 +335,14 @@ PIT等の文字クリックで重ね表示。</comment>
     <value>左侧</value>
     <comment>左寄せ</comment>
   </data>
+  <data name="MasterVolumeToolTipHead" xml:space="preserve">
+    <value>主音量:</value>
+    <comment>Master Volume:</comment>
+  </data>
+  <data name="MasterVolumeToolTipTail" xml:space="preserve">
+    <value>拖拽修改。按住Shift拖拽进行细微修改。
+Ctrl+左键单击恢复初始值。双击输入数值。</value>
+    <comment>Change by dragging. Tweak with Shift + drag.
+Ctrl + Left click to default value. Double-click to enter numerical value.</comment>
+  </data>
 </root>

@@ -2364,7 +2364,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>双击编辑 [F2]</value>
   </data>
   <data name="MainMenu_Talk_ListColumns_Duration" xml:space="preserve">
-    <value>长度</value>
+    <value>时长</value>
   </data>
   <data name="MainMenu_Help_CeVIOOfficialWebSite" xml:space="preserve">
     <value>CeVIO官方网站(_C)</value>
@@ -3627,7 +3627,7 @@ http://cevio.jp/</value>
     <value>右：</value>
   </data>
   <data name="TalkEditor_Menu_View_ListColumns_Duration" xml:space="preserve">
-    <value>长度</value>
+    <value>时长</value>
   </data>
   <data name="Message_Warning_Over24bitWAVIsNotSupported" xml:space="preserve">
     <value>不支持24bit以上的WAV格式。</value>
@@ -5719,5 +5719,21 @@ http://cevio.jp/</comment>
   <data name="PreferenceDialog_Ambient_DisplayLanguage_Title" xml:space="preserve">
     <value>界面语言:</value>
     <comment>Interface Language:</comment>
+  </data>
+  <data name="PreferenceDialog_Ambient_CheckForUpdatesOnStartUp_Title" xml:space="preserve">
+    <value>显示升级提示</value>
+    <comment>Show Update Information</comment>
+  </data>
+  <data name="PreferenceDialog_Ambient_CheckForUpdatesOnStartUp_ToolTip" xml:space="preserve">
+    <value>当检测到新版本时，在每天第一次启动本软件时显示提示。</value>
+    <comment>Information is displayed when there is a new version once a day at startup.</comment>
+  </data>
+  <data name="PreferenceDialog_Ambient_DisplayLanguage_List_en_US" xml:space="preserve">
+    <value>英文 [en-US]</value>
+    <comment>English [en-US]</comment>
+  </data>
+  <data name="PreferenceDialog_Ambient_DisplayLanguage_List_ja_JP" xml:space="preserve">
+    <value>简体中文 [zh-CN]</value>
+    <comment>Japanese [ja-JP]</comment>
   </data>
 </root>
