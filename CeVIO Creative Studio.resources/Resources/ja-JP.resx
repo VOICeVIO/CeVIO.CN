@@ -2674,7 +2674,7 @@ http://cevio.jp/</comment>
     <value>音轨名</value>
   </data>
   <data name="PreferenceDialog_Ambient_NeverDisplaysCompletionNotice_Title" xml:space="preserve">
-    <value>不显示完毕汇报对话框</value>
+    <value>不显示完毕通知对话框</value>
   </data>
   <data name="MainMenu_Song_EditMode_Volume_InputGesture" xml:space="preserve">
     <value>3</value>
@@ -5717,7 +5717,7 @@ http://cevio.jp/</comment>
     <value>显示标尺(_R)</value>
   </data>
   <data name="PreferenceDialog_Ambient_DisplayLanguage_Title" xml:space="preserve">
-    <value>界面语言:</value>
+    <value>界面语言</value>
     <comment>Interface Language:</comment>
   </data>
   <data name="PreferenceDialog_Ambient_CheckForUpdatesOnStartUp_Title" xml:space="preserve">
