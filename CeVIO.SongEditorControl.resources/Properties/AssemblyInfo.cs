@@ -1,7 +1,7 @@
 ﻿using System.Reflection;
 using System.Resources;
 
-[assembly: AssemblyVersion("6.1.16.2")]
+[assembly: AssemblyVersion("6.1.17.1")]
 [assembly: AssemblyCompany("VOICeVIO")]
 [assembly: AssemblyCopyright("© CeVIO & VOICeVIO")]
 [assembly: AssemblyDescription(null)]
