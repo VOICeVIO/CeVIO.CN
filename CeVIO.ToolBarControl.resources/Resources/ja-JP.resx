@@ -267,7 +267,7 @@ PIT等の文字クリックで重ね表示。
   </data>
   <data name="Indicator_TempoToolTip" xml:space="preserve">
     <value>光标处的曲速
-点击以修改。将会添加到钢琴卷帘的节奏行。</value>
+点击以修改。将会添加到钢琴卷帘的曲速行。</value>
     <comment>ポジションカーソル位置のテンポ
 クリックで変更。追加はピアノロールのテンポ行。</comment>
   </data>

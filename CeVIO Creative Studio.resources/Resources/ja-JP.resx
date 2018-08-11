@@ -5657,7 +5657,7 @@ http://cevio.jp/
   </data>
   <data name="PreferenceDialog_Ambient_Image_ImageSelector_ToolTip" xml:space="preserve">
     <value>点击选择画像
-可拖放画像</value>
+可以拖放图片</value>
     <comment>クリックで画像選択
 画像のドラッグ＆ドロップ可</comment>
   </data>
