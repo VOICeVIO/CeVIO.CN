@@ -2938,7 +2938,7 @@ http://cevio.jp/</comment>
     <value>结束时间</value>
   </data>
   <data name="PreferenceDialog_Talk_DisplayValueByOldStyle_ToolTip" xml:space="preserve">
-    <value>参数将表示为0-100，而不是实际意义的值。（兼容旧版本）</value>
+    <value>参数将显示为0-100，而不是实际意义的值。（兼容旧版本）</value>
   </data>
   <data name="Message_Information_VocalSourceVersionDifference" xml:space="preserve">
     <value>在读入的工程中，以下项目是用与当前版本号不同的声源或引擎制作的。</value>
@@ -3088,7 +3088,7 @@ http://cevio.jp/</comment>
     <value>歌唱词典</value>
   </data>
   <data name="PreferenceDialog_Song_DisplayValueByOldStyle_ToolTip" xml:space="preserve">
-    <value>参数将表示为0-100，而不是实际意义的值。（兼容旧版本）</value>
+    <value>参数将显示为0-100，而不是实际意义的值。（兼容旧版本）</value>
   </data>
   <data name="Message_Information_CastNotFound_SubstituteNotFound" xml:space="preserve">
     <value>以下音轨的配音角色当前未安装或无法使用，也没有能够替代的其它同语言设定的角色，因此未能被导入。</value>

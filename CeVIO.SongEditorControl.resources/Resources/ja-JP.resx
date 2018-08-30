@@ -283,7 +283,7 @@
     <comment>調整モード(_M)</comment>
   </data>
   <data name="PianoRollMenu_View" xml:space="preserve">
-    <value>表示(_V)</value>
+    <value>显示(_V)</value>
     <comment>表示(_V)</comment>
   </data>
   <data name="SlurEnd" xml:space="preserve">
