@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using CeVIO.SFE.Signer.Properties;
 using dnlib.DotNet;
 
 namespace CeVIO.SFE.Signer
@@ -40,8 +41,22 @@ namespace CeVIO.SFE.Signer
 
             foreach (var file in Directory.EnumerateFiles(dir.Parent.FullName, "*.resources.dll"))
             {
+                Version v = null;
+                try
+                {
+                    string ver = Resources.ResourceManager.GetString(Path.GetFileName(file));
+                    if (!string.IsNullOrEmpty(ver))
+                    {
+                        v = Version.Parse(ver);
+                    }
+                }
+                catch (Exception)
+                {
+                    // ignored
+                }
+                
                 Console.WriteLine($"Signing {file} ...");
-                Sign(file, args[0], locale);
+                Sign(file, args[0], locale, v);
             }
             Console.WriteLine("All Done!");
         }
@@ -49,11 +64,15 @@ namespace CeVIO.SFE.Signer
         /// <summary>
         /// Faker!
         /// </summary>
-        static void Sign(string path, string key, string locale)
+        static void Sign(string path, string key, string locale, Version v)
         {
             var dll = AssemblyDef.Load(path);
             dll.HasPublicKey = true;
             dll.PublicKey = new PublicKey(key);
+            if (v != null)
+            {
+                dll.Version = v;
+            }
             dll.Write($"{locale}\\{dll.Name}.dll");
         }
     }
