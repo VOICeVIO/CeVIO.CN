@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Diagnostics;
 using System.IO;
 using CeVIO.SFE.Signer.Properties;
 using dnlib.DotNet;
-using dnlib.DotNet.Writer;
-using dnlib.PE;
 
 namespace CeVIO.SFE.Signer
 {
