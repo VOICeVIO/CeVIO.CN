@@ -3,7 +3,7 @@
 
 本项目将提供CeVIO的非官方简体中文汉化。
 
-当前对应版本： **6.1.18.0** 
+[查看当前对应版本](https://github.com/VOICeVIO/CeVIO.CN/blob/master/CeVIO.SFE.Signer/Properties/Resources.resx#L121)
 
 “对应版本”是当前自动编译（CI）所对应的版本。旧版请查看release页面或CI编译历史。若要协助支持新版，请提交修改版本号至最新版本的PR。
 
