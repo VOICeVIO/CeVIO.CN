@@ -5736,4 +5736,22 @@ http://cevio.jp/</comment>
     <value>简体中文 [zh-CN]</value>
     <comment>Japanese [ja-JP]</comment>
   </data>
+  <data name="MainMenu_Song_InsertMeasures" xml:space="preserve">
+    <value>插入小节(_B)...</value>
+    <comment>小節の挿入(_B)...</comment>
+  </data>
+  <data name="MainMenu_Song_InsertMeasures_ToolTip" xml:space="preserve">
+    <value>通过指定位置和长度插入小节。
+要在末尾添加小节，可用[Shift+鼠标滚轮]右滚直接实现。</value>
+    <comment>位置と長さを指定して小節を挿入します。
+末尾の追加は、[Shift+マウスホイール]や右スクロールボタンでも可能。</comment>
+  </data>
+  <data name="MainMenu_Song_DeleteMeasures" xml:space="preserve">
+    <value>删除小节(_X)...</value>
+    <comment>小節の削除(_X)...</comment>
+  </data>
+  <data name="MainMenu_Song_DeleteMeasures_ToolTip" xml:space="preserve">
+    <value>通过指定位置和长度删除小节。</value>
+    <comment>位置と長さを指定して小節を削除します。</comment>
+  </data>
 </root>

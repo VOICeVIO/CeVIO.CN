@@ -842,4 +842,28 @@
     <value>小节</value>
     <comment>小節</comment>
   </data>
+  <data name="InsertMeasureDialog" xml:space="preserve">
+    <value>插入小节</value>
+    <comment>小節の挿入</comment>
+  </data>
+  <data name="DeleteMeasureDialog" xml:space="preserve">
+    <value>删除小节</value>
+    <comment>小節の削除</comment>
+  </data>
+  <data name="Length" xml:space="preserve">
+    <value>长度:</value>
+    <comment>長さ:</comment>
+  </data>
+  <data name="Target" xml:space="preserve">
+    <value>对象:</value>
+    <comment>対象</comment>
+  </data>
+  <data name="CurrentTrack" xml:space="preserve">
+    <value>当前音轨</value>
+    <comment>現在のトラック</comment>
+  </data>
+  <data name="AllTracks" xml:space="preserve">
+    <value>所有音轨</value>
+    <comment>全トラック</comment>
+  </data>
 </root>
