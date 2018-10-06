@@ -866,4 +866,16 @@
     <value>所有音轨</value>
     <comment>全トラック</comment>
   </data>
+  <data name="PianoRollMenu_OtherOperations" xml:space="preserve">
+    <value>其他操作</value>
+    <comment>Other Operations</comment>
+  </data>
+  <data name="PianoRollMenu_InsertMeasure" xml:space="preserve">
+    <value>插入小节(_B)...</value>
+    <comment>Insert Measures(_B)...</comment>
+  </data>
+  <data name="PianoRollMenu_DeleteMeasure" xml:space="preserve">
+    <value>删除小节(_X)...</value>
+    <comment>Delete Measures(_X)...</comment>
+  </data>
 </root>

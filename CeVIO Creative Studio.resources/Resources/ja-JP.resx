@@ -4759,7 +4759,7 @@ http://cevio.jp/</value>
     <value>大小：</value>
   </data>
   <data name="MainMenu_Help_Purchase_Vector" xml:space="preserve">
-    <value>Vector PC Shop(_V)</value>
+    <value>Vector PC Shop (_V)</value>
   </data>
   <data name="TalkEditor_Menu_InputContinuously_ToolTip" xml:space="preserve">
     <value>输入一行台词后立刻进入下一行。
@@ -5217,7 +5217,7 @@ http://cevio.jp/</comment>
     <comment>強弱記号(_D)</comment>
   </data>
   <data name="MainMenu_Help_Purchase_Amazon" xml:space="preserve">
-    <value>Amazon(_A)</value>
+    <value>Amazon (_A)</value>
   </data>
   <data name="MainMenu_Track_Solo_InputGesture" xml:space="preserve">
     <value>Shift+S</value>
@@ -5753,5 +5753,13 @@ http://cevio.jp/</comment>
   <data name="MainMenu_Song_DeleteMeasures_ToolTip" xml:space="preserve">
     <value>通过指定位置和长度删除小节。</value>
     <comment>位置と長さを指定して小節を削除します。</comment>
+  </data>
+  <data name="MainMenu_Help_CheckNewVersion" xml:space="preserve">
+    <value>检查更新(U)...</value>
+    <comment>Check for Update(U)...</comment>
+  </data>
+  <data name="MainMenu_Help_CheckNewVersion_ToolTip" xml:space="preserve">
+    <value>联网查询是否有新版本。</value>
+    <comment>Check if there is a new version.</comment>
   </data>
 </root>
