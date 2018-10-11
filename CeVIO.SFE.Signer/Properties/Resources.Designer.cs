@@ -59,5 +59,59 @@ namespace CeVIO.SFE.Signer.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   查找类似 6.1.25.0 的本地化字符串。
+        /// </summary>
+        public static string CeVIO_Creative_Studio_resources_dll {
+            get {
+                return ResourceManager.GetString("CeVIO Creative Studio.resources.dll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 5.3.6.1 的本地化字符串。
+        /// </summary>
+        public static string CeVIO_KnobControl_resources_dll {
+            get {
+                return ResourceManager.GetString("CeVIO.KnobControl.resources.dll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 6.1.1.0 的本地化字符串。
+        /// </summary>
+        public static string CeVIO_SevenSegmentControl_resources_dll {
+            get {
+                return ResourceManager.GetString("CeVIO.SevenSegmentControl.resources.dll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 6.1.23.5 的本地化字符串。
+        /// </summary>
+        public static string CeVIO_SongEditorControl_resources_dll {
+            get {
+                return ResourceManager.GetString("CeVIO.SongEditorControl.resources.dll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 6.1.15.1 的本地化字符串。
+        /// </summary>
+        public static string CeVIO_TalkAnalyzeControl_resources_dll {
+            get {
+                return ResourceManager.GetString("CeVIO.TalkAnalyzeControl.resources.dll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 6.1.14.2 的本地化字符串。
+        /// </summary>
+        public static string CeVIO_ToolBarControl_resources_dll {
+            get {
+                return ResourceManager.GetString("CeVIO.ToolBarControl.resources.dll", resourceCulture);
+            }
+        }
     }
 }
