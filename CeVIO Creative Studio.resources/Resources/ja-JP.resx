@@ -5755,8 +5755,8 @@ http://cevio.jp/</comment>
     <comment>位置と長さを指定して小節を削除します。</comment>
   </data>
   <data name="MainMenu_Help_CheckNewVersion" xml:space="preserve">
-    <value>检查更新(U)...</value>
-    <comment>Check for Update(U)...</comment>
+    <value>检查更新(_U)...</value>
+    <comment>Check for Update(_U)...</comment>
   </data>
   <data name="MainMenu_Help_CheckNewVersion_ToolTip" xml:space="preserve">
     <value>联网查询是否有新版本。</value>
