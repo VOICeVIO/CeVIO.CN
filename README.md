@@ -9,9 +9,9 @@
 
 ## 使用方式
 
-下载[稳定版本](https://github.com/VOICeVIO/CeVIO.CN/releases)或[测试版本](https://ci.appveyor.com/project/UlyssesWu/cevio-cn/build/artifacts)，将`zh-CN`或`ja-JP`文件夹置于CeVIO根目录即可。
+下载[稳定版本](https://github.com/VOICeVIO/CeVIO.CN/releases)或[自动编译版本](https://ci.appveyor.com/project/UlyssesWu/cevio-cn/build/artifacts)，将`zh-CN`或`ja-JP`文件夹置于CeVIO根目录即可。
 
-注：本项目仅对简体中文系统生效，对日文、英文或繁体中文系统不会生效。
+如果release页面中的版本较旧，请到CI页面按照版本号寻找对应的自动编译版本下载使用。
 
 ## 许可协议
 
