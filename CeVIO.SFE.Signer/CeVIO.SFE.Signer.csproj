@@ -54,8 +54,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="dnlib-new">
-      <Version>2.1.0</Version>
+    <PackageReference Include="dnlib">
+      <Version>3.1.0</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
