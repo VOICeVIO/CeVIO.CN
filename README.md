@@ -9,9 +9,11 @@
 
 ## 使用方式
 
-下载[稳定版本](https://github.com/VOICeVIO/CeVIO.CN/releases)或[自动编译版本](https://ci.appveyor.com/project/UlyssesWu/cevio-cn/build/artifacts)，将`zh-CN`或`ja-JP`文件夹置于CeVIO根目录即可。
+下载[稳定版本](https://github.com/VOICeVIO/CeVIO.CN/releases)或[自动编译版本](https://ci.appveyor.com/project/UlyssesWu/cevio-cn/build/artifacts)，将`ja-JP`（或`zh-CN`）文件夹置于CeVIO根目录即可。
 
-如果release页面中的版本较旧，请到CI页面按照版本号寻找对应的自动编译版本下载使用。
+若打开软件后为英语，请到选项窗口将语言改为Japanese或Chinese（若有）。
+
+如果release页面中的版本较旧，请到[CI页面](https://ci.appveyor.com/project/UlyssesWu/cevio-cn/history)按照版本号寻找对应的自动编译版本下载使用。
 
 ## 许可协议
 
@@ -32,7 +34,7 @@
 
 翻译完毕后，提交Pull Request，Review通过后将会直接合并到主分支并自动编译新版本。
 
-（若不会使用git）或通过“导出所选”功能在issue中以附件提交你的翻译。
+（若不会使用git）也可通过“导出所选”功能在issue中以附件提交你的翻译。
 
 ## 来源
 

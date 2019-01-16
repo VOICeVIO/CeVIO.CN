@@ -4830,7 +4830,7 @@ http://cevio.jp/</comment>
     <value>小键盘 /</value>
   </data>
   <data name="CastImageMappingDialog_ImageList_Title" xml:space="preserve">
-    <value>{0}({1})的画像</value>
+    <value>画像：</value>
     <comment>{0}({1})の画像</comment>
   </data>
   <data name="LocalewiseSettingDialog_PauseSetting_Menu_Delete_InputGesture" xml:space="preserve">
