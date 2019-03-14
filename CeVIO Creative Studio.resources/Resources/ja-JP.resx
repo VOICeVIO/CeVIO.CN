@@ -5762,4 +5762,16 @@ http://cevio.jp/</comment>
     <value>联网查询是否有新版本。</value>
     <comment>Check if there is a new version.</comment>
   </data>
+  <data name="TrackSelectionDialog_TrackwiseSerialNumberSwitch_Title" xml:space="preserve">
+    <value>按音轨建立文件夹，按序号命名文件</value>
+    <comment>トラック毎にフォルダと通し番号を分ける</comment>
+  </data>
+  <data name="Message_Confirm_OverwritePreset" xml:space="preserve">
+    <value>要覆盖 "{0}" 吗？
+
+若进行覆盖，使用此预置的其他台词也会被修改。</value>
+    <comment>"{0}" を上書きしますか？
+
+上書きすると、このプリセットを適用した他のセリフにも反映されます。</comment>
+  </data>
 </root>
