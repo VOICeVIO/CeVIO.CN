@@ -4944,7 +4944,7 @@ CeVIO Creative Studio最新バージョンをご確認ください。</comment>
     <value>默认:</value>
   </data>
   <data name="AdvertisementDialog_NeverNotifiesAnymoreSwitch_Title" xml:space="preserve">
-    <value>今后，此通知将不再显示</value>
+    <value>今后，不再显示此通知</value>
   </data>
   <data name="TalkEditor_Menu_Insert_PlaceHolder_ToolTip" xml:space="preserve">
     <value>在此位置插入空白行。</value>
