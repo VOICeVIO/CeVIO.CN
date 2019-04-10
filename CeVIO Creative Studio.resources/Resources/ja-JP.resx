@@ -5774,4 +5774,12 @@ http://cevio.jp/</comment>
 
 上書きすると、このプリセットを適用した他のセリフにも反映されます。</comment>
   </data>
+  <data name="MainMenu_File_OpenBackupProject" xml:space="preserve">
+    <value>打开备份(_R)...</value>
+    <comment>Open Backup(R)...</comment>
+  </data>
+  <data name="MainMenu_File_OpenBackupProject_ToolTip" xml:space="preserve">
+    <value>打开已经自动备份的工程文件。</value>
+    <comment>Restore automatically saved project.</comment>
+  </data>
 </root>
