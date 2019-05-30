@@ -4209,9 +4209,9 @@ http://cevio.jp/</value>
   </data>
   <data name="OuterLicenseDialog_Description" xml:space="preserve">
     <value>CeVIO Creative Studio使用了以下的软件/库。
-选中项的License将显示在右侧。</value>
-    <comment>CeVIO Creative Studio 6 は以下のソフトウェアを使用しています。
-選択したソフトウェアのライセンスを表示します。</comment>
+当前使用的CeVIO中文汉化由以下人员制作：
+Ulysses (wdwxy12345@gmail.com) from VOICeVIO</value>
+    
   </data>
   <data name="Message_Warning_CannotOutputWaveformOfInvalidSong" xml:space="preserve">
     <value>此音轨合成时发生了错误，因此无法输出WAV。</value>
@@ -5781,5 +5781,9 @@ http://cevio.jp/</comment>
   <data name="MainMenu_File_OpenBackupProject_ToolTip" xml:space="preserve">
     <value>打开已经自动备份的工程文件。</value>
     <comment>Restore automatically saved project.</comment>
+  </data>
+  <data name="ActivationDialog_Title" xml:space="preserve">
+    <value>激活已购项目</value>
+    <comment>Activate Purchased Items</comment>
   </data>
 </root>
