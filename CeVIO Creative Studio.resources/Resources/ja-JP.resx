@@ -3836,10 +3836,6 @@ http://cevio.jp/</value>
 此外可以到下面的网站查询消息或咨询。
 http://cevio.jp/</value>
   </data>
-  <data name="_Empty[1]" xml:space="preserve">
-    <value></value>
-    
-  </data>
   <data name="MainMenu_Help_Version_ToolTip" xml:space="preserve">
     <value>查看版本信息。</value>
   </data>
@@ -5785,5 +5781,21 @@ http://cevio.jp/</comment>
   <data name="ActivationDialog_Title" xml:space="preserve">
     <value>激活已购项目</value>
     <comment>Activate Purchased Items</comment>
+  </data>
+  <data name="Dialog_FileFilter_SettingsArchiveFile" xml:space="preserve">
+    <value>CCS 环境设置文件 (*.ccsa)|*.ccsa</value>
+    <comment>CCS 環境設定ファイル (*.ccsa)|*.ccsa</comment>
+  </data>
+  <data name="MainMenu_File_Export_Settings" xml:space="preserve">
+    <value>导出设置(_E)...</value>
+    <comment>設定の書き出し(_E)...</comment>
+  </data>
+  <data name="MainMenu_File_Import_Settings" xml:space="preserve">
+    <value>导入设置(_E)...</value>
+    <comment>設定の読み込み(_E)...</comment>
+  </data>
+  <data name="Dialog_Import_Text_AozoraBunko_Title" xml:space="preserve">
+    <value>从【青空文库】导入</value>
+    <comment>青空文庫の読み込み</comment>
   </data>
 </root>
