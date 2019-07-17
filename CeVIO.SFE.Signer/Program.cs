@@ -1,4 +1,7 @@
-﻿using System;
+﻿//This source code is licensed under CC BY-NC-ND 4.0
+//Author: Ulysses (wdwxy12345@gmail.com) from VOICeVIO
+
+using System;
 using System.IO;
 using CeVIO.SFE.Signer.Properties;
 using dnlib.DotNet;

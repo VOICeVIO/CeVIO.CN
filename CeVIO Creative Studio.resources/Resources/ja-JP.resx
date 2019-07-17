@@ -3454,7 +3454,7 @@ http://cevio.jp/
     <value>另存为</value>
   </data>
   <data name="Dialog_Themeless_Title" xml:space="preserve">
-    <value></value>
+    <value />
     <comment>CeVIO CS6</comment>
   </data>
   <data name="PhraseClipDialog_Search_ToolTip" xml:space="preserve">
@@ -3490,7 +3490,6 @@ http://cevio.jp/
 请换个时间再试。
 此外可以到下面的网站查询消息或咨询。
 http://cevio.jp/</value>
-    
   </data>
   <data name="MainMenu_File_Export_MixedWaveform_ToolTip" xml:space="preserve">
     <value>将所有音轨导出为WAV格式(48kHz 16bit)音频。</value>
@@ -3897,7 +3896,6 @@ http://cevio.jp/</value>
 
 ※这将提前合成音轨，以缩短试听时的等待时间。
 ※当编辑音轨内容时会解除锁定。</value>
-    
   </data>
   <data name="InputSentenceDialog_StartTime_ToolTip" xml:space="preserve">
     <value>输入格式：
@@ -4207,7 +4205,6 @@ http://cevio.jp/</value>
     <value>CeVIO Creative Studio使用了以下的软件/库。
 当前使用的CeVIO中文汉化由以下人员制作：
 Ulysses (wdwxy12345@gmail.com) from VOICeVIO</value>
-    
   </data>
   <data name="Message_Warning_CannotOutputWaveformOfInvalidSong" xml:space="preserve">
     <value>此音轨合成时发生了错误，因此无法输出WAV。</value>
@@ -4242,7 +4239,6 @@ Ulysses (wdwxy12345@gmail.com) from VOICeVIO</value>
   </data>
   <data name="TrackLane_Menu_Solo" xml:space="preserve">
     <value>使音轨独奏(_S)</value>
-    
   </data>
   <data name="TrackLane_Menu_Mute" xml:space="preserve">
     <value>使音轨静音(_M)</value>
@@ -5280,7 +5276,6 @@ B.当前系统的区域设置不兼容。
   </data>
   <data name="TrackLane_Menu_Export_WaveformForEachText" xml:space="preserve">
     <value>导出每个片段的WAV(_W)...</value>
-    
   </data>
   <data name="MainMenu_Track_ClearContents" xml:space="preserve">
     <value>清空音轨的内容(_C)</value>
@@ -5797,5 +5792,255 @@ http://cevio.jp/</comment>
   <data name="Dialog_Import_Text_AozoraBunko_Title" xml:space="preserve">
     <value>从【青空文库】导入</value>
     <comment>青空文庫の読み込み</comment>
+  </data>
+  <data name="SettingExportDialog_PhraseClips_Title" xml:space="preserve">
+    <value>语音：台词片段</value>
+    <comment>トーク：セリフクリップ</comment>
+  </data>
+  <data name="Dialog_FileFilter_WindowsInstallerFile" xml:space="preserve">
+    <value>Windows安装文件 (*.msi)|*.msi</value>
+    <comment>Windowsインストーラファイル (*.msi)|*.msi</comment>
+  </data>
+  <data name="Message_Information_ChangeDisplayLanguage" xml:space="preserve">
+    <value>要使语言变更生效，请重启软件。</value>
+    <comment>表示言語の変更を適用するには、アプリケーションを終了して起動し直してください。</comment>
+  </data>
+  <data name="SettingExportDialog_FileSaving_Title" xml:space="preserve">
+    <value>另存为</value>
+    <comment>名前を付けて保存</comment>
+  </data>
+  <data name="SettingImportDialog_ImportingMethod_Merge_Title" xml:space="preserve">
+    <value>从现有内容基础上添加</value>
+    <comment>既存内容に追加する</comment>
+  </data>
+  <data name="TrackSelectionDialog_Destination_Insert_Text_DisplayTitle" xml:space="preserve">
+    <value>台词</value>
+    <comment>セリフ</comment>
+  </data>
+  <data name="MainMenu_File_Export_Settings_ToolTip" xml:space="preserve">
+    <value>保存当前的环境设置。</value>
+    <comment>現在の環境設定を保存します。</comment>
+  </data>
+  <data name="SettingExportDialog_Personality_Title" xml:space="preserve">
+    <value>语音：预置</value>
+    <comment>トーク：プリセット</comment>
+  </data>
+  <data name="Fragment_UTF8recogBOM" xml:space="preserve">
+    <value>UTF-8 (识别BOM)</value>
+    <comment>UTF-8 (BOM自動)</comment>
+  </data>
+  <data name="SettingExportDialog_Title" xml:space="preserve">
+    <value>导出设置</value>
+    <comment>設定の書き出し</comment>
+  </data>
+  <data name="Message_Error_Download" xml:space="preserve">
+    <value>文件下载失败。</value>
+    <comment>ファイルのダウンロードに失敗しました。</comment>
+  </data>
+  <data name="SettingImportDialog_ImportingMethod_Replace_Title" xml:space="preserve">
+    <value>替换现有内容</value>
+    <comment>既存内容を置き換える</comment>
+  </data>
+  <data name="SettingExportDialog_TargetData_Title" xml:space="preserve">
+    <value>请指定要导出的设置。</value>
+    <comment>エクスポートする設定を指定してください。</comment>
+  </data>
+  <data name="SettingExportDialog_RuntimeSettings_Title" xml:space="preserve">
+    <value>常规设置</value>
+    <comment>全般設定</comment>
+  </data>
+  <data name="TrackSelectionDialog_Destination_Insert_CastName_DisplayTitle" xml:space="preserve">
+    <value>角色名</value>
+    <comment>キャスト名</comment>
+  </data>
+  <data name="Message_Warning_UnrecognizedWordReading" xml:space="preserve">
+    <value>读法请以全角片假名输入。</value>
+    <comment>読みは全角カナのみで入力してください。</comment>
+  </data>
+  <data name="MainMenu_File_OpenBackupProject_InputGesture" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Fragment_ShiftJIS" xml:space="preserve">
+    <value>Shift JIS</value>
+    <comment>Shift JIS</comment>
+  </data>
+  <data name="DownloadDialog_Text2" xml:space="preserve">
+    <value>※当下载进度长时间无进展时，请先取消，
+稍后再作尝试。</value>
+    <comment>※ダウンロードが進まないときは一旦キャンセルして、
+もう一度お試しください。</comment>
+  </data>
+  <data name="DownloadDialog_Text1" xml:space="preserve">
+    <value>正在下载...</value>
+    <comment>ダウンロードしています...</comment>
+  </data>
+  <data name="DownloadDialog_Title" xml:space="preserve">
+    <value>下载</value>
+    <comment>ダウンロード</comment>
+  </data>
+  <data name="Message_Information_AddText_CountLimit2" xml:space="preserve">
+    <value />
+    <comment>セリフ数が上限を超えてしまうため、先頭から{0}個のみ追加します。</comment>
+  </data>
+  <data name="Message_Warning_PresetSettingLoadingFault" xml:space="preserve">
+    <value>预置设置读取失败，将继续使用现有的预置。</value>
+    <comment>プリセット設定の読み込みに失敗したため、既定のプリセットで起動します。</comment>
+  </data>
+  <data name="Dialog_FileFilter_TextFile" xml:space="preserve">
+    <value>文本文件 (*.txt)|*.txt</value>
+    <comment>テキストファイル (*.txt)|*.txt</comment>
+  </data>
+  <data name="Dialog_Download_Title" xml:space="preserve">
+    <value>下载</value>
+    <comment>ダウンロード</comment>
+  </data>
+  <data name="Message_Information_CreatingTextList" xml:space="preserve">
+    <value>台词列表生成中...</value>
+    <comment>セリフリストを作成しています...</comment>
+  </data>
+  <data name="SettingExportDialog_SubmitButton_Title" xml:space="preserve">
+    <value>导出</value>
+    <comment>エクスポート</comment>
+  </data>
+  <data name="TrackSelectionDialog_Destination_FolderNamePattern_Title" xml:space="preserve">
+    <value>文件夹名模式：</value>
+    <comment>フォルダ名パターン：</comment>
+  </data>
+  <data name="TrackSelectionDialog_Destination_Insert_Text_ToolTip" xml:space="preserve">
+    <value>在光标位置插入『台词』</value>
+    <comment>カーソル位置に『セリフ』を挿入</comment>
+  </data>
+  <data name="SettingImportDialog_Title" xml:space="preserve">
+    <value>导入设置</value>
+    <comment>設定の読み込み</comment>
+  </data>
+  <data name="SettingImportDialog_Notes" xml:space="preserve">
+    <value>※导入之后，会自动重启软件。</value>
+    <comment>※インポート後、自動的に再起動します。</comment>
+  </data>
+  <data name="Message_License_Confirm_Authorization_UnlicensedProducts_Name" xml:space="preserve">
+    <value>『{0}』</value>
+    <comment>『{0}』</comment>
+  </data>
+  <data name="TrackSelectionDialog_DestinationFile_Title" xml:space="preserve">
+    <value>保存目标</value>
+    <comment>保存ファイル</comment>
+  </data>
+  <data name="Dialog_AddTrack_Title" xml:space="preserve">
+    <value>添加音轨</value>
+    <comment>トラックを追加</comment>
+  </data>
+  <data name="Message_Confirm_QuitApplicationForUpdate" xml:space="preserve">
+    <value>要下载更新并重启软件吗？</value>
+    <comment>更新ファイルをダウンロードしてアプリケーションを再起動しますか？</comment>
+  </data>
+  <data name="Message_Information_ImportSettings_Reserved" xml:space="preserve">
+    <value>设置导入完成。
+设置生效将在下回启动软件时生效。</value>
+    <comment>設定のインポートが完了しました。
+設定内容はアプリケーションの次回起動時に適用されます。</comment>
+  </data>
+  <data name="TrackSelectionDialog_Destination_Insert_CastName_ToolTip" xml:space="preserve">
+    <value>在光标位置插入『角色名』</value>
+    <comment>カーソル位置に『キャスト名』を挿入</comment>
+  </data>
+  <data name="Message_Information_ImportSettings_ReservedThenReboot" xml:space="preserve">
+    <value>设置导入完成。
+为了使设置生效，将重启软件。</value>
+    <comment>設定のインポートが完了しました。
+設定内容を有効にするためアプリケーションを再起動します。</comment>
+  </data>
+  <data name="SettingImportDialog_TargetData_Title" xml:space="preserve">
+    <value>请选择要导入的设置。</value>
+    <comment>インポートする設定を指定してください。</comment>
+  </data>
+  <data name="Message_Error_Installation" xml:space="preserve">
+    <value>安装时发生了错误。</value>
+    <comment>インストール時にエラーが発生しました。</comment>
+  </data>
+  <data name="Message_Information_LoadingText_AmountExceeded" xml:space="preserve">
+    <value />
+    <comment>一度に読み込み可能なテキストは{0}行です。
+{0}行目までを取り込みます。</comment>
+  </data>
+  <data name="Message_Warning_WrongProductKeyAndMailAddress" xml:space="preserve">
+    <value>请输入正确的邮箱和序列号。</value>
+    <comment>シリアルナンバーとメールアドレスを正しく入力してください。</comment>
+  </data>
+  <data name="TrackSelectionDialog_Destination_FileNamePattern_Title" xml:space="preserve">
+    <value>文件名模式：</value>
+    <comment>ファイル名パターン：</comment>
+  </data>
+  <data name="Message_License_Confirm_Authorization_UnlicensedProducts_Remarks" xml:space="preserve">
+    <value>（到 {0} 为止无法再次转移）</value>
+    <comment>（{0} まで再移行不可）</comment>
+  </data>
+  <data name="Message_Information_AddText_CountLimit" xml:space="preserve">
+    <value>台词行数已达上限，无法再添加台词。</value>
+    <comment>セリフ数が上限に達しているため、これ以上追加できません。</comment>
+  </data>
+  <data name="Message_Error_ExportSettings" xml:space="preserve">
+    <value>导出设置失败。</value>
+    <comment>設定の書き出しに失敗しました。</comment>
+  </data>
+  <data name="MainMenu_File_Import_Settings_ToolTip" xml:space="preserve">
+    <value>从已保存的环境设置文件中读取设置。</value>
+    <comment>保存済みの環境設定ファイルを読み込みます。</comment>
+  </data>
+  <data name="TrackSelectionDialog_Destination_Insert_Text_Title" xml:space="preserve">
+    <value>台词</value>
+    <comment>セリフ</comment>
+  </data>
+  <data name="TrackSelectionDialog_Destination_Insert_CastName_Title" xml:space="preserve">
+    <value>角色名</value>
+    <comment>キャスト名</comment>
+  </data>
+  <data name="Fragment_UTF8withBOM" xml:space="preserve">
+    <value>UTF-8 (带BOM)</value>
+    <comment>UTF-8 (BOM付き)</comment>
+  </data>
+  <data name="MainMenu_File_Import_Text_AozoraBunko" xml:space="preserve">
+    <value>从青空文库导入(_B)...</value>
+    <comment>青空文庫の読み込み(_B)...</comment>
+  </data>
+  <data name="Message_Export_Settings" xml:space="preserve">
+    <value>已将设置保存到以下文件。</value>
+    <comment>以下のファイルに設定内容を保存しました。</comment>
+  </data>
+  <data name="Message_Warning_FileIsNotSettingArchive" xml:space="preserve">
+    <value>指定的文件不是有效的CCS设置文件。</value>
+    <comment>指定されたファイルは、エクスポートされたCCS設定ファイルではありません。</comment>
+  </data>
+  <data name="Message_Information_MultipleTextInput_AmountExceeded" xml:space="preserve">
+    <value />
+    <comment>セリフ分割の結果、{0}行を超えたため{0}行目までを取り込みます。</comment>
+  </data>
+  <data name="SettingImportDialog_SubmitButton_Title" xml:space="preserve">
+    <value>导入</value>
+    <comment>インポート</comment>
+  </data>
+  <data name="MainMenu_File_Import_Text_AozoraBunko_ToolTip" xml:space="preserve">
+    <value>从【青空文库】文件中加载语音音轨。</value>
+    <comment>トークトラックに青空文庫ファイルを読み込みます。</comment>
+  </data>
+  <data name="UpdateAnnounceDialog_UpdateButton_Title" xml:space="preserve">
+    <value>现在更新</value>
+    <comment>今すぐアップデート</comment>
+  </data>
+  <data name="SettingExportDialog_TalkDictionary_Title" xml:space="preserve">
+    <value>语音：用户词典</value>
+    <comment>トーク：ユーザー辞書</comment>
+  </data>
+  <data name="Message_Error_ImportSettings" xml:space="preserve">
+    <value>导入设置失败。</value>
+    <comment>設定の読み込みに失敗しました。</comment>
+  </data>
+  <data name="SettingImportDialog_ReferenceFileDialog_Title" xml:space="preserve">
+    <value>选择文件</value>
+    <comment>ファイル選択</comment>
+  </data>
+  <data name="VOICeVIO_License" xml:space="preserve">
+    <value>本汉化文本由VOICeVIO（组织）翻译，并以CC BY-NC-SA 4.0协议提供。</value>
+    <comment>wdwxy12345@gmail.com</comment>
   </data>
 </root>
