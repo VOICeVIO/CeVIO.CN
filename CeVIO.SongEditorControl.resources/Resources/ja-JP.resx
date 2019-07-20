@@ -878,4 +878,14 @@
     <value>删除小节(_X)...</value>
     <comment>Delete Measures(_X)...</comment>
   </data>
+  <data name="PianoRollMenu_DeleteMeasureToolTip" xml:space="preserve">
+    <value>在指定的位置删除指定长度的小节。</value>
+    <comment>位置と長さを指定して小節を削除します。</comment>
+  </data>
+  <data name="PianoRollMenu_InsertMeasureToolTip" xml:space="preserve">
+    <value>在指定的位置插入指定长度的小节。
+要在末尾添加小节，可以直接使用[Shift+鼠标滚轮]向下(右)滚动。</value>
+    <comment>位置と長さを指定して小節を挿入します。
+末尾の追加は、[Shift+マウスホイール]や右スクロールボタンでも可能。</comment>
+  </data>
 </root>
