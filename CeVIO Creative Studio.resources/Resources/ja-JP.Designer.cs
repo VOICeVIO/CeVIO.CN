@@ -157,7 +157,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似  的本地化字符串。
+        ///   查找类似 激活已购项目 的本地化字符串。
         /// </summary>
         public static string ActivationDialog_Title {
             get {
@@ -221,6 +221,15 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
+        ///   查找类似 添加音轨 的本地化字符串。
+        /// </summary>
+        public static string Dialog_AddTrack_Title {
+            get {
+                return ResourceManager.GetString("Dialog_AddTrack_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 取消 的本地化字符串。
         /// </summary>
         public static string Dialog_CancelButton_Title {
@@ -235,6 +244,15 @@ namespace CeVIO.Editor.Properties.Resources {
         public static string Dialog_CloseButton_Title {
             get {
                 return ResourceManager.GetString("Dialog_CloseButton_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 下载 的本地化字符串。
+        /// </summary>
+        public static string Dialog_Download_Title {
+            get {
+                return ResourceManager.GetString("Dialog_Download_Title", resourceCulture);
             }
         }
         
@@ -401,11 +419,29 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
+        ///   查找类似 CCS 环境设置文件 (*.ccsa)|*.ccsa 的本地化字符串。
+        /// </summary>
+        public static string Dialog_FileFilter_SettingsArchiveFile {
+            get {
+                return ResourceManager.GetString("Dialog_FileFilter_SettingsArchiveFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 SubRip文件 (*.srt)|*.srt|SubViewer文件 (*.sbv)|*.sbv 的本地化字符串。
         /// </summary>
         public static string Dialog_FileFilter_SubtitleFile {
             get {
                 return ResourceManager.GetString("Dialog_FileFilter_SubtitleFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 文本文件 (*.txt)|*.txt 的本地化字符串。
+        /// </summary>
+        public static string Dialog_FileFilter_TextFile {
+            get {
+                return ResourceManager.GetString("Dialog_FileFilter_TextFile", resourceCulture);
             }
         }
         
@@ -424,6 +460,15 @@ namespace CeVIO.Editor.Properties.Resources {
         public static string Dialog_FileFilter_WaveFile {
             get {
                 return ResourceManager.GetString("Dialog_FileFilter_WaveFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Windows安装文件 (*.msi)|*.msi 的本地化字符串。
+        /// </summary>
+        public static string Dialog_FileFilter_WindowsInstallerFile {
+            get {
+                return ResourceManager.GetString("Dialog_FileFilter_WindowsInstallerFile", resourceCulture);
             }
         }
         
@@ -487,6 +532,15 @@ namespace CeVIO.Editor.Properties.Resources {
         public static string Dialog_Import_MusicXML_Title {
             get {
                 return ResourceManager.GetString("Dialog_Import_MusicXML_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 从【青空文库】导入 的本地化字符串。
+        /// </summary>
+        public static string Dialog_Import_Text_AozoraBunko_Title {
+            get {
+                return ResourceManager.GetString("Dialog_Import_Text_AozoraBunko_Title", resourceCulture);
             }
         }
         
@@ -599,6 +653,34 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
+        ///   查找类似 正在下载... 的本地化字符串。
+        /// </summary>
+        public static string DownloadDialog_Text1 {
+            get {
+                return ResourceManager.GetString("DownloadDialog_Text1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 ※当下载进度长时间无进展时，请先取消，
+        ///稍后再作尝试。 的本地化字符串。
+        /// </summary>
+        public static string DownloadDialog_Text2 {
+            get {
+                return ResourceManager.GetString("DownloadDialog_Text2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 下载 的本地化字符串。
+        /// </summary>
+        public static string DownloadDialog_Title {
+            get {
+                return ResourceManager.GetString("DownloadDialog_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 CeVIO.CN中文汉化 by VOICeVIO 的本地化字符串。
         /// </summary>
         public static string EditorArea_GuideText {
@@ -685,6 +767,15 @@ namespace CeVIO.Editor.Properties.Resources {
         public static string Fragment_Product {
             get {
                 return ResourceManager.GetString("Fragment_Product", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Shift JIS 的本地化字符串。
+        /// </summary>
+        public static string Fragment_ShiftJIS {
+            get {
+                return ResourceManager.GetString("Fragment_ShiftJIS", resourceCulture);
             }
         }
         
@@ -815,6 +906,24 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
+        ///   查找类似 UTF-8 (识别BOM) 的本地化字符串。
+        /// </summary>
+        public static string Fragment_UTF8recogBOM {
+            get {
+                return ResourceManager.GetString("Fragment_UTF8recogBOM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 UTF-8 (带BOM) 的本地化字符串。
+        /// </summary>
+        public static string Fragment_UTF8withBOM {
+            get {
+                return ResourceManager.GetString("Fragment_UTF8withBOM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 声源合集 的本地化字符串。
         /// </summary>
         public static string Fragment_VoicePackage {
@@ -904,18 +1013,6 @@ namespace CeVIO.Editor.Properties.Resources {
         public static string InputSentenceDialog_Title {
             get {
                 return ResourceManager.GetString("InputSentenceDialog_Title", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 Ｃｒｅａｔｉｖｅ　Ｓｔｕｄｉｏ [クリエイティブスタジオ] POS=&quot;名詞&quot;,POS_GROUP1=&quot;固有名詞&quot;,POS_GROUP2=&quot;一般&quot;,POS_GROUP3=&quot;*&quot;,CTYPE=&quot;*&quot;,CFORM=&quot;*&quot;,PRIORITY=&quot;3&quot;,ORIGINAL=&quot;Ｃｒｅａｔｉｖｅ　Ｓｔｕｄｉｏ&quot;,READ=&quot;クリエイティブスタジオ&quot;,ACCENT=&quot;8&quot;
-        ///ＯＮＥ [オネ] POS=&quot;名詞&quot;,POS_GROUP1=&quot;固有名詞&quot;,POS_GROUP2=&quot;一般&quot;,POS_GROUP3=&quot;*&quot;,CTYPE=&quot;*&quot;,CFORM=&quot;*&quot;,PRIORITY=&quot;3&quot;,ORIGINAL=&quot;ＯＮＥ&quot;,READ=&quot;オネ&quot;,ACCENT=&quot;1&quot;
-        ///ＩＡ [イア] POS=&quot;名詞&quot;,POS_GROUP1=&quot;固有名詞&quot;,POS_GROUP2=&quot;一般&quot;,POS_GROUP3=&quot;*&quot;,CTYPE=&quot;*&quot;,CFORM=&quot;*&quot;,PRIORITY=&quot;3&quot;,ORIGINAL=&quot;ＩＡ&quot;,READ=&quot;イア&quot;,ACCENT=&quot;1&quot;
-        ///ＡＲＩＡ　ＯＮ　ＴＨＥ　ＰＬＡＮＥＴＥＳ [アリアオンザプラネテス] POS=&quot;名詞&quot;,POS_GROUP1=&quot;固有名詞&quot; [字符串的其余部分被截断]&quot;; 的本地化字符串。
-        /// </summary>
-        public static string KnownWords {
-            get {
-                return ResourceManager.GetString("KnownWords", resourceCulture);
             }
         }
         
@@ -1334,6 +1431,24 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
+        ///   查找类似 导出设置(_E)... 的本地化字符串。
+        /// </summary>
+        public static string MainMenu_File_Export_Settings {
+            get {
+                return ResourceManager.GetString("MainMenu_File_Export_Settings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 保存当前的环境设置。 的本地化字符串。
+        /// </summary>
+        public static string MainMenu_File_Export_Settings_ToolTip {
+            get {
+                return ResourceManager.GetString("MainMenu_File_Export_Settings_ToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 导出字幕(_U)... 的本地化字符串。
         /// </summary>
         public static string MainMenu_File_Export_Subtitle {
@@ -1490,11 +1605,47 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
+        ///   查找类似 导入设置(_E)... 的本地化字符串。
+        /// </summary>
+        public static string MainMenu_File_Import_Settings {
+            get {
+                return ResourceManager.GetString("MainMenu_File_Import_Settings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 从已保存的环境设置文件中读取设置。 的本地化字符串。
+        /// </summary>
+        public static string MainMenu_File_Import_Settings_ToolTip {
+            get {
+                return ResourceManager.GetString("MainMenu_File_Import_Settings_ToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 导入台词文本(_C)... 的本地化字符串。
         /// </summary>
         public static string MainMenu_File_Import_Text {
             get {
                 return ResourceManager.GetString("MainMenu_File_Import_Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 从青空文库导入(_B)... 的本地化字符串。
+        /// </summary>
+        public static string MainMenu_File_Import_Text_AozoraBunko {
+            get {
+                return ResourceManager.GetString("MainMenu_File_Import_Text_AozoraBunko", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 从【青空文库】文件中加载语音音轨。 的本地化字符串。
+        /// </summary>
+        public static string MainMenu_File_Import_Text_AozoraBunko_ToolTip {
+            get {
+                return ResourceManager.GetString("MainMenu_File_Import_Text_AozoraBunko_ToolTip", resourceCulture);
             }
         }
         
@@ -1559,6 +1710,15 @@ namespace CeVIO.Editor.Properties.Resources {
         public static string MainMenu_File_OpenBackupProject {
             get {
                 return ResourceManager.GetString("MainMenu_File_OpenBackupProject", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        public static string MainMenu_File_OpenBackupProject_InputGesture {
+            get {
+                return ResourceManager.GetString("MainMenu_File_OpenBackupProject_InputGesture", resourceCulture);
             }
         }
         
@@ -4450,6 +4610,15 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
+        ///   查找类似 要下载更新并重启软件吗？ 的本地化字符串。
+        /// </summary>
+        public static string Message_Confirm_QuitApplicationForUpdate {
+            get {
+                return ResourceManager.GetString("Message_Confirm_QuitApplicationForUpdate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 将注册选定的台词。确定吗？ 的本地化字符串。
         /// </summary>
         public static string Message_Confirm_RegisterPhraseClip {
@@ -4634,6 +4803,15 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
+        ///   查找类似 文件下载失败。 的本地化字符串。
+        /// </summary>
+        public static string Message_Error_Download {
+            get {
+                return ResourceManager.GetString("Message_Error_Download", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 音轨复制副本失败。 的本地化字符串。
         /// </summary>
         public static string Message_Error_DuplicateTrack {
@@ -4657,6 +4835,15 @@ namespace CeVIO.Editor.Properties.Resources {
         public static string Message_Error_ExportMusicXml {
             get {
                 return ResourceManager.GetString("Message_Error_ExportMusicXml", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 导出设置失败。 的本地化字符串。
+        /// </summary>
+        public static string Message_Error_ExportSettings {
+            get {
+                return ResourceManager.GetString("Message_Error_ExportSettings", resourceCulture);
             }
         }
         
@@ -4697,11 +4884,29 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
+        ///   查找类似 导入设置失败。 的本地化字符串。
+        /// </summary>
+        public static string Message_Error_ImportSettings {
+            get {
+                return ResourceManager.GetString("Message_Error_ImportSettings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 音轨导入失败。 的本地化字符串。
         /// </summary>
         public static string Message_Error_ImportTrack {
             get {
                 return ResourceManager.GetString("Message_Error_ImportTrack", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 安装时发生了错误。 的本地化字符串。
+        /// </summary>
+        public static string Message_Error_Installation {
+            get {
+                return ResourceManager.GetString("Message_Error_Installation", resourceCulture);
             }
         }
         
@@ -4953,6 +5158,15 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
+        ///   查找类似 已将设置保存到以下文件。 的本地化字符串。
+        /// </summary>
+        public static string Message_Export_Settings {
+            get {
+                return ResourceManager.GetString("Message_Export_Settings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 已保存以下字幕文件。 的本地化字符串。
         /// </summary>
         public static string Message_Export_Subtitle {
@@ -5043,6 +5257,24 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
+        ///   查找类似 台词行数已达上限，无法再添加台词。 的本地化字符串。
+        /// </summary>
+        public static string Message_Information_AddText_CountLimit {
+            get {
+                return ResourceManager.GetString("Message_Information_AddText_CountLimit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        public static string Message_Information_AddText_CountLimit2 {
+            get {
+                return ResourceManager.GetString("Message_Information_AddText_CountLimit2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 体验版无法导出WAV文件。 的本地化字符串。
         /// </summary>
         public static string Message_Information_AppTrial_CannotOutputWaveform {
@@ -5124,11 +5356,29 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
+        ///   查找类似 要使语言变更生效，请重启软件。 的本地化字符串。
+        /// </summary>
+        public static string Message_Information_ChangeDisplayLanguage {
+            get {
+                return ResourceManager.GetString("Message_Information_ChangeDisplayLanguage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 正在生成文件... 的本地化字符串。
         /// </summary>
         public static string Message_Information_CreatingFile {
             get {
                 return ResourceManager.GetString("Message_Information_CreatingFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 台词列表生成中... 的本地化字符串。
+        /// </summary>
+        public static string Message_Information_CreatingTextList {
+            get {
+                return ResourceManager.GetString("Message_Information_CreatingTextList", resourceCulture);
             }
         }
         
@@ -5151,6 +5401,26 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
+        ///   查找类似 设置导入完成。
+        ///设置生效将在下回启动软件时生效。 的本地化字符串。
+        /// </summary>
+        public static string Message_Information_ImportSettings_Reserved {
+            get {
+                return ResourceManager.GetString("Message_Information_ImportSettings_Reserved", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 设置导入完成。
+        ///为了使设置生效，将重启软件。 的本地化字符串。
+        /// </summary>
+        public static string Message_Information_ImportSettings_ReservedThenReboot {
+            get {
+                return ResourceManager.GetString("Message_Information_ImportSettings_ReservedThenReboot", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 当前您使用的版本是最新的。 的本地化字符串。
         /// </summary>
         public static string Message_Information_LatestVersion {
@@ -5165,6 +5435,24 @@ namespace CeVIO.Editor.Properties.Resources {
         public static string Message_Information_LoadingText {
             get {
                 return ResourceManager.GetString("Message_Information_LoadingText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        public static string Message_Information_LoadingText_AmountExceeded {
+            get {
+                return ResourceManager.GetString("Message_Information_LoadingText_AmountExceeded", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        public static string Message_Information_MultipleTextInput_AmountExceeded {
+            get {
+                return ResourceManager.GetString("Message_Information_MultipleTextInput_AmountExceeded", resourceCulture);
             }
         }
         
@@ -5476,6 +5764,24 @@ namespace CeVIO.Editor.Properties.Resources {
         public static string Message_License_Confirm_Authorization_UnlicensedProducts {
             get {
                 return ResourceManager.GetString("Message_License_Confirm_Authorization_UnlicensedProducts", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 『{0}』 的本地化字符串。
+        /// </summary>
+        public static string Message_License_Confirm_Authorization_UnlicensedProducts_Name {
+            get {
+                return ResourceManager.GetString("Message_License_Confirm_Authorization_UnlicensedProducts_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 （到 {0} 为止无法再次转移） 的本地化字符串。
+        /// </summary>
+        public static string Message_License_Confirm_Authorization_UnlicensedProducts_Remarks {
+            get {
+                return ResourceManager.GetString("Message_License_Confirm_Authorization_UnlicensedProducts_Remarks", resourceCulture);
             }
         }
         
@@ -6254,6 +6560,15 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
+        ///   查找类似 指定的文件不是有效的CCS设置文件。 的本地化字符串。
+        /// </summary>
+        public static string Message_Warning_FileIsNotSettingArchive {
+            get {
+                return ResourceManager.GetString("Message_Warning_FileIsNotSettingArchive", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 未找到文件。
         ///文件可能已被删除、更名或移动。 的本地化字符串。
         /// </summary>
@@ -6412,6 +6727,15 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
+        ///   查找类似 预置设置读取失败，将继续使用现有的预置。 的本地化字符串。
+        /// </summary>
+        public static string Message_Warning_PresetSettingLoadingFault {
+            get {
+                return ResourceManager.GetString("Message_Warning_PresetSettingLoadingFault", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 注册数量已达到上限，无法继续注册。 的本地化字符串。
         /// </summary>
         public static string Message_Warning_RegisteredCountLimit {
@@ -6459,6 +6783,15 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
+        ///   查找类似 读法请以全角片假名输入。 的本地化字符串。
+        /// </summary>
+        public static string Message_Warning_UnrecognizedWordReading {
+            get {
+                return ResourceManager.GetString("Message_Warning_UnrecognizedWordReading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 未能找到更新版本。 的本地化字符串。
         /// </summary>
         public static string Message_Warning_UpdateCheckFailed {
@@ -6473,6 +6806,15 @@ namespace CeVIO.Editor.Properties.Resources {
         public static string Message_Warning_WrongMailAddress {
             get {
                 return ResourceManager.GetString("Message_Warning_WrongMailAddress", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 请输入正确的邮箱和序列号。 的本地化字符串。
+        /// </summary>
+        public static string Message_Warning_WrongProductKeyAndMailAddress {
+            get {
+                return ResourceManager.GetString("Message_Warning_WrongProductKeyAndMailAddress", resourceCulture);
             }
         }
         
@@ -8373,18 +8715,137 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
-        ///&lt;Configuration&gt;
-        ///  &lt;VocalSourceAttributes&gt;
-        ///    &lt;VocalSource Label=&quot;Official-A Talk&quot; PackageCode=&quot;01b54a3e-cb58-4418-a435-2bac87450350&quot; ValidComponentVersion=&quot;1.7.3&quot;&gt;
-        ///      &lt;Components Version=&quot;1.0.0&quot;&gt;
-        ///        &lt;Component Name=&quot;f801_angry_tts.tsvoice&quot; SizeInBytes=&quot;2364141&quot; MD5=&quot;E0C7BF5DDFD6EB760D7D844B217FCB63&quot;/&gt;
-        ///        &lt;Component Name=&quot;f801_fine_tts.tsvoice&quot; SizeInBytes=&quot;2364141&quot; MD5=&quot;37B68A5310A18F7EEA6EA2D28D1792F9&quot;/&gt;
-        ///        &lt;Component Name=&quot;f801_normal_tts.ts [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///   查找类似 另存为 的本地化字符串。
         /// </summary>
-        public static string SecretConfiguration {
+        public static string SettingExportDialog_FileSaving_Title {
             get {
-                return ResourceManager.GetString("SecretConfiguration", resourceCulture);
+                return ResourceManager.GetString("SettingExportDialog_FileSaving_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 语音：预置 的本地化字符串。
+        /// </summary>
+        public static string SettingExportDialog_Personality_Title {
+            get {
+                return ResourceManager.GetString("SettingExportDialog_Personality_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 语音：台词片段 的本地化字符串。
+        /// </summary>
+        public static string SettingExportDialog_PhraseClips_Title {
+            get {
+                return ResourceManager.GetString("SettingExportDialog_PhraseClips_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 常规设置 的本地化字符串。
+        /// </summary>
+        public static string SettingExportDialog_RuntimeSettings_Title {
+            get {
+                return ResourceManager.GetString("SettingExportDialog_RuntimeSettings_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 导出 的本地化字符串。
+        /// </summary>
+        public static string SettingExportDialog_SubmitButton_Title {
+            get {
+                return ResourceManager.GetString("SettingExportDialog_SubmitButton_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 语音：用户词典 的本地化字符串。
+        /// </summary>
+        public static string SettingExportDialog_TalkDictionary_Title {
+            get {
+                return ResourceManager.GetString("SettingExportDialog_TalkDictionary_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 请指定要导出的设置。 的本地化字符串。
+        /// </summary>
+        public static string SettingExportDialog_TargetData_Title {
+            get {
+                return ResourceManager.GetString("SettingExportDialog_TargetData_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 导出设置 的本地化字符串。
+        /// </summary>
+        public static string SettingExportDialog_Title {
+            get {
+                return ResourceManager.GetString("SettingExportDialog_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 从现有内容基础上添加 的本地化字符串。
+        /// </summary>
+        public static string SettingImportDialog_ImportingMethod_Merge_Title {
+            get {
+                return ResourceManager.GetString("SettingImportDialog_ImportingMethod_Merge_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 替换现有内容 的本地化字符串。
+        /// </summary>
+        public static string SettingImportDialog_ImportingMethod_Replace_Title {
+            get {
+                return ResourceManager.GetString("SettingImportDialog_ImportingMethod_Replace_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 ※导入之后，会自动重启软件。 的本地化字符串。
+        /// </summary>
+        public static string SettingImportDialog_Notes {
+            get {
+                return ResourceManager.GetString("SettingImportDialog_Notes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 选择文件 的本地化字符串。
+        /// </summary>
+        public static string SettingImportDialog_ReferenceFileDialog_Title {
+            get {
+                return ResourceManager.GetString("SettingImportDialog_ReferenceFileDialog_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 导入 的本地化字符串。
+        /// </summary>
+        public static string SettingImportDialog_SubmitButton_Title {
+            get {
+                return ResourceManager.GetString("SettingImportDialog_SubmitButton_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 请选择要导入的设置。 的本地化字符串。
+        /// </summary>
+        public static string SettingImportDialog_TargetData_Title {
+            get {
+                return ResourceManager.GetString("SettingImportDialog_TargetData_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 导入设置 的本地化字符串。
+        /// </summary>
+        public static string SettingImportDialog_Title {
+            get {
+                return ResourceManager.GetString("SettingImportDialog_Title", resourceCulture);
             }
         }
         
@@ -10072,6 +10533,51 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
+        ///   查找类似 文件名模式： 的本地化字符串。
+        /// </summary>
+        public static string TrackSelectionDialog_Destination_FileNamePattern_Title {
+            get {
+                return ResourceManager.GetString("TrackSelectionDialog_Destination_FileNamePattern_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 文件夹名模式： 的本地化字符串。
+        /// </summary>
+        public static string TrackSelectionDialog_Destination_FolderNamePattern_Title {
+            get {
+                return ResourceManager.GetString("TrackSelectionDialog_Destination_FolderNamePattern_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 角色名 的本地化字符串。
+        /// </summary>
+        public static string TrackSelectionDialog_Destination_Insert_CastName_DisplayTitle {
+            get {
+                return ResourceManager.GetString("TrackSelectionDialog_Destination_Insert_CastName_DisplayTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 角色名 的本地化字符串。
+        /// </summary>
+        public static string TrackSelectionDialog_Destination_Insert_CastName_Title {
+            get {
+                return ResourceManager.GetString("TrackSelectionDialog_Destination_Insert_CastName_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 在光标位置插入『角色名』 的本地化字符串。
+        /// </summary>
+        public static string TrackSelectionDialog_Destination_Insert_CastName_ToolTip {
+            get {
+                return ResourceManager.GetString("TrackSelectionDialog_Destination_Insert_CastName_ToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 日期 的本地化字符串。
         /// </summary>
         public static string TrackSelectionDialog_Destination_Insert_DateTime_DisplayTitle {
@@ -10122,6 +10628,33 @@ namespace CeVIO.Editor.Properties.Resources {
         public static string TrackSelectionDialog_Destination_Insert_SerialNumber_ToolTip {
             get {
                 return ResourceManager.GetString("TrackSelectionDialog_Destination_Insert_SerialNumber_ToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 台词 的本地化字符串。
+        /// </summary>
+        public static string TrackSelectionDialog_Destination_Insert_Text_DisplayTitle {
+            get {
+                return ResourceManager.GetString("TrackSelectionDialog_Destination_Insert_Text_DisplayTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 台词 的本地化字符串。
+        /// </summary>
+        public static string TrackSelectionDialog_Destination_Insert_Text_Title {
+            get {
+                return ResourceManager.GetString("TrackSelectionDialog_Destination_Insert_Text_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 在光标位置插入『台词』 的本地化字符串。
+        /// </summary>
+        public static string TrackSelectionDialog_Destination_Insert_Text_ToolTip {
+            get {
+                return ResourceManager.GetString("TrackSelectionDialog_Destination_Insert_Text_ToolTip", resourceCulture);
             }
         }
         
@@ -10194,6 +10727,15 @@ namespace CeVIO.Editor.Properties.Resources {
         public static string TrackSelectionDialog_Destination_Title {
             get {
                 return ResourceManager.GetString("TrackSelectionDialog_Destination_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 保存目标 的本地化字符串。
+        /// </summary>
+        public static string TrackSelectionDialog_DestinationFile_Title {
+            get {
+                return ResourceManager.GetString("TrackSelectionDialog_DestinationFile_Title", resourceCulture);
             }
         }
         
@@ -10382,6 +10924,15 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
+        ///   查找类似 现在更新 的本地化字符串。
+        /// </summary>
+        public static string UpdateAnnounceDialog_UpdateButton_Title {
+            get {
+                return ResourceManager.GetString("UpdateAnnounceDialog_UpdateButton_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 License信息 的本地化字符串。
         /// </summary>
         public static string VersionInfoDialog_LicenseInfoButton_Title {
@@ -10477,6 +11028,15 @@ namespace CeVIO.Editor.Properties.Resources {
         public static string VocalSourceVersionDialog_Title {
             get {
                 return ResourceManager.GetString("VocalSourceVersionDialog_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 本汉化文本由VOICeVIO（组织）翻译，并以CC BY-NC-SA 4.0协议提供。 的本地化字符串。
+        /// </summary>
+        public static string VOICeVIO_License {
+            get {
+                return ResourceManager.GetString("VOICeVIO_License", resourceCulture);
             }
         }
     }

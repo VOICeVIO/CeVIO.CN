@@ -12,6 +12,8 @@ namespace CeVIO.SFE.ResMerge
 {
     static class Program
     {
+        static List<string> SkipList = new List<string>{ "KnownWords", "SecretConfiguration", "Personality" };
+
         static void Main(string[] args)
         {
             if (args.Length < 2)
@@ -31,13 +33,7 @@ namespace CeVIO.SFE.ResMerge
                 //throw;
             }
         }
-
-        public static void Test()
-        {
-            var dic = ParseResDll(
-                @"C:\Program Files (x86)\CeVIO\CeVIO Creative Studio\ja-JP - 副本\CeVIO Creative Studio.resources.dll");
-        }
-
+        
         public static Dictionary<string, object> ParseResDll(string path)
         {
             Dictionary<string, object> dic = new Dictionary<string, object>();
@@ -52,7 +48,7 @@ namespace CeVIO.SFE.ResMerge
 
             return dic;
         }
-
+        
         public static void AddResource(Dictionary<string, object> res, string inputPath, string outputPath)
         {
             var dic = new Dictionary<string, ResXDataNode>();
@@ -62,7 +58,7 @@ namespace CeVIO.SFE.ResMerge
                 dic = reader.Cast<DictionaryEntry>().ToDictionary(e => e.Key.ToString(), e => e.Value as ResXDataNode);
                 foreach (var kv in res)
                 {
-                    if (!dic.ContainsKey(kv.Key))
+                    if (!dic.ContainsKey(kv.Key) && !SkipList.Contains(kv.Key))
                     {
                         dic.Add(kv.Key, new ResXDataNode(kv.Key, kv.Value){Comment = kv.Value.ToString()});
                     }
