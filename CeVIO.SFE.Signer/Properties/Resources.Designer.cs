@@ -61,7 +61,7 @@ namespace CeVIO.SFE.Signer.Properties {
         }
         
         /// <summary>
-        ///   查找类似 6.1.43.0 的本地化字符串。
+        ///   查找类似 6.1.50.0 的本地化字符串。
         /// </summary>
         public static string CeVIO_Creative_Studio_resources_dll {
             get {
@@ -88,7 +88,7 @@ namespace CeVIO.SFE.Signer.Properties {
         }
         
         /// <summary>
-        ///   查找类似 6.1.40.2 的本地化字符串。
+        ///   查找类似 7.0.0.5 的本地化字符串。
         /// </summary>
         public static string CeVIO_SongEditorControl_resources_dll {
             get {

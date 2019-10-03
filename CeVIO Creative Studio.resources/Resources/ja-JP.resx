@@ -4510,4 +4510,8 @@ http://cevio.jp/</comment>
 </value>
     <comment>Personality</comment>
   </data>
+  <data name="PreferenceDialog_Ambient_UnshowCurrentAdvertisements_Title" xml:space="preserve">
+    <value>将所有通知标记为已读</value>
+    <comment>お知らせをすべて既読にする</comment>
+  </data>
 </root>
