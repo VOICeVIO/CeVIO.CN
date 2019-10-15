@@ -4514,9 +4514,37 @@ http://cevio.jp/</comment>
     <value>将所有通知标记为已读</value>
     <comment>お知らせをすべて既読にする</comment>
   </data>
-  <data name="" xml:space="preserve">
-    <value></value>
-    
-    
+  <data name="_Empty[1]" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Message_Information_RuntimeActivation_NotConnectedToNetwork" xml:space="preserve">
+    <value>要进行许可证认证，请连接网络。</value>
+    <comment>ライセンス認証を行う際は、インターネットに接続してください。</comment>
+  </data>
+  <data name="ActivationDialog_Selector_Registration_Description2" xml:space="preserve">
+    <value>※制品版的序列号位于序列号卡上。
+※SourceText数字版的序列号请查阅个人页面。
+※其他下载版的序列号请查阅电子邮件。</value>
+    <comment>※パッケージ版は同梱のシリアルナンバーカードに記載。
+※ソースネクストでご購入の場合、マイページをご確認ください。
+※他のダウンロード版はご購入時のメールをご確認ください。</comment>
+  </data>
+  <data name="Message_Information_CheckUpdate_NotConnectedToNetwork" xml:space="preserve">
+    <value>要检查更新，请连接网络。</value>
+    <comment>アップデート確認を行う際は、インターネットに接続してください。</comment>
+  </data>
+  <data name="Message_Confirm_Preference_UnshowCurrentAdvertisements" xml:space="preserve">
+    <value>要将启动时的通知全部标记为已读吗？
+今后的通知或更新信息仍会显示，不受影响。</value>
+    <comment>起動時に表示されるお知らせをまとめて既読にしますか？
+新しいお知らせとアップデート情報は表示されます。</comment>
+  </data>
+  <data name="RuntimeActivationDialog_ActivatedProductList_Title" xml:space="preserve">
+    <value>已认证产品</value>
+    <comment>ライセンス認証済み製品</comment>
+  </data>
+  <data name="Message_Information_Preference_UnshowCurrentAdvertisements" xml:space="preserve">
+    <value>已将所有通知标记为已读。</value>
+    <comment>現在のお知らせをすべて既読にしました。</comment>
   </data>
 </root>
