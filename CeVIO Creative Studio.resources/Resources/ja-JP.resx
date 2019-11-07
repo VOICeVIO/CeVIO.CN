@@ -4547,4 +4547,8 @@ http://cevio.jp/</comment>
     <value>已将所有通知标记为已读。</value>
     <comment>現在のお知らせをすべて既読にしました。</comment>
   </data>
+  <data name="Dialog_OverwriteButton_Title" xml:space="preserve">
+    <value>覆盖</value>
+    <comment>上書き</comment>
+  </data>
 </root>
