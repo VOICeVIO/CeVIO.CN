@@ -4551,4 +4551,48 @@ http://cevio.jp/</comment>
     <value>覆盖</value>
     <comment>上書き</comment>
   </data>
+  <data name="PreferenceDialog_Ambient_OperationRecordLimit_Title" xml:space="preserve">
+    <value>撤销次数限制:</value>
+    <comment>元に戻す回数の制限:</comment>
+  </data>
+  <data name="PreferenceDialog_Song_DividesEnglishLyrics_Title" xml:space="preserve">
+    <value>对英语声源自动分割歌词的音节</value>
+    <comment>英語ボイスの歌詞を音節で自動分割</comment>
+  </data>
+  <data name="PreferenceDialog_Song_DividesEnglishLyrics_ToolTip" xml:space="preserve">
+    <value>对英语声源输入歌词时，按照1音符1音节模式自动分割歌词。
+(由于是自动推算，可能存在不准确的情况。)</value>
+    <comment>英語ボイスの歌詞入力を、1音符1音節に自動分割します。
+(表記の分割位置は自動推定のため、正しくないことがあります。)</comment>
+  </data>
+  <data name="MainMenu_Song_EditMode_Alpha_ToolTip" xml:space="preserve">
+    <value>将时间轴切换到详细音质调整界面。</value>
+    <comment>時間軸で声質を細かく調整する画面に切り替えます。</comment>
+  </data>
+  <data name="Message_Information_RevisedLowerLimitOfAlphaForCVS" xml:space="preserve">
+    <value>「Color Voice Series」的音质的下限值已经调整为CS7格式。</value>
+    <comment>「Color Voice Series」の声質の下限値をCS7仕様に補正しました。</comment>
+  </data>
+  <data name="MainMenu_Song_EditMode_Alpha_InputGesture" xml:space="preserve">
+    <value>7</value>
+    <comment>7</comment>
+  </data>
+  <data name="MainMenu_Song_EditMode_Overlay_Alpha" xml:space="preserve">
+    <value>显示音色ALP (_7)</value>
+    <comment>声質の詳細を表示(_7)</comment>
+  </data>
+  <data name="MainMenu_Song_EditMode_Alpha" xml:space="preserve">
+    <value>音色(ALP)调整(_7)</value>
+    <comment>声質の詳細を調整(_7)</comment>
+  </data>
+  <data name="MainMenu_Song_EditMode_Overlay_Alpha_ToolTip" xml:space="preserve">
+    <value>重叠显示音色（ALP）。</value>
+    <comment>声質の詳細を重ねます。</comment>
+  </data>
+  <data name="PreferenceDialog_Ambient_OperationRecordLimit_ToolTip" xml:space="preserve">
+    <value>数字越大，程序占用的内存和存储空间也会越多。
+(10～100000)</value>
+    <comment>数字が大きいほどより多くのメモリやストレージを使用します。
+(10～100000)</comment>
+  </data>
 </root>

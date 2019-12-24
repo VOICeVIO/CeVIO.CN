@@ -345,4 +345,16 @@ Ctrl+左键单击恢复初始值。双击输入数值。</value>
     <comment>Change by dragging. Tweak with Shift + drag.
 Ctrl + Left click to default value. Double-click to enter numerical value.</comment>
   </data>
+  <data name="ShowAlphaButtonToolTip" xml:space="preserve">
+    <value>显示音色</value>
+    <comment>声質の詳細を表示</comment>
+  </data>
+  <data name="EditAlphaButtonToolTip" xml:space="preserve">
+    <value>音色(ALP)调整 [7]
+在时间轴上调整每一时刻的音色。
+点击PIT等按钮的文字部分可以重叠显示</value>
+    <comment>声質の詳細を調整 [7]
+時間軸で声質を細かく調整。
+PIT等の文字クリックで重ね表示。</comment>
+  </data>
 </root>

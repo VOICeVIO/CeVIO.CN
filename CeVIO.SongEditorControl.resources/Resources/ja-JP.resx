@@ -888,4 +888,38 @@
     <comment>位置と長さを指定して小節を挿入します。
 末尾の追加は、[Shift+マウスホイール]や右スクロールボタンでも可能。</comment>
   </data>
+  <data name="OneNoteMultipleSyllablesToolTip" xml:space="preserve">
+    <value>每遇到空格则分配1个音符。</value>
+    <comment>音符毎にスペースで区切られた単語や音節を割り当てます。</comment>
+  </data>
+  <data name="PianoRollMenu_Mode_Alpha" xml:space="preserve">
+    <value>音色(ALP)调整(_7)</value>
+    <comment>声質の詳細を調整(_7)</comment>
+  </data>
+  <data name="OneNoteSingleSyllable" xml:space="preserve">
+    <value>1音符1音节</value>
+    <comment>1音符1音節</comment>
+  </data>
+  <data name="PianoRollMenu_OverLay_AlphaToolTip" xml:space="preserve">
+    <value>重叠显示音色（ALP）。</value>
+    <comment>声質の詳細を重ねます。</comment>
+  </data>
+  <data name="OneNoteSingleSyllableToolTip" xml:space="preserve">
+    <value>每个音节占用1个音符。
+(由于是自动推算，可能存在不准确的情况。)</value>
+    <comment>音符毎に1音節ずつ割り当てます。
+(表記の分割位置は自動推定のため、正しくないことがあります。)</comment>
+  </data>
+  <data name="PianoRollMenu_OverLay_Alpha" xml:space="preserve">
+    <value>显示音色(_7)</value>
+    <comment>声質の詳細を表示(_7)</comment>
+  </data>
+  <data name="PianoRollMenu_Mode_AlphaToolTip" xml:space="preserve">
+    <value>切换到音色调整界面。</value>
+    <comment>時間軸で声質を細かく調整する画面に切り替えます。</comment>
+  </data>
+  <data name="OneNoteMultipleSyllables" xml:space="preserve">
+    <value>按空格分割</value>
+    <comment>スペース区切り</comment>
+  </data>
 </root>

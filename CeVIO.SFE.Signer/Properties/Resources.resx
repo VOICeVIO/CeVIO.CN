@@ -118,21 +118,21 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CeVIO Creative Studio.resources.dll" xml:space="preserve">
-    <value>6.1.55.1</value>
+    <value>7.0.7.0</value>
   </data>
   <data name="CeVIO.KnobControl.resources.dll" xml:space="preserve">
     <value>6.1.59.9</value>
   </data>
   <data name="CeVIO.SevenSegmentControl.resources.dll" xml:space="preserve">
-    <value>6.1.51.9</value>
+    <value>6.1.56.0</value>
   </data>
   <data name="CeVIO.SongEditorControl.resources.dll" xml:space="preserve">
-    <value>7.0.0.5</value>
+    <value>7.0.1.15</value>
   </data>
   <data name="CeVIO.TalkAnalyzeControl.resources.dll" xml:space="preserve">
-    <value>6.1.43.1</value>
+    <value>7.0.2.2</value>
   </data>
   <data name="CeVIO.ToolBarControl.resources.dll" xml:space="preserve">
-    <value>6.1.53.1</value>
+    <value>7.0.1.0</value>
   </data>
 </root>
