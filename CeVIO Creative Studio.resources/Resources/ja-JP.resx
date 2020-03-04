@@ -2589,7 +2589,7 @@ Ulysses (wdwxy12345@gmail.com) from VOICeVIO</value>
     <value>复制选中的音轨。</value>
   </data>
   <data name="PreferenceDialog_Song_DefaultLyric_ToolTip" xml:space="preserve">
-    <value>输入音符后默认填写的歌词。留空时为「多莱米法卓拉希多」。</value>
+    <value>输入音符后默认填写的歌词。留空时默认值为「多莱米法卓拉希多」。</value>
     <comment>音符の入力直後の歌詞。空のときは「ドレミファソラシド」。</comment>
   </data>
   <data name="MainMenu_Song_CursorMode_DeepSelector_ToolTip" xml:space="preserve">
@@ -3249,7 +3249,7 @@ CeVIO Creative Studio最新バージョンをご確認ください。</comment>
 [Shift+Enter]で前行。[Ctrl+Enter]で入力終了。</comment>
   </data>
   <data name="OuterLicenseDialog_Title" xml:space="preserve">
-    <value>License信息</value>
+    <value>版权信息</value>
   </data>
   <data name="PreferenceDialog_Song_DisplayValueByOldStyle_Title" xml:space="preserve">
     <value>使用旧版参数显示</value>
@@ -3551,7 +3551,7 @@ http://cevio.jp/</comment>
     <value>小键盘 1</value>
   </data>
   <data name="VersionInfoDialog_LicenseInfoButton_Title" xml:space="preserve">
-    <value>License信息</value>
+    <value>版权信息</value>
   </data>
   <data name="TalkEditor_Menu_Delete_InputGesture" xml:space="preserve">
     <value>Del</value>
@@ -4594,5 +4594,32 @@ http://cevio.jp/</comment>
 (10～100000)</value>
     <comment>数字が大きいほどより多くのメモリやストレージを使用します。
 (10～100000)</comment>
+  </data>
+  <data name="PreferenceDialog_Talk_PhraseListColorScheme_Title" xml:space="preserve">
+    <value>台词列表背景:</value>
+    <comment>セリフリストの背景:</comment>
+  </data>
+  <data name="PreferenceDialog_Talk_PhraseListColorScheme_List_White" xml:space="preserve">
+    <value>白色</value>
+  </data>
+  <data name="PreferenceDialog_Talk_PhraseListColorScheme_List_Stripe" xml:space="preserve">
+    <value>条纹</value>
+    <comment>ストライプ</comment>
+  </data>
+  <data name="PreferenceDialog_Talk_PhraseListColorScheme_List_LightBlue" xml:space="preserve">
+    <value>浅蓝色</value>
+    <comment>ライトブルー</comment>
+  </data>
+  <data name="PreferenceDialog_Talk_PhraseListColorScheme_List_Black" xml:space="preserve">
+    <value>黑色</value>
+  </data>
+  <data name="PreferenceDialog_Talk_PhraseListColorScheme_List_DarkBlue" xml:space="preserve">
+    <value>深蓝色</value>
+  </data>
+  <data name="PreferenceDialog_Song_DefaultLyric_FollowsKeySignature_Title" xml:space="preserve">
+    <value>默认歌词随调号改变</value>
+  </data>
+  <data name="PreferenceDialog_Song_DefaultLyric_FollowsKeySignature_ToolTip" xml:space="preserve">
+    <value>如果取消勾选，则总是以[C大调]为基准显示默认歌词。</value>
   </data>
 </root>
