@@ -4201,7 +4201,7 @@ http://cevio.jp/</comment>
     <comment>ダウンロード</comment>
   </data>
   <data name="Message_Information_AddText_CountLimit2" xml:space="preserve">
-    <value />
+    <value>台词数超过了上限，将从开头开始添加{0}个。</value>
     <comment>セリフ数が上限を超えてしまうため、先頭から{0}個のみ追加します。</comment>
   </data>
   <data name="Message_Warning_PresetSettingLoadingFault" xml:space="preserve">
@@ -4281,7 +4281,8 @@ http://cevio.jp/</comment>
     <comment>インストール時にエラーが発生しました。</comment>
   </data>
   <data name="Message_Information_LoadingText_AmountExceeded" xml:space="preserve">
-    <value />
+    <value>一次最多读取{0}行文本。
+已读取前{0}行。</value>
     <comment>一度に読み込み可能なテキストは{0}行です。
 {0}行目までを取り込みます。</comment>
   </data>
@@ -4334,7 +4335,7 @@ http://cevio.jp/</comment>
     <comment>指定されたファイルは、エクスポートされたCCS設定ファイルではありません。</comment>
   </data>
   <data name="Message_Information_MultipleTextInput_AmountExceeded" xml:space="preserve">
-    <value />
+    <value>台词分割后超过了{0}行，只读取前{0}行。</value>
     <comment>セリフ分割の結果、{0}行を超えたため{0}行目までを取り込みます。</comment>
   </data>
   <data name="SettingImportDialog_SubmitButton_Title" xml:space="preserve">
@@ -4621,5 +4622,156 @@ http://cevio.jp/</comment>
   </data>
   <data name="PreferenceDialog_Song_DefaultLyric_FollowsKeySignature_ToolTip" xml:space="preserve">
     <value>如果取消勾选，则总是以[C大调]为基准显示默认歌词。</value>
+  </data>
+  <data name="PhraseSearchDialog_Title" xml:space="preserve">
+    <value>查找台词</value>
+    <comment>セリフの検索</comment>
+  </data>
+  <data name="MainMenu_Talk_SearchUnit" xml:space="preserve">
+    <value>查找(_F)...</value>
+    <comment>検索(_F)...</comment>
+  </data>
+  <data name="Message_License_AppTrial_AlreadyExpired" xml:space="preserve">
+    <value>由于体验版已过期，所以无法选择。</value>
+    <comment>過去に体験版を期間満了しているため選択できません。</comment>
+  </data>
+  <data name="PhraseSearchDialog_DetailCondition_Title" xml:space="preserve">
+    <value>详细</value>
+    <comment>詳細</comment>
+  </data>
+  <data name="PhraseSearchDialog_Cast_Unspecified" xml:space="preserve">
+    <value>不指定</value>
+    <comment>指定しない</comment>
+  </data>
+  <data name="TalkEditor_Menu_SearchUnit_InputGesture" xml:space="preserve">
+    <value>Ctrl+F</value>
+    <comment>Ctrl+F</comment>
+  </data>
+  <data name="Message_Information_CheckVCRuntimeLibrary_NotInstalled" xml:space="preserve">
+    <value>缺乏启动本程序必要的系统库（VC++）。
+请下载并安装“vc_redist.x64.exe”。</value>
+    <comment>起動に必要なライブラリ（補助プログラム）が不足しています。
+マイクロソフト社のサポートページから「vc_redist.x64.exe」
+をダウンロードして実行してください。</comment>
+  </data>
+  <data name="PhraseSearchDialog_SearchNextButton_Title" xml:space="preserve">
+    <value>下一个</value>
+    <comment>次を検索</comment>
+  </data>
+  <data name="Message_Information_CheckCoreLibrary_CeVIOAudio_NotExisting" xml:space="preserve">
+    <value>找不到文件“CeVIO.Audio.dll”。
+请确认是否被杀毒软件删除。
+或彻底删除本程序并重新安装。</value>
+    <comment>ファイル ’CeVIO.Audio.dll’ が見つかりませんでした。
+一度アンインストールして再インストールしても解決しない場合は、
+セキュリティソフトの誤検出の可能性が考えられます。</comment>
+  </data>
+  <data name="PhraseSearchDialog_Rotates_Title" xml:space="preserve">
+    <value>循环查找</value>
+    <comment>ループ検索</comment>
+  </data>
+  <data name="TalkEditor_Menu_SearchUnit" xml:space="preserve">
+    <value>查找(_F)...</value>
+    <comment>検索(_F)...</comment>
+  </data>
+  <data name="MainMenu_Talk_SearchUnit_ToolTip" xml:space="preserve">
+    <value>查找台词。</value>
+    <comment>セリフを検索します。</comment>
+  </data>
+  <data name="PhraseSearchDialog_CloseButton_Title" xml:space="preserve">
+    <value>关闭</value>
+    <comment>閉じる</comment>
+  </data>
+  <data name="PhraseSearchDialog_Rotates_ToolTip" xml:space="preserve">
+    <value>到达末尾（开头）时，再从开头（末尾）继续查找。</value>
+    <comment>末尾(先頭)に達した場合、先頭(末尾)から検索を続けます。</comment>
+  </data>
+  <data name="PhraseSearchDialog_Cast_Title" xml:space="preserve">
+    <value>配音角色:</value>
+    <comment>キャスト:</comment>
+  </data>
+  <data name="PhraseSearchDialog_SearchNextButton_ToolTip" xml:space="preserve">
+    <value>从选定的行往下查找。</value>
+    <comment>選択行から下方向に検索を進めます。</comment>
+  </data>
+  <data name="PhraseSearchDialog_Input_Title" xml:space="preserve">
+    <value>查找文本:</value>
+    <comment>検索テキスト:</comment>
+  </data>
+  <data name="PhraseSearchDialog_SearchPreviousButton_Title" xml:space="preserve">
+    <value>上一个</value>
+    <comment>前を検索</comment>
+  </data>
+  <data name="LocalewiseSettingDialog_PauseSetting_Annotation" xml:space="preserve">
+    <value>设定文本中的暂停长度。(每行末尾的暂停需要从语音设定窗口的“台词间隔”处设置。)</value>
+    <comment>文中のポーズを設定。(行末のポーズは無視され「セリフの配置間隔」が適用されます。)</comment>
+  </data>
+  <data name="PhraseSearchDialog_Message_NotFound" xml:space="preserve">
+    <value>未找到符合条件的台词。</value>
+    <comment>条件に一致するセリフは見つかりませんでした。</comment>
+  </data>
+  <data name="Message_Information_CheckCoreLibrary_CeVIOTalk_NotExisting" xml:space="preserve">
+    <value>找不到文件“CeVIO.Talk.dll”。
+请确认是否被杀毒软件删除。
+或彻底删除本程序并重新安装。</value>
+    <comment>ファイル ’CeVIO.Talk.dll’ が見つかりませんでした。
+一度アンインストールして再インストールしても解決しない場合は、
+セキュリティソフトの誤検出の可能性が考えられます。</comment>
+  </data>
+  <data name="MainMenu_Talk_SearchUnit_InputGesture" xml:space="preserve">
+    <value>Ctrl+F</value>
+    <comment>Ctrl+F</comment>
+  </data>
+  <data name="PhraseSearchDialog_SearchMethod_WholeMatch_Title" xml:space="preserve">
+    <value>全词匹配</value>
+    <comment>検索テキストと一致</comment>
+  </data>
+  <data name="PhraseSearchDialog_SearchPreviousButton_ToolTip" xml:space="preserve">
+    <value>从选定的行往上查找。</value>
+    <comment>選択行から上方向に検索を進めます。</comment>
+  </data>
+  <data name="TalkEditor_Menu_SearchUnit_ToolTip" xml:space="preserve">
+    <value>查找台词。</value>
+    <comment>セリフを検索します。</comment>
+  </data>
+  <data name="PhraseSearchDialog_SearchMethod_ForwardMatch_Title" xml:space="preserve">
+    <value>匹配前缀</value>
+    <comment>検索テキストで始まる</comment>
+  </data>
+  <data name="PhraseSearchDialog_SearchTarget_CurrentTrack_Title" xml:space="preserve">
+    <value>当前选中的音轨</value>
+    <comment>選択トラック</comment>
+  </data>
+  <data name="PhraseSearchDialog_SearchTarget_Title" xml:space="preserve">
+    <value>查找目标:</value>
+    <comment>検索対象:</comment>
+  </data>
+  <data name="PhraseSearchDialog_SearchMethod_PartialMatch_Title" xml:space="preserve">
+    <value>包含</value>
+    <comment>検索テキストを含む</comment>
+  </data>
+  <data name="PhraseSearchDialog_SearchMethod_Title" xml:space="preserve">
+    <value>比较方式:</value>
+    <comment>比較方法:</comment>
+  </data>
+  <data name="PhraseSearchDialog_SearchMethod_BackwardMatch_Title" xml:space="preserve">
+    <value>匹配后缀</value>
+    <comment>検索テキストで終わる</comment>
+  </data>
+  <data name="Message_License_Information_64bitProductsIsNotInstalled" xml:space="preserve">
+    <value>以下声源已激活，但并未安装64位版本。
+
+{0}
+
+请在“帮助”菜单的“序列号认证”中重新输入序列号来启用这些声源。</value>
+    <comment>以下のボイスのライセンスが見つかりましたが、64bit版がインストールされていません。
+
+{0}
+
+「ヘルプ」メニューの「ライセンス認証」からシリアルナンバーを入力して、ボイスを有効化してください。</comment>
+  </data>
+  <data name="PhraseSearchDialog_SearchTarget_AllTracks_Title" xml:space="preserve">
+    <value>全部语音音轨</value>
+    <comment>すべてのトークトラック</comment>
   </data>
 </root>
