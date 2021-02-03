@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CeVIO.TalkAnalyzeControl.re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CeVIO.SFE.ResMerge", "CeVIO.SFE.ResMerge\CeVIO.SFE.ResMerge.csproj", "{498391C5-87FE-4F1C-B621-BF1CA6D719A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CeVIO AI.resources", "CeVIO AI.resources\CeVIO AI.resources.csproj", "{BE1EE8AD-C120-4218-81CD-67AF98B30145}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -125,12 +127,24 @@ Global
 		{498391C5-87FE-4F1C-B621-BF1CA6D719A4}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{498391C5-87FE-4F1C-B621-BF1CA6D719A4}.Release|x86.ActiveCfg = Release|Any CPU
 		{498391C5-87FE-4F1C-B621-BF1CA6D719A4}.Release|x86.Build.0 = Release|Any CPU
+		{BE1EE8AD-C120-4218-81CD-67AF98B30145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE1EE8AD-C120-4218-81CD-67AF98B30145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE1EE8AD-C120-4218-81CD-67AF98B30145}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{BE1EE8AD-C120-4218-81CD-67AF98B30145}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{BE1EE8AD-C120-4218-81CD-67AF98B30145}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BE1EE8AD-C120-4218-81CD-67AF98B30145}.Debug|x86.Build.0 = Debug|Any CPU
+		{BE1EE8AD-C120-4218-81CD-67AF98B30145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE1EE8AD-C120-4218-81CD-67AF98B30145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE1EE8AD-C120-4218-81CD-67AF98B30145}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{BE1EE8AD-C120-4218-81CD-67AF98B30145}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{BE1EE8AD-C120-4218-81CD-67AF98B30145}.Release|x86.ActiveCfg = Release|Any CPU
+		{BE1EE8AD-C120-4218-81CD-67AF98B30145}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {CB31DAE2-E6F3-409E-B521-17A44BCA3F10}
 		RESX_NeutralResourcesLanguage = zh-CN
+		SolutionGuid = {CB31DAE2-E6F3-409E-B521-17A44BCA3F10}
 	EndGlobalSection
 EndGlobal

@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("VOICeVIO")]
 [assembly: AssemblyProduct("CeVIO.CN")]
-[assembly: AssemblyCopyright("Copyright © VOICeVIO 2018-2020")]
+[assembly: AssemblyCopyright("Copyright © VOICeVIO 2018-2021")]
 [assembly: AssemblyTrademark("wdwxy12345@gmail.com")]
 [assembly: AssemblyCulture("")]
 

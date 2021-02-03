@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>CeVIO.SFE.Signer</RootNamespace>
     <AssemblyName>CeVIO.CN.Signer</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFrameworkProfile />
@@ -60,9 +60,9 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CeVIO Creative Studio.resources\CeVIO Creative Studio.resources.csproj">
-      <Project>{bc3201d8-d27c-4960-adc2-f6e28d127b69}</Project>
-      <Name>CeVIO Creative Studio.resources</Name>
+    <ProjectReference Include="..\CeVIO AI.resources\CeVIO AI.resources.csproj">
+      <Project>{be1ee8ad-c120-4218-81cd-67af98b30145}</Project>
+      <Name>CeVIO AI.resources</Name>
     </ProjectReference>
     <ProjectReference Include="..\CeVIO.KnobControl.resources\CeVIO.KnobControl.resources.csproj">
       <Project>{d3f346f1-e269-4921-a06a-42d985c5f2a0}</Project>
