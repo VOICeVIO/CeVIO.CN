@@ -15,7 +15,7 @@
 
 如果release页面中的版本较旧，请到[CI页面](https://ci.appveyor.com/project/UlyssesWu/cevio-cn/history)按照版本号寻找对应的自动编译版本下载使用。
 
-如果你的CeVIO版本与汉化的版本不一致，你可以使用汉化中自带的“汉化版本适配工具”(`CeVIO.CN.VersionFix`)来强制CeVIO使用当前的汉化版本（仅限CeVIO AI）。
+如果你的CeVIO版本与汉化的版本不一致，你可以使用汉化中自带的“汉化版本适配工具”(`CeVIO.CN.VersionFix`)来强制CeVIO使用当前的汉化版本（仅限CeVIO AI，且更新版本后需要重新运行工具）。
 
 ## 许可协议
 

@@ -59,9 +59,9 @@ namespace CeVIO.CN.VersionFix
                 }
             }
 
-            Console.WriteLine("选择模式:\r\n 1.配置或更新汉化版本\r\n 2.取消配置");
+            Console.WriteLine("选择模式:\r\n 1.配置或更新汉化版本\r\n 2.取消配置\r\n 直接Enter: 等同于1");
             var input = Console.ReadLine()?.Trim();
-            if (input == "1")
+            if (input == "1" || input == "")
             {
                 Install(currentDir, configPath);
             }
