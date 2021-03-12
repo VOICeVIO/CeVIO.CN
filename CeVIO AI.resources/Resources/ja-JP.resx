@@ -5347,6 +5347,51 @@ http://cevio.jp/</comment>
       &lt;/Components&gt;
     &lt;/VocalSource&gt;
 
+    &lt;VocalSource Label="CSNV-JPF-VCLMK1" PackageCode="0e257a86-af17-4647-bd4e-7d94f09ec621" ValidComponentVersion="1.0.0"&gt;
+      &lt;!-- 2020/11/24版 --&gt;
+      &lt;Components Version="1.0.0"&gt;
+        &lt;Component Name="techno-sp_ja_JP_f811_svss.tsnvoice" SizeInBytes="3677651" MD5="788158A5D56CFC2A8F2B64C1460983F5"/&gt;
+      &lt;/Components&gt;
+    &lt;/VocalSource&gt;
+
+    &lt;VocalSource Label="CSNV-JPF-AHS1" PackageCode="51386b72-b9a9-4401-b0a9-105082fbdda2" ValidComponentVersion="1.0.1"&gt;
+      &lt;!-- 2020/12/14版 --&gt;
+      &lt;Components Version="1.0.0"&gt;
+        &lt;Component Name="s-s-s-llc_ja_JP_f812_svss.tsnvoice" SizeInBytes="2215504" MD5="004CF083DD9D850B9D4DD07E6CF43C10"/&gt;
+      &lt;/Components&gt;
+      &lt;!-- 2021/1/5版 --&gt;
+      &lt;Components Version="1.0.1"&gt;
+        &lt;Component Name="s-s-s-llc_ja_JP_f812_svss.tsnvoice" SizeInBytes="2215504" MD5="004CF083DD9D850B9D4DD07E6CF43C10"/&gt;
+      &lt;/Components&gt;
+    &lt;/VocalSource&gt;
+
+    &lt;VocalSource Label="CTNV-JPF-AHS2" PackageCode="df47375f-5764-438d-a81d-26914c055b24" ValidComponentVersion="1.0.0;1.0.1"&gt;
+      &lt;!-- 2021/1/18版 --&gt;
+      &lt;Components Version="1.0.0"&gt;
+        &lt;Component Name="techno-sp_ja_JP_f814_tts.tsnvoice" SizeInBytes="10808161" MD5="E420CC9C737B9AA7258EDCB8C59BF780"/&gt;
+      &lt;/Components&gt;
+      &lt;!-- 2021/2/2版 --&gt;
+      &lt;Components Version="1.0.1"&gt;
+        &lt;Component Name="techno-sp_ja_JP_f814_tts.tsnvoice" SizeInBytes="10808247" MD5="9ECEE54145E0ED537B685DC2308B276D"/&gt;
+      &lt;/Components&gt;
+    &lt;/VocalSource&gt;
+
+    &lt;VocalSource Label="CTNV-JPF-FP4" PackageCode="c83e6f77-0c04-4d65-949c-c9a3b981a2db" ValidComponentVersion="1.0.0"&gt;
+      &lt;!-- 2021/3/3版 --&gt;
+      &lt;Components Version="1.0.0"&gt;
+        &lt;Component Name="techno-sp_ja_JP_f803_tts.tsnvoice" SizeInBytes="11190905" MD5="0EBFDFC6A09259D2BADEBE634ED0AE72"/&gt;
+      &lt;/Components&gt;
+    &lt;/VocalSource&gt;
+
+    &lt;VocalSource Label="CTNV-JPF-FP5" PackageCode="2065da3c-a877-45fa-bb9a-fa789312483c" ValidComponentVersion="1.0.0"&gt;
+      &lt;!-- 2021/3/1版 --&gt;
+      &lt;Components Version="1.0.0"&gt;
+        &lt;Component Name="techno-sp_ja_JP_f804_tts.tsnvoice" SizeInBytes="13341172" MD5="37DDBF45E6787A65F6498A4BE1A56E7E"/&gt;
+      &lt;/Components&gt;
+    &lt;/VocalSource&gt;
+
+
+    &lt;!-- A word to dear C devs: Yan er dao ling Wu neng kuang nu --&gt;
     &lt;VocalSource Label="CSNV-JPF-A" PackageCode="11b403eb-270c-419b-a989-d5f1dda08bff"&gt;
       &lt;Components Version="0.0.1"&gt;
         &lt;Component Name="techno-sp_ja_JP_f801_svss.tsnvoice" SizeInBytes="2443148" MD5="79A19C4E6680364AB6BE65DD679B8DC8"/&gt;
@@ -5386,32 +5431,7 @@ http://cevio.jp/</comment>
       &lt;/Components&gt;
     &lt;/VocalSource&gt;
 
-    &lt;VocalSource Label="CSNV-JPF-VCLMK1" PackageCode="0e257a86-af17-4647-bd4e-7d94f09ec621" ValidComponentVersion="1.0.0"&gt;
-      &lt;!-- 2020/11/24版 --&gt;
-      &lt;Components Version="1.0.0"&gt;
-        &lt;Component Name="techno-sp_ja_JP_f811_svss.tsnvoice" SizeInBytes="3677651" MD5="788158A5D56CFC2A8F2B64C1460983F5"/&gt;
-      &lt;/Components&gt;
-    &lt;/VocalSource&gt;
-
-    &lt;VocalSource Label="CSNV-JPF-AHS1" PackageCode="51386b72-b9a9-4401-b0a9-105082fbdda2" ValidComponentVersion="1.0.1"&gt;
-      &lt;!-- 2020/12/14版 --&gt;
-      &lt;Components Version="1.0.0"&gt;
-        &lt;Component Name="s-s-s-llc_ja_JP_f812_svss.tsnvoice" SizeInBytes="2215504" MD5="004CF083DD9D850B9D4DD07E6CF43C10"/&gt;
-      &lt;/Components&gt;
-      &lt;!-- 2021/1/5版 --&gt;
-      &lt;Components Version="1.0.1"&gt;
-        &lt;Component Name="s-s-s-llc_ja_JP_f812_svss.tsnvoice" SizeInBytes="2215504" MD5="004CF083DD9D850B9D4DD07E6CF43C10"/&gt;
-      &lt;/Components&gt;
-    &lt;/VocalSource&gt;
-
-    &lt;VocalSource Label="CTNV-JPF-AHS2" PackageCode="df47375f-5764-438d-a81d-26914c055b24" ValidComponentVersion="1.0.0"&gt;
-      &lt;!-- 2021/1/18版 --&gt;
-      &lt;Components Version="1.0.0"&gt;
-        &lt;Component Name="techno-sp_ja_JP_f814_tts.tsnvoice" SizeInBytes="10808161" MD5="E420CC9C737B9AA7258EDCB8C59BF780"/&gt;
-      &lt;/Components&gt;
-    &lt;/VocalSource&gt;
   &lt;/VocalSourceAttributes&gt;
-&lt;/Configuration&gt;
-</value>
+&lt;/Configuration&gt;</value>
   </data>
 </root>

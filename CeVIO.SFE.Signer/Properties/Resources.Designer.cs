@@ -47,8 +47,8 @@ namespace CeVIO.SFE.Signer.Properties {
         }
         
         /// <summary>
-        ///   重写当前线程的 CurrentUICulture 属性
-        ///   重写当前线程的 CurrentUICulture 属性。
+        ///   重写当前线程的 CurrentUICulture 属性，对
+        ///   使用此强类型资源类的所有资源查找执行重写。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
         public static global::System.Globalization.CultureInfo Culture {
@@ -57,6 +57,15 @@ namespace CeVIO.SFE.Signer.Properties {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 8.0.20.0 的本地化字符串。
+        /// </summary>
+        public static string CeVIO_AI_resources_dll {
+            get {
+                return ResourceManager.GetString("CeVIO AI.resources.dll", resourceCulture);
             }
         }
         
@@ -70,7 +79,7 @@ namespace CeVIO.SFE.Signer.Properties {
         }
         
         /// <summary>
-        ///   查找类似 6.1.59.9 的本地化字符串。
+        ///   查找类似 8.0.0.0 的本地化字符串。
         /// </summary>
         public static string CeVIO_KnobControl_resources_dll {
             get {
@@ -79,7 +88,7 @@ namespace CeVIO.SFE.Signer.Properties {
         }
         
         /// <summary>
-        ///   查找类似 6.1.56.0 的本地化字符串。
+        ///   查找类似 8.0.0.0 的本地化字符串。
         /// </summary>
         public static string CeVIO_SevenSegmentControl_resources_dll {
             get {
@@ -88,7 +97,7 @@ namespace CeVIO.SFE.Signer.Properties {
         }
         
         /// <summary>
-        ///   查找类似 7.0.23.4 的本地化字符串。
+        ///   查找类似 8.0.11.8 的本地化字符串。
         /// </summary>
         public static string CeVIO_SongEditorControl_resources_dll {
             get {
@@ -97,7 +106,7 @@ namespace CeVIO.SFE.Signer.Properties {
         }
         
         /// <summary>
-        ///   查找类似 7.0.21.1 的本地化字符串。
+        ///   查找类似 8.0.0.2 的本地化字符串。
         /// </summary>
         public static string CeVIO_TalkAnalyzeControl_resources_dll {
             get {
@@ -106,7 +115,7 @@ namespace CeVIO.SFE.Signer.Properties {
         }
         
         /// <summary>
-        ///   查找类似 7.0.16.1 的本地化字符串。
+        ///   查找类似 8.0.11.1 的本地化字符串。
         /// </summary>
         public static string CeVIO_ToolBarControl_resources_dll {
             get {

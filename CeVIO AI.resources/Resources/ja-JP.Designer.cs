@@ -5120,7 +5120,7 @@ namespace CeVIO.Editor.Properties.Resources {
         ///可能是由于未设置默认浏览器或无法调用默认浏览器所致。
         ///
         ///请手动访问以下URL链接。
-        ///　CeVIO Creative Studio 帮助页 ＞ {0} 的本地化字符串。
+        ///　CeVIO 帮助页 ＞ {0} 的本地化字符串。
         /// </summary>
         public static string Message_Error_ShowHelp {
             get {
@@ -5233,7 +5233,7 @@ namespace CeVIO.Editor.Properties.Resources {
         
         /// <summary>
         ///   查找类似 您的PC不具有或未启动Windows Management Instrumentation服务。
-        ///在启动CeVIO Creative Studio之前，必须启动Windows Management Instrumentation服务。 的本地化字符串。
+        ///在启动CeVIO之前，必须启动Windows Management Instrumentation服务。 的本地化字符串。
         /// </summary>
         public static string Message_Error_WMIService {
             get {
@@ -6985,7 +6985,7 @@ namespace CeVIO.Editor.Properties.Resources {
         
         /// <summary>
         ///   查找类似 【{0}】不能在当前版本中使用。
-        ///请使用CeVIO Creative Studio的最新版本。 的本地化字符串。
+        ///请使用CeVIO的最新版本。 的本地化字符串。
         /// </summary>
         public static string Message_Warning_UnavailableOnCurrent {
             get {
@@ -7279,7 +7279,7 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 CeVIO Creative Studio使用了以下的软件/库。
+        ///   查找类似 CeVIO使用了以下的软件/库。
         ///当前使用的CeVIO中文汉化由以下人员制作：
         ///Ulysses (wdwxy12345@gmail.com) from VOICeVIO 的本地化字符串。
         /// </summary>
