@@ -8880,6 +8880,25 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
+        ///   查找类似 预渲染合成 的本地化字符串。
+        /// </summary>
+        public static string PreferenceDialog_Talk_FreezesUnits_Title {
+            get {
+                return ResourceManager.GetString("PreferenceDialog_Talk_FreezesUnits_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 在后台自动进行语音合成，以缩短播放前的等待时间。
+        ///（如果取消勾选，则只在播放时进行语音合成。） 的本地化字符串。
+        /// </summary>
+        public static string PreferenceDialog_Talk_FreezesUnits_ToolTip {
+            get {
+                return ResourceManager.GetString("PreferenceDialog_Talk_FreezesUnits_ToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 停顿设置 的本地化字符串。
         /// </summary>
         public static string PreferenceDialog_Talk_LocalewiseSettingButton_Title {
@@ -9239,22 +9258,6 @@ namespace CeVIO.Editor.Properties.Resources {
         public static string RuntimeActivationDialog_TargetProducts_NoTargetsInfo {
             get {
                 return ResourceManager.GetString("RuntimeActivationDialog_TargetProducts_NoTargetsInfo", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
-        ///&lt;Configuration&gt;
-        ///  &lt;VocalSourceAttributes&gt;
-        ///    &lt;VocalSource Label=&quot;Official-A Talk&quot; PackageCode=&quot;01b54a3e-cb58-4418-a435-2bac87450350&quot; ValidComponentVersion=&quot;1.7.3&quot;&gt;
-        ///      &lt;Components Version=&quot;1.0.0&quot;&gt;
-        ///        &lt;Component Name=&quot;f801_angry_tts.tsvoice&quot; SizeInBytes=&quot;2364141&quot; MD5=&quot;E0C7BF5DDFD6EB760D7D844B217FCB63&quot;/&gt;
-        ///        &lt;Component Name=&quot;f801_fine_tts.tsvoice&quot; SizeInBytes=&quot;2364141&quot; MD5=&quot;37B68A5310A18F7EEA6EA2D28D1792F9&quot;/&gt;
-        ///        &lt;Component Name=&quot;f801_normal_tts.ts [字符串的其余部分被截断]&quot;; 的本地化字符串。
-        /// </summary>
-        public static string SecretConfiguration {
-            get {
-                return ResourceManager.GetString("SecretConfiguration", resourceCulture);
             }
         }
         
