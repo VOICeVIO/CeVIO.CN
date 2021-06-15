@@ -4798,7 +4798,8 @@ http://cevio.jp/</comment>
     <comment>英語トークボイスのセリフには、半角英数以外の文字を含む貼り付けはできません。</comment>
   </data>
   <data name="Message_Information_LoadingText_RestrictEnglishLines" xml:space="preserve">
-    <value>英语台词只接受半角的英文和数字。\r\n未能读取包含其他不支持字符的台词。</value>
+    <value>英语台词只接受半角的英文和数字。
+未能读取包含其他不支持字符的台词。</value>
     <comment>英語トークボイスのセリフには、半角英数字のみ使用できます。\r\n半角英数以外の文字を含むセリフは読み込まれません。</comment>
   </data>
   <data name="Message_Information_ChangeCast_English_ClearText" xml:space="preserve">

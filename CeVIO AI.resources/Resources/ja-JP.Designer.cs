@@ -5702,7 +5702,8 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
-        ///   查找类似 英语台词只接受半角的英文和数字。\r\n未能读取包含其他不支持字符的台词。 的本地化字符串。
+        ///   查找类似 英语台词只接受半角的英文和数字。
+        ///未能读取包含其他不支持字符的台词。 的本地化字符串。
         /// </summary>
         public static string Message_Information_LoadingText_RestrictEnglishLines {
             get {
