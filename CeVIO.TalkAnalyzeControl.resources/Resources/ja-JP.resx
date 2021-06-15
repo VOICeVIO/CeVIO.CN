@@ -264,4 +264,20 @@ Ctrl+左クリックでリセット。</comment>
     <value>重音调整(_1)</value>
     <comment>アクセントを調整(_1)</comment>
   </data>
+  <data name="Menu_CombinePhrase" xml:space="preserve">
+    <value>组合重音段(_C)</value>
+    <comment>アクセント句を結合(_C)</comment>
+  </data>
+  <data name="Menu_CombinePhraseToolTip" xml:space="preserve">
+    <value>将当前重音段与前一段重音段合并。建议在重音调整（ACC）模式下操作。</value>
+    <comment>この前のアクセント句と結合。</comment>
+  </data>
+  <data name="Menu_DividePhrase" xml:space="preserve">
+    <value>分离重音段(_C)</value>
+    <comment>アクセント句を分割(_D)</comment>
+  </data>
+  <data name="Menu_DividePhraseToolTip" xml:space="preserve">
+    <value>从当前位置开始分离出一个单独的重音段。建议在重音调整（ACC）模式下操作。</value>
+    <comment>ここからアクセント句を分割。</comment>
+  </data>
 </root>

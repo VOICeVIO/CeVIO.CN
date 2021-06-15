@@ -19,7 +19,7 @@ namespace CeVIO.TalkAnalyzeControl.Properties.Resources {
     // 类通过类似于 ResGen 或 Visual Studio 的工具自动生成的。
     // 若要添加或移除成员，请编辑 .ResX 文件，然后重新运行 ResGen
     // (以 /str 作为命令选项)，或重新生成 VS 项目。
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class ja_JP {
@@ -47,8 +47,8 @@ namespace CeVIO.TalkAnalyzeControl.Properties.Resources {
         }
         
         /// <summary>
-        ///   使用此强类型资源类，为所有资源查找
-        ///   重写当前线程的 CurrentUICulture 属性。
+        ///   重写当前线程的 CurrentUICulture 属性，对
+        ///   使用此强类型资源类的所有资源查找执行重写。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
         public static global::System.Globalization.CultureInfo Culture {
@@ -96,6 +96,42 @@ namespace CeVIO.TalkAnalyzeControl.Properties.Resources {
         public static string Menu_AuditionToolTip {
             get {
                 return ResourceManager.GetString("Menu_AuditionToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 组合重音段(_C) 的本地化字符串。
+        /// </summary>
+        public static string Menu_CombinePhrase {
+            get {
+                return ResourceManager.GetString("Menu_CombinePhrase", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 将当前重音段与前一段重音段合并。建议在重音调整（ACC）模式下操作。 的本地化字符串。
+        /// </summary>
+        public static string Menu_CombinePhraseToolTip {
+            get {
+                return ResourceManager.GetString("Menu_CombinePhraseToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 分离重音段(_C) 的本地化字符串。
+        /// </summary>
+        public static string Menu_DividePhrase {
+            get {
+                return ResourceManager.GetString("Menu_DividePhrase", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 从当前位置开始分离出一个单独的重音段。建议在重音调整（ACC）模式下操作。 的本地化字符串。
+        /// </summary>
+        public static string Menu_DividePhraseToolTip {
+            get {
+                return ResourceManager.GetString("Menu_DividePhraseToolTip", resourceCulture);
             }
         }
         

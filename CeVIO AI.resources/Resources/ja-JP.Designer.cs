@@ -719,6 +719,53 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
+        ///   查找类似 英语词典管理 的本地化字符串。
+        /// </summary>
+        public static string EnglishWordDictionaryDialog_Title {
+            get {
+                return ResourceManager.GetString("EnglishWordDictionaryDialog_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 写作（100字以内） 的本地化字符串。
+        /// </summary>
+        public static string EnglishWordRegistrationDialog_Notation_Title {
+            get {
+                return ResourceManager.GetString("EnglishWordRegistrationDialog_Notation_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 读作（100字以内） 的本地化字符串。
+        /// </summary>
+        public static string EnglishWordRegistrationDialog_Reading_Title {
+            get {
+                return ResourceManager.GetString("EnglishWordRegistrationDialog_Reading_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 关于发音记号：音节分隔请用&quot;|&quot;，音节内音素分隔请用&quot;,&quot;。
+        ///元音后可标注重音值(0:无重音 1:主重音 2:次重音)。
+        ///(例) Sasara：s,ah1|s,ah0|r,ah0　※详细内容请查阅帮助菜单「显示联机帮助」。 的本地化字符串。
+        /// </summary>
+        public static string EnglishWordRegistrationDialog_Reading_ToolTip {
+            get {
+                return ResourceManager.GetString("EnglishWordRegistrationDialog_Reading_ToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 注册英语单词 的本地化字符串。
+        /// </summary>
+        public static string EnglishWordRegistrationDialog_Title {
+            get {
+                return ResourceManager.GetString("EnglishWordRegistrationDialog_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 选择工作路径 的本地化字符串。
         /// </summary>
         public static string FolderReferenceDialog_Title {
@@ -985,6 +1032,15 @@ namespace CeVIO.Editor.Properties.Resources {
         public static string InputSentenceDialog_Sentence_Title {
             get {
                 return ResourceManager.GetString("InputSentenceDialog_Sentence_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 台词 (每行最多{0}字) 的本地化字符串。
+        /// </summary>
+        public static string InputSentenceDialog_Sentence_Title2 {
+            get {
+                return ResourceManager.GetString("InputSentenceDialog_Sentence_Title2", resourceCulture);
             }
         }
         
@@ -3545,6 +3601,15 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
+        ///   查找类似 注册英语单词(_R)... 的本地化字符串。
+        /// </summary>
+        public static string MainMenu_Talk_RegisterWord_English {
+            get {
+                return ResourceManager.GetString("MainMenu_Talk_RegisterWord_English", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 将特定的单词及其读音加入词典。 的本地化字符串。
         /// </summary>
         public static string MainMenu_Talk_RegisterWord_ToolTip {
@@ -3604,6 +3669,15 @@ namespace CeVIO.Editor.Properties.Resources {
         public static string MainMenu_Talk_UserDictionary {
             get {
                 return ResourceManager.GetString("MainMenu_Talk_UserDictionary", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 英语词典管理(_D)... 的本地化字符串。
+        /// </summary>
+        public static string MainMenu_Talk_UserDictionary_English {
+            get {
+                return ResourceManager.GetString("MainMenu_Talk_UserDictionary_English", resourceCulture);
             }
         }
         
@@ -5476,6 +5550,15 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
+        ///   查找类似 由于英语台词只能包含半角的英文和数字，因此将清空台词。 的本地化字符串。
+        /// </summary>
+        public static string Message_Information_ChangeCast_English_ClearText {
+            get {
+                return ResourceManager.GetString("Message_Information_ChangeCast_English_ClearText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 要使语言变更生效，请重启软件。 的本地化字符串。
         /// </summary>
         public static string Message_Information_ChangeDisplayLanguage {
@@ -5582,6 +5665,15 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
+        ///   查找类似 英语台词只接受半角的英文和数字。 的本地化字符串。
+        /// </summary>
+        public static string Message_Information_InputLine_English_CanNotPaste {
+            get {
+                return ResourceManager.GetString("Message_Information_InputLine_English_CanNotPaste", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 当前您使用的版本是最新的。 的本地化字符串。
         /// </summary>
         public static string Message_Information_LatestVersion {
@@ -5606,6 +5698,15 @@ namespace CeVIO.Editor.Properties.Resources {
         public static string Message_Information_LoadingText_AmountExceeded {
             get {
                 return ResourceManager.GetString("Message_Information_LoadingText_AmountExceeded", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 英语台词只接受半角的英文和数字。\r\n未能读取包含其他不支持字符的台词。 的本地化字符串。
+        /// </summary>
+        public static string Message_Information_LoadingText_RestrictEnglishLines {
+            get {
+                return ResourceManager.GetString("Message_Information_LoadingText_RestrictEnglishLines", resourceCulture);
             }
         }
         
@@ -5825,6 +5926,15 @@ namespace CeVIO.Editor.Properties.Resources {
         public static string Message_Information_VocalSourceVersionDifference_TalkSynthesizer {
             get {
                 return ResourceManager.GetString("Message_Information_VocalSourceVersionDifference_TalkSynthesizer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 读法输入不正确。 的本地化字符串。
+        /// </summary>
+        public static string Message_Information_WordRegistration_English_UnrecognizedReading {
+            get {
+                return ResourceManager.GetString("Message_Information_WordRegistration_English_UnrecognizedReading", resourceCulture);
             }
         }
         
@@ -11611,6 +11721,287 @@ namespace CeVIO.Editor.Properties.Resources {
         public static string VOICeVIO_License {
             get {
                 return ResourceManager.GetString("VOICeVIO_License", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 右键单击以编辑/删除对应条目。 的本地化字符串。
+        /// </summary>
+        public static string WordDictionaryDialog_Description {
+            get {
+                return ResourceManager.GetString("WordDictionaryDialog_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 写作 的本地化字符串。
+        /// </summary>
+        public static string WordDictionaryDialog_ListColumn_Notation_Title {
+            get {
+                return ResourceManager.GetString("WordDictionaryDialog_ListColumn_Notation_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 词性 的本地化字符串。
+        /// </summary>
+        public static string WordDictionaryDialog_ListColumn_PartOfSpeech_Title {
+            get {
+                return ResourceManager.GetString("WordDictionaryDialog_ListColumn_PartOfSpeech_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 读作 的本地化字符串。
+        /// </summary>
+        public static string WordDictionaryDialog_ListColumn_Reading_Title {
+            get {
+                return ResourceManager.GetString("WordDictionaryDialog_ListColumn_Reading_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 删除 的本地化字符串。
+        /// </summary>
+        public static string WordDictionaryDialog_ListItem_Menu_Delete_Title {
+            get {
+                return ResourceManager.GetString("WordDictionaryDialog_ListItem_Menu_Delete_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 编辑 的本地化字符串。
+        /// </summary>
+        public static string WordDictionaryDialog_ListItem_Menu_Edit_Title {
+            get {
+                return ResourceManager.GetString("WordDictionaryDialog_ListItem_Menu_Edit_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 注册新单词 的本地化字符串。
+        /// </summary>
+        public static string WordDictionaryDialog_RegisterNewButton_Title {
+            get {
+                return ResourceManager.GetString("WordDictionaryDialog_RegisterNewButton_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 搜索 的本地化字符串。
+        /// </summary>
+        public static string WordDictionaryDialog_Search_Title {
+            get {
+                return ResourceManager.GetString("WordDictionaryDialog_Search_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 按写法或读法搜索已注册单词。 的本地化字符串。
+        /// </summary>
+        public static string WordDictionaryDialog_Search_ToolTip {
+            get {
+                return ResourceManager.GetString("WordDictionaryDialog_Search_ToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 词典管理 的本地化字符串。
+        /// </summary>
+        public static string WordDictionaryDialog_Title {
+            get {
+                return ResourceManager.GetString("WordDictionaryDialog_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 连接助词保持高音 的本地化字符串。
+        /// </summary>
+        public static string WordRegistrationDialog_Accent_Check_Title {
+            get {
+                return ResourceManager.GetString("WordRegistrationDialog_Accent_Check_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 该单词后接助词（如「～は」「～が」）时是否需要使助词维持高音。
+        ///(例)「弟は」音高是「低高高高低」，助词降回了低音。
+        ///      「大学は」音高是「低高高高高」，助词保持了单词最后的高音。 的本地化字符串。
+        /// </summary>
+        public static string WordRegistrationDialog_Accent_Check_ToolTip {
+            get {
+                return ResourceManager.GetString("WordRegistrationDialog_Accent_Check_ToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 ※通过点击指定重音位置 的本地化字符串。
+        /// </summary>
+        public static string WordRegistrationDialog_Accent_Text1 {
+            get {
+                return ResourceManager.GetString("WordRegistrationDialog_Accent_Text1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 请输入读音 的本地化字符串。
+        /// </summary>
+        public static string WordRegistrationDialog_Accent_Text2 {
+            get {
+                return ResourceManager.GetString("WordRegistrationDialog_Accent_Text2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 重音 的本地化字符串。
+        /// </summary>
+        public static string WordRegistrationDialog_Accent_Title {
+            get {
+                return ResourceManager.GetString("WordRegistrationDialog_Accent_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 连续注册 的本地化字符串。
+        /// </summary>
+        public static string WordRegistrationDialog_ContinuesRegistration_Title {
+            get {
+                return ResourceManager.GetString("WordRegistrationDialog_ContinuesRegistration_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 写作（全角 最长40字） 的本地化字符串。
+        /// </summary>
+        public static string WordRegistrationDialog_Notation_Title {
+            get {
+                return ResourceManager.GetString("WordRegistrationDialog_Notation_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 固有名词:一般 的本地化字符串。
+        /// </summary>
+        public static string WordRegistrationDialog_PartOfSpeech_Item1 {
+            get {
+                return ResourceManager.GetString("WordRegistrationDialog_PartOfSpeech_Item1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 固有名词:人名:一般 的本地化字符串。
+        /// </summary>
+        public static string WordRegistrationDialog_PartOfSpeech_Item2 {
+            get {
+                return ResourceManager.GetString("WordRegistrationDialog_PartOfSpeech_Item2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 固有名词:人名:姓 的本地化字符串。
+        /// </summary>
+        public static string WordRegistrationDialog_PartOfSpeech_Item3 {
+            get {
+                return ResourceManager.GetString("WordRegistrationDialog_PartOfSpeech_Item3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 固有名词:人名:名 的本地化字符串。
+        /// </summary>
+        public static string WordRegistrationDialog_PartOfSpeech_Item4 {
+            get {
+                return ResourceManager.GetString("WordRegistrationDialog_PartOfSpeech_Item4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 固有名词:组织 的本地化字符串。
+        /// </summary>
+        public static string WordRegistrationDialog_PartOfSpeech_Item5 {
+            get {
+                return ResourceManager.GetString("WordRegistrationDialog_PartOfSpeech_Item5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 固有名词:地域:一般 的本地化字符串。
+        /// </summary>
+        public static string WordRegistrationDialog_PartOfSpeech_Item6 {
+            get {
+                return ResourceManager.GetString("WordRegistrationDialog_PartOfSpeech_Item6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 固有名词:地域:国 的本地化字符串。
+        /// </summary>
+        public static string WordRegistrationDialog_PartOfSpeech_Item7 {
+            get {
+                return ResourceManager.GetString("WordRegistrationDialog_PartOfSpeech_Item7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 词性 的本地化字符串。
+        /// </summary>
+        public static string WordRegistrationDialog_PartOfSpeech_Title {
+            get {
+                return ResourceManager.GetString("WordRegistrationDialog_PartOfSpeech_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 高 的本地化字符串。
+        /// </summary>
+        public static string WordRegistrationDialog_Priority_High {
+            get {
+                return ResourceManager.GetString("WordRegistrationDialog_Priority_High", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 优先度 的本地化字符串。
+        /// </summary>
+        public static string WordRegistrationDialog_Priority_Title {
+            get {
+                return ResourceManager.GetString("WordRegistrationDialog_Priority_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 优先度高的读法更可能被采用。 的本地化字符串。
+        /// </summary>
+        public static string WordRegistrationDialog_Priority_ToolTip {
+            get {
+                return ResourceManager.GetString("WordRegistrationDialog_Priority_ToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 读作（全角片假名 最长40字） 的本地化字符串。
+        /// </summary>
+        public static string WordRegistrationDialog_Reading_Title {
+            get {
+                return ResourceManager.GetString("WordRegistrationDialog_Reading_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 注册 的本地化字符串。
+        /// </summary>
+        public static string WordRegistrationDialog_RegisterButton_Title {
+            get {
+                return ResourceManager.GetString("WordRegistrationDialog_RegisterButton_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 注册单词 的本地化字符串。
+        /// </summary>
+        public static string WordRegistrationDialog_Title {
+            get {
+                return ResourceManager.GetString("WordRegistrationDialog_Title", resourceCulture);
             }
         }
     }

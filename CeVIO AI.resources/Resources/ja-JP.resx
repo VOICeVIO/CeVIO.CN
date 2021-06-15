@@ -4784,4 +4784,181 @@ http://cevio.jp/</comment>
     <comment>Text-to-speech is synthesized before playback to avoid skipping or pausing during playback.
 (If unchecked, real-time speech synthesis.)</comment>
   </data>
+  <data name="InputSentenceDialog_Sentence_Title2" xml:space="preserve">
+    <value>台词 (每行最多{0}字)</value>
+  </data>
+  <data name="MainMenu_Talk_RegisterWord_English" xml:space="preserve">
+    <value>注册英语单词(_R)...</value>
+  </data>
+  <data name="MainMenu_Talk_UserDictionary_English" xml:space="preserve">
+    <value>英语词典管理(_D)...</value>
+  </data>
+  <data name="Message_Information_InputLine_English_CanNotPaste" xml:space="preserve">
+    <value>英语台词只接受半角的英文和数字。</value>
+    <comment>英語トークボイスのセリフには、半角英数以外の文字を含む貼り付けはできません。</comment>
+  </data>
+  <data name="Message_Information_LoadingText_RestrictEnglishLines" xml:space="preserve">
+    <value>英语台词只接受半角的英文和数字。\r\n未能读取包含其他不支持字符的台词。</value>
+    <comment>英語トークボイスのセリフには、半角英数字のみ使用できます。\r\n半角英数以外の文字を含むセリフは読み込まれません。</comment>
+  </data>
+  <data name="Message_Information_ChangeCast_English_ClearText" xml:space="preserve">
+    <value>由于英语台词只能包含半角的英文和数字，因此将清空台词。</value>
+    <comment>英語トークボイスには半角英数以外の文字は使用できないため、セリフをクリアします。</comment>
+  </data>
+  <data name="EnglishWordRegistrationDialog_Title" xml:space="preserve">
+    <value>注册英语单词</value>
+    <comment>単語の登録(英語)</comment>
+  </data>
+  <data name="EnglishWordDictionaryDialog_Title" xml:space="preserve">
+    <value>英语词典管理</value>
+    <comment>ユーザー辞書の管理(英語)</comment>
+  </data>
+  <data name="EnglishWordRegistrationDialog_Notation_Title" xml:space="preserve">
+    <value>写作（100字以内）</value>
+    <comment>表記(100文字以内)</comment>
+  </data>
+  <data name="EnglishWordRegistrationDialog_Reading_Title" xml:space="preserve">
+    <value>读作（100字以内）</value>
+    <comment>読み(100文字以内)</comment>
+  </data>
+  <data name="EnglishWordRegistrationDialog_Reading_ToolTip" xml:space="preserve">
+    <value>关于发音记号：音节分隔请用"|"，音节内音素分隔请用","。
+元音后可标注重音值(0:无重音 1:主重音 2:次重音)。
+(例) Sasara：s,ah1|s,ah0|r,ah0　※详细内容请查阅帮助菜单「显示联机帮助」。</value>
+    <comment>発音記号を用い、音節の区切りは\"|\"、音節内の音素の区切りは\",\"を用います。\r\n母音の後にはストレス値(0:ストレス無し 1:プライマリストレス 2:セカンダリストレス)を付けます。\r\n(例) s,ah1|s,ah0|r,ah0　※詳しくは「ヘルプの表示」。</comment>
+  </data>
+  <data name="WordRegistrationDialog_ContinuesRegistration_Title" xml:space="preserve">
+    <value>连续注册</value>
+    <comment>続けて登録する</comment>
+  </data>
+  <data name="Message_Information_WordRegistration_English_UnrecognizedReading" xml:space="preserve">
+    <value>读法输入不正确。</value>
+    <comment>読みの入力が正しくありません。</comment>
+  </data>
+  <data name="WordDictionaryDialog_RegisterNewButton_Title" xml:space="preserve">
+    <value>注册新单词</value>
+    <comment>新規登録</comment>
+  </data>
+  <data name="WordDictionaryDialog_ListColumn_Notation_Title" xml:space="preserve">
+    <value>写作</value>
+    <comment>表記</comment>
+  </data>
+  <data name="WordDictionaryDialog_ListColumn_Reading_Title" xml:space="preserve">
+    <value>读作</value>
+    <comment>読み</comment>
+  </data>
+  <data name="WordDictionaryDialog_ListItem_Menu_Edit_Title" xml:space="preserve">
+    <value>编辑</value>
+    <comment>編集</comment>
+  </data>
+  <data name="WordDictionaryDialog_ListItem_Menu_Delete_Title" xml:space="preserve">
+    <value>删除</value>
+    <comment>削除</comment>
+  </data>
+  <data name="WordDictionaryDialog_ListColumn_PartOfSpeech_Title" xml:space="preserve">
+    <value>词性</value>
+    <comment>品詞</comment>
+  </data>
+  <data name="WordDictionaryDialog_Search_Title" xml:space="preserve">
+    <value>搜索</value>
+    <comment>検索</comment>
+  </data>
+  <data name="WordDictionaryDialog_Search_ToolTip" xml:space="preserve">
+    <value>按写法或读法搜索已注册单词。</value>
+    <comment>登録単語を表記または読みで検索します。</comment>
+  </data>
+  <data name="WordDictionaryDialog_Title" xml:space="preserve">
+    <value>词典管理</value>
+    <comment>ユーザー辞書の管理</comment>
+  </data>
+  <data name="WordRegistrationDialog_Accent_Check_Title" xml:space="preserve">
+    <value>连接助词保持高音</value>
+    <comment>助詞に音が高いまま繋がる</comment>
+  </data>
+  <data name="WordRegistrationDialog_Accent_Check_ToolTip" xml:space="preserve">
+    <value>该单词后接助词（如「～は」「～が」）时是否需要使助词维持高音。
+(例)「弟は」音高是「低高高高低」，助词降回了低音。
+      「大学は」音高是「低高高高高」，助词保持了单词最后的高音。</value>
+    <comment>単語に続く助詞（「～は」「～が」など）に音が高いまま繋がるかどうか。\r\n(例)「弟は」は「低高高高低」と助詞は低くなります。\r\n  「大学は」は「低高高高高」と助詞に高いまま繋がります。</comment>
+  </data>
+  <data name="WordRegistrationDialog_Accent_Title" xml:space="preserve">
+    <value>重音</value>
+    <comment>アクセント</comment>
+  </data>
+  <data name="WordDictionaryDialog_Description" xml:space="preserve">
+    <value>右键单击以编辑/删除对应条目。</value>
+    <comment>単語を選択して右クリックで編集／削除。</comment>
+  </data>
+  <data name="WordRegistrationDialog_Priority_Title" xml:space="preserve">
+    <value>优先度</value>
+    <comment>優先度</comment>
+  </data>
+  <data name="WordRegistrationDialog_Priority_ToolTip" xml:space="preserve">
+    <value>优先度高的读法更可能被采用。</value>
+    <comment>高いほど文中で適用されやすくなります。</comment>
+  </data>
+  <data name="WordRegistrationDialog_Reading_Title" xml:space="preserve">
+    <value>读作（全角片假名 最长40字）</value>
+    <comment>読み(全角カナ40文字以内)</comment>
+  </data>
+  <data name="WordRegistrationDialog_RegisterButton_Title" xml:space="preserve">
+    <value>注册</value>
+    <comment>登録</comment>
+  </data>
+  <data name="WordRegistrationDialog_Title" xml:space="preserve">
+    <value>注册单词</value>
+    <comment>単語の登録</comment>
+  </data>
+  <data name="WordRegistrationDialog_Priority_High" xml:space="preserve">
+    <value>高</value>
+    <comment>高</comment>
+  </data>
+  <data name="WordRegistrationDialog_Priority_Low‎" xml:space="preserve">
+    <value>低</value>
+    <comment>低</comment>
+  </data>
+  <data name="WordRegistrationDialog_Notation_Title" xml:space="preserve">
+    <value>写作（全角 最长40字）</value>
+    <comment>表記(全角40文字以内)</comment>
+  </data>
+  <data name="WordRegistrationDialog_Accent_Text1" xml:space="preserve">
+    <value>※通过点击指定重音位置</value>
+    <comment>※文字をクリックして位置を指定</comment>
+  </data>
+  <data name="WordRegistrationDialog_Accent_Text2" xml:space="preserve">
+    <value>请输入读音</value>
+    <comment>読みを入力してください</comment>
+  </data>
+  <data name="WordRegistrationDialog_PartOfSpeech_Title" xml:space="preserve">
+    <value>词性</value>
+    <comment>品詞</comment>
+  </data>
+  <data name="WordRegistrationDialog_PartOfSpeech_Item1" xml:space="preserve">
+    <value>固有名词:一般</value>
+    <comment>固有名詞:一般</comment>
+  </data>
+  <data name="WordRegistrationDialog_PartOfSpeech_Item2" xml:space="preserve">
+    <value>固有名词:人名:一般</value>
+    <comment>固有名詞:人名:一般</comment>
+  </data>
+  <data name="WordRegistrationDialog_PartOfSpeech_Item3" xml:space="preserve">
+    <value>固有名词:人名:姓</value>
+    <comment>固有名詞:人名:姓</comment>
+  </data>
+  <data name="WordRegistrationDialog_PartOfSpeech_Item4" xml:space="preserve">
+    <value>固有名词:人名:名</value>
+    <comment>固有名詞:人名:名</comment>
+  </data>
+  <data name="WordRegistrationDialog_PartOfSpeech_Item5" xml:space="preserve">
+    <value>固有名词:组织</value>
+    <comment>固有名詞:組織</comment>
+  </data>
+  <data name="WordRegistrationDialog_PartOfSpeech_Item6" xml:space="preserve">
+    <value>固有名词:地域:一般</value>
+    <comment>固有名詞:地域:一般</comment>
+  </data>
+  <data name="WordRegistrationDialog_PartOfSpeech_Item7" xml:space="preserve">
+    <value>固有名词:地域:国</value>
+    <comment>固有名詞:地域:国</comment>
+  </data>
 </root>
