@@ -556,6 +556,15 @@ namespace CeVIO.Editor.Properties.Resources {
         }
         
         /// <summary>
+        ///   查找类似 导入字幕文件 的本地化字符串。
+        /// </summary>
+        public static string Dialog_Import_Subtitle_Title {
+            get {
+                return ResourceManager.GetString("Dialog_Import_Subtitle_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 从【青空文库】导入 的本地化字符串。
         /// </summary>
         public static string Dialog_Import_Text_AozoraBunko_Title {
@@ -1713,6 +1722,25 @@ namespace CeVIO.Editor.Properties.Resources {
         public static string MainMenu_File_Import_Settings_ToolTip {
             get {
                 return ResourceManager.GetString("MainMenu_File_Import_Settings_ToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 导入字幕文件(_C)... 的本地化字符串。
+        /// </summary>
+        public static string MainMenu_File_Import_Subtitle {
+            get {
+                return ResourceManager.GetString("MainMenu_File_Import_Subtitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 把字幕文件加载到语音音轨中。
+        ///可以指定编码。 的本地化字符串。
+        /// </summary>
+        public static string MainMenu_File_Import_Subtitle_ToolTip {
+            get {
+                return ResourceManager.GetString("MainMenu_File_Import_Subtitle_ToolTip", resourceCulture);
             }
         }
         
@@ -5438,6 +5466,15 @@ namespace CeVIO.Editor.Properties.Resources {
         public static string Message_Export_WaveformOfText {
             get {
                 return ResourceManager.GetString("Message_Export_WaveformOfText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 已导入字幕。 的本地化字符串。
+        /// </summary>
+        public static string Message_Import_Subtitle {
+            get {
+                return ResourceManager.GetString("Message_Import_Subtitle", resourceCulture);
             }
         }
         
