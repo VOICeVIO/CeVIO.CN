@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ToolBarMenu_VerticalLocationMiddle" xml:space="preserve">
+    <value></value>
+    <comment>中段</comment>
+  </data>
+  <data name="Indicator_TimeMenu_Seconds" xml:space="preserve">
+    <value></value>
+    <comment>秒</comment>
+  </data>
+  <data name="Indicator_QuantizeMenu_Triplet16" xml:space="preserve">
+    <value></value>
+    <comment>1/16(3連符)</comment>
+  </data>
+  <data name="ToolBarMenu_VerticalLocationTop" xml:space="preserve">
+    <value></value>
+    <comment>上段</comment>
+  </data>
+  <data name="ToolBarMenu_VerticalLocationBottom" xml:space="preserve">
+    <value></value>
+    <comment>下段</comment>
+  </data>
+  <data name="AutoScrollButtonToolTip" xml:space="preserve">
+    <value></value>
+    <comment>再生中の自動スクロール [F7]</comment>
+  </data>
+  <data name="ShowVibratoAmplitudeButtonToolTip" xml:space="preserve">
+    <value></value>
+    <comment>ビブラートの振幅を表示</comment>
+  </data>
+  <data name="EditPitchButtonToolTip" xml:space="preserve">
+    <value></value>
+    <comment>ピッチを調整 [4]
+ビブラートを含まない基本ピッチを調整。
+VIA,VIFを重ねるとビブラート反映ピッチも重ね表示。</comment>
+  </data>
+  <data name="Indicator_TimeMenu_Bars" xml:space="preserve">
+    <value></value>
+    <comment>小節</comment>
+  </data>
+  <data name="PenButtonToolTip" xml:space="preserve">
+    <value></value>
+    <comment>ペンツール [Ctrl+3]
+楽譜編集：音符やテンポなどの入力や選択、移動。
+調整画面：値を調整。Alt押下で既定値接続調整。
+(左Ctrl押下中：消しゴムツール)</comment>
+  </data>
+  <data name="ToolBarMenu_HorizontalLocation" xml:space="preserve">
+    <value></value>
+    <comment>左右の表示位置(_V)</comment>
+  </data>
+  <data name="BulkButtonToolTip" xml:space="preserve">
+    <value></value>
+    <comment>まとめ選択ツール [Ctrl+2]
+範囲内の音符と全調整値をまとめて選択。Alt押下でクオンタイズなし。
+(左Ctrl押下中：ペンツール)</comment>
+  </data>
+  <data name="EraserButtonToolTip" xml:space="preserve">
+    <value></value>
+    <comment>消しゴムツール [Ctrl+5]
+楽譜編集：音符やテンポなどを削除。
+調整画面：調整した値を削除。(PIT/VIA/VIF)Shift押下で元の値を無効化。
+(左Ctrl押下中：選択ツール)</comment>
+  </data>
+  <data name="RepeatButtonToolTip" xml:space="preserve">
+    <value></value>
+    <comment>繰り返し [テンキーの/]</comment>
+  </data>
+  <data name="ShowTimingButtonToolTip" xml:space="preserve">
+    <value></value>
+    <comment>タイミングを表示</comment>
+  </data>
+  <data name="Indicator_QuantizeMenu_Triplet8" xml:space="preserve">
+    <value></value>
+    <comment>1/8(3連符)</comment>
+  </data>
+  <data name="Indicator_QuantizeMenu_Triplet4" xml:space="preserve">
+    <value></value>
+    <comment>1/4(3連符)</comment>
+  </data>
+  <data name="Indicator_QuantizeMenu_Triplet2" xml:space="preserve">
+    <value></value>
+    <comment>1/2(3連符)</comment>
+  </data>
+  <data name="PlayButtonToolTip" xml:space="preserve">
+    <value></value>
+    <comment>再生 [Space]</comment>
+  </data>
+  <data name="Indicator_BeatToolTip" xml:space="preserve">
+    <value></value>
+    <comment>ポジションカーソル位置の拍子
+クリックで変更。追加はピアノロールの拍子行。</comment>
+  </data>
+  <data name="ToolBarMenu_VerticalLocation" xml:space="preserve">
+    <value></value>
+    <comment>上下の表示位置(_H)</comment>
+  </data>
+  <data name="ToolBarMenu_HorizontalLocationRight" xml:space="preserve">
+    <value></value>
+    <comment>右寄せ</comment>
+  </data>
+  <data name="EditTimingButtonToolTip" xml:space="preserve">
+    <value></value>
+    <comment>タイミングを調整 [2]
+PIT等の文字クリックで重ね表示。
+下段の黒背景の音素ラインをドラッグすると前後の状態ラインも連動。</comment>
+  </data>
+  <data name="ShowVibratoFrequencyButtonToolTip" xml:space="preserve">
+    <value></value>
+    <comment>ビブラートの周期を表示</comment>
+  </data>
+  <data name="EditScoreButtonToolTip" xml:space="preserve">
+    <value></value>
+    <comment>楽譜を編集 [1]</comment>
+  </data>
+  <data name="ToolBarMenu_HorizontalLocationCenter" xml:space="preserve">
+    <value></value>
+    <comment>中央</comment>
+  </data>
+  <data name="ShowPitchButtonToolTip" xml:space="preserve">
+    <value></value>
+    <comment>ピッチを表示
+重ね表示にはビブラートを反映。</comment>
+  </data>
+  <data name="StopButtonToolTip" xml:space="preserve">
+    <value></value>
+    <comment>停止 [テンキーの0]
+停止中は再生開始位置、先頭の順に移動。</comment>
+  </data>
+  <data name="Indicator_QuantizeToolTip" xml:space="preserve">
+    <value></value>
+    <comment>音符のクオンタイズ
+クリックで切替。</comment>
+  </data>
+  <data name="Indicator_TempoToolTip" xml:space="preserve">
+    <value></value>
+    <comment>ポジションカーソル位置のテンポ
+クリックで変更。追加はピアノロールのテンポ行。</comment>
+  </data>
+  <data name="BeginMarkerButtonToolTip" xml:space="preserve">
+    <value></value>
+    <comment>始点マーカー</comment>
+  </data>
+  <data name="HeadButtonToolTip" xml:space="preserve">
+    <value></value>
+    <comment>先頭 [テンキーの.]</comment>
+  </data>
+  <data name="ShowVolumeButtonToolTip" xml:space="preserve">
+    <value></value>
+    <comment>ボリュームを表示</comment>
+  </data>
+  <data name="EditVibratoFrequencyButtonToolTip" xml:space="preserve">
+    <value></value>
+    <comment>ビブラートの周期を調整 [6]
+PIT等の文字クリックで重ね表示。</comment>
+  </data>
+  <data name="LineButtonToolTip" xml:space="preserve">
+    <value></value>
+    <comment>ラインツール [Ctrl+4]
+楽譜編集：ペンツールと同じ働き。
+調整画面：(TMG以外)直線を引く。Alt押下で既定値接続調整。Shift押下で水平線。
+(左Ctrl押下中：消しゴムツール)</comment>
+  </data>
+  <data name="Indicator_TimeToolTip" xml:space="preserve">
+    <value></value>
+    <comment>ポジションカーソルの位置
+左クリックで位置指定。右クリックで秒／小節の表示切替。</comment>
+  </data>
+  <data name="EditVibratoAmplitudeButtonToolTip" xml:space="preserve">
+    <value></value>
+    <comment>ビブラートの振幅を調整 [5]
+PIT等の文字クリックで重ね表示。</comment>
+  </data>
+  <data name="EndMarkerButtonToolTip" xml:space="preserve">
+    <value></value>
+    <comment>終点マーカー</comment>
+  </data>
+  <data name="EditVolumeButtonToolTip" xml:space="preserve">
+    <value></value>
+    <comment>ボリュームを調整 [3]
+PIT等の文字クリックで重ね表示。</comment>
+  </data>
+  <data name="ArrowButtonToolTip" xml:space="preserve">
+    <value></value>
+    <comment>選択ツール [Ctrl+1]
+楽譜編集：音符やテンポなどの選択、音符の範囲選択。
+調整画面：コピーや削除の範囲指定。Alt押下でクオンタイズなし。
+(左Ctrl押下中：ペンツール)</comment>
+  </data>
+  <data name="ToolBarMenu_HorizontalLocationLeft" xml:space="preserve">
+    <value></value>
+    <comment>左寄せ</comment>
+  </data>
+  <data name="MasterVolumeToolTipHead" xml:space="preserve">
+    <value></value>
+    <comment>Master Volume:</comment>
+  </data>
+  <data name="MasterVolumeToolTipTail" xml:space="preserve">
+    <value></value>
+    <comment>Change by dragging. Tweak with Shift + drag.
+Ctrl + Left click to default value. Double-click to enter numerical value.</comment>
+  </data>
+  <data name="ShowAlphaButtonToolTip" xml:space="preserve">
+    <value></value>
+    <comment>声質の詳細を表示</comment>
+  </data>
+  <data name="EditAlphaButtonToolTip" xml:space="preserve">
+    <value></value>
+    <comment>声質の詳細を調整 [7]
+時間軸で声質を細かく調整。
+PIT等の文字クリックで重ね表示。</comment>
+  </data>
+</root>

@@ -4914,10 +4914,6 @@ http://cevio.jp/</comment>
     <value>高</value>
     <comment>高</comment>
   </data>
-  <data name="WordRegistrationDialog_Priority_Low‎" xml:space="preserve">
-    <value>低</value>
-    <comment>低</comment>
-  </data>
   <data name="WordRegistrationDialog_Notation_Title" xml:space="preserve">
     <value>写作（全角 最长40字）</value>
     <comment>表記(全角40文字以内)</comment>
@@ -4978,5 +4974,9 @@ http://cevio.jp/</comment>
   <data name="Message_Import_Subtitle" xml:space="preserve">
     <value>已导入字幕。</value>
     <comment>字幕の読み込みが完了しました。</comment>
+  </data>
+  <data name="WordRegistrationDialog_Priority_Low" xml:space="preserve">
+    <value>低</value>
+    <comment>低</comment>
   </data>
 </root>

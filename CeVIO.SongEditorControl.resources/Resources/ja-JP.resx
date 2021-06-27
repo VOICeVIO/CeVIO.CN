@@ -901,7 +901,7 @@
     <comment>1音符1音節</comment>
   </data>
   <data name="PianoRollMenu_OverLay_AlphaToolTip" xml:space="preserve">
-    <value>重叠显示音色（ALP）。</value>
+    <value></value>
     <comment>声質の詳細を重ねます。</comment>
   </data>
   <data name="OneNoteSingleSyllableToolTip" xml:space="preserve">

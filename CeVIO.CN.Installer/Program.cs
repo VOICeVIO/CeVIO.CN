@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Text;
 using System.Xml.Linq;
 
-namespace CeVIO.CN.VersionFix
+namespace CeVIO.CN.Installer
 {
     class Program
     {
@@ -14,7 +14,7 @@ namespace CeVIO.CN.VersionFix
 
         static void Main(string[] args)
         {
-            Console.WriteLine("CeVIO.CN 汉化版本适配工具");
+            Console.WriteLine("CeVIO.CN 安装器");
             Console.WriteLine("by Ulysses, wdwxy12345@gmail.com");
             Console.WriteLine();
             Console.WriteLine("本工具用于配置任意版本的CeVIO AI加载固定版本的CeVIO汉化。");
@@ -59,7 +59,7 @@ namespace CeVIO.CN.VersionFix
                 }
             }
 
-            Console.WriteLine("选择模式:\r\n 1.配置或更新汉化版本\r\n 2.取消配置\r\n 直接Enter: 等同于1");
+            Console.WriteLine("选择模式:\r\n 1.锁定或更新汉化版本\r\n 2.取消配置\r\n 直接Enter: 等同于1");
             var input = Console.ReadLine()?.Trim();
             if (input == "1" || input == "")
             {
