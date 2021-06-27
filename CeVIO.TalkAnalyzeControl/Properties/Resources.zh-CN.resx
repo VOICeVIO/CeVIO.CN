@@ -195,7 +195,7 @@ Ctrl+左键单击恢复初始值。</value>
     <value>将当前重音段与前一段重音段合并。建议在重音调整（ACC）模式下操作。</value>
   </data>
   <data name="Menu_DividePhrase" xml:space="preserve">
-    <value>分离重音段(_C)</value>
+    <value>分离重音段(_D)</value>
   </data>
   <data name="Menu_DividePhraseToolTip" xml:space="preserve">
     <value>从当前位置开始分离出一个单独的重音段。建议在重音调整（ACC）模式下操作。</value>
