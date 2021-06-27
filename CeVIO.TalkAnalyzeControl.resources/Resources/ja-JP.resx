@@ -273,7 +273,7 @@ Ctrl+左クリックでリセット。</comment>
     <comment>この前のアクセント句と結合。</comment>
   </data>
   <data name="Menu_DividePhrase" xml:space="preserve">
-    <value>分离重音段(_C)</value>
+    <value>分离重音段(_D)</value>
     <comment>アクセント句を分割(_D)</comment>
   </data>
   <data name="Menu_DividePhraseToolTip" xml:space="preserve">
