@@ -10,8 +10,8 @@ namespace CeVIO.SFE.Signer
 {
     class Program
     {
-        private static string zhCN = "zh-CN";
-        private static string jaJP = "ja-JP";
+        private static string[] _locales = new[] {"zh-CN", "ja-JP"};
+        private static string _outputDir = "output";
 
         static void Main(string[] args)
         {
@@ -24,50 +24,46 @@ namespace CeVIO.SFE.Signer
                 Console.WriteLine("No Key.");
                 return;
             }
-            string locale = zhCN;
-            if (args.Length > 1)
-            {
-                locale = args[1];
-            }
 
-            DirectoryInfo dir = Directory.CreateDirectory(locale);
-            if (File.Exists("CeVIO.CN.LICENSE.txt"))
-            {
-                File.Copy("CeVIO.CN.LICENSE.txt", $"{locale}\\CeVIO.CN.LICENSE.txt", true);
-            }
+            DirectoryInfo dir = Directory.CreateDirectory(_outputDir);
 
-            if (dir?.Parent == null)
+            foreach (var locale in _locales)
             {
-                Console.WriteLine("Directory not found.");
-                return;
-            }
+                Directory.CreateDirectory(Path.Combine(_outputDir, locale));
 
-            foreach (var file in Directory.EnumerateFiles(dir.Parent.FullName, "*.resources.dll"))
-            {
-                Version v = null;
-                try
+                if (File.Exists("CeVIO.CN.LICENSE.txt"))
                 {
-                    string ver = Resources.ResourceManager.GetString(Path.GetFileName(file));
-                    if (!string.IsNullOrEmpty(ver))
+                    File.Copy("CeVIO.CN.LICENSE.txt", $"{_outputDir}\\{locale}\\CeVIO.CN.LICENSE.txt", true);
+                }
+
+                foreach (var file in Directory.EnumerateFiles(locale, "*.resources.dll"))
+                {
+                    Version v = null;
+                    try
                     {
-                        v = Version.Parse(ver);
+                        string ver = Resources.ResourceManager.GetString(Path.GetFileName(file));
+                        if (!string.IsNullOrEmpty(ver))
+                        {
+                            v = Version.Parse(ver);
+                        }
                     }
+                    catch (Exception)
+                    {
+                        // ignored
+                    }
+
+                    Console.WriteLine($"Signing {file} ...");
+                    Sign(file, args[0], v, Path.Combine("output", locale));
                 }
-                catch (Exception)
-                {
-                    // ignored
-                }
-                
-                Console.WriteLine($"Signing {file} ...");
-                Sign(file, args[0], locale, v);
             }
+            
             Console.WriteLine("All Done!");
         }
 
         /// <summary>
         /// Faker!
         /// </summary>
-        static void Sign(string path, string key, string locale, Version v)
+        static void Sign(string path, string key, Version v, string newPath = null)
         {
             var dll = AssemblyDef.Load(path);
             dll.HasPublicKey = true;
@@ -76,8 +72,16 @@ namespace CeVIO.SFE.Signer
             {
                 dll.Version = v;
             }
-            dll.Write($"{locale}\\{dll.Name}.dll");
-            
+
+            if (newPath == null)
+            {
+                dll.Write(path);
+            }
+            else
+            {
+                dll.Write(Path.Combine(newPath, $"{dll.Name}.dll"));
+            }
+
         }
     }
 }

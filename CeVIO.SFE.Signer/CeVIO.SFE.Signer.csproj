@@ -60,32 +60,6 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CeVIO AI.resources\CeVIO AI.resources.csproj">
-      <Project>{be1ee8ad-c120-4218-81cd-67af98b30145}</Project>
-      <Name>CeVIO AI.resources</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CeVIO.KnobControl.resources\CeVIO.KnobControl.resources.csproj">
-      <Project>{d3f346f1-e269-4921-a06a-42d985c5f2a0}</Project>
-      <Name>CeVIO.KnobControl.resources</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CeVIO.SevenSegmentControl.resources\CeVIO.SevenSegmentControl.resources.csproj">
-      <Project>{dd1f4b8f-fe98-40ce-bd5d-581b7d980d35}</Project>
-      <Name>CeVIO.SevenSegmentControl.resources</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CeVIO.SongEditorControl.resources\CeVIO.SongEditorControl.resources.csproj">
-      <Project>{1625e30a-f355-485b-ae81-8357eed8f989}</Project>
-      <Name>CeVIO.SongEditorControl.resources</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CeVIO.TalkAnalyzeControl.resources\CeVIO.TalkAnalyzeControl.resources.csproj">
-      <Project>{22144294-d768-44c4-a909-2b281bddc346}</Project>
-      <Name>CeVIO.TalkAnalyzeControl.resources</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CeVIO.ToolBarControl.resources\CeVIO.ToolBarControl.resources.csproj">
-      <Project>{50e8a194-73f6-4c12-86f9-8add7fa301e3}</Project>
-      <Name>CeVIO.ToolBarControl.resources</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="CeVIO.CN.LICENSE.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -95,6 +69,32 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CeVIO AI\CeVIO AI.csproj">
+      <Project>{6ded98af-cfc8-4ffb-a9a5-e769311a5889}</Project>
+      <Name>CeVIO AI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CeVIO.KnobControl\CeVIO.KnobControl.csproj">
+      <Project>{14ba0e89-84c9-4041-b914-5218b066484b}</Project>
+      <Name>CeVIO.KnobControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CeVIO.SevenSegmentControl\CeVIO.SevenSegmentControl.csproj">
+      <Project>{7609660f-5be0-40f6-a29b-8a0571f0f715}</Project>
+      <Name>CeVIO.SevenSegmentControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CeVIO.SongEditorControl\CeVIO.SongEditorControl.csproj">
+      <Project>{60c2b285-2796-4f6a-8735-f197c4c8c92e}</Project>
+      <Name>CeVIO.SongEditorControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CeVIO.TalkAnalyzeControl\CeVIO.TalkAnalyzeControl.csproj">
+      <Project>{005b1bd2-c871-4a6a-8afe-473cdd49698e}</Project>
+      <Name>CeVIO.TalkAnalyzeControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CeVIO.ToolBarControl\CeVIO.ToolBarControl.csproj">
+      <Project>{dd3e9c20-1a11-4376-b7f1-f190c7cdbaca}</Project>
+      <Name>CeVIO.ToolBarControl</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
