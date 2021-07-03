@@ -5,6 +5,8 @@ using System;
 using System.IO;
 using CeVIO.SFE.Signer.Properties;
 using dnlib.DotNet;
+using dnlib.DotNet.Writer;
+using dnlib.PE;
 
 namespace CeVIO.SFE.Signer
 {
@@ -66,8 +68,11 @@ namespace CeVIO.SFE.Signer
         static void Sign(string path, string key, Version v, string newPath = null)
         {
             var dll = AssemblyDef.Load(path);
+            var option = new ModuleWriterOptions(dll.ManifestModule) {PEHeadersOptions = {Machine = Machine.AMD64}};
+
             dll.HasPublicKey = true;
             dll.PublicKey = new PublicKey(key);
+
             if (v != null)
             {
                 dll.Version = v;
@@ -75,11 +80,11 @@ namespace CeVIO.SFE.Signer
 
             if (newPath == null)
             {
-                dll.Write(path);
+                dll.Write(path, option);
             }
             else
             {
-                dll.Write(Path.Combine(newPath, $"{dll.Name}.dll"));
+                dll.Write(Path.Combine(newPath, $"{dll.Name}.dll"), option);
             }
 
         }
