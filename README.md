@@ -9,7 +9,7 @@
 
 ## 使用方式
 
-下载[稳定版本](https://github.com/VOICeVIO/CeVIO.CN/releases)或[自动编译版本](https://ci.appveyor.com/project/UlyssesWu/cevio-cn/build/artifacts)，将`ja-JP`（或`zh-CN`）文件夹置于CeVIO根目录即可。
+下载[稳定版本](https://github.com/VOICeVIO/CeVIO.CN/releases)或[自动编译版本](https://ci.appveyor.com/project/UlyssesWu/cevio-cn/build/artifacts)，将`ja-JP`和`zh-CN`文件夹复制到CeVIO根目录即可。
 
 若打开软件后为英语，请到选项窗口将语言改为Japanese或Chinese（若有）。
 
