@@ -68,7 +68,8 @@ namespace CeVIO.SFE.Signer
         static void Sign(string path, string key, Version v, string newPath = null)
         {
             var dll = AssemblyDef.Load(path);
-            var option = new ModuleWriterOptions(dll.ManifestModule) {PEHeadersOptions = {Machine = Machine.AMD64}};
+            //If you want the dll to be platform: x64 instead of AnyCPU (x64 first), use this option. It shouldn't be used here.
+            //var option = new ModuleWriterOptions(dll.ManifestModule) {PEHeadersOptions = {Machine = Machine.AMD64}};
 
             dll.HasPublicKey = true;
             dll.PublicKey = new PublicKey(key);
@@ -80,11 +81,13 @@ namespace CeVIO.SFE.Signer
 
             if (newPath == null)
             {
-                dll.Write(path, option);
+                dll.Write(path);
+                //dll.Write(path, option);
             }
             else
             {
-                dll.Write(Path.Combine(newPath, $"{dll.Name}.dll"), option);
+                dll.Write(Path.Combine(newPath, $"{dll.Name}.dll"));
+                //dll.Write(Path.Combine(newPath, $"{dll.Name}.dll"), option);
             }
 
         }
