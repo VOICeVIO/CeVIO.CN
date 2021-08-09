@@ -42,6 +42,18 @@
 
 本汉化项目的部分中文文本继承自Project CeVIO SFE（已取得授权）。
 
+## 致谢
+
+感谢 @uselessbug 的BUG反馈及协助。
+
+## 挂人
+
+在感谢CeVIO开发团队的同时，我们仍需对CeVIO开发团队中出现的不和谐音表示抗议。我们深知个人行为并不能代表团队的态度，因此我们不会上纲上线去抵制CeVIO。
+
+但是，我们仍希望大家看清这位简介为“开发者（CeVIO AI / CS）”的 **川出阳一** 先生的真面目。
+
+[![Kawade_Yoichi](https://github.com/VOICeVIO/blob/master/img/kawade_yoichi.png)](https://twitter.com/kawade_yoichi/status/1368777076539465728)
+
 ---
 
 by **VOICeVIO**
