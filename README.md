@@ -52,7 +52,8 @@
 
 但是，我们仍希望大家看清这位简介为“开发者（CeVIO AI / CS）”的 **川出阳一** 先生的真面目。
 
-[![Kawade_Yoichi](https://github.com/VOICeVIO/blob/master/img/kawade_yoichi.png)](https://twitter.com/kawade_yoichi/status/1368777076539465728)
+
+<a href="https://twitter.com/kawade_yoichi/status/1368777076539465728"><img src="https://raw.githubusercontent.com/VOICeVIO/CeVIO.CN/master/img/kawade_yoichi.png" height="650"  alt="Kawade Yoichi"/></a>
 
 ---
 
