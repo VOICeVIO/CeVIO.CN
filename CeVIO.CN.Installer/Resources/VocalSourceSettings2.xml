@@ -17,29 +17,29 @@
     <DisplayName>
       <Notation Locale="en">Sato Sasara</Notation>
       <Notation Locale="ja-JP">さとうささら</Notation>
-	  <Notation Locale="zh-CN">佐藤莎莎拉</Notation>
+      <Notation Locale="zh-CN">佐藤莎莎拉</Notation>
     </DisplayName>
 
     <ComponentSettings>
       <Component Id="f801_fine_tts.tsvoice" Name="fine" InitialValue="1.0">
         <Title Locale="en" LongForm="Fine" ShortForm="Fine"/>
         <Title Locale="ja-JP" LongForm="元気" ShortForm="元気"/>
-		<Title Locale="zh-CN" LongForm="兴奋" ShortForm="喜"/>
+        <Title Locale="zh-CN" LongForm="兴奋" ShortForm="喜"/>
       </Component>
       <Component Id="f801_normal_tts.tsvoice" Name="normal">
         <Title Locale="en" LongForm="Normal" ShortForm="Normal"/>
         <Title Locale="ja-JP" LongForm="普通" ShortForm="普通"/>
-		<Title Locale="zh-CN" LongForm="普通" ShortForm="普通"/>
+        <Title Locale="zh-CN" LongForm="普通" ShortForm="普通"/>
       </Component>
       <Component Id="f801_angry_tts.tsvoice" Name="angry">
         <Title Locale="en" LongForm="Angry" ShortForm="Angry"/>
         <Title Locale="ja-JP" LongForm="怒り" ShortForm="怒"/>
-		<Title Locale="zh-CN" LongForm="生气" ShortForm="怒"/>
+        <Title Locale="zh-CN" LongForm="生气" ShortForm="怒"/>
       </Component>
       <Component Id="f801_sad_tts.tsvoice" Name="sad">
         <Title Locale="en" LongForm="Sad" ShortForm="Sad"/>
         <Title Locale="ja-JP" LongForm="哀しみ" ShortForm="哀"/>
-		<Title Locale="zh-CN" LongForm="悲伤" ShortForm="哀"/>
+        <Title Locale="zh-CN" LongForm="悲伤" ShortForm="哀"/>
       </Component>
     </ComponentSettings>
   </VocalSource>
@@ -51,7 +51,7 @@
     <DisplayName>
       <Notation Locale="en">Sato Sasara</Notation>
       <Notation Locale="ja-JP">さとうささら</Notation>
-	  <Notation Locale="zh-CN">佐藤莎莎拉</Notation>
+      <Notation Locale="zh-CN">佐藤莎莎拉</Notation>
     </DisplayName>
 
     <ComponentSettings>
@@ -66,19 +66,20 @@
     <DisplayName>
       <Notation Locale="en">Suzuki Tsudumi</Notation>
       <Notation Locale="ja-JP">すずきつづみ</Notation>
-	  <Notation Locale="zh-CN">铃木梓梓弥</Notation> <!-- 暂译 -->
+      <!-- 暂译 -->
+      <Notation Locale="zh-CN">铃木梓梓弥</Notation>
     </DisplayName>
 
     <ComponentSettings>
       <Component Id="f802_cool_tts.tsvoice" Name="cool" InitialValue="1.0">
         <Title Locale="en" LongForm="Cool" ShortForm="Cool"/>
         <Title Locale="ja-JP" LongForm="クール" ShortForm="冷"/>
-		<Title Locale="zh-CN" LongForm="冷静" ShortForm="冷"/>
+        <Title Locale="zh-CN" LongForm="冷静" ShortForm="冷"/>
       </Component>
       <Component Id="f802_bashful_tts.tsvoice" Name="bashful">
         <Title Locale="en" LongForm="Bashful" ShortForm="Bashful"/>
         <Title Locale="ja-JP" LongForm="照れ" ShortForm="照"/>
-		<Title Locale="zh-CN" LongForm="腼腆" ShortForm="羞"/>
+        <Title Locale="zh-CN" LongForm="腼腆" ShortForm="羞"/>
       </Component>
     </ComponentSettings>
   </VocalSource>
@@ -90,21 +91,24 @@
     <DisplayName>
       <Notation Locale="en">Takahashi</Notation>
       <Notation Locale="ja-JP">タカハシ</Notation>
-	  <Notation Locale="ja-JP">高桥</Notation>
+      <Notation Locale="zh-CN">高桥</Notation>
     </DisplayName>
 
     <ComponentSettings>
       <Component Id="m801_fine_tts.tsvoice" Name="cheerful">
         <Title Locale="en" LongForm="Fine" ShortForm="Fine"/>
         <Title Locale="ja-JP" LongForm="元気" ShortForm="元気"/>
+        <Title Locale="zh-CN" LongForm="高兴" ShortForm="喜"/>
       </Component>
       <Component Id="m801_normal_tts.tsvoice" Name="ordinary" InitialValue="1.0">
         <Title Locale="en" LongForm="Normal" ShortForm="Normal"/>
         <Title Locale="ja-JP" LongForm="普通" ShortForm="普通"/>
+        <Title Locale="zh-CN" LongForm="普通" ShortForm="普通"/>
       </Component>
       <Component Id="m801_sad_tts.tsvoice" Name="depression">
         <Title Locale="en" LongForm="Sad" ShortForm="Sad"/>
         <Title Locale="ja-JP" LongForm="へこみ" ShortForm="凹"/>
+        <Title Locale="zh-CN" LongForm="苦恼" ShortForm="恼"/>
       </Component>
     </ComponentSettings>
   </VocalSource>
@@ -137,6 +141,7 @@
     <DisplayName>
       <Notation Locale="en">Akasaki Minato</Notation>
       <Notation Locale="ja-JP">赤咲 湊</Notation>
+      <Notation Locale="zh-CN">赤咲 湊</Notation>
     </DisplayName>
 
     <ComponentSettings>
@@ -151,6 +156,7 @@
     <DisplayName>
       <Notation Locale="en">Midorizaki Kasumi</Notation>
       <Notation Locale="ja-JP">緑咲 香澄</Notation>
+      <Notation Locale="zh-CN">绿咲 香澄</Notation>
     </DisplayName>
 
     <ComponentSettings>
@@ -165,6 +171,7 @@
     <DisplayName>
       <Notation Locale="en">Ginsaki Yamato</Notation>
       <Notation Locale="ja-JP">銀咲 大和</Notation>
+      <Notation Locale="zh-CN">银咲 大和</Notation>
     </DisplayName>
 
     <ComponentSettings>
@@ -179,6 +186,7 @@
     <DisplayName>
       <Notation Locale="en">Kinzaki Koharu</Notation>
       <Notation Locale="ja-JP">金咲 小春</Notation>
+      <Notation Locale="zh-CN">金咲 小春</Notation>
     </DisplayName>
 
     <ComponentSettings>
@@ -193,6 +201,7 @@
     <DisplayName>
       <Notation Locale="en">Shirosaki Yudai</Notation>
       <Notation Locale="ja-JP">白咲 優大</Notation>
+      <Notation Locale="zh-CN">白咲 优大</Notation>
     </DisplayName>
 
     <ComponentSettings>
@@ -207,6 +216,7 @@
     <DisplayName>
       <Notation Locale="en">Kizaki Airi</Notation>
       <Notation Locale="ja-JP">黄咲 愛里</Notation>
+      <Notation Locale="zh-CN">黄咲 爱里</Notation>
     </DisplayName>
 
     <ComponentSettings>
@@ -221,6 +231,7 @@
     <DisplayName>
       <Notation Locale="en">HAL-O-ROID</Notation>
       <Notation Locale="ja-JP">ハルオロイド</Notation>
+      <Notation Locale="zh-CN">HAL-O-ROID</Notation>
     </DisplayName>
 
     <ComponentSettings>
@@ -293,29 +304,29 @@
     <DisplayName>
       <Notation Locale="en">Sato Sasara</Notation>
       <Notation Locale="ja-JP">さとうささら</Notation>
-	  <Notation Locale="zh-CN">佐藤莎莎拉</Notation>
+      <Notation Locale="zh-CN">佐藤莎莎拉</Notation>
     </DisplayName>
 
     <ComponentSettings>
       <Component Id="techno-sp_ja_JP_f801_fine_tts.tsnvoice.dummy" Name="CTNV-JPF-A_FINE" Dependency="Dependent" InitialValue="1.0">
         <Title Locale="en" LongForm="Fine" ShortForm="Fine"/>
         <Title Locale="ja-JP" LongForm="元気" ShortForm="元気"/>
-		<Title Locale="zh-CN" LongForm="兴奋" ShortForm="喜"/>
+        <Title Locale="zh-CN" LongForm="兴奋" ShortForm="喜"/>
       </Component>
       <Component Id="techno-sp_ja_JP_f801_tts.tsnvoice" Name="CTNV-JPF-A_NORMAL">
         <Title Locale="en" LongForm="Normal" ShortForm="Normal"/>
         <Title Locale="ja-JP" LongForm="普通" ShortForm="普通"/>
-		<Title Locale="zh-CN" LongForm="普通" ShortForm="普通"/>
+        <Title Locale="zh-CN" LongForm="普通" ShortForm="普通"/>
       </Component>
       <Component Id="techno-sp_ja_JP_f801_angry_tts.tsnvoice.dummy" Name="CTNV-JPF-A_ANGRY" Dependency="Dependent">
         <Title Locale="en" LongForm="Angry" ShortForm="Angry"/>
         <Title Locale="ja-JP" LongForm="怒り" ShortForm="怒"/>
-		<Title Locale="zh-CN" LongForm="生气" ShortForm="怒"/>
+        <Title Locale="zh-CN" LongForm="生气" ShortForm="怒"/>
       </Component>
       <Component Id="techno-sp_ja_JP_f801_sad_tts.tsnvoice.dummy" Name="CTNV-JPF-A_SAD" Dependency="Dependent">
         <Title Locale="en" LongForm="Sad" ShortForm="Sad"/>
         <Title Locale="ja-JP" LongForm="哀しみ" ShortForm="哀"/>
-		<Title Locale="zh-CN" LongForm="悲伤" ShortForm="哀"/>
+        <Title Locale="zh-CN" LongForm="悲伤" ShortForm="哀"/>
       </Component>
     </ComponentSettings>
   </VocalSource>
@@ -327,7 +338,7 @@
     <DisplayName>
       <Notation Locale="en">Sato Sasara</Notation>
       <Notation Locale="ja-JP">さとうささら</Notation>
-	  <Notation Locale="zh-CN">佐藤莎莎拉</Notation>
+      <Notation Locale="zh-CN">佐藤莎莎拉</Notation>
     </DisplayName>
 
     <ComponentSettings>
@@ -340,7 +351,7 @@
   -->
   <VocalSource Id="CSNV-JPF-THR1" ProductCode="930c12dc-8da9-42e5-976e-f8cbe2c1d8f3">
     <DisplayName>
-	  <Notation Locale="zh-CN">KAFU</Notation>
+      <Notation Locale="zh-CN">KAFU</Notation>
     </DisplayName>
     <ComponentSettings>
       <Component Id="techno-sp_ja_JP_f810_svss.tsnvoice" Name="CSNV-JPF-THR1_NORMAL" Title="普通"/>
@@ -382,7 +393,7 @@
     <DisplayName>
       <Notation Locale="en">Yuzuki Yukari Rei</Notation>
       <Notation Locale="ja-JP">結月ゆかり 麗</Notation>
-	  <Notation Locale="zh-CN">结月缘·丽</Notation>
+      <Notation Locale="zh-CN">结月缘·丽</Notation>
     </DisplayName>
 
     <ComponentSettings>
@@ -397,7 +408,7 @@
     <DisplayName>
       <Notation Locale="en">Tohoku Kiritan</Notation>
       <Notation Locale="ja-JP">東北きりたん</Notation>
-	  <Notation Locale="zh-CN">东北切蒲英</Notation>
+      <Notation Locale="zh-CN">东北切蒲英</Notation>
     </DisplayName>
 
     <ComponentSettings>
@@ -412,29 +423,34 @@
     <DisplayName>
       <Notation Locale="en">Koharu Rikka</Notation>
       <Notation Locale="ja-JP">小春六花</Notation>
-	  <Notation Locale="zh-CN">小春六花</Notation>
+      <Notation Locale="zh-CN">小春六花</Notation>
     </DisplayName>
 
     <ComponentSettings>
       <Component Id="techno-sp_ja_JP_f814_happy_tts.tsnvoice.dummy" Name="CTNV-JPF-AHS2_HAPPY" Dependency="Dependent">
         <Title Locale="en" LongForm="Happy" ShortForm="Happy"/>
         <Title Locale="ja-JP" LongForm="嬉しい" ShortForm="嬉"/>
+        <Title Locale="zh-CN" LongForm="高兴" ShortForm="喜"/>
       </Component>
       <Component Id="techno-sp_ja_JP_f814_tts.tsnvoice" Name="CTNV-JPF-AHS2_NORMAL" InitialValue="1.0">
         <Title Locale="en" LongForm="Normal" ShortForm="Normal"/>
         <Title Locale="ja-JP" LongForm="普通" ShortForm="普通"/>
+        <Title Locale="zh-CN" LongForm="普通" ShortForm="普通"/>
       </Component>
       <Component Id="techno-sp_ja_JP_f814_angry_tts.tsnvoice.dummy" Name="CTNV-JPF-AHS2_ANGRY" Dependency="Dependent">
         <Title Locale="en" LongForm="Angry" ShortForm="Angry"/>
         <Title Locale="ja-JP" LongForm="怒り" ShortForm="怒"/>
+        <Title Locale="zh-CN" LongForm="生气" ShortForm="怒"/>
       </Component>
       <Component Id="techno-sp_ja_JP_f814_sad_tts.tsnvoice.dummy" Name="CTNV-JPF-AHS2_SAD" Dependency="Dependent">
         <Title Locale="en" LongForm="Sad" ShortForm="Sad"/>
         <Title Locale="ja-JP" LongForm="哀しみ" ShortForm="哀"/>
+        <Title Locale="zh-CN" LongForm="悲伤" ShortForm="哀"/>
       </Component>
       <Component Id="techno-sp_ja_JP_f814_calm_tts.tsnvoice.dummy" Name="CTNV-JPF-AHS2_CALM" Dependency="Dependent">
         <Title Locale="en" LongForm="Calm" ShortForm="Calm"/>
         <Title Locale="ja-JP" LongForm="落ち着き" ShortForm="静"/>
+        <Title Locale="zh-CN" LongForm="冷静" ShortForm="静"/>
       </Component>
     </ComponentSettings>
   </VocalSource>
@@ -470,29 +486,34 @@
     <DisplayName>
       <Notation Locale="en">Tsurumaki Maki (JP)</Notation>
       <Notation Locale="ja-JP">弦巻マキ (日)</Notation>
-	  <Notation Locale="zh-CN">弦卷真纪（日语）</Notation>
+      <Notation Locale="zh-CN">弦卷真纪(JP)</Notation>
     </DisplayName>
 
     <ComponentSettings>
       <Component Id="techno-sp_ja_JP_f813_tts.tsnvoice" Name="CTNV-JPF-AHS3_NORMAL" InitialValue="1.0">
         <Title Locale="en" LongForm="Fine" ShortForm="Fine"/>
         <Title Locale="ja-JP" LongForm="元気" ShortForm="元気"/>
+        <Title Locale="zh-CN" LongForm="高兴" ShortForm="喜"/>
       </Component>
       <Component Id="techno-sp_ja_JP_f813_angry_tts.tsnvoice.dummy" Name="CTNV-JPF-AHS3_ANGRY" Dependency="Dependent">
         <Title Locale="en" LongForm="Angry" ShortForm="Angry"/>
         <Title Locale="ja-JP" LongForm="怒り" ShortForm="怒"/>
+        <Title Locale="zh-CN" LongForm="生气" ShortForm="怒"/>
       </Component>
       <Component Id="techno-sp_ja_JP_f813_calm_tts.tsnvoice.dummy" Name="CTNV-JPF-AHS3_CALM" Dependency="Dependent">
         <Title Locale="en" LongForm="Calm" ShortForm="Calm"/>
         <Title Locale="ja-JP" LongForm="落ち着き" ShortForm="静"/>
+        <Title Locale="zh-CN" LongForm="冷静" ShortForm="静"/>
       </Component>
       <Component Id="techno-sp_ja_JP_f813_sad_tts.tsnvoice.dummy" Name="CTNV-JPF-AHS3_SAD" Dependency="Dependent">
         <Title Locale="en" LongForm="Sad" ShortForm="Sad"/>
         <Title Locale="ja-JP" LongForm="哀しみ" ShortForm="哀"/>
+        <Title Locale="zh-CN" LongForm="悲伤" ShortForm="哀"/>
       </Component>
       <Component Id="techno-sp_ja_JP_f813_mild_tts.tsnvoice.dummy" Name="CTNV-JPF-AHS3_MILD" Dependency="Dependent">
         <Title Locale="en" LongForm="Mild" ShortForm="Mild"/>
         <Title Locale="ja-JP" LongForm="穏やか" ShortForm="穏"/>
+        <Title Locale="zh-CN" LongForm="平稳" ShortForm="稳"/>
       </Component>
     </ComponentSettings>
   </VocalSource>
@@ -504,29 +525,34 @@
     <DisplayName>
       <Notation Locale="en">Tsurumaki Maki (EN)</Notation>
       <Notation Locale="ja-JP">弦巻マキ (英)</Notation>
-	  <Notation Locale="zh-CN">弦卷真纪（英语）</Notation>
+      <Notation Locale="zh-CN">弦卷真纪(EN)</Notation>
     </DisplayName>
 
     <ComponentSettings>
       <Component Id="techno-sp_en_US_f813_tts.tsnvoice" Name="CTNV-ENF-AHS3_NORMAL" InitialValue="1.0">
         <Title Locale="en" LongForm="Fine" ShortForm="Fine"/>
         <Title Locale="ja-JP" LongForm="元気" ShortForm="元気"/>
+        <Title Locale="zh-CN" LongForm="高兴" ShortForm="喜"/>
       </Component>
       <Component Id="techno-sp_en_US_f813_angry_tts.tsnvoice.dummy" Name="CTNV-ENF-AHS3_ANGRY" Dependency="Dependent">
         <Title Locale="en" LongForm="Angry" ShortForm="Angry"/>
         <Title Locale="ja-JP" LongForm="怒り" ShortForm="怒"/>
+        <Title Locale="zh-CN" LongForm="生气" ShortForm="怒"/>
       </Component>
       <Component Id="techno-sp_en_US_f813_calm_tts.tsnvoice.dummy" Name="CTNV-ENF-AHS3_CALM" Dependency="Dependent">
         <Title Locale="en" LongForm="Calm" ShortForm="Calm"/>
         <Title Locale="ja-JP" LongForm="落ち着き" ShortForm="静"/>
+        <Title Locale="zh-CN" LongForm="冷静" ShortForm="静"/>
       </Component>
       <Component Id="techno-sp_en_US_f813_sad_tts.tsnvoice.dummy" Name="CTNV-ENF-AHS3_SAD" Dependency="Dependent">
         <Title Locale="en" LongForm="Sad" ShortForm="Sad"/>
         <Title Locale="ja-JP" LongForm="哀しみ" ShortForm="哀"/>
+        <Title Locale="zh-CN" LongForm="悲伤" ShortForm="哀"/>
       </Component>
       <Component Id="techno-sp_en_US_f813_mild_tts.tsnvoice.dummy" Name="CTNV-ENF-AHS3_MILD" Dependency="Dependent">
         <Title Locale="en" LongForm="Mild" ShortForm="Mild"/>
         <Title Locale="ja-JP" LongForm="穏やか" ShortForm="穏"/>
+        <Title Locale="zh-CN" LongForm="平稳" ShortForm="稳"/>
       </Component>
     </ComponentSettings>
   </VocalSource>
@@ -538,29 +564,34 @@
     <DisplayName>
       <Notation Locale="en">Natsuki Karin</Notation>
       <Notation Locale="ja-JP">夏色花梨</Notation>
-	  <Notation Locale="zh-CN">夏色花梨</Notation>
+      <Notation Locale="zh-CN">夏色花梨</Notation>
     </DisplayName>
 
     <ComponentSettings>
       <Component Id="techno-sp_ja_JP_f817_happy_tts.tsnvoice.dummy" Name="CTNV-JPF-AHS4_HAPPY" Dependency="Dependent">
         <Title Locale="en" LongForm="Happy" ShortForm="Happy"/>
         <Title Locale="ja-JP" LongForm="嬉しい" ShortForm="嬉"/>
+        <Title Locale="zh-CN" LongForm="高兴" ShortForm="喜"/>
       </Component>
       <Component Id="techno-sp_ja_JP_f817_tts.tsnvoice" Name="CTNV-JPF-AHS4_NORMAL" InitialValue="1.0">
         <Title Locale="en" LongForm="Normal" ShortForm="Normal"/>
         <Title Locale="ja-JP" LongForm="普通" ShortForm="普通"/>
+        <Title Locale="zh-CN" LongForm="普通" ShortForm="普通"/>
       </Component>
       <Component Id="techno-sp_ja_JP_f817_angry_tts.tsnvoice.dummy" Name="CTNV-JPF-AHS4_ANGRY" Dependency="Dependent">
         <Title Locale="en" LongForm="Angry" ShortForm="Angry"/>
         <Title Locale="ja-JP" LongForm="怒り" ShortForm="怒"/>
+        <Title Locale="zh-CN" LongForm="生气" ShortForm="怒"/>
       </Component>
       <Component Id="techno-sp_ja_JP_f817_sad_tts.tsnvoice.dummy" Name="CTNV-JPF-AHS4_SAD" Dependency="Dependent">
         <Title Locale="en" LongForm="Sad" ShortForm="Sad"/>
         <Title Locale="ja-JP" LongForm="哀しみ" ShortForm="哀"/>
+        <Title Locale="zh-CN" LongForm="悲伤" ShortForm="哀"/>
       </Component>
       <Component Id="techno-sp_ja_JP_f817_calm_tts.tsnvoice.dummy" Name="CTNV-JPF-AHS4_CALM" Dependency="Dependent">
         <Title Locale="en" LongForm="Calm" ShortForm="Calm"/>
         <Title Locale="ja-JP" LongForm="落ち着き" ShortForm="静"/>
+        <Title Locale="zh-CN" LongForm="冷静" ShortForm="静"/>
       </Component>
     </ComponentSettings>
   </VocalSource>
