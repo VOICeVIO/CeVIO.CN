@@ -24,7 +24,7 @@
       <Component Id="f801_fine_tts.tsvoice" Name="fine" InitialValue="1.0">
         <Title Locale="en" LongForm="Fine" ShortForm="Fine"/>
         <Title Locale="ja-JP" LongForm="元気" ShortForm="元気"/>
-        <Title Locale="zh-CN" LongForm="兴奋" ShortForm="喜"/>
+        <Title Locale="zh-CN" LongForm="高兴" ShortForm="喜"/>
       </Component>
       <Component Id="f801_normal_tts.tsvoice" Name="normal">
         <Title Locale="en" LongForm="Normal" ShortForm="Normal"/>
@@ -311,7 +311,7 @@
       <Component Id="techno-sp_ja_JP_f801_fine_tts.tsnvoice.dummy" Name="CTNV-JPF-A_FINE" Dependency="Dependent" InitialValue="1.0">
         <Title Locale="en" LongForm="Fine" ShortForm="Fine"/>
         <Title Locale="ja-JP" LongForm="元気" ShortForm="元気"/>
-        <Title Locale="zh-CN" LongForm="兴奋" ShortForm="喜"/>
+        <Title Locale="zh-CN" LongForm="高兴" ShortForm="喜"/>
       </Component>
       <Component Id="techno-sp_ja_JP_f801_tts.tsnvoice" Name="CTNV-JPF-A_NORMAL">
         <Title Locale="en" LongForm="Normal" ShortForm="Normal"/>

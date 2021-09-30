@@ -7,15 +7,29 @@
 
 “对应版本”是当前自动编译（CI）所对应的版本。旧版请查看release页面或CI编译历史。若要协助支持新版，请提交修改版本号至最新版本的PR。
 
-## 使用方式
+## 使用方式（跨版本兼容版）
 
-下载[稳定版本](https://github.com/VOICeVIO/CeVIO.CN/releases)或[自动编译版本](https://ci.appveyor.com/project/UlyssesWu/cevio-cn/build/artifacts)，将`ja-JP`和`zh-CN`文件夹复制到CeVIO根目录即可。
+跨版本兼容补丁安装后，升级主程序通常无需重新安装补丁，因此推荐使用该版本。
 
-若打开软件后为英语，请到选项窗口将语言改为Japanese或Chinese（若有）。
+1. 下载[稳定版本](https://github.com/VOICeVIO/CeVIO.CN/releases)或[自动编译版本](https://ci.appveyor.com/project/UlyssesWu/cevio-cn/build/artifacts)。
+2. 将所有文件及文件夹复制到CeVIO AI的安装目录。
+3. 运行CeVIO.CN.Installer.exe，按提示安装补丁。
+
+若打开软件后为英语或日语，请到选项窗口将语言改为简体中文。
+
+如果你发现主程序升级后，多出了部分界面文本（将显示为英文），则可以到补丁发布地址下载最新汉化包，并替换所有文件到CeVIO AI的安装目录。
+
+## 使用方式（替换日语版）
+
+替换日语版补丁不能跨版本兼容，升级主程序后必须下载对应版本的补丁。若版本不对应，汉化无法加载。
+
+替换日语版补丁目前只提供[自动编译版本](https://ci.appveyor.com/project/UlyssesWu/cevio-cn/build/artifacts)。
+
+将`ja-JP`文件夹复制到CeVIO根目录替换现有文件即可。
+
+若打开软件后为英语，请到选项窗口将语言改为Japanese。
 
 如果release页面中的版本较旧，请到[CI页面](https://ci.appveyor.com/project/UlyssesWu/cevio-cn/history)按照版本号寻找对应的自动编译版本下载使用。
-
-如果你的CeVIO版本与汉化的版本不一致，你可以使用汉化中自带的“汉化版本适配工具”(`CeVIO.CN.VersionFix`)来强制CeVIO使用当前的汉化版本（仅限CeVIO AI，且更新版本后需要重新运行工具）。
 
 ## 许可协议
 

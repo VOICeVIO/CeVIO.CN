@@ -1,25 +1,52 @@
 ﻿using System;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Xml.Linq;
+using CeVIO.CN.Installer.Properties;
 
 namespace CeVIO.CN.Installer
 {
+    enum InstallState
+    {
+        FailedToDetect,
+        NotInstalled_ResourceDll,
+        NotInstalled_LoaderDll,
+        NotInstalled_Config,
+        Installed
+    }
+
     class Program
     {
-        private const string Locale = "ja-JP";
         private const string ConfigFileName = "CeVIO AI.exe.config";
+        public static string AppRoamingFolderPath
+        {
+            get
+            {
+                string path = "CeVIO AI (x64)";
+                return Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "CeVIO", path);
+            }
+        }
+
+        public static string ApplicationFolderPath
+        {
+            get
+            {
+                string packageName = "CeVIO AI (x64)";
+                return Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "CeVIO", packageName);
+            }
+        }
+
 
         static void Main(string[] args)
         {
-            Console.WriteLine("CeVIO.CN 安装器");
+            Console.WriteLine("CeVIO.CN 安装器V2");
             Console.WriteLine("by Ulysses, wdwxy12345@gmail.com");
             Console.WriteLine();
-            Console.WriteLine("本工具用于配置任意版本的CeVIO AI加载固定版本的CeVIO汉化。");
+            Console.WriteLine("本工具用于安装CeVIO AI汉化补丁（8.1.16.0以上版本）。");
             Console.WriteLine();
-            var locale = Locale;
             var currentDir = Environment.CurrentDirectory;
 
             if (args.Length > 0 && Directory.Exists(args[0]))
@@ -27,47 +54,84 @@ namespace CeVIO.CN.Installer
                 currentDir = args[0];
             }
 
-            if (args.Length > 1)
+            //currentDir = @"D:\Program Files\CeVIO\CeVIO AI";
+
+            Console.WriteLine($"[*] 当前路径: {currentDir}");
+            var configPath = Path.Combine(currentDir, ConfigFileName);
+            if (!File.Exists(configPath))
             {
-                locale = args[1].Trim();
+                Console.WriteLine("[!] 未找到CeVIO AI。请将本程序放到CeVIO AI所在的目录中。");
+                Console.ReadLine();
+                return;
             }
 
-            Console.WriteLine($"当前路径: {currentDir}");
-            var dirInfo = new DirectoryInfo(currentDir);
-            var configPath = Path.Combine(Path.GetDirectoryName(currentDir), ConfigFileName);
-            if (!string.Equals(dirInfo.Name, locale, StringComparison.InvariantCultureIgnoreCase))
+            var state = GetCurrentState(configPath, out var version);
+            string stateText = "";
+            bool installed = false;
+            if (state == InstallState.Installed)
             {
-                if (dirInfo.GetDirectories(locale).Length > 0)
-                {
-                    configPath = Path.Combine(currentDir, ConfigFileName);
-                    currentDir = Path.Combine(currentDir, locale);
-                }
-                else
-                {
-                    Console.WriteLine($"路径不正确，需要放置到{locale}目录下运行。");
-                    Console.ReadLine();
-                    return;
-                }
+                stateText = $"已安装汉化v{version}";
+                installed = true;
+            }
+
+            if (state == InstallState.NotInstalled_ResourceDll)
+            {
+                Console.WriteLine("[!] 未检测到zh-CN文件夹，汉化将无法正常工作。");
+                stateText = "汉化补丁缺失，只能卸载汉化";
+                installed = true;
+            }
+
+            if (state == InstallState.NotInstalled_Config)
+            {
+                stateText = $"可安装汉化v{version}";
+            }
+
+            if (state == InstallState.NotInstalled_LoaderDll)
+            {
+                Console.WriteLine("[!] 汉化补丁DLL缺失，请重新下载补丁。");
+                stateText = "汉化补丁缺失，只能卸载汉化";
+                installed = true;
+            }
+
+            Console.WriteLine($"[*] 当前状态：{stateText}");
+
+            Console.WriteLine();
+            if (installed)
+            {
+                Console.WriteLine("选择模式:\r\n 1.卸载汉化\r\n 2.访问汉化下载地址\r\n 3.设置CeVIO使用简体中文\r\n 直接Enter: 退出");
             }
             else
             {
-                if (!File.Exists(configPath))
-                {
-                    Console.WriteLine("未能从上级目录找到CeVIO AI。");
-                    Console.ReadLine();
-                    return;
-                }
+                Console.WriteLine("选择模式:\r\n 1.安装汉化\r\n 2.访问汉化下载地址\r\n 3.设置CeVIO使用简体中文\r\n 直接Enter: 等同于1");
             }
 
-            Console.WriteLine("选择模式:\r\n 1.锁定或更新汉化版本\r\n 2.取消配置\r\n 直接Enter: 等同于1");
             var input = Console.ReadLine()?.Trim();
-            if (input == "1" || input == "")
+            if (input == "1")
             {
-                Install(currentDir, configPath);
+                if (installed)
+                {
+                    V2Uninstall(configPath);
+                }
+                else
+                {
+                    V2Install(configPath);
+                    V2InstallXml(configPath);
+                }
             }
             else if (input == "2")
             {
-                Uninstall(configPath);
+                Process.Start("https://github.com/VOICeVIO/CeVIO.CN/releases");
+            }
+            else if (input == "3")
+            {
+                V2InstallXml(configPath);
+            }
+            else if (input == "")
+            {
+                if (!installed)
+                {
+                    V2Install(configPath);
+                }
             }
             else
             {
@@ -78,9 +142,167 @@ namespace CeVIO.CN.Installer
             Console.ReadLine();
         }
 
+        private static InstallState GetCurrentState(string configPath, out string version)
+        {
+            version = "";
+            var mainResourcePath = Path.Combine(Path.GetDirectoryName(configPath), "zh-CN", "CeVIO AI.resources.dll");
+            if (File.Exists(mainResourcePath))
+            {
+                var asmName = AssemblyName.GetAssemblyName(mainResourcePath);
+                version = asmName.Version.ToString();
+            }
+            else
+            {
+                return InstallState.NotInstalled_ResourceDll;
+            }
+
+            var loaderDllPath = Path.Combine(Path.GetDirectoryName(configPath), "ModSatellite.Logger.dll");
+            if (!File.Exists(loaderDllPath))
+            {
+                return InstallState.NotInstalled_LoaderDll;
+            }
+
+            if (!File.Exists(configPath))
+            {
+                return InstallState.NotInstalled_Config;
+            }
+
+            using var ms = new MemoryStream(File.ReadAllBytes(configPath));
+            var xDoc = XDocument.Load(ms);
+            var loggingConfiguration = xDoc.Descendants().FirstOrDefault(x => x.Name.LocalName == "loggingConfiguration");
+            if (loggingConfiguration != null)
+            {
+                var listeners = loggingConfiguration.Element("listeners");
+                var categorySources = loggingConfiguration.Element("categorySources");
+                if (listeners != null && categorySources != null)
+                {
+                    var check1 = listeners.Elements("add").Any(x => x.Attribute("name") is { Value: "CeVIO.CN" });
+                    var check2 = categorySources.Descendants().Any(x => x.Attribute("name") is { Value: "CeVIO.CN" });
+                    if (check1 && check2)
+                    {
+                        return InstallState.Installed;
+                    }
+                }
+            }
+
+            return InstallState.NotInstalled_Config;
+        }
+        
+        private static void V2Uninstall(string configPath)
+        {
+            if (!File.Exists(configPath))
+            {
+                return;
+            }
+
+            using var ms = new MemoryStream(File.ReadAllBytes(configPath));
+            var xDoc = XDocument.Load(ms);
+            var loggingConfiguration = xDoc.Descendants().FirstOrDefault(x => x.Name.LocalName == "loggingConfiguration");
+            if (loggingConfiguration != null)
+            {
+                var listeners = loggingConfiguration.Element("listeners");
+                var categorySources = loggingConfiguration.Element("categorySources");
+                if (listeners != null && categorySources != null)
+                {
+                    var check1 = listeners.Elements("add").FirstOrDefault(x => x.Attribute("name") is { Value: "CeVIO.CN" });
+                    var check2 = categorySources.Descendants().FirstOrDefault(x => x.Attribute("name") is { Value: "CeVIO.CN" });
+                    check1?.Remove();
+                    check2?.Remove();
+                }
+            }
+
+            xDoc.Save(File.Open(configPath, FileMode.Create));
+            Console.WriteLine("已删除汉化配置。");
+        }
+
+        private static void V2InstallXml(string configPath)
+        {
+            var runtimeSettings = Path.Combine(ApplicationFolderPath, "RuntimeSettings.xml");
+            if (File.Exists(runtimeSettings))
+            {
+                using var ms = new MemoryStream(File.ReadAllBytes(runtimeSettings));
+                var xDoc = XDocument.Load(ms);
+                var displayLanguage = xDoc.Descendants("DisplayLanguage").FirstOrDefault();
+                if (displayLanguage != null)
+                {
+                    displayLanguage.Value = "zh-CN";
+                    xDoc.Save(File.Open(runtimeSettings, FileMode.Create));
+                    Console.WriteLine("已设置CeVIO AI使用简体中文作为界面语言。");
+                }
+                else
+                {
+                    Console.WriteLine("RuntimeSettings格式不正确。");
+                }
+            }
+            else
+            {
+                Console.WriteLine("未找到RuntimeSettings，CeVIO AI可能没有正确安装。");
+            }
+
+            //Apply vocal source setting
+            var vocalSettingPath = Path.Combine(AppRoamingFolderPath,
+                BitConverter.ToString(new Guid("05A60A94-101E-43AB-93F3-0A7A17BD8629").ToByteArray()).Replace("-", string.Empty)
+                    .ToLower());
+            
+            try
+            {
+                if (File.Exists(vocalSettingPath))
+                {
+                    File.SetAttributes(vocalSettingPath, FileAttributes.Normal);
+                    File.Copy(vocalSettingPath, Path.GetFileName(vocalSettingPath) + ".bak", true);
+                }
+
+                File.WriteAllText(vocalSettingPath, Resources.VocalSourceSettings2);
+                Console.WriteLine("已汉化角色名XML。");
+            }
+            catch (UnauthorizedAccessException e)
+            {
+                Console.WriteLine("未能汉化角色名XML，权限不足。");
+            }
+        }
+
+        private static void V2Install(string configPath)
+        {
+            using var ms = new MemoryStream(File.ReadAllBytes(configPath));
+            var xDoc = XDocument.Load(ms);
+            var loggingConfiguration = xDoc.Descendants().FirstOrDefault(x => x.Name.LocalName == "loggingConfiguration");
+            if (loggingConfiguration != null)
+            {
+                var listeners = loggingConfiguration.Element("listeners");
+                var categorySources = loggingConfiguration.Element("categorySources");
+                if (listeners != null && categorySources != null)
+                {
+                    var modListener = new XElement("add", new XAttribute("name", "CeVIO.CN"),
+                        new XAttribute("type",
+                            "ModSatellite.Logger.ModLoader, ModSatellite.Logger, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"),
+                        new XAttribute("listenerDataType",
+                            "ModSatellite.Logger.ModTraceListenerData, ModSatellite.Logger, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"),
+                        new XAttribute("filter", "All"));
+                    listeners.Add(modListener);
+
+                    foreach (var add in categorySources.Elements("add"))
+                    {
+                        if (add.Attribute("name") is { Value: "General" })
+                        {
+                            var general = add.Element("listeners");
+                            if (general == null)
+                            {
+                                general = new XElement("listeners");
+                                add.Add(general);
+                            }
+                            general.Add(new XElement("add", new XAttribute("name", "CeVIO.CN")));
+                        }
+                    }
+                }
+            }
+
+            xDoc.Save(File.Open(configPath, FileMode.Create));
+            Console.WriteLine("已配置界面文本汉化。");
+        }
+
         private static void Uninstall(string configPath)
         {
-            var ms = new MemoryStream(File.ReadAllBytes(configPath));
+            using var ms = new MemoryStream(File.ReadAllBytes(configPath));
             var xDoc = XDocument.Load(ms);
             var assemblyBinding = xDoc.Descendants().FirstOrDefault(x => x.Name.LocalName == "assemblyBinding");
             if (assemblyBinding == null)
@@ -97,7 +319,7 @@ namespace CeVIO.CN.Installer
 
         private static void Install(string dllPath, string configPath)
         {
-            var ms = new MemoryStream(File.ReadAllBytes(configPath));
+            using var ms = new MemoryStream(File.ReadAllBytes(configPath));
             var xDoc = XDocument.Load(ms);
             var xElement = CollectVersions(dllPath);
             var runtime = xDoc.Descendants().FirstOrDefault(x => x.Name.LocalName == "runtime");
@@ -116,7 +338,7 @@ namespace CeVIO.CN.Installer
             else
             {
                 var assemblyBinding = runtime.Descendants().FirstOrDefault(x => x.Name.LocalName == "assemblyBinding");
-                assemblyBinding?.Remove();;
+                assemblyBinding?.Remove();
             }
 
             runtime.Add(xElement);
@@ -140,7 +362,7 @@ namespace CeVIO.CN.Installer
                 {
                     Console.WriteLine($"当前汉化版本：{asmVer}");
                 }
-                
+
                 var bindingRedirect = new XElement("bindingRedirect", new XAttribute("oldVersion", oldVersion),
                     new XAttribute("newVersion", asmVer));
                 var assemblyIdentity = new XElement("assemblyIdentity", new XAttribute("name", asmName),
