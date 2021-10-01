@@ -14,7 +14,7 @@
 ### 安装方式1：跨版本兼容（推荐）
 跨版本兼容补丁安装后，升级主程序通常无需重新安装补丁，因此推荐使用该版本。
 
-1. 从[发布页面](https://github.com/VOICeVIO/CeVIO.CN/releases)获取最新的【安装器】（Installer），从[发布页面](https://github.com/VOICeVIO/CeVIO.CN/releases)或[CI页面](https://ci.appveyor.com/project/UlyssesWu/cevio-cn/build/artifacts)获取【zh-CN汉化DLL】。
+1. 从[发布页面](https://github.com/VOICeVIO/CeVIO.CN/releases)获取【安装器】（Installer），从[发布页面](https://github.com/VOICeVIO/CeVIO.CN/releases)或[CI页面](https://ci.appveyor.com/project/UlyssesWu/cevio-cn/build/artifacts)获取最新的【zh-CN汉化DLL】。
 2. 将所有文件及文件夹复制到CeVIO AI的安装目录。
 3. 运行CeVIO.CN.Installer.exe，按提示安装补丁。
 

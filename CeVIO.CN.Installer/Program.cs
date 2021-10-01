@@ -258,6 +258,7 @@ namespace CeVIO.CN.Installer
             catch (UnauthorizedAccessException e)
             {
                 Console.WriteLine("未能汉化角色名XML，权限不足。");
+                Console.WriteLine(e);
             }
         }
 
