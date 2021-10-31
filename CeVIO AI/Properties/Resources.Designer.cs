@@ -70,6 +70,16 @@ namespace CeVIO.Editor.Properties {
         }
         
         /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] _header {
+            get {
+                object obj = ResourceManager.GetObject("_header", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   查找类似  的本地化字符串。
         /// </summary>
         internal static string AcceptedProductKeysDialog_Appendix_Transmissive {
@@ -174,6 +184,15 @@ namespace CeVIO.Editor.Properties {
         internal static string AdvertisementDialog_NeverNotifiesAnymoreSwitch_Title {
             get {
                 return ResourceManager.GetString("AdvertisementDialog_NeverNotifiesAnymoreSwitch_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 オプションでお知らせをすべて既読にもできます。 的本地化字符串。
+        /// </summary>
+        internal static string AdvertisementDialog_NeverNotifiesAnymoreSwitch_ToolTip {
+            get {
+                return ResourceManager.GetString("AdvertisementDialog_NeverNotifiesAnymoreSwitch_ToolTip", resourceCulture);
             }
         }
         
@@ -4534,6 +4553,16 @@ namespace CeVIO.Editor.Properties {
         }
         
         /// <summary>
+        ///   查找类似 言語の異なるキャストに変更します。
+        ///セリフをクリアしてよろしいですか？ 的本地化字符串。
+        /// </summary>
+        internal static string Message_Confirm_ClearTextOnChangeCast {
+            get {
+                return ResourceManager.GetString("Message_Confirm_ClearTextOnChangeCast", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似  的本地化字符串。
         /// </summary>
         internal static string Message_Confirm_ClearTrackContents {
@@ -5565,6 +5594,15 @@ namespace CeVIO.Editor.Properties {
         internal static string Message_Information_CutExcessTextOnLine {
             get {
                 return ResourceManager.GetString("Message_Information_CutExcessTextOnLine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 セリフを固定しています... 的本地化字符串。
+        /// </summary>
+        internal static string Message_Information_FreezingTalkUnits {
+            get {
+                return ResourceManager.GetString("Message_Information_FreezingTalkUnits", resourceCulture);
             }
         }
         
@@ -11482,6 +11520,15 @@ namespace CeVIO.Editor.Properties {
         }
         
         /// <summary>
+        ///   查找类似 検索条件に一致する項目はありません。 的本地化字符串。
+        /// </summary>
+        internal static string WordDictionaryDialog_Description_NoItem {
+            get {
+                return ResourceManager.GetString("WordDictionaryDialog_Description_NoItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似  的本地化字符串。
         /// </summary>
         internal static string WordDictionaryDialog_ListColumn_Notation_Title {
@@ -11509,11 +11556,29 @@ namespace CeVIO.Editor.Properties {
         }
         
         /// <summary>
+        ///   查找类似 Del 的本地化字符串。
+        /// </summary>
+        internal static string WordDictionaryDialog_ListItem_Menu_Delete_InputGesture {
+            get {
+                return ResourceManager.GetString("WordDictionaryDialog_ListItem_Menu_Delete_InputGesture", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似  的本地化字符串。
         /// </summary>
         internal static string WordDictionaryDialog_ListItem_Menu_Delete_Title {
             get {
                 return ResourceManager.GetString("WordDictionaryDialog_ListItem_Menu_Delete_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Enter 的本地化字符串。
+        /// </summary>
+        internal static string WordDictionaryDialog_ListItem_Menu_Edit_InputGesture {
+            get {
+                return ResourceManager.GetString("WordDictionaryDialog_ListItem_Menu_Edit_InputGesture", resourceCulture);
             }
         }
         

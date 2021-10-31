@@ -4956,4 +4956,17 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
   <data name="_Empty[1]" xml:space="preserve">
     <value />
   </data>
+  <data name="AdvertisementDialog_NeverNotifiesAnymoreSwitch_ToolTip" xml:space="preserve">
+    <value>您也可以在选项窗口中将所有通知标记为已读。</value>
+  </data>
+  <data name="Message_Confirm_ClearTextOnChangeCast" xml:space="preserve">
+    <value>即将更改为其他语言的角色。
+台词将全部清除，确定吗？</value>
+  </data>
+  <data name="WordDictionaryDialog_Description_NoItem" xml:space="preserve">
+    <value>没有符合搜索条件的项目。</value>
+  </data>
+  <data name="Message_Information_FreezingTalkUnits" xml:space="preserve">
+    <value>正在固定台词...</value>
+  </data>
 </root>

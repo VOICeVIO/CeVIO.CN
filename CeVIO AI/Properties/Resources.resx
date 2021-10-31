@@ -4546,4 +4546,54 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
   <data name="_Empty[1]" xml:space="preserve">
     <value />
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_header" type="System.Byte[], mscorlib">
+    <value>
+        Qk3SBAAAAAAAAIUaAAAoAAAAAAEAAAABAAABAAgAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAvhRkABEi
+        RQB/d10AX20MAFrpVQCOjNIAFA56APkpGQC5XOIAdGrCAPF/uABbNNwAbSgMAKMTrQD8nb0AvtrjAPXd
+        VABZ0wsAHEXLAHGDsQBD2sMArWJQAMEhPADGk1YAw1ePAOqrywA3RaIABKo2AAIJFAD6cEAAqT2KAJ2x
+        MwAJTjcAonamAMPHBgDa5uoAdljNALqvJQCxEf0APnJZAI9LDgA0KJgAV36eALyicgAv1bIA+RfAAK3h
+        mAA1cRkA5CvvAJzvfQABQ7sAIEv6ACjdtQDEvwcA/OicAOrbtgDbmHUAWLS6AFb4sgAIztUAIyDtAGUu
+        TwDpRMIADDoJAK+jJwCmIQUAJoziAPe3IACVyB4AvzGyAKQBCgAK1jYAx3ZZAAFWRQC1DVoAD+aRAEPH
+        3ADVY38A11IuAMjNlgAdMKsAp0SiALnvFAA463EAaDdlAGJTzgDs2bQAZLWyADfVHwBRlqkA1HDfAIYJ
+        nwCT3wEAmUJAAOIaqQAW6l8A1HHTAPZOkADNDeUAqr7GABXkDAAJicgAxgXmADp7/gAtQGMAye2dAFIj
+        wwCKGaoAEYmqAJKctQDRpREAeq/gANAR2wA5UrIAZbVWAPR7lQA3Ew4Ak6u3ACX6JAAWOb8AMrVbACgf
+        8QBpRhcAfSToABHVXQAa5SIAINuoAEH3YAC/n0gAOteEAM3TIwBxRMwA9l1HAElgOwBhCogAtW5QAK+Q
+        MABDkn4AVgHaAO26+wCmqicA15O5AF1gfwBTvsQAX3hBANVG6wAIRiwAF3K3AGul0ACxglkAnCMwAOhn
+        nQBTZGIA8sDzALFdaQBvVtEA/JoDAK98jgCTcNAAG318AOCd9ADWPCQAHrvWAFH03wDs6WUAfYBiAB/I
+        igBsoQsAa9orAOiKywDTLsgAgbWGALvIPwCTPWgAoMdgAGOJVgBKmvwAz/KTAIyaaQDmtOoAhyy6AF23
+        0AC16ccAzyhPAEmX1ACVmxkANeMXAGg/QQBjytQAbpCnAJmB2wA3emkAz2K1AAOgtwCd3msA1ux6AEpL
+        5QDo3CUAF8AwAFTyWAChFyYAA8hyAMd53QAUXRYAr4TNAPq2JwAr7j8AwoXvAD4zoQA81PgAyfUHADiQ
+        DQCz6bwAfFTHADy0hADGTSUA6Yy4ALdzzgBhTIAA+eLkAPYOoACt0RcA9YUsADLcKQBPbsoAtteTABik
+        awAaqNwADEowABmT6wDGOGMAaimqALzGXgCa5WYAE/yQAPppPACJiZMAjEfiAPSvUQCREjcAEYQiAPgO
+        cgB84igAYrbBAMItsQBBhm0AX6ujAM6NswA0Cn8AyraQAI1TNQBBrjUAFBEbABIeDgDUuMcAr3UDAA==
+</value>
+    <comment>System.Byte[]</comment>
+  </data>
+  <data name="AdvertisementDialog_NeverNotifiesAnymoreSwitch_ToolTip" xml:space="preserve">
+    <value>オプションでお知らせをすべて既読にもできます。</value>
+    <comment>オプションでお知らせをすべて既読にもできます。</comment>
+  </data>
+  <data name="WordDictionaryDialog_Description_NoItem" xml:space="preserve">
+    <value>検索条件に一致する項目はありません。</value>
+    <comment>検索条件に一致する項目はありません。</comment>
+  </data>
+  <data name="WordDictionaryDialog_ListItem_Menu_Edit_InputGesture" xml:space="preserve">
+    <value>Enter</value>
+    <comment>Enter</comment>
+  </data>
+  <data name="WordDictionaryDialog_ListItem_Menu_Delete_InputGesture" xml:space="preserve">
+    <value>Del</value>
+    <comment>Del</comment>
+  </data>
+  <data name="Message_Information_FreezingTalkUnits" xml:space="preserve">
+    <value>セリフを固定しています...</value>
+    <comment>セリフを固定しています...</comment>
+  </data>
+  <data name="Message_Confirm_ClearTextOnChangeCast" xml:space="preserve">
+    <value>言語の異なるキャストに変更します。
+セリフをクリアしてよろしいですか？</value>
+    <comment>言語の異なるキャストに変更します。
+セリフをクリアしてよろしいですか？</comment>
+  </data>
 </root>

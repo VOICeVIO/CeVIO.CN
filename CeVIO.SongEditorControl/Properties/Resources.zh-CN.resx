@@ -647,4 +647,11 @@
   <data name="AutoAudition" xml:space="preserve">
     <value>自动试听</value>
   </data>
+  <data name="PianoRollMenu_StrictParameterDisplay" xml:space="preserve">
+    <value>显示精确的参数值(_S)</value>
+  </data>
+  <data name="PianoRollMenu_StrictParameterDisplayToolTip" xml:space="preserve">
+    <value>通过整条音轨的数据计算并显示参数值（慢/精确）。
+若不启用，则只通过当前显示的区域来计算（快/近似）。</value>
+  </data>
 </root>

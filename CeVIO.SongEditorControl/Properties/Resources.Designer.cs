@@ -59,5 +59,1564 @@ namespace CeVIO.SongEditorControl.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string AdjustNotesLength {
+            get {
+                return ResourceManager.GetString("AdjustNotesLength", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string AdjustNotesPosition {
+            get {
+                return ResourceManager.GetString("AdjustNotesPosition", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string AdjustNotesPositionLength {
+            get {
+                return ResourceManager.GetString("AdjustNotesPositionLength", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string AllTracks {
+            get {
+                return ResourceManager.GetString("AllTracks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Attribute {
+            get {
+                return ResourceManager.GetString("Attribute", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Audition {
+            get {
+                return ResourceManager.GetString("Audition", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string AuditionDisabledMessage {
+            get {
+                return ResourceManager.GetString("AuditionDisabledMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string AutoAudition {
+            get {
+                return ResourceManager.GetString("AutoAudition", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Beat {
+            get {
+                return ResourceManager.GetString("Beat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string BeatChangeConfirmationDialogText {
+            get {
+                return ResourceManager.GetString("BeatChangeConfirmationDialogText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string BeatChangeConfirmationDialogTitle {
+            get {
+                return ResourceManager.GetString("BeatChangeConfirmationDialogTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string BeatDialogTitle {
+            get {
+                return ResourceManager.GetString("BeatDialogTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string BeatNumber {
+            get {
+                return ResourceManager.GetString("BeatNumber", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string BeatRowToolTip {
+            get {
+                return ResourceManager.GetString("BeatRowToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Breath {
+            get {
+                return ResourceManager.GetString("Breath", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string BreathToolTip {
+            get {
+                return ResourceManager.GetString("BreathToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string CalculatingParameters {
+            get {
+                return ResourceManager.GetString("CalculatingParameters", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Cancel {
+            get {
+                return ResourceManager.GetString("Cancel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string ChannelNumber {
+            get {
+                return ResourceManager.GetString("ChannelNumber", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string CurrentTrack {
+            get {
+                return ResourceManager.GetString("CurrentTrack", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string DeleteMeasureDialog {
+            get {
+                return ResourceManager.GetString("DeleteMeasureDialog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Duration {
+            get {
+                return ResourceManager.GetString("Duration", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Dynamics {
+            get {
+                return ResourceManager.GetString("Dynamics", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string DynamicsDialogTitle {
+            get {
+                return ResourceManager.GetString("DynamicsDialogTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string DynamicsRowToolTip {
+            get {
+                return ResourceManager.GetString("DynamicsRowToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] Eraser {
+            get {
+                object obj = ResourceManager.GetObject("Eraser", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string FillSpacesDialogTitle {
+            get {
+                return ResourceManager.GetString("FillSpacesDialogTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string FillSpacesDuration {
+            get {
+                return ResourceManager.GetString("FillSpacesDuration", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string InsertMeasureDialog {
+            get {
+                return ResourceManager.GetString("InsertMeasureDialog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string InvalidVoice {
+            get {
+                return ResourceManager.GetString("InvalidVoice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Key {
+            get {
+                return ResourceManager.GetString("Key", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string KeyDialogTitle {
+            get {
+                return ResourceManager.GetString("KeyDialogTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string KeyRowToolTip {
+            get {
+                return ResourceManager.GetString("KeyRowToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Length {
+            get {
+                return ResourceManager.GetString("Length", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Lyric {
+            get {
+                return ResourceManager.GetString("Lyric", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string LyricDialogCaption1 {
+            get {
+                return ResourceManager.GetString("LyricDialogCaption1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string LyricDialogCaption2 {
+            get {
+                return ResourceManager.GetString("LyricDialogCaption2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string LyricDialogCaption3 {
+            get {
+                return ResourceManager.GetString("LyricDialogCaption3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string LyricDialogCaption4 {
+            get {
+                return ResourceManager.GetString("LyricDialogCaption4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string LyricDialogError {
+            get {
+                return ResourceManager.GetString("LyricDialogError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string LyricDialogTitle {
+            get {
+                return ResourceManager.GetString("LyricDialogTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string LyricError {
+            get {
+                return ResourceManager.GetString("LyricError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string LyricTextBoxMenuPhonetic {
+            get {
+                return ResourceManager.GetString("LyricTextBoxMenuPhonetic", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string LyricTextBoxMenuPhoneticToolTip {
+            get {
+                return ResourceManager.GetString("LyricTextBoxMenuPhoneticToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string MeasureNumber {
+            get {
+                return ResourceManager.GetString("MeasureNumber", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string MeasureRowToolTip {
+            get {
+                return ResourceManager.GetString("MeasureRowToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string MenuCopy {
+            get {
+                return ResourceManager.GetString("MenuCopy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string MenuCut {
+            get {
+                return ResourceManager.GetString("MenuCut", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string MenuDelete {
+            get {
+                return ResourceManager.GetString("MenuDelete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string MenuPaste {
+            get {
+                return ResourceManager.GetString("MenuPaste", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string MenuSelectAll {
+            get {
+                return ResourceManager.GetString("MenuSelectAll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string MenuUndo {
+            get {
+                return ResourceManager.GetString("MenuUndo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string MidiImportChannelSelect {
+            get {
+                return ResourceManager.GetString("MidiImportChannelSelect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string MidiImportDialogCaption1 {
+            get {
+                return ResourceManager.GetString("MidiImportDialogCaption1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string MidiImportDialogCaption2 {
+            get {
+                return ResourceManager.GetString("MidiImportDialogCaption2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string MidiImportDialogCaptionB1 {
+            get {
+                return ResourceManager.GetString("MidiImportDialogCaptionB1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string MidiImportDialogCaptionB2 {
+            get {
+                return ResourceManager.GetString("MidiImportDialogCaptionB2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string MidiImportDialogCaptionB3 {
+            get {
+                return ResourceManager.GetString("MidiImportDialogCaptionB3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string MidiImportDialogCheckBoxText {
+            get {
+                return ResourceManager.GetString("MidiImportDialogCheckBoxText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string MidiImportDialogNotes {
+            get {
+                return ResourceManager.GetString("MidiImportDialogNotes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string MidiImportDialogSelect {
+            get {
+                return ResourceManager.GetString("MidiImportDialogSelect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string MidiImportDialogTitle {
+            get {
+                return ResourceManager.GetString("MidiImportDialogTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string MidiImportFormatError {
+            get {
+                return ResourceManager.GetString("MidiImportFormatError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string MidiImportHeaderError {
+            get {
+                return ResourceManager.GetString("MidiImportHeaderError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string MidiImportNoTrackError {
+            get {
+                return ResourceManager.GetString("MidiImportNoTrackError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string MidiImportTimeBaseError {
+            get {
+                return ResourceManager.GetString("MidiImportTimeBaseError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string MidiImportTrackError {
+            get {
+                return ResourceManager.GetString("MidiImportTrackError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string MusicXmlImportConfirmationText {
+            get {
+                return ResourceManager.GetString("MusicXmlImportConfirmationText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string MusicXmlImportDialogTitle {
+            get {
+                return ResourceManager.GetString("MusicXmlImportDialogTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string NoteDialogTitle {
+            get {
+                return ResourceManager.GetString("NoteDialogTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string OK {
+            get {
+                return ResourceManager.GetString("OK", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string OneNoteMultipleSyllables {
+            get {
+                return ResourceManager.GetString("OneNoteMultipleSyllables", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string OneNoteMultipleSyllablesToolTip {
+            get {
+                return ResourceManager.GetString("OneNoteMultipleSyllablesToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string OneNoteOneMora {
+            get {
+                return ResourceManager.GetString("OneNoteOneMora", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string OneNoteOneMoraToolTip {
+            get {
+                return ResourceManager.GetString("OneNoteOneMoraToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string OneNoteSingleSyllable {
+            get {
+                return ResourceManager.GetString("OneNoteSingleSyllable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string OneNoteSingleSyllableToolTip {
+            get {
+                return ResourceManager.GetString("OneNoteSingleSyllableToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string ParametersCannotBeCalculated {
+            get {
+                return ResourceManager.GetString("ParametersCannotBeCalculated", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Phonemes {
+            get {
+                return ResourceManager.GetString("Phonemes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PhoneticWindowTitleEn {
+            get {
+                return ResourceManager.GetString("PhoneticWindowTitleEn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PhoneticWindowTitleJa {
+            get {
+                return ResourceManager.GetString("PhoneticWindowTitleJa", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_DeleteMeasure {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_DeleteMeasure", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_DeleteMeasureToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_DeleteMeasureToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_EnterLyricsCollectively {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_EnterLyricsCollectively", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_EnterLyricsCollectivelyToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_EnterLyricsCollectivelyToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_EnterLyricsWithPhoneme {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_EnterLyricsWithPhoneme", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_EnterLyricsWithPhonemeToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_EnterLyricsWithPhonemeToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_FillSpaces {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_FillSpaces", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_FillSpacesToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_FillSpacesToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_InsertMeasure {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_InsertMeasure", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_InsertMeasureToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_InsertMeasureToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_Mode {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_Mode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_Mode_Alpha {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_Mode_Alpha", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_Mode_AlphaToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_Mode_AlphaToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_Mode_Normal {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_Mode_Normal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_Mode_NormalToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_Mode_NormalToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_Mode_Pitch {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_Mode_Pitch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_Mode_PitchToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_Mode_PitchToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_Mode_Timing {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_Mode_Timing", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_Mode_TimingToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_Mode_TimingToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_Mode_VibratoAmplitude {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_Mode_VibratoAmplitude", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_Mode_VibratoAmplitudeToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_Mode_VibratoAmplitudeToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_Mode_VibratoFrequency {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_Mode_VibratoFrequency", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_Mode_VibratoFrequencyToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_Mode_VibratoFrequencyToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_Mode_Volume {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_Mode_Volume", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_Mode_VolumeToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_Mode_VolumeToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_NotesOfOtherTracks {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_NotesOfOtherTracks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_NotesOfOtherTracksToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_NotesOfOtherTracksToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_OtherOperations {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_OtherOperations", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_Overlay {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_Overlay", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_OverLay_Alpha {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_OverLay_Alpha", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_OverLay_AlphaToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_OverLay_AlphaToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_OverLay_Pitch {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_OverLay_Pitch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_OverLay_PitchToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_OverLay_PitchToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_OverLay_Timing {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_OverLay_Timing", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_OverLay_TimingToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_OverLay_TimingToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_OverLay_VibratoAmplitude {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_OverLay_VibratoAmplitude", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_OverLay_VibratoAmplitudeToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_OverLay_VibratoAmplitudeToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_OverLay_VibratoFrequency {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_OverLay_VibratoFrequency", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_OverLay_VibratoFrequencyToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_OverLay_VibratoFrequencyToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_OverLay_Volume {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_OverLay_Volume", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_OverLay_VolumeToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_OverLay_VolumeToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_Properties {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_Properties", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_PropertiesToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_PropertiesToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_PropertiesToolTip2 {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_PropertiesToolTip2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_Quantize {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_Quantize", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_Quantize_Triplet16 {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_Quantize_Triplet16", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_Quantize_Triplet2 {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_Quantize_Triplet2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_Quantize_Triplet4 {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_Quantize_Triplet4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_Quantize_Triplet8 {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_Quantize_Triplet8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 精密なパラメータ表示(_S) 的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_StrictParameterDisplay {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_StrictParameterDisplay", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 パラメータをトラック全体から計算して表示します(遅い/精密)。
+        ///オフのときは表示領域のみ計算(速い/概算)。 的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_StrictParameterDisplayToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_StrictParameterDisplayToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_Tool_BulkSelect {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_Tool_BulkSelect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_Tool_Eraser {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_Tool_Eraser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_Tool_Line {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_Tool_Line", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_Tool_Pen {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_Tool_Pen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_Tool_Select {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_Tool_Select", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_VibratoDisable {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_VibratoDisable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_VibratoDisableToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_VibratoDisableToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_View {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_View", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_View_BeatLine {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_View_BeatLine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_View_BeatLineToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_View_BeatLineToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_View_BeatRow {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_View_BeatRow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_View_BeatRowToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_View_BeatRowToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_View_DynamicsRow {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_View_DynamicsRow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_View_DynamicsRowToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_View_DynamicsRowToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_View_GuideLine {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_View_GuideLine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_View_GuideLineToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_View_GuideLineToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_View_KeyRow {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_View_KeyRow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_View_KeyRowToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_View_KeyRowToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_View_QuantizeLine {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_View_QuantizeLine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_View_QuantizeLineToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_View_QuantizeLineToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_View_TempoRow {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_View_TempoRow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_View_TempoRowToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_View_TempoRowToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_View_TuningLine {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_View_TuningLine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_View_TuningLineToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_View_TuningLineToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Pitch {
+            get {
+                return ResourceManager.GetString("Pitch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Position {
+            get {
+                return ResourceManager.GetString("Position", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string SlurBegin {
+            get {
+                return ResourceManager.GetString("SlurBegin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string SlurEnd {
+            get {
+                return ResourceManager.GetString("SlurEnd", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string SlurToolTip {
+            get {
+                return ResourceManager.GetString("SlurToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Sound {
+            get {
+                return ResourceManager.GetString("Sound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string SpaceDelimited {
+            get {
+                return ResourceManager.GetString("SpaceDelimited", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string SpaceDelimitedToolTip {
+            get {
+                return ResourceManager.GetString("SpaceDelimitedToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string SplitterToolTip {
+            get {
+                return ResourceManager.GetString("SplitterToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Target {
+            get {
+                return ResourceManager.GetString("Target", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Tempo {
+            get {
+                return ResourceManager.GetString("Tempo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string TempoDialogTitle {
+            get {
+                return ResourceManager.GetString("TempoDialogTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string TempoRowToolTip {
+            get {
+                return ResourceManager.GetString("TempoRowToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Tick {
+            get {
+                return ResourceManager.GetString("Tick", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string TrackName {
+            get {
+                return ResourceManager.GetString("TrackName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string VibratoDisabled {
+            get {
+                return ResourceManager.GetString("VibratoDisabled", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string VoiceAlpha {
+            get {
+                return ResourceManager.GetString("VoiceAlpha", resourceCulture);
+            }
+        }
     }
 }
