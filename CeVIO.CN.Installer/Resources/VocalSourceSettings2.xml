@@ -459,7 +459,13 @@
     ■ AI-ONEトーク
   -->
   <VocalSource Id="CTNV-JPF-FP4" ProductCode="c83e6f77-0c04-4d65-949c-c9a3b981a2db">
-    <ComponentSettings>
+	  <DisplayName>
+		  <Notation Locale="en">OИE</Notation>
+		  <Notation Locale="ja-JP">OИE</Notation>
+		  <Notation Locale="zh-CN">OИE</Notation>
+	  </DisplayName>
+
+	  <ComponentSettings>
       <Component Id="techno-sp_ja_JP_f803_bright_tts.tsnvoice.dummy" Name="CTNV-JPF-FP4_BRIGHT" Title="Bright" Dependency="Dependent"/>
       <Component Id="techno-sp_ja_JP_f803_tts.tsnvoice" Name="CTNV-JPF-FP4_NORMAL" Title="Normal" InitialValue="1.0"/>
       <Component Id="techno-sp_ja_JP_f803_strong_tts.tsnvoice.dummy" Name="CTNV-JPF-FP4_STRONG" Title="Strong" Dependency="Dependent"/>
