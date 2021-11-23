@@ -3103,10 +3103,6 @@ Ulysses (wdwxy12345@gmail.com) from VOICeVIO</value>
   <data name="OuterLicenseDialog_Title" xml:space="preserve">
     <value>版权信息</value>
   </data>
-  <data name="Personality" xml:space="preserve">
-	  <value />
-	  <comment>Personality</comment>
-  </data>
   <data name="PhraseClipDialog_Description" xml:space="preserve">
     <value>右键单击台词，可试听或删除。</value>
   </data>

@@ -611,6 +611,33 @@
 		  <Notation Locale="ja-JP">フィーちゃん</Notation>
 		  <Notation Locale="zh-CN">FEE酱</Notation>
 	  </DisplayName>
+	  <ComponentSettings>
+		  <Component Id="techno-sp_ja_JP_f819_tts_happy.tsnvoice.dummy" Name="CTNV-JPF-USTL1_HAPPY" Dependency="Dependent">
+			  <Title Locale="en" LongForm="Happy" ShortForm="Happy"/>
+			  <Title Locale="ja-JP" LongForm="嬉しい" ShortForm="嬉"/>
+			  <Title Locale="zh-CN" LongForm="高兴" ShortForm="喜"/>
+		  </Component>
+		  <Component Id="techno-sp_ja_JP_f819_tts.tsnvoice" Name="CTNV-JPF-USTL1_NORMAL" InitialValue="1.0">
+			  <Title Locale="en" LongForm="Normal" ShortForm="Normal"/>
+			  <Title Locale="ja-JP" LongForm="普通" ShortForm="普通"/>
+			  <Title Locale="zh-CN" LongForm="普通" ShortForm="普通"/>
+		  </Component>
+		  <Component Id="techno-sp_ja_JP_f819_tts_angry.tsnvoice.dummy" Name="CTNV-JPF-USTL1_ANGRY" Dependency="Dependent">
+			  <Title Locale="en" LongForm="Angry" ShortForm="Angry"/>
+			  <Title Locale="ja-JP" LongForm="怒り" ShortForm="怒"/>
+			  <Title Locale="zh-CN" LongForm="生气" ShortForm="怒"/>
+		  </Component>
+		  <Component Id="techno-sp_ja_JP_f819_tts_sad.tsnvoice.dummy" Name="CTNV-JPF-USTL1_SAD" Dependency="Dependent">
+			  <Title Locale="en" LongForm="Sad" ShortForm="Sad"/>
+			  <Title Locale="ja-JP" LongForm="哀しみ" ShortForm="哀"/>
+			  <Title Locale="zh-CN" LongForm="悲伤" ShortForm="哀"/>
+		  </Component>
+		  <Component Id="techno-sp_ja_JP_f819_tts_calm.tsnvoice.dummy" Name="CTNV-JPF-USTL1_CALM" Dependency="Dependent">
+			  <Title Locale="en" LongForm="Calm" ShortForm="Calm"/>
+			  <Title Locale="ja-JP" LongForm="落ち着き" ShortForm="静"/>
+			  <Title Locale="zh-CN" LongForm="冷静" ShortForm="静"/>
+		  </Component>
+	  </ComponentSettings>
   </VocalSource>
 
 </VocalSources>
