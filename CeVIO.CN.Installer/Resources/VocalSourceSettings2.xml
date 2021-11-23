@@ -602,4 +602,15 @@
     </ComponentSettings>
   </VocalSource>
 
+  <!--
+    ■ フィーちゃんトーク
+  -->
+  <VocalSource Id="CTNV-JPF-USTL1" ProductCode="abb02573-3dfc-4a7b-b472-206761987772">
+	  <DisplayName>
+		  <Notation Locale="en">FEE-chan</Notation>
+		  <Notation Locale="ja-JP">フィーちゃん</Notation>
+		  <Notation Locale="zh-CN">FEE酱</Notation>
+	  </DisplayName>
+  </VocalSource>
+
 </VocalSources>
