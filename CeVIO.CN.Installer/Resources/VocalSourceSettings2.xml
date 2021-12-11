@@ -603,6 +603,39 @@
   </VocalSource>
 
   <!--
+    ■ ロサ(ROSA)トーク
+  -->
+  <VocalSource Id="CTNV-JPF-ZNSN1" ProductCode="40021e89-6a30-4606-a31b-28c08a498461">
+	  <DisplayName>
+		  <Notation Locale="en">ROSA</Notation>
+		  <Notation Locale="ja-JP">ロサ (ROSA)</Notation>
+		  <Notation Locale="zh-CN">ROSA</Notation>
+	  </DisplayName>
+	  <ComponentSettings>
+		  <Component Id="techno-sp_ja_JP_f818_tts_happy.tsnvoice.dummy" Name="CTNV-JPF-ZNSN1_HAPPY" Dependency="Dependent">
+			  <Title Locale="en" LongForm="Happy" ShortForm="Happy"/>
+			  <Title Locale="ja-JP" LongForm="嬉しい" ShortForm="嬉"/>
+			  <Title Locale="zh-CN" LongForm="高兴" ShortForm="喜"/>
+		  </Component>
+		  <Component Id="techno-sp_ja_JP_f818_tts.tsnvoice" Name="CTNV-JPF-ZNSN1_NORMAL" InitialValue="1.0">
+			  <Title Locale="en" LongForm="Normal" ShortForm="Normal"/>
+			  <Title Locale="ja-JP" LongForm="普通" ShortForm="普通"/>
+			  <Title Locale="zh-CN" LongForm="普通" ShortForm="普通"/>
+		  </Component>
+		  <Component Id="techno-sp_ja_JP_f818_tts_angry.tsnvoice.dummy" Name="CTNV-JPF-ZNSN1_ANGRY" Dependency="Dependent">
+			  <Title Locale="en" LongForm="Angry" ShortForm="Angry"/>
+			  <Title Locale="ja-JP" LongForm="怒り" ShortForm="怒"/>
+			  <Title Locale="zh-CN" LongForm="生气" ShortForm="怒"/>
+		  </Component>
+		  <Component Id="techno-sp_ja_JP_f818_tts_sad.tsnvoice.dummy" Name="CTNV-JPF-ZNSN1_SAD" Dependency="Dependent">
+			  <Title Locale="en" LongForm="Sad" ShortForm="Sad"/>
+			  <Title Locale="ja-JP" LongForm="哀しみ" ShortForm="哀"/>
+			  <Title Locale="zh-CN" LongForm="悲伤" ShortForm="哀"/>
+		  </Component>
+	  </ComponentSettings>
+  </VocalSource>
+
+  <!--
     ■ フィーちゃんトーク
   -->
   <VocalSource Id="CTNV-JPF-USTL1" ProductCode="abb02573-3dfc-4a7b-b472-206761987772">

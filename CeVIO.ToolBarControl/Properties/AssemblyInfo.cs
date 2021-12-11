@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("VOICeVIO")]
 [assembly: AssemblyProduct("CeVIO.CN")]
-[assembly: AssemblyCopyright("Copyright © VOICeVIO 2018-2021")]
+[assembly: AssemblyCopyright("Copyright © VOICeVIO 2018-2022")]
 [assembly: AssemblyTrademark("wdwxy12345@gmail.com")]
 [assembly: AssemblyCulture("en-US")]
 
