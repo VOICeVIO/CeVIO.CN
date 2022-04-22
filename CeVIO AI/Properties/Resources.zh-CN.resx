@@ -2521,12 +2521,12 @@ http://cevio.jp/</value>
 http://cevio.jp/</comment>
   </data>
   <data name="Message_License_Error_Authorization_LicenseNotFound" xml:space="preserve">
-    <value>{0} 的授权信息丢失，认证已失败。
+	  <value>{0} 的授权信息丢失，认证已失败。
 请到下面的网站查询或咨询。
 http://cevio.jp/</value>
-    <comment>{0} のライセンス情報が見つからないため、ライセンス認証に失敗しました。
-下記公式サイトからお問い合わせください。
-http://cevio.jp/</comment>
+	  <comment>{0} のライセンス情報が見つからないため、ライセンス認証に失敗しました。
+		  下記公式サイトからお問い合わせください。
+		  http://cevio.jp/</comment>
   </data>
   <data name="Message_License_Error_Authorization_UnrecognizableProductKey" xml:space="preserve">
     <value>{0} 的序列号不匹配，认证已失败。
@@ -4823,5 +4823,81 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
   </data>
   <data name="Message_Information_FreezingTalkUnits" xml:space="preserve">
     <value>正在固定台词...</value>
+  </data>
+  <data name="PreferenceDialog_Ambient_WheelScrollingDirection_Title" xml:space="preserve">
+	  <value>鼠标滚轮:</value>
+  </data>
+  <data name="PreferenceDialog_Ambient_WheelScrollingDirection_ToolTip" xml:space="preserve">
+	  <value>鼠标滚轮在台词和钢琴卷帘上的默认行为。</value>
+  </data>
+  <data name="PreferenceDialog_Ambient_WheelScrollingDirection_List_VerticalBased" xml:space="preserve">
+	  <value>垂直滚动(按住Shift则水平滚动)</value>
+  </data>
+  <data name="PreferenceDialog_Ambient_WheelScrollingDirection_List_HorizontalBased" xml:space="preserve">
+	  <value>水平滚动(按住Shift则垂直滚动)</value>
+  </data>
+  <data name="Message_PeriodicLicenseCheck6" xml:space="preserve">
+	  <value>由于限时许可认证失败，程序将退出。请重新启动本程序。</value>
+  </data>
+  <data name="Message_PeriodicLicenseCheck7" xml:space="preserve">
+	  <value>由于以下限时许可已到期，程序将退出。请重新启动本程序。
+
+{0}</value>
+  </data>
+  <data name="Message_License_Information_TimeLimited_ExpirationNotice" xml:space="preserve">
+	  <value>{0} 之前可用</value>
+  </data>
+  <data name="Message_License_Information_TimeLimited_ExpiredNotice" xml:space="preserve">
+	  <value>有效期已结束</value>
+  </data>
+  <data name="Message_License_Error_Authorization_ExpiredLicense" xml:space="preserve">
+	  <value>{0} 的有效期已结束，所以将无法使用。
+请购买并激活声源使用，或卸载此声源。</value>
+  </data>
+  <data name="Message_License_Error_Activation_ExpiredProductKey" xml:space="preserve">
+	  <value>所输入的序列号已过期。</value>
+  </data>
+  <data name="Message_License_Error_Activation_ProductKeyIsNotInValidityPeriod" xml:space="preserve">
+	  <value>所输入的序列号尚未到可用日期，所以目前无法使用。</value>
+  </data>
+  <data name="Message_Information_OfflineStartUp_AboutProductAsTimeLimitedLicense" xml:space="preserve">
+	  <value>以下产品正在使用限时许可，因此不能在离线状态下使用。
+
+{0}</value>
+  </data>
+  <data name="Message_Information_InputLine_English_Paste_ExcludeUnrecognizables" xml:space="preserve">
+	  <value>英语语音台词只能使用半角英文和数字。
+粘贴时已去除无效字符。</value>
+  </data>
+  <data name="MainMenu_Song_GuideLine_Timing_DetailLine" xml:space="preserve">
+	  <value>显示音素状态线(_I)</value>
+  </data>
+  <data name="MainMenu_Song_GuideLine_Timing_DetailLine_ToolTip" xml:space="preserve">
+	  <value>在时间(TMG)调整界面上显示更详细的音素状态线。
+若不显示，则根据音素线自动调整。</value>
+  </data>
+  <data name="WordDictionaryDialog_ListItem_Menu_Edit_InputGesture" xml:space="preserve">
+	  <value>Enter</value>
+  </data>
+  <data name="WordDictionaryDialog_ListItem_Menu_Delete_InputGesture" xml:space="preserve">
+	  <value>Del</value>
+  </data>
+  <data name="TalkEditor_TextBox_Menu_RubyBrackets" xml:space="preserve">
+	  <value>插入注音记号(_B)</value>
+  </data>
+  <data name="TalkEditor_TextBox_Menu_RubyBrackets_ToolTip" xml:space="preserve">
+	  <value>在这里插入注音记号（日语使用《》，英语使用[]。括号内填写实际读法。选中多个字符时，还会在首字符前插入｜）。</value>
+  </data>
+  <data name="TalkEditor_Menu_ApplyAttributes" xml:space="preserve">
+	  <value>只粘贴参数(_Q)</value>
+  </data>
+  <data name="TalkEditor_Menu_ApplyAttributes_ToolTip" xml:space="preserve">
+	  <value>只将音量、语速和情感参数粘贴到当前台词。</value>
+  </data>
+  <data name="PreferenceDialog_Song_EditsTimingOnScoreView_Title" xml:space="preserve">
+	  <value>在乐谱编辑界面调整时间(TMG)</value>
+  </data>
+  <data name="PreferenceDialog_Song_EditsTimingOnScoreView_ToolTip" xml:space="preserve">
+	  <value>在乐谱编辑界面的下侧显示时间(TMG)调整栏，可快速调整音素时间。</value>
   </data>
 </root>

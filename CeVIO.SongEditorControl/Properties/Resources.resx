@@ -871,4 +871,26 @@
     <comment>パラメータをトラック全体から計算して表示します(遅い/精密)。
 オフのときは表示領域のみ計算(速い/概算)。</comment>
   </data>
+  <data name="PianoRollMenu_TimingEditOnScore" xml:space="preserve">
+    <value>楽譜編集画面でタイミング調整(_T)</value>
+    <comment>楽譜編集画面でタイミング調整(_T)</comment>
+  </data>
+  <data name="PianoRollMenu_View_TimingDetailLineToolTip" xml:space="preserve">
+    <value>タイミング調整画面に音素内の状態変化を示すラインを表示。
+非表示のとき状態ラインは自動調整。</value>
+    <comment>タイミング調整画面に音素内の状態変化を示すラインを表示。
+非表示のとき状態ラインは自動調整。</comment>
+  </data>
+  <data name="PianoRollMenu_View_TimingDetailLine" xml:space="preserve">
+    <value>タイミングの状態ライン(_I)</value>
+    <comment>タイミングの状態ライン(_I)</comment>
+  </data>
+  <data name="VoiceEmotion" xml:space="preserve">
+    <value>感情</value>
+    <comment>感情</comment>
+  </data>
+  <data name="PianoRollMenu_TimingEditOnScoreToolTip" xml:space="preserve">
+    <value>楽譜編集画面の下段で音素単位のタイミング調整を行う。</value>
+    <comment>楽譜編集画面の下段で音素単位のタイミング調整を行う。</comment>
+  </data>
 </root>

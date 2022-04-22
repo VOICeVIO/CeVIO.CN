@@ -4592,4 +4592,106 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <comment>言語の異なるキャストに変更します。
 セリフをクリアしてよろしいですか？</comment>
   </data>
+  <data name="MainMenu_Song_GuideLine_Timing_DetailLine_ToolTip" xml:space="preserve">
+    <value>タイミング調整画面に音素内の状態変化を示すラインを表示。
+非表示のとき状態ラインは自動調整。</value>
+    <comment>タイミング調整画面に音素内の状態変化を示すラインを表示。
+非表示のとき状態ラインは自動調整。</comment>
+  </data>
+  <data name="Message_Information_OfflineStartUp_AboutProductAsTimeLimitedLicense" xml:space="preserve">
+    <value>以下の製品は期間限定ライセンスのため、オフライン状態では使用できません。
+
+{0}</value>
+    <comment>以下の製品は期間限定ライセンスのため、オフライン状態では使用できません。
+
+{0}</comment>
+  </data>
+  <data name="TalkEditor_Menu_ApplyAttributes" xml:space="preserve">
+    <value>パラメータのみ貼り付け(_Q)</value>
+    <comment>パラメータのみ貼り付け(_Q)</comment>
+  </data>
+  <data name="PreferenceDialog_Ambient_WheelScrollingDirection_Title" xml:space="preserve">
+    <value>マウスホイール:</value>
+    <comment>マウスホイール:</comment>
+  </data>
+  <data name="TalkEditor_TextBox_Menu_RubyBrackets_ToolTip" xml:space="preserve">
+    <value>この位置にルビ記号《》を挿入します（文字選択時は先頭に｜）。</value>
+    <comment>この位置にルビ記号《》を挿入します（文字選択時は先頭に｜）。</comment>
+  </data>
+  <data name="Message_Information_InputLine_English_Paste_ExcludeUnrecognizables" xml:space="preserve">
+    <value>英語トークボイスのセリフには、半角英数文字のみ使用できます。
+不正な文字を除外して貼り付けました。</value>
+    <comment>英語トークボイスのセリフには、半角英数文字のみ使用できます。
+不正な文字を除外して貼り付けました。</comment>
+  </data>
+  <data name="MainMenu_Song_GuideLine_Timing_DetailLine_InputGesture" xml:space="preserve">
+    <value>Ctrl+I</value>
+    <comment>Ctrl+I</comment>
+  </data>
+  <data name="PreferenceDialog_Song_EditsTimingOnScoreView_ToolTip" xml:space="preserve">
+    <value>楽譜編集画面の下段で音素単位のタイミング調整を行います。</value>
+    <comment>楽譜編集画面の下段で音素単位のタイミング調整を行います。</comment>
+  </data>
+  <data name="Message_License_Error_Activation_ExpiredProductKey" xml:space="preserve">
+    <value>入力されたシリアルナンバーの有効期間は終了しました。</value>
+    <comment>入力されたシリアルナンバーの有効期間は終了しました。</comment>
+  </data>
+  <data name="TalkEditor_Menu_ApplyAttributes_ToolTip" xml:space="preserve">
+    <value>大きさや速さ、感情などのパラメータのみ適用します。</value>
+    <comment>大きさや速さ、感情などのパラメータのみ適用します。</comment>
+  </data>
+  <data name="Message_License_Information_TimeLimited_ExpirationNotice" xml:space="preserve">
+    <value>{0} まで使用可</value>
+    <comment>{0} まで使用可</comment>
+  </data>
+  <data name="PreferenceDialog_Ambient_WheelScrollingDirection_List_HorizontalBased" xml:space="preserve">
+    <value>水平スクロール(Shift+ホイールで垂直)</value>
+    <comment>水平スクロール(Shift+ホイールで垂直)</comment>
+  </data>
+  <data name="TalkEditor_TextBox_Menu_RubyBrackets" xml:space="preserve">
+    <value>読み指定カッコの挿入(B)</value>
+    <comment>読み指定カッコの挿入(B)</comment>
+  </data>
+  <data name="Message_PeriodicLicenseCheck7" xml:space="preserve">
+    <value>以下の製品の期間限定ライセンスが終了したため、アプリケーションを終了します。アプリケーションを再起動してください。
+
+{0}</value>
+    <comment>以下の製品の期間限定ライセンスが終了したため、アプリケーションを終了します。アプリケーションを再起動してください。
+
+{0}</comment>
+  </data>
+  <data name="Message_PeriodicLicenseCheck6" xml:space="preserve">
+    <value>期間限定ライセンスの確認に失敗したため、アプリケーションを終了します。アプリケーションを再起動してください。</value>
+    <comment>期間限定ライセンスの確認に失敗したため、アプリケーションを終了します。アプリケーションを再起動してください。</comment>
+  </data>
+  <data name="PreferenceDialog_Song_EditsTimingOnScoreView_Title" xml:space="preserve">
+    <value>楽譜編集画面でタイミング調整</value>
+    <comment>楽譜編集画面でタイミング調整</comment>
+  </data>
+  <data name="PreferenceDialog_Ambient_WheelScrollingDirection_ToolTip" xml:space="preserve">
+    <value>タイムラインやピアノロールでのマウスホイールの動作。</value>
+    <comment>タイムラインやピアノロールでのマウスホイールの動作。</comment>
+  </data>
+  <data name="Message_License_Error_Activation_ProductKeyIsNotInValidityPeriod" xml:space="preserve">
+    <value>入力されたシリアルナンバーは有効期間前のため、現在使用できません。</value>
+    <comment>入力されたシリアルナンバーは有効期間前のため、現在使用できません。</comment>
+  </data>
+  <data name="Message_License_Information_TimeLimited_ExpiredNotice" xml:space="preserve">
+    <value>有効期間終了</value>
+    <comment>有効期間終了</comment>
+  </data>
+  <data name="PreferenceDialog_Ambient_WheelScrollingDirection_List_VerticalBased" xml:space="preserve">
+    <value>垂直スクロール(Shift+ホイールで水平)</value>
+    <comment>垂直スクロール(Shift+ホイールで水平)</comment>
+  </data>
+  <data name="MainMenu_Song_GuideLine_Timing_DetailLine" xml:space="preserve">
+    <value>タイミングの状態ライン(_I)</value>
+    <comment>タイミングの状態ライン(_I)</comment>
+  </data>
+  <data name="Message_License_Error_Authorization_ExpiredLicense" xml:space="preserve">
+    <value>{0} の期間限定ライセンスは終了したため、使用できません。
+製品版を購入して認証するか、このボイスをアンインストールしてください。</value>
+    <comment>{0} の期間限定ライセンスは終了したため、使用できません。
+製品版を購入して認証するか、このボイスをアンインストールしてください。</comment>
+  </data>
 </root>

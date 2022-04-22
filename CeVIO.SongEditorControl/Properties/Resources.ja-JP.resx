@@ -654,4 +654,20 @@
     <value>通过整条音轨的数据计算并显示参数值（慢/精确）。
 若不启用，则只通过当前显示的区域来计算（快/近似）。</value>
   </data>
+  <data name="PianoRollMenu_View_TimingDetailLine" xml:space="preserve">
+	  <value>显示音素状态线(_I)</value>
+  </data>
+  <data name="PianoRollMenu_View_TimingDetailLineToolTip" xml:space="preserve">
+	  <value>在时间(TMG)调整界面上显示更详细的音素状态线。
+若不显示，则根据音素线自动调整。</value>
+  </data>
+  <data name="PianoRollMenu_TimingEditOnScoreToolTip" xml:space="preserve">
+	  <value>在乐谱编辑界面的下侧显示时间(TMG)调整栏，可快速调整音素时间。</value>
+  </data>
+  <data name="PianoRollMenu_TimingEditOnScore" xml:space="preserve">
+	  <value>在乐谱编辑界面调整时间(TMG)(_T)</value>
+  </data>
+  <data name="VoiceEmotion" xml:space="preserve">
+	  <value>感情</value>
+  </data>
 </root>

@@ -347,12 +347,12 @@
   </VocalSource>
 
   <!--
-    ■ 可不ソング
+    ■ 花譜ソング
   -->
   <VocalSource Id="CSNV-JPF-THR1" ProductCode="930c12dc-8da9-42e5-976e-f8cbe2c1d8f3">
     <DisplayName>
       <Notation Locale="en">KAFU</Notation>
-      <Notation Locale="ja-JP">可不(KAFU)</Notation>
+      <Notation Locale="ja-JP">KAFU</Notation>
       <Notation Locale="zh-CN">可不</Notation>
     </DisplayName>
 	  
