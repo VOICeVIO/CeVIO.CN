@@ -347,17 +347,42 @@
   </VocalSource>
 
   <!--
-    ■ 花譜ソング
+    ■ 可不ソング
   -->
   <VocalSource Id="CSNV-JPF-THR1" ProductCode="930c12dc-8da9-42e5-976e-f8cbe2c1d8f3">
     <DisplayName>
-      <Notation Locale="zh-CN">KAFU</Notation>
+      <Notation Locale="en">KAFU</Notation>
+      <Notation Locale="ja-JP">可不(KAFU)</Notation>
+      <Notation Locale="zh-CN">可不</Notation>
     </DisplayName>
+	  
     <ComponentSettings>
       <Component Id="techno-sp_ja_JP_f810_svss.tsnvoice" Name="CSNV-JPF-THR1_NORMAL" Title="普通"/>
     </ComponentSettings>
   </VocalSource>
-
+	
+  <!--
+    ■ 星界ソング
+  -->
+    <VocalSource Id="CSNV-JPF-THR2" ProductCode="3a697a24-b108-4672-b73e-9e9d2b859e3a">
+      <DisplayName>
+        <Notation Locale="en">SEKAI</Notation>
+    	<Notation Locale="ja-JP">星界(SEKAI)</Notation>
+    	<Notation Locale="zh-CN">星界</Notation>
+      </DisplayName>
+	    
+      <ComponentSettings>
+    	<Component Id="techno-sp_ja_JP_f822_svss.tsnvoice" Name="CSNV-JPF-THR2_A" InitialValue="1.0">
+      	  <Title Locale="en" LongForm="A" ShortForm="A"/>
+      	  <Title Locale="ja-JP" LongForm="A" ShortForm="A"/>
+        </Component>
+    	<Component Id="techno-sp_ja_JP_f822_svss_another.tsnvoice.dummy" Name="CSNV-JPF-THR2_B" Dependency="Dependent">
+      	  <Title Locale="en" LongForm="B" ShortForm="B"/>
+      	  <Title Locale="ja-JP" LongForm="B" ShortForm="B"/>
+    	</Component>
+      </ComponentSettings>
+  </VocalSource>
+	
   <!--
     ■ Techno-Speech既定トーク（AI）
   -->
@@ -415,6 +440,36 @@
       <Component Id="s-s-s-llc_ja_JP_f812_svss.tsnvoice" Name="CSNV-JPF-AHS1_NORMAL" Title="普通"/>
     </ComponentSettings>
   </VocalSource>
+	
+  <!--
+    ■ 東北イタコソング
+  -->
+  <VocalSource Id="CSNV-JPF-AHS6" ProductCode="e49ae333-2a4e-4173-8ae9-52a7b37468dd">
+    <DisplayName>
+      <Notation Locale="en">Tohoku Itako</Notation>
+      <Notation Locale="ja-JP">東北イタコ</Notation>
+      <Notation Locale="zh-CN">东北伊达子</Notation>
+    </DisplayName>
+	    
+    <ComponentSettings>
+      <Component Id="s-s-s-llc_ja_JP_f821_svss.tsnvoice" Name="CSNV-JPF-AHS6_NORMAL" Title="普通"/>
+    </ComponentSettings>
+  </VocalSource>
+	
+  <!--
+    ■ 東北ずん子ソング
+  -->
+  <VocalSource Id="CSNV-JPF-AHS5" ProductCode="06b08ae8-8d53-4697-9b69-6d5a8268a158">
+     <DisplayName>
+       <Notation Locale="en">Tohoku Zunko</Notation>
+       <Notation Locale="ja-JP">东北ずん子</Notation>
+       <Notation Locale="zh-CN">东北俊子</Notation>
+     </DisplayName>
+	    
+     <ComponentSettings>
+       <Component Id="s-s-s-llc_ja_JP_f820_svss.tsnvoice" Name="CSNV-JPF-AHS5_NORMAL" Title="普通"/>
+     </ComponentSettings>
+   </VocalSource>
 
   <!--
     ■ 小春六花トーク
