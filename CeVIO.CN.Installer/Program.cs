@@ -21,6 +21,7 @@ namespace CeVIO.CN.Installer
     class Program
     {
         private const string ConfigFileName = "CeVIO AI.exe.config";
+
         public static string AppRoamingFolderPath
         {
             get
@@ -176,8 +177,8 @@ namespace CeVIO.CN.Installer
                 var categorySources = loggingConfiguration.Element("categorySources");
                 if (listeners != null && categorySources != null)
                 {
-                    var check1 = listeners.Elements("add").Any(x => x.Attribute("name") is { Value: "CeVIO.CN" });
-                    var check2 = categorySources.Descendants().Any(x => x.Attribute("name") is { Value: "CeVIO.CN" });
+                    var check1 = listeners.Elements("add").Any(x => x.Attribute("name") is {Value: "CeVIO.CN"});
+                    var check2 = categorySources.Descendants().Any(x => x.Attribute("name") is {Value: "CeVIO.CN"});
                     if (check1 && check2)
                     {
                         return InstallState.Installed;
@@ -187,7 +188,7 @@ namespace CeVIO.CN.Installer
 
             return InstallState.NotInstalled_Config;
         }
-        
+
         private static void V2Uninstall(string configPath)
         {
             if (!File.Exists(configPath))
@@ -204,15 +205,22 @@ namespace CeVIO.CN.Installer
                 var categorySources = loggingConfiguration.Element("categorySources");
                 if (listeners != null && categorySources != null)
                 {
-                    var check1 = listeners.Elements("add").FirstOrDefault(x => x.Attribute("name") is { Value: "CeVIO.CN" });
-                    var check2 = categorySources.Descendants().FirstOrDefault(x => x.Attribute("name") is { Value: "CeVIO.CN" });
+                    var check1 = listeners.Elements("add").FirstOrDefault(x => x.Attribute("name") is {Value: "CeVIO.CN"});
+                    var check2 = categorySources.Descendants().FirstOrDefault(x => x.Attribute("name") is {Value: "CeVIO.CN"});
                     check1?.Remove();
                     check2?.Remove();
                 }
             }
 
-            xDoc.Save(File.Open(configPath, FileMode.Create));
-            Console.WriteLine("已删除汉化配置。");
+            try
+            {
+                xDoc.Save(File.Open(configPath, FileMode.Create));
+                Console.WriteLine("已删除汉化配置。");
+            }
+            catch (UnauthorizedAccessException e)
+            {
+                Console.WriteLine("由于权限不足，操作失败。请尝试用管理员权限再次运行。");
+            }
         }
 
         private static void V2InstallXml(string configPath)
@@ -243,7 +251,7 @@ namespace CeVIO.CN.Installer
             var vocalSettingPath = Path.Combine(AppRoamingFolderPath,
                 BitConverter.ToString(new Guid("05A60A94-101E-43AB-93F3-0A7A17BD8629").ToByteArray()).Replace("-", string.Empty)
                     .ToLower());
-            
+
             try
             {
                 if (File.Exists(vocalSettingPath))
@@ -283,7 +291,7 @@ namespace CeVIO.CN.Installer
 
                     foreach (var add in categorySources.Elements("add"))
                     {
-                        if (add.Attribute("name") is { Value: "General" })
+                        if (add.Attribute("name") is {Value: "General"})
                         {
                             var general = add.Element("listeners");
                             if (general == null)
@@ -291,14 +299,22 @@ namespace CeVIO.CN.Installer
                                 general = new XElement("listeners");
                                 add.Add(general);
                             }
+
                             general.Add(new XElement("add", new XAttribute("name", "CeVIO.CN")));
                         }
                     }
                 }
             }
 
-            xDoc.Save(File.Open(configPath, FileMode.Create));
-            Console.WriteLine("已配置界面文本汉化。");
+            try
+            {
+                xDoc.Save(File.Open(configPath, FileMode.Create));
+                Console.WriteLine("已配置界面文本汉化。");
+            }
+            catch (UnauthorizedAccessException e)
+            {
+                Console.WriteLine("由于权限不足，操作失败。请尝试用管理员权限再次运行。");
+            }
         }
 
         private static void Uninstall(string configPath)
@@ -390,6 +406,7 @@ namespace CeVIO.CN.Installer
                 {
                     tmpElement.Name = xNamespace + tmpElement.Name.LocalName;
                 }
+
                 xElement = new XElement(xNamespace + nodeName, xElement.FirstNode);
             }
 
