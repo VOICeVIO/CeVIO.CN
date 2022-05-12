@@ -9,7 +9,7 @@
 
 ## 使用方式
 
-目前，CeVIO.CN分为3个部分：zh-CN汉化DLL、ja-JP汉化DLL、安装器，并有2种安装方式，可按需选用其中一种。
+目前，CeVIO.CN分为3个部分：zh-CN汉化DLL、ja-JP汉化DLL、安装器，并有2种安装方式，可按需选用其中1种。
 
 ### 安装方式1：跨版本兼容（推荐）
 跨版本兼容补丁安装后，升级主程序通常无需重新安装补丁，因此推荐使用该版本。
@@ -62,7 +62,9 @@
 
 ## 致谢
 
-感谢 @uselessbug 协助测试并反馈BUG。
+感谢 [uselessbug](https://github.com/uselessbug) 协助测试并反馈BUG。
+
+感谢 [夜轮_NachtgeistW](https://github.com/NachtgeistW) 对CeVIO相关文档进行中文翻译：[CeVIO AI用户指南（非官方译文）](https://cevio-user-guide-unofficial.github.io/CeVIO-AI/)
 
 ## 挂人
 

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29020.237
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CeVIO.SFE.Signer", "CeVIO.SFE.Signer\CeVIO.SFE.Signer.csproj", "{08A6F4D0-8308-4327-98E7-36984DB000F4}"
 EndProject
@@ -144,7 +144,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {CB31DAE2-E6F3-409E-B521-17A44BCA3F10}
 		RESX_NeutralResourcesLanguage = zh-CN
+		SolutionGuid = {CB31DAE2-E6F3-409E-B521-17A44BCA3F10}
 	EndGlobalSection
 EndGlobal

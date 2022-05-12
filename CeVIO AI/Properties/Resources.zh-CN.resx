@@ -349,10 +349,6 @@
   <data name="Dialog_SaveProject_Title" xml:space="preserve">
     <value>另存为</value>
   </data>
-  <data name="Dialog_Themeless_Title" xml:space="preserve">
-    <value />
-    <comment>CeVIO CS6</comment>
-  </data>
   <data name="Dialog_YesButton_Title" xml:space="preserve">
     <value>好</value>
   </data>
