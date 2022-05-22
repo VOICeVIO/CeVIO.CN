@@ -488,7 +488,7 @@
     <value>波形文件</value>
   </data>
   <data name="InputSentenceDialog_Cast_Title" xml:space="preserve">
-    <value>配音角色</value>
+	  <value>角色</value>
   </data>
   <data name="InputSentenceDialog_Sentence_Title" xml:space="preserve">
     <value>台词 (每行最多200字)</value>
@@ -1289,7 +1289,7 @@
     <value>选择列(_C)</value>
   </data>
   <data name="MainMenu_Talk_ListColumns_Cast" xml:space="preserve">
-    <value>配音角色</value>
+	  <value>角色</value>
   </data>
   <data name="MainMenu_Talk_ListColumns_Duration" xml:space="preserve">
     <value>时长</value>
@@ -3106,7 +3106,7 @@ Ulysses (wdwxy12345@gmail.com) from VOICeVIO</value>
     <value>双击可以编辑。</value>
   </data>
   <data name="PhraseClipDialog_Grid_Column_Cast" xml:space="preserve">
-    <value>配音角色</value>
+	  <value>角色</value>
   </data>
   <data name="PhraseClipDialog_Grid_Column_Note" xml:space="preserve">
     <value>注释</value>
@@ -4053,7 +4053,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>设置是否显示全部语音音轨的台词。</value>
   </data>
   <data name="TalkEditor_Menu_View_ListColumns_Cast" xml:space="preserve">
-    <value>配音角色</value>
+	  <value>角色</value>
   </data>
   <data name="TalkEditor_Menu_View_ListColumns_Duration" xml:space="preserve">
     <value>时长</value>
