@@ -1848,12 +1848,12 @@
 以降すべて上書きしますか？</comment>
   </data>
   <data name="Message_Confirm_OverwritePreset" xml:space="preserve">
-    <value>要覆盖 "{0}" 吗？
+	  <value>要覆盖 "{0}" 吗？
 
-若进行覆盖，使用此预置的其他台词也会被修改。</value>
-    <comment>"{0}" を上書きしますか？
+若进行覆盖，使用此预设的其他台词也会被修改。</value>
+	  <comment>"{0}" を上書きしますか？
 
-上書きすると、このプリセットを適用した他のセリフにも反映されます。</comment>
+		  上書きすると、このプリセットを適用した他のセリフにも反映されます。</comment>
   </data>
   <data name="Message_Confirm_Overwrite_ImageFile" xml:space="preserve">
     <value>'{0}' 已经存在于图像文件夹中。
@@ -2938,8 +2938,8 @@ B.当前系统的区域设置不兼容。
     <value>不支持24bit以上的WAV格式。</value>
   </data>
   <data name="Message_Warning_PresetSettingLoadingFault" xml:space="preserve">
-    <value>预置设置读取失败，将继续使用现有的预置。</value>
-    <comment>プリセット設定の読み込みに失敗したため、既定のプリセットで起動します。</comment>
+	  <value>预设读取失败，将继续使用现有的预设。</value>
+	  <comment>プリセット設定の読み込みに失敗したため、既定のプリセットで起動します。</comment>
   </data>
   <data name="Message_Warning_RegisteredCountLimit" xml:space="preserve">
     <value>注册数量已达到上限，无法继续注册。</value>
@@ -3775,10 +3775,10 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>选项</value>
   </data>
   <data name="PresetNameDialog_Input_Title" xml:space="preserve">
-    <value>设置名（最长14字）</value>
+	  <value>预设名（最长14字）</value>
   </data>
   <data name="PresetNameDialog_Title" xml:space="preserve">
-    <value>将当前设置保存为为预置项。</value>
+	  <value>将当前设置保存为为预设项。</value>
   </data>
   <data name="ProxyServerCredentialDialog_Input_Description" xml:space="preserve">
     <value>请输入代理服务器的信息。</value>
@@ -3824,8 +3824,8 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <comment>名前を付けて保存</comment>
   </data>
   <data name="SettingExportDialog_Personality_Title" xml:space="preserve">
-    <value>语音：预置</value>
-    <comment>トーク：プリセット</comment>
+	  <value>语音：预设</value>
+	  <comment>トーク：プリセット</comment>
   </data>
   <data name="SettingExportDialog_PhraseClips_Title" xml:space="preserve">
     <value>语音：台词片段</value>
@@ -4077,10 +4077,10 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>(添加)</value>
   </data>
   <data name="TalkEditor_PresetSelector_Title" xml:space="preserve">
-    <value>预置</value>
+	  <value>预设</value>
   </data>
   <data name="TalkEditor_PresetSelector_ToolTip" xml:space="preserve">
-    <value>选择/添加/删除预置的感情参数设置。</value>
+	  <value>选择/添加/删除预设的感情参数设置。</value>
   </data>
   <data name="TalkEditor_RegulatedParameter_Alpha_Title" xml:space="preserve">
     <value>音色</value>
