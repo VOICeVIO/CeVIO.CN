@@ -2735,6 +2735,34 @@ namespace CeVIO.Editor.Properties {
         }
         
         /// <summary>
+        ///   查找类似 タイミングの状態ライン(_I) 的本地化字符串。
+        /// </summary>
+        internal static string MainMenu_Song_GuideLine_Timing_DetailLine {
+            get {
+                return ResourceManager.GetString("MainMenu_Song_GuideLine_Timing_DetailLine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Ctrl+I 的本地化字符串。
+        /// </summary>
+        internal static string MainMenu_Song_GuideLine_Timing_DetailLine_InputGesture {
+            get {
+                return ResourceManager.GetString("MainMenu_Song_GuideLine_Timing_DetailLine_InputGesture", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 タイミング調整画面に音素内の状態変化を示すラインを表示。
+        ///非表示のとき状態ラインは自動調整。 的本地化字符串。
+        /// </summary>
+        internal static string MainMenu_Song_GuideLine_Timing_DetailLine_ToolTip {
+            get {
+                return ResourceManager.GetString("MainMenu_Song_GuideLine_Timing_DetailLine_ToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似  的本地化字符串。
         /// </summary>
         internal static string MainMenu_Song_InputLyricByPhonemes {
@@ -3811,6 +3839,25 @@ namespace CeVIO.Editor.Properties {
         internal static string MainMenu_Track_Add_Talk_ToolTip {
             get {
                 return ResourceManager.GetString("MainMenu_Track_Add_Talk_ToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 マルチトラック自動整列 的本地化字符串。
+        /// </summary>
+        internal static string MainMenu_Track_AutoAlignsOtherTracksToo {
+            get {
+                return ResourceManager.GetString("MainMenu_Track_AutoAlignsOtherTracksToo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 別トラックのセリフも重ならないようにします。
+        ///（オーディオの自動整列オンのときオーディオ要素も対象。） 的本地化字符串。
+        /// </summary>
+        internal static string MainMenu_Track_AutoAlignsOtherTracksToo_ToolTip {
+            get {
+                return ResourceManager.GetString("MainMenu_Track_AutoAlignsOtherTracksToo_ToolTip", resourceCulture);
             }
         }
         
@@ -5643,6 +5690,16 @@ namespace CeVIO.Editor.Properties {
         }
         
         /// <summary>
+        ///   查找类似 英語トークボイスのセリフには、半角英数文字のみ使用できます。
+        ///不正な文字を除外して貼り付けました。 的本地化字符串。
+        /// </summary>
+        internal static string Message_Information_InputLine_English_Paste_ExcludeUnrecognizables {
+            get {
+                return ResourceManager.GetString("Message_Information_InputLine_English_Paste_ExcludeUnrecognizables", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似  的本地化字符串。
         /// </summary>
         internal static string Message_Information_LatestVersion {
@@ -5693,6 +5750,17 @@ namespace CeVIO.Editor.Properties {
         internal static string Message_Information_NowLoading {
             get {
                 return ResourceManager.GetString("Message_Information_NowLoading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 以下の製品は期間限定ライセンスのため、オフライン状態では使用できません。
+        ///
+        ///{0} 的本地化字符串。
+        /// </summary>
+        internal static string Message_Information_OfflineStartUp_AboutProductAsTimeLimitedLicense {
+            get {
+                return ResourceManager.GetString("Message_Information_OfflineStartUp_AboutProductAsTimeLimitedLicense", resourceCulture);
             }
         }
         
@@ -6066,6 +6134,24 @@ namespace CeVIO.Editor.Properties {
         }
         
         /// <summary>
+        ///   查找类似 入力されたシリアルナンバーの有効期間は終了しました。 的本地化字符串。
+        /// </summary>
+        internal static string Message_License_Error_Activation_ExpiredProductKey {
+            get {
+                return ResourceManager.GetString("Message_License_Error_Activation_ExpiredProductKey", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 入力されたシリアルナンバーは有効期間前のため、現在使用できません。 的本地化字符串。
+        /// </summary>
+        internal static string Message_License_Error_Activation_ProductKeyIsNotInValidityPeriod {
+            get {
+                return ResourceManager.GetString("Message_License_Error_Activation_ProductKeyIsNotInValidityPeriod", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似  的本地化字符串。
         /// </summary>
         internal static string Message_License_Error_Activation_UnrecognizableProductKey {
@@ -6089,6 +6175,16 @@ namespace CeVIO.Editor.Properties {
         internal static string Message_License_Error_Authorization_ActiveOtherLicensesNotDetected {
             get {
                 return ResourceManager.GetString("Message_License_Error_Authorization_ActiveOtherLicensesNotDetected", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 {0} の期間限定ライセンスは終了したため、使用できません。
+        ///製品版を購入して認証するか、このボイスをアンインストールしてください。 的本地化字符串。
+        /// </summary>
+        internal static string Message_License_Error_Authorization_ExpiredLicense {
+            get {
+                return ResourceManager.GetString("Message_License_Error_Authorization_ExpiredLicense", resourceCulture);
             }
         }
         
@@ -6287,6 +6383,24 @@ namespace CeVIO.Editor.Properties {
         internal static string Message_License_Information_ProductTrial_Part_ValidityPeriod {
             get {
                 return ResourceManager.GetString("Message_License_Information_ProductTrial_Part_ValidityPeriod", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 {0} まで使用可 的本地化字符串。
+        /// </summary>
+        internal static string Message_License_Information_TimeLimited_ExpirationNotice {
+            get {
+                return ResourceManager.GetString("Message_License_Information_TimeLimited_ExpirationNotice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 有効期間終了 的本地化字符串。
+        /// </summary>
+        internal static string Message_License_Information_TimeLimited_ExpiredNotice {
+            get {
+                return ResourceManager.GetString("Message_License_Information_TimeLimited_ExpiredNotice", resourceCulture);
             }
         }
         
@@ -6575,6 +6689,26 @@ namespace CeVIO.Editor.Properties {
         internal static string Message_PeriodicLicenseCheck5 {
             get {
                 return ResourceManager.GetString("Message_PeriodicLicenseCheck5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 期間限定ライセンスの確認に失敗したため、アプリケーションを終了します。アプリケーションを再起動してください。 的本地化字符串。
+        /// </summary>
+        internal static string Message_PeriodicLicenseCheck6 {
+            get {
+                return ResourceManager.GetString("Message_PeriodicLicenseCheck6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 以下の製品の期間限定ライセンスが終了したため、アプリケーションを終了します。アプリケーションを再起動してください。
+        ///
+        ///{0} 的本地化字符串。
+        /// </summary>
+        internal static string Message_PeriodicLicenseCheck7 {
+            get {
+                return ResourceManager.GetString("Message_PeriodicLicenseCheck7", resourceCulture);
             }
         }
         
@@ -7596,6 +7730,24 @@ namespace CeVIO.Editor.Properties {
         }
         
         /// <summary>
+        ///   查找类似 大きく表示 的本地化字符串。
+        /// </summary>
+        internal static string Portrait_Menu_Enlarges {
+            get {
+                return ResourceManager.GetString("Portrait_Menu_Enlarges", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 右端全体に大きく表示します(高解像度用)。 的本地化字符串。
+        /// </summary>
+        internal static string Portrait_Menu_Enlarges_ToolTip {
+            get {
+                return ResourceManager.GetString("Portrait_Menu_Enlarges_ToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似  的本地化字符串。
         /// </summary>
         internal static string Portrait_Menu_ForcesForeground {
@@ -7610,6 +7762,15 @@ namespace CeVIO.Editor.Properties {
         internal static string Portrait_Menu_OpenImageFolder {
             get {
                 return ResourceManager.GetString("Portrait_Menu_OpenImageFolder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 ユーザー画像のフォルダを開きます。 的本地化字符串。
+        /// </summary>
+        internal static string Portrait_Menu_OpenImageFolder_ToolTip {
+            get {
+                return ResourceManager.GetString("Portrait_Menu_OpenImageFolder_ToolTip", resourceCulture);
             }
         }
         
@@ -7646,6 +7807,15 @@ namespace CeVIO.Editor.Properties {
         internal static string Portrait_Menu_ShowImageSetting {
             get {
                 return ResourceManager.GetString("Portrait_Menu_ShowImageSetting", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 オプションの画像設定を開きます。 的本地化字符串。
+        /// </summary>
+        internal static string Portrait_Menu_ShowImageSetting_ToolTip {
+            get {
+                return ResourceManager.GetString("Portrait_Menu_ShowImageSetting_ToolTip", resourceCulture);
             }
         }
         
@@ -8235,6 +8405,42 @@ namespace CeVIO.Editor.Properties {
         }
         
         /// <summary>
+        ///   查找类似 水平スクロール(Shift+ホイールで垂直) 的本地化字符串。
+        /// </summary>
+        internal static string PreferenceDialog_Ambient_WheelScrollingDirection_List_HorizontalBased {
+            get {
+                return ResourceManager.GetString("PreferenceDialog_Ambient_WheelScrollingDirection_List_HorizontalBased", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 垂直スクロール(Shift+ホイールで水平) 的本地化字符串。
+        /// </summary>
+        internal static string PreferenceDialog_Ambient_WheelScrollingDirection_List_VerticalBased {
+            get {
+                return ResourceManager.GetString("PreferenceDialog_Ambient_WheelScrollingDirection_List_VerticalBased", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 マウスホイール: 的本地化字符串。
+        /// </summary>
+        internal static string PreferenceDialog_Ambient_WheelScrollingDirection_Title {
+            get {
+                return ResourceManager.GetString("PreferenceDialog_Ambient_WheelScrollingDirection_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 タイムラインやピアノロールでのマウスホイールの動作。 的本地化字符串。
+        /// </summary>
+        internal static string PreferenceDialog_Ambient_WheelScrollingDirection_ToolTip {
+            get {
+                return ResourceManager.GetString("PreferenceDialog_Ambient_WheelScrollingDirection_ToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似  的本地化字符串。
         /// </summary>
         internal static string PreferenceDialog_OpenFolderButton_Title {
@@ -8339,6 +8545,24 @@ namespace CeVIO.Editor.Properties {
         internal static string PreferenceDialog_Song_DividesEnglishLyrics_ToolTip {
             get {
                 return ResourceManager.GetString("PreferenceDialog_Song_DividesEnglishLyrics_ToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 楽譜編集画面でタイミング調整 的本地化字符串。
+        /// </summary>
+        internal static string PreferenceDialog_Song_EditsTimingOnScoreView_Title {
+            get {
+                return ResourceManager.GetString("PreferenceDialog_Song_EditsTimingOnScoreView_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 楽譜編集画面の下段で音素単位のタイミング調整を行います。 的本地化字符串。
+        /// </summary>
+        internal static string PreferenceDialog_Song_EditsTimingOnScoreView_ToolTip {
+            get {
+                return ResourceManager.GetString("PreferenceDialog_Song_EditsTimingOnScoreView_ToolTip", resourceCulture);
             }
         }
         
@@ -9342,6 +9566,24 @@ namespace CeVIO.Editor.Properties {
         }
         
         /// <summary>
+        ///   查找类似 パラメータのみ貼り付け(_Q) 的本地化字符串。
+        /// </summary>
+        internal static string TalkEditor_Menu_ApplyAttributes {
+            get {
+                return ResourceManager.GetString("TalkEditor_Menu_ApplyAttributes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 大きさや速さ、感情などのパラメータのみ適用します。 的本地化字符串。
+        /// </summary>
+        internal static string TalkEditor_Menu_ApplyAttributes_ToolTip {
+            get {
+                return ResourceManager.GetString("TalkEditor_Menu_ApplyAttributes_ToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似  的本地化字符串。
         /// </summary>
         internal static string TalkEditor_Menu_AutoAlignment {
@@ -9936,6 +10178,24 @@ namespace CeVIO.Editor.Properties {
         }
         
         /// <summary>
+        ///   查找类似 読み指定カッコの挿入(B) 的本地化字符串。
+        /// </summary>
+        internal static string TalkEditor_TextBox_Menu_RubyBrackets {
+            get {
+                return ResourceManager.GetString("TalkEditor_TextBox_Menu_RubyBrackets", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 この位置にルビ記号《》を挿入します（文字選択時は先頭に｜）。 的本地化字符串。
+        /// </summary>
+        internal static string TalkEditor_TextBox_Menu_RubyBrackets_ToolTip {
+            get {
+                return ResourceManager.GetString("TalkEditor_TextBox_Menu_RubyBrackets_ToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似  的本地化字符串。
         /// </summary>
         internal static string Timeline_AddTrackButton_List_Title_Audio {
@@ -10517,6 +10777,25 @@ namespace CeVIO.Editor.Properties {
         internal static string TrackLane_Menu_AutoAlignmentForText_ToolTip {
             get {
                 return ResourceManager.GetString("TrackLane_Menu_AutoAlignmentForText_ToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 マルチトラック自動整列 的本地化字符串。
+        /// </summary>
+        internal static string TrackLane_Menu_AutoAlignsOtherTracksToo {
+            get {
+                return ResourceManager.GetString("TrackLane_Menu_AutoAlignsOtherTracksToo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 別トラックのセリフも重ならないようにします。
+        ///（オーディオの自動整列オンのときオーディオ要素も対象。） 的本地化字符串。
+        /// </summary>
+        internal static string TrackLane_Menu_AutoAlignsOtherTracksToo_ToolTip {
+            get {
+                return ResourceManager.GetString("TrackLane_Menu_AutoAlignsOtherTracksToo_ToolTip", resourceCulture);
             }
         }
         

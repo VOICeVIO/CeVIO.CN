@@ -3626,10 +3626,10 @@ Ulysses (wdwxy12345@gmail.com) from VOICeVIO</value>
     <comment>マルチトラック自動整列</comment>
   </data>
   <data name="PreferenceDialog_Talk_AutoAlignsOtherTracksToo_ToolTip" xml:space="preserve">
-    <value>使其他音轨的台词不会产生重叠。
-（启用“音频自动排列”时，会同时作用于音频元素。）</value>
-    <comment>別トラックのセリフも重ならないようにします。
-（オーディオの自動整列オンのときオーディオ要素も対象。）</comment>
+	  <value>使其他音轨的台词不会产生重叠。
+（启用“自动排列音频”时，会同时作用于音频元素。）</value>
+	  <comment>別トラックのセリフも重ならないようにします。
+		  （オーディオの自動整列オンのときオーディオ要素も対象。）</comment>
   </data>
   <data name="PreferenceDialog_Talk_CastColumnStyle_List_Image" xml:space="preserve">
     <value>画像</value>
@@ -4297,8 +4297,8 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>在此音轨之下增加一个语音音轨。</value>
   </data>
   <data name="TrackLane_Menu_AutoAlignmentForAudio" xml:space="preserve">
-    <value>音频自动排列(_A)</value>
-    <comment>オーディオの自動整列(_A)</comment>
+	  <value>自动排列音频(_A)</value>
+	  <comment>オーディオの自動整列(_A)</comment>
   </data>
   <data name="TrackLane_Menu_AutoAlignmentForAudio_ToolTip" xml:space="preserve">
     <value>自动防止音频元素互相重叠。</value>
@@ -4895,5 +4895,31 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
   </data>
   <data name="PreferenceDialog_Song_EditsTimingOnScoreView_ToolTip" xml:space="preserve">
 	  <value>在乐谱编辑界面的下侧显示时间(TMG)调整栏，可快速调整音素时间。</value>
+  </data>
+  <data name="Portrait_Menu_OpenImageFolder_ToolTip" xml:space="preserve">
+	  <value>打开用户自定义画像文件夹。</value>
+  </data>
+  <data name="MainMenu_Track_AutoAlignsOtherTracksToo_ToolTip" xml:space="preserve">
+	  <value>使其他音轨的台词不会产生重叠。
+（启用“音频自动排列”时，会同时作用于音频元素。）</value>
+  </data>
+  <data name="TrackLane_Menu_AutoAlignsOtherTracksToo" xml:space="preserve">
+	  <value>多音轨自动排列</value>
+  </data>
+  <data name="TrackLane_Menu_AutoAlignsOtherTracksToo_ToolTip" xml:space="preserve">
+	  <value>使其他音轨的台词不会产生重叠。
+（启用“自动排列音频”时，会同时作用于音频元素。）</value>
+  </data>
+  <data name="Portrait_Menu_ShowImageSetting_ToolTip" xml:space="preserve">
+	  <value>打开画像设置窗口。</value>
+  </data>
+  <data name="Portrait_Menu_Enlarges" xml:space="preserve">
+	  <value>扩大显示</value>
+  </data>
+  <data name="Portrait_Menu_Enlarges_ToolTip" xml:space="preserve">
+	  <value>在界面右侧显示画像栏。</value>
+  </data>
+  <data name="MainMenu_Track_AutoAlignsOtherTracksToo" xml:space="preserve">
+	  <value>多音轨自动排列</value>
   </data>
 </root>

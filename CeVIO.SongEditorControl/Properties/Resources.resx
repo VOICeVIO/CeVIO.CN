@@ -893,4 +893,12 @@
     <value>楽譜編集画面の下段で音素単位のタイミング調整を行う。</value>
     <comment>楽譜編集画面の下段で音素単位のタイミング調整を行う。</comment>
   </data>
+  <data name="PianoRollMenu_DividesEnglishLyrics" xml:space="preserve">
+    <value>英語歌詞の自動分割</value>
+    <comment>英語歌詞の自動分割</comment>
+  </data>
+  <data name="PianoRollMenu_DividesEnglishLyricsToolTip" xml:space="preserve">
+    <value>英語の歌詞入力時、1音符1音節に自動分割します。</value>
+    <comment>英語の歌詞入力時、1音符1音節に自動分割します。</comment>
+  </data>
 </root>

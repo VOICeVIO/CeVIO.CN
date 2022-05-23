@@ -4694,4 +4694,40 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <comment>{0} の期間限定ライセンスは終了したため、使用できません。
 製品版を購入して認証するか、このボイスをアンインストールしてください。</comment>
   </data>
+  <data name="Portrait_Menu_Enlarges_ToolTip" xml:space="preserve">
+    <value>右端全体に大きく表示します(高解像度用)。</value>
+    <comment>右端全体に大きく表示します(高解像度用)。</comment>
+  </data>
+  <data name="Portrait_Menu_ShowImageSetting_ToolTip" xml:space="preserve">
+    <value>オプションの画像設定を開きます。</value>
+    <comment>オプションの画像設定を開きます。</comment>
+  </data>
+  <data name="Portrait_Menu_Enlarges" xml:space="preserve">
+    <value>大きく表示</value>
+    <comment>大きく表示</comment>
+  </data>
+  <data name="TrackLane_Menu_AutoAlignsOtherTracksToo" xml:space="preserve">
+    <value>マルチトラック自動整列</value>
+    <comment>マルチトラック自動整列</comment>
+  </data>
+  <data name="TrackLane_Menu_AutoAlignsOtherTracksToo_ToolTip" xml:space="preserve">
+    <value>別トラックのセリフも重ならないようにします。
+（オーディオの自動整列オンのときオーディオ要素も対象。）</value>
+    <comment>別トラックのセリフも重ならないようにします。
+（オーディオの自動整列オンのときオーディオ要素も対象。）</comment>
+  </data>
+  <data name="Portrait_Menu_OpenImageFolder_ToolTip" xml:space="preserve">
+    <value>ユーザー画像のフォルダを開きます。</value>
+    <comment>ユーザー画像のフォルダを開きます。</comment>
+  </data>
+  <data name="MainMenu_Track_AutoAlignsOtherTracksToo_ToolTip" xml:space="preserve">
+    <value>別トラックのセリフも重ならないようにします。
+（オーディオの自動整列オンのときオーディオ要素も対象。）</value>
+    <comment>別トラックのセリフも重ならないようにします。
+（オーディオの自動整列オンのときオーディオ要素も対象。）</comment>
+  </data>
+  <data name="MainMenu_Track_AutoAlignsOtherTracksToo" xml:space="preserve">
+    <value>マルチトラック自動整列</value>
+    <comment>マルチトラック自動整列</comment>
+  </data>
 </root>

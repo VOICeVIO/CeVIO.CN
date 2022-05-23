@@ -212,8 +212,8 @@
     <value>撤销(_U)</value>
   </data>
   <data name="MidiImportChannelSelect" xml:space="preserve">
-    <value>此文件在1个音轨中包含所有的Channel。
-要将Channel分割到不同的音轨中吗？</value>
+	  <value>此文件在1个音轨中包含所有的通道(Channel)。
+要将通道(Channel)分割到不同的音轨中吗？</value>
   </data>
   <data name="LyricDialogCaption1" xml:space="preserve">
     <value>从开头的音符开始设置歌词。(最大</value>
@@ -669,5 +669,11 @@
   </data>
   <data name="PianoRollMenu_TimingEditOnScoreToolTip" xml:space="preserve">
 	  <value>在乐谱编辑界面的下侧显示时间(TMG)调整栏，可快速调整音素时间。</value>
+  </data>
+  <data name="PianoRollMenu_DividesEnglishLyrics" xml:space="preserve">
+	  <value>自动分割英语歌词</value>
+  </data>
+  <data name="PianoRollMenu_DividesEnglishLyricsToolTip" xml:space="preserve">
+	  <value>输入英语歌词时，按照1个音符对应1个音节的模式自动分配歌词。</value>
   </data>
 </root>
