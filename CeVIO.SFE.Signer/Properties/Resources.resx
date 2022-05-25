@@ -127,7 +127,7 @@
     <value>8.0.0.0</value>
   </data>
   <data name="CeVIO.SongEditorControl.resources.dll" xml:space="preserve">
-	  <value>8.2.7.1</value>
+	  <value>8.2.8.5</value>
   </data>
   <data name="CeVIO.TalkAnalyzeControl.resources.dll" xml:space="preserve">
 	  <value>8.2.5.2</value>
@@ -136,6 +136,6 @@
     <value>8.2.0.5</value>
   </data>
   <data name="CeVIO AI.resources.dll" xml:space="preserve">
-	  <value>8.2.8.0</value>
+	  <value>8.2.9.0</value>
   </data>
 </root>
