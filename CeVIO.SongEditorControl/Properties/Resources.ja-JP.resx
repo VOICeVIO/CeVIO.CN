@@ -671,7 +671,7 @@
 	  <value>感情</value>
   </data>
   <data name="PianoRollMenu_DividesEnglishLyrics" xml:space="preserve">
-	  <value>自动分割英语歌词</value>
+	  <value>自动分割英语歌词(_D)</value>
   </data>
   <data name="PianoRollMenu_DividesEnglishLyricsToolTip" xml:space="preserve">
 	  <value>输入英语歌词时，按照1个音符对应1个音节的模式自动分配歌词。</value>

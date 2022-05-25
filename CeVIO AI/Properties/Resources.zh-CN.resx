@@ -4904,7 +4904,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
 （启用“音频自动排列”时，会同时作用于音频元素。）</value>
   </data>
   <data name="TrackLane_Menu_AutoAlignsOtherTracksToo" xml:space="preserve">
-	  <value>多音轨自动排列</value>
+	  <value>多音轨自动排列(_U)</value>
   </data>
   <data name="TrackLane_Menu_AutoAlignsOtherTracksToo_ToolTip" xml:space="preserve">
 	  <value>使其他音轨的台词不会产生重叠。
