@@ -347,7 +347,7 @@
 双击编辑。拖拽移动。用画笔工具双击空白处添加。</value>
   </data>
   <data name="PianoRollMenu_OtherOperations" xml:space="preserve">
-    <value>其他操作</value>
+	  <value>其他操作(_O)</value><comment>No shortkey specified, could be O(ther)</comment>
   </data>
   <data name="PianoRollMenu_NotesOfOtherTracks" xml:space="preserve">
     <value>其他音轨的音符(_P)</value>
