@@ -599,7 +599,7 @@
 （不会显示已静音的音轨的音符。）</value>
   </data>
   <data name="BreathToolTip" xml:space="preserve">
-    <value>在这里喘气。</value>
+	  <value>在这里换气。</value>
   </data>
   <data name="PianoRollMenu_InsertMeasureToolTip" xml:space="preserve">
     <value>在指定的位置插入指定长度的小节。
