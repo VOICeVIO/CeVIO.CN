@@ -3268,13 +3268,13 @@ CeVIO Creative Studio最新バージョンをご確認ください。</comment>
     <value />
   </data>
   <data name="PreferenceDialog_Song_DividesEnglishLyrics_Title" xml:space="preserve">
-    <value />
-    <comment>英語ボイスの歌詞を音節で自動分割</comment>
+	  <value />
+	  <comment>英語の歌詞を音節で自動分割</comment>
   </data>
   <data name="PreferenceDialog_Song_DividesEnglishLyrics_ToolTip" xml:space="preserve">
-    <value />
-    <comment>英語ボイスの歌詞入力を、1音符1音節に自動分割します。
-(表記の分割位置は自動推定のため、正しくないことがあります。)</comment>
+	  <value />
+	  <comment>英語の歌詞入力時、1音符1音節に自動分割します。
+		  (表記の分割位置は自動推定のため、正しくないことがあります。)</comment>
   </data>
   <data name="PreferenceDialog_Song_FontSetting_Title" xml:space="preserve">
     <value />

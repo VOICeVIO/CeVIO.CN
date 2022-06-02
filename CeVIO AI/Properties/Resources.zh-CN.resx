@@ -3510,14 +3510,11 @@ Ulysses (wdwxy12345@gmail.com) from VOICeVIO</value>
     <value>参数将显示为0-100，而不是实际意义的值。（兼容旧版本）</value>
   </data>
   <data name="PreferenceDialog_Song_DividesEnglishLyrics_Title" xml:space="preserve">
-    <value>对英语声源自动分割歌词的音节</value>
-    <comment>英語ボイスの歌詞を音節で自動分割</comment>
+	  <value>自动分割英语歌词的音节</value>
   </data>
   <data name="PreferenceDialog_Song_DividesEnglishLyrics_ToolTip" xml:space="preserve">
-    <value>对英语声源输入歌词时，按照1音符1音节模式自动分割歌词。
+	  <value>输入英语歌词时，按照1个音符对应1个音节的模式自动分配歌词。
 (由于是自动推算，可能存在不准确的情况。)</value>
-    <comment>英語ボイスの歌詞入力を、1音符1音節に自動分割します。
-(表記の分割位置は自動推定のため、正しくないことがあります。)</comment>
   </data>
   <data name="PreferenceDialog_Song_FontSetting_Title" xml:space="preserve">
     <value>歌词的字体</value>
