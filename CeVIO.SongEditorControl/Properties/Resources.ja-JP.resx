@@ -532,7 +532,7 @@
     <value>要去除的空白的最大长度</value>
   </data>
   <data name="AuditionDisabledMessage" xml:space="preserve">
-    <value>已固定的音轨无法试听，请直接播放。</value>
+	  <value>已冻结的音轨无法试听，请直接播放。</value>
   </data>
   <data name="AdjustNotesLength" xml:space="preserve">
     <value>已修正音符位置。</value>

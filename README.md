@@ -16,7 +16,7 @@
 
 1. 从[发布页面](https://github.com/VOICeVIO/CeVIO.CN/releases)获取【安装器】（Installer），从[发布页面](https://github.com/VOICeVIO/CeVIO.CN/releases)或[CI页面](https://ci.appveyor.com/project/UlyssesWu/cevio-cn/build/artifacts)获取最新的【zh-CN汉化DLL】。
 2. 将所有文件及文件夹复制到CeVIO AI的安装目录。
-3. 运行CeVIO.CN.Installer.exe，按提示安装补丁。
+3. 运行CeVIO.CN.Installer.exe，按提示安装补丁。如果安装目录位于系统盘（C盘），则需要以管理员权限运行。
 
 若打开软件后为英语或日语，请到选项窗口将语言改为简体中文。
 

@@ -1528,7 +1528,7 @@
     <value>将当前选中的音轨删除。</value>
   </data>
   <data name="MainMenu_Track_Freeze" xml:space="preserve">
-    <value>固定音轨(_Z)</value>
+	  <value>冻结音轨(_Z)</value>
   </data>
   <data name="MainMenu_Track_Freeze_ToolTip" xml:space="preserve">
     <value>将选择的音轨锁定并预先生成音频，以减少播放时的合成运算。
@@ -1810,7 +1810,7 @@
     <value>文件将被覆盖，确定吗？</value>
   </data>
   <data name="Message_Confirm_FreezeTrack" xml:space="preserve">
-    <value>即将固定此音轨。确定吗？
+	  <value>即将冻结此音轨。确定吗？
 
 ※这将提前合成音轨，以缩短试听时的等待时间。
 ※当编辑音轨内容时会解除锁定。</value>
@@ -1862,9 +1862,9 @@
 上書きしますか？</comment>
   </data>
   <data name="Message_Confirm_Preference_ClearAudioFolder" xml:space="preserve">
-    <value>将清理音频文件夹。确定吗？
+	  <value>将清理音频文件夹。确定吗？
 
-※这将删除音轨固定及试听等所产生的临时文件。
+※这将删除音轨冻结及试听等所产生的临时文件。
 
 ※当前工程中正在使用的文件不会被删除。</value>
   </data>
@@ -1908,7 +1908,7 @@
     <value>要保存当前编辑的内容吗？</value>
   </data>
   <data name="Message_Confirm_UnfreezeTrack" xml:space="preserve">
-    <value>将解除音轨的固定状态。确定吗？</value>
+	  <value>将解除音轨的冻结状态。确定吗？</value>
   </data>
   <data name="Message_Error_Abort" xml:space="preserve">
     <value>因发生错误，处理已中断。</value>
@@ -1988,8 +1988,8 @@
     <comment>設定の書き出しに失敗しました。</comment>
   </data>
   <data name="Message_Error_FreezeTrack" xml:space="preserve">
-    <value>音轨固定失败。</value>
-    <comment>トラックの固定に失敗しました。</comment>
+	  <value>音轨冻结失败。</value>
+	  <comment>トラックの固定に失敗しました。</comment>
   </data>
   <data name="Message_Error_GenerateWaveformOfSong" xml:space="preserve">
     <value>歌唱波形生成失败。</value>
@@ -2205,8 +2205,8 @@
     <value>音频音轨最多有{0}个。</value>
   </data>
   <data name="Message_Information_CanNotFreezeEmptyTrack" xml:space="preserve">
-    <value>无法固定空音轨。</value>
-    <comment>内容が空のトラックは固定できません。</comment>
+	  <value>无法冻结空音轨。</value>
+	  <comment>内容が空のトラックは固定できません。</comment>
   </data>
   <data name="Message_Information_CastNotFound_AssignSubstitute" xml:space="preserve">
     <value>以下音轨的配音角色当前未安装或无法使用。将用别的角色来代替。</value>
@@ -2354,10 +2354,10 @@
     <comment>不要なタイ記号を削除しました。</comment>
   </data>
   <data name="Message_Information_UnfrozeAllSongTracks" xml:space="preserve">
-    <value>所有歌唱音轨的固定已被解除。</value>
+	  <value>所有歌唱音轨的冻结已被解除。</value>
   </data>
   <data name="Message_Information_UnfrozeTrack" xml:space="preserve">
-    <value>以下音轨的固定状态已解除。
+	  <value>以下音轨的冻结状态已解除。
 
 『{0}』</value>
   </data>
@@ -3295,13 +3295,13 @@ Ulysses (wdwxy12345@gmail.com) from VOICeVIO</value>
     <value>删除临时文件，以（暂时）减少硬盘空间使用量。</value>
   </data>
   <data name="PreferenceDialog_Ambient_AudioFolder_Input_ToolTip" xml:space="preserve">
-    <value>设置存放临时文件（如被固定的音轨等）的文件夹。</value>
+	  <value>设置存放临时文件（如被冻结的音轨等）的文件夹。</value>
   </data>
   <data name="PreferenceDialog_Ambient_AudioFolder_ReferenceButton_Title" xml:space="preserve">
     <value>浏览</value>
   </data>
   <data name="PreferenceDialog_Ambient_AudioFolder_ReferenceButton_ToolTip" xml:space="preserve">
-    <value>设置存放临时文件（如被固定的音轨等）的文件夹。</value>
+	  <value>设置存放临时文件（如被冻结的音轨等）的文件夹。</value>
   </data>
   <data name="PreferenceDialog_Ambient_AudioFolder_Title" xml:space="preserve">
     <value>音频缓存文件夹</value>
@@ -4146,10 +4146,10 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>角色: {0} [Shift+C]</value>
   </data>
   <data name="TrackHeader_FreezeButton_OFF_ToolTip" xml:space="preserve">
-    <value>固定此音轨</value>
+	  <value>冻结此音轨</value>
   </data>
   <data name="TrackHeader_FreezeButton_ON_ToolTip" xml:space="preserve">
-    <value>解除固定此音轨</value>
+	  <value>解除冻结此音轨</value>
   </data>
   <data name="TrackHeader_Menu_Add" xml:space="preserve">
     <value>添加音轨(_T)</value>
@@ -4215,7 +4215,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>在选中的音轨之下增加一个新音轨。</value>
   </data>
   <data name="TrackHeader_Menu_Freeze" xml:space="preserve">
-    <value>固定音轨(_Z)</value>
+	  <value>冻结音轨(_Z)</value>
   </data>
   <data name="TrackHeader_Menu_Freeze_ToolTip" xml:space="preserve">
     <value>将选择的音轨锁定并预先生成音频，以降低播放时的合成运算量。
@@ -4406,7 +4406,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>在选中的音轨之下增加一个新音轨。</value>
   </data>
   <data name="TrackLane_Menu_Freeze" xml:space="preserve">
-    <value>固定音轨(_Z)</value>
+	  <value>冻结音轨(_Z)</value>
   </data>
   <data name="TrackLane_Menu_Freeze_ToolTip" xml:space="preserve">
     <value>将选择的音轨锁定并预先生成音频，以降低播放时的合成运算量。
@@ -4815,7 +4815,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>没有符合搜索条件的项目。</value>
   </data>
   <data name="Message_Information_FreezingTalkUnits" xml:space="preserve">
-    <value>正在固定台词...</value>
+	  <value>正在冻结台词...</value>
   </data>
   <data name="MainMenu_Song_GuideLine_Timing_DetailLine" xml:space="preserve">
 	  <value>显示音素状态线(_I)</value>
