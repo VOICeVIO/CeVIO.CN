@@ -200,4 +200,16 @@ Ctrl+左键单击恢复初始值。</value>
   <data name="Menu_DividePhraseToolTip" xml:space="preserve">
     <value>从当前位置开始分离出一个单独的重音段。建议在重音调整（ACC）模式下操作。</value>
   </data>
+  <data name="Menu_PartialPlayback" xml:space="preserve">
+	  <value>调整部分自动试听</value>
+  </data>
+  <data name="Menu_PartialPlaybackToolTip" xml:space="preserve">
+	  <value>仅试听调整位置前后的部分。</value>
+  </data>
+  <data name="Menu_GraphPhonemesToolTip" xml:space="preserve">
+	  <value>在条形图上显示音素名。</value>
+  </data>
+  <data name="Menu_GraphPhonemes" xml:space="preserve">
+	  <value>在图中显示音素名(_G)</value>
+  </data>
 </root>

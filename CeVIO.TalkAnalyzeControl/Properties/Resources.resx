@@ -353,4 +353,20 @@ Ctrl+左クリックでリセット。</comment>
 </value>
     <comment>System.Byte[]</comment>
   </data>
+  <data name="Menu_PartialPlaybackToolTip" xml:space="preserve">
+    <value>調整位置の前後のポーズの区間を試聴します。</value>
+    <comment>調整位置の前後のポーズの区間を試聴します。</comment>
+  </data>
+  <data name="Menu_GraphPhonemesToolTip" xml:space="preserve">
+    <value>棒グラフの上部に音素名を表示します。</value>
+    <comment>棒グラフの上部に音素名を表示します。</comment>
+  </data>
+  <data name="Menu_GraphPhonemes" xml:space="preserve">
+    <value>グラフ内に音素名を表示(_G)</value>
+    <comment>グラフ内に音素名を表示(_G)</comment>
+  </data>
+  <data name="Menu_PartialPlayback" xml:space="preserve">
+    <value>自動試聴で部分再生</value>
+    <comment>自動試聴で部分再生</comment>
+  </data>
 </root>

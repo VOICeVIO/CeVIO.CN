@@ -676,4 +676,32 @@
   <data name="PianoRollMenu_DividesEnglishLyricsToolTip" xml:space="preserve">
 	  <value>输入英语歌词时，按照1个音符对应1个音节的模式自动分配歌词。</value>
   </data>
+  <data name="Accent" xml:space="preserve">
+	  <value>重音</value>
+  </data>
+  <data name="PianoRollMenuItem_Falsetto" xml:space="preserve">
+	  <value>假声</value>
+  </data>
+  <data name="PianoRollMenuItem_FalsettoToolTip" xml:space="preserve">
+	  <value>标记当前歌词使用假声。
+是否采用假声根据角色音域和当前音的高低来确定。</value>
+  </data>
+  <data name="PianoRollMenu_Attribute" xml:space="preserve">
+	  <value>发音属性(_S)</value>
+  </data>
+  <data name="PianoRollMenu_Audition" xml:space="preserve">
+	  <value>试听(_A)</value>
+  </data>
+  <data name="PianoRollMenu_MergeNotes" xml:space="preserve">
+	  <value>合并音符(_B)</value>
+  </data>
+  <data name="PianoRollMenu_MergeNotesToolTip" xml:space="preserve">
+	  <value>将选择范围内的音符合并为1个音符。</value>
+  </data>
+  <data name="PianoRollMenu_Slur" xml:space="preserve">
+	  <value>滑音(_S)</value>
+  </data>
+  <data name="Staccato" xml:space="preserve">
+	  <value>断音</value>
+  </data>
 </root>

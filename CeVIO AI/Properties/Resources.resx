@@ -3268,12 +3268,12 @@ CeVIO Creative Studio最新バージョンをご確認ください。</comment>
     <value />
   </data>
   <data name="PreferenceDialog_Song_DividesEnglishLyrics_Title" xml:space="preserve">
-	  <value />
-	  <comment>英語の歌詞を音節で自動分割</comment>
+    <value />
+    <comment>英語の歌詞を音節で自動分割</comment>
   </data>
   <data name="PreferenceDialog_Song_DividesEnglishLyrics_ToolTip" xml:space="preserve">
-	  <value />
-	  <comment>英語の歌詞入力時、1音符1音節に自動分割します。
+    <value />
+    <comment>英語の歌詞入力時、1音符1音節に自動分割します。
 		  (表記の分割位置は自動推定のため、正しくないことがあります。)</comment>
   </data>
   <data name="PreferenceDialog_Song_FontSetting_Title" xml:space="preserve">
@@ -4729,5 +4729,39 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
   <data name="MainMenu_Track_AutoAlignsOtherTracksToo" xml:space="preserve">
     <value>マルチトラック自動整列</value>
     <comment>マルチトラック自動整列</comment>
+  </data>
+  <data name="PreferenceDialog_Ambient_WaveOutputFormat_BitDepth_Title" xml:space="preserve">
+    <value>ビット深度:</value>
+    <comment>ビット深度:</comment>
+  </data>
+  <data name="PreferenceDialog_Ambient_WaveOutputFormat_Title" xml:space="preserve">
+    <value>WAV書き出しの形式</value>
+    <comment>WAV書き出しの形式</comment>
+  </data>
+  <data name="PreferenceDialog_Ambient_WaveOutputFormat_BitDepth_ToolTip" xml:space="preserve">
+    <value>現在、ミックスダウンは16bit固定です。</value>
+    <comment>現在、ミックスダウンは16bit固定です。</comment>
+  </data>
+  <data name="Dialog_FileFilter_SubtitleFile_Import" xml:space="preserve">
+    <value>すべての字幕ファイル|*.srt;*.sbv|SubRipファイル|*.srt|SubViewerファイル|*.sbv</value>
+    <comment>すべての字幕ファイル|*.srt;*.sbv|SubRipファイル|*.srt|SubViewerファイル|*.sbv</comment>
+  </data>
+  <data name="Dialog_FileFilter_MusicXMLFile_Import" xml:space="preserve">
+    <value>すべてのMusicXMLファイル|*.xml;*.musicxml|MusicXMLファイル|*.xml|MusicXMLファイル|*.musicxml</value>
+    <comment>すべてのMusicXMLファイル|*.xml;*.musicxml|MusicXMLファイル|*.xml|MusicXMLファイル|*.musicxml</comment>
+  </data>
+  <data name="TrackLane_Menu_AutoAlignsOtherTracksToo_Audio_ToolTip" xml:space="preserve">
+    <value>別トラックのオーディオも重ならないようにします。
+（セリフの自動整列オンのときセリフも対象。）</value>
+    <comment>別トラックのオーディオも重ならないようにします。
+（セリフの自動整列オンのときセリフも対象。）</comment>
+  </data>
+  <data name="Dialog_FileFilter_TextOrCSVFile_Import" xml:space="preserve">
+    <value>すべてのテキストファイル|*.txt;*.csv|テキストファイル|*.txt|カンマ区切りテキストファイル|*.csv</value>
+    <comment>すべてのテキストファイル|*.txt;*.csv|テキストファイル|*.txt|カンマ区切りテキストファイル|*.csv</comment>
+  </data>
+  <data name="Dialog_FileFilter_MidiFile_Import" xml:space="preserve">
+    <value>すべてのMIDIファイル|*.mid;*.midi|Standard MIDIファイル|*.mid|Standard MIDIファイル|*.midi</value>
+    <comment>すべてのMIDIファイル|*.mid;*.midi|Standard MIDIファイル|*.mid|Standard MIDIファイル|*.midi</comment>
   </data>
 </root>
