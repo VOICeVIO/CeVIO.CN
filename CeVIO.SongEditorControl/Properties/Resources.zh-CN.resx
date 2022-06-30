@@ -699,7 +699,7 @@
 	  <value>将选择范围内的音符合并为1个音符。</value>
   </data>
   <data name="PianoRollMenu_Slur" xml:space="preserve">
-	  <value>滑音(_S)</value>
+	  <value>连音(_S)</value>
   </data>
   <data name="Staccato" xml:space="preserve">
 	  <value>断音</value>
