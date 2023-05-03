@@ -19,7 +19,7 @@ namespace CeVIO.TalkAnalyzeControl.Properties {
     // 类通过类似于 ResGen 或 Visual Studio 的工具自动生成的。
     // 若要添加或移除成员，请编辑 .ResX 文件，然后重新运行 ResGen
     // (以 /str 作为命令选项)，或重新生成 VS 项目。
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -57,6 +57,279 @@ namespace CeVIO.TalkAnalyzeControl.Properties {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string AccentButtonToolTip {
+            get {
+                return ResourceManager.GetString("AccentButtonToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] Bind {
+            get {
+                object obj = ResourceManager.GetObject("Bind", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] Eraser {
+            get {
+                object obj = ResourceManager.GetObject("Eraser", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Menu_Audition {
+            get {
+                return ResourceManager.GetString("Menu_Audition", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Menu_AuditionToolTip {
+            get {
+                return ResourceManager.GetString("Menu_AuditionToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Menu_CombinePhrase {
+            get {
+                return ResourceManager.GetString("Menu_CombinePhrase", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Menu_CombinePhraseToolTip {
+            get {
+                return ResourceManager.GetString("Menu_CombinePhraseToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Menu_DividePhrase {
+            get {
+                return ResourceManager.GetString("Menu_DividePhrase", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Menu_DividePhraseToolTip {
+            get {
+                return ResourceManager.GetString("Menu_DividePhraseToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 グラフ内に音素名を表示(_G) 的本地化字符串。
+        /// </summary>
+        internal static string Menu_GraphPhonemes {
+            get {
+                return ResourceManager.GetString("Menu_GraphPhonemes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 棒グラフの上部に音素名を表示します。 的本地化字符串。
+        /// </summary>
+        internal static string Menu_GraphPhonemesToolTip {
+            get {
+                return ResourceManager.GetString("Menu_GraphPhonemesToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Menu_Mode {
+            get {
+                return ResourceManager.GetString("Menu_Mode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Menu_Mode_Accent {
+            get {
+                return ResourceManager.GetString("Menu_Mode_Accent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Menu_Mode_Duration {
+            get {
+                return ResourceManager.GetString("Menu_Mode_Duration", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Menu_Mode_Pitch {
+            get {
+                return ResourceManager.GetString("Menu_Mode_Pitch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Menu_Mode_Volume {
+            get {
+                return ResourceManager.GetString("Menu_Mode_Volume", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Menu_OverlayDuration {
+            get {
+                return ResourceManager.GetString("Menu_OverlayDuration", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Menu_OverlayDurationToolTip {
+            get {
+                return ResourceManager.GetString("Menu_OverlayDurationToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 自動試聴で部分再生 的本地化字符串。
+        /// </summary>
+        internal static string Menu_PartialPlayback {
+            get {
+                return ResourceManager.GetString("Menu_PartialPlayback", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 調整位置の前後のポーズの区間を試聴します。 的本地化字符串。
+        /// </summary>
+        internal static string Menu_PartialPlaybackToolTip {
+            get {
+                return ResourceManager.GetString("Menu_PartialPlaybackToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Menu_PhonemeMode {
+            get {
+                return ResourceManager.GetString("Menu_PhonemeMode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Menu_PhonemeModeToolTip {
+            get {
+                return ResourceManager.GetString("Menu_PhonemeModeToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Menu_Reset {
+            get {
+                return ResourceManager.GetString("Menu_Reset", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string Menu_ResetToolTip {
+            get {
+                return ResourceManager.GetString("Menu_ResetToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PitchButtonToolTip {
+            get {
+                return ResourceManager.GetString("PitchButtonToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string PitchButtonToolTip2 {
+            get {
+                return ResourceManager.GetString("PitchButtonToolTip2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] Scissors {
+            get {
+                object obj = ResourceManager.GetObject("Scissors", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string SpeedButtonToolTip {
+            get {
+                return ResourceManager.GetString("SpeedButtonToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string VolumeButtonToolTip {
+            get {
+                return ResourceManager.GetString("VolumeButtonToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  的本地化字符串。
+        /// </summary>
+        internal static string VolumeButtonToolTip2 {
+            get {
+                return ResourceManager.GetString("VolumeButtonToolTip2", resourceCulture);
             }
         }
     }

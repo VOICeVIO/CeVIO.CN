@@ -170,7 +170,7 @@
     <comment>Activate Purchased Items</comment>
   </data>
   <data name="AdvertisementDialog_NeverNotifiesAnymoreSwitch_Title" xml:space="preserve">
-    <value>今后，不再显示此通知</value>
+    <value>以后不再显示此通知</value>
   </data>
   <data name="CastImageMappingDialog_CastList_Title" xml:space="preserve">
     <value>配音角色</value>
@@ -231,7 +231,7 @@
     <value>导出歌唱WAV文件</value>
   </data>
   <data name="Dialog_Extension_NeverNotifiesAnymoreSwitch_Title" xml:space="preserve">
-    <value>今后，此信息将不再显示</value>
+    <value>以后不再显示此信息</value>
     <comment>今後、このメッセージを表示しない</comment>
   </data>
   <data name="Dialog_Extension_NeverNotifiesAnymoreSwitch_ToolTip" xml:space="preserve">
@@ -698,13 +698,15 @@
     <value>导出语音部分为WAV音频文件(_W)...</value>
   </data>
   <data name="MainMenu_File_Export_WaveformForEachText_ToolTip" xml:space="preserve">
-    <value>将选择的语音音轨导出为WAV格式（mono 48kHz 16bit）音频。</value>
+    <value>将选择的语音音轨导出为单声道WAV格式音频。
+可以在选项中指定采样率和比特深度。</value>
   </data>
   <data name="MainMenu_File_Export_WaveformOfSong" xml:space="preserve">
     <value>导出歌唱部分为WAV音频文件(_S)...</value>
   </data>
   <data name="MainMenu_File_Export_WaveformOfSong_ToolTip" xml:space="preserve">
-    <value>将选择的歌唱音轨导出为WAV格式(mono 48kHz 16bit)音频。</value>
+    <value>将选择的歌唱音轨导出为单声道WAV格式音频。
+可以在选项中指定采样率和比特深度。</value>
   </data>
   <data name="MainMenu_File_Import" xml:space="preserve">
     <value>导入(_I)</value>
@@ -1745,7 +1747,7 @@
     <value>Shift+F11</value>
   </data>
   <data name="MainMenu_View_Portrait_ToolTip" xml:space="preserve">
-    <value>只显示一个人物画像，通过右键菜单进行播放。</value>
+    <value>隐藏编辑页面，只显示角色画像，通过右键菜单进行播放。</value>
   </data>
   <data name="MainMenu_View_Widen" xml:space="preserve">
     <value>全屏(_M)</value>
@@ -2243,8 +2245,8 @@
     <comment>アップデート確認を行う際は、インターネットに接続してください。</comment>
   </data>
   <data name="Message_Information_CheckVCRuntimeLibrary_NotInstalled" xml:space="preserve">
-    <value>缺乏启动本程序必要的系统库（VC++）。
-请下载并安装“vc_redist.x64.exe”。</value>
+    <value>缺少启动本程序必要的系统库（VC++）。
+请从微软的支持页面下载并安装“vc_redist.x64.exe”。</value>
     <comment>起動に必要なライブラリ（補助プログラム）が不足しています。
 マイクロソフト社のサポートページから「vc_redist.x64.exe」
 をダウンロードして実行してください。</comment>
@@ -2280,7 +2282,7 @@
     <comment>英語トークボイスのセリフには、半角英数以外の文字を含む貼り付けはできません。</comment>
   </data>
   <data name="Message_Information_LatestVersion" xml:space="preserve">
-    <value>当前您使用的版本是最新的。</value>
+    <value>您当前使用的是最新版本。</value>
   </data>
   <data name="Message_Information_LoadingText" xml:space="preserve">
     <value>正在读取台词文本...</value>
@@ -2533,11 +2535,14 @@ http://cevio.jp/</value>
 http://cevio.jp/</comment>
   </data>
   <data name="Message_License_Error_ClearAllLicenses" xml:space="preserve">
-    <value>解除产品认证失败。</value>
+    <value>解除产品认证失败。
+请从下述页面下载并运行 "CeVIOCleaner.exe"。
+
+{0}</value>
     <comment>ライセンスの解除に失敗しました。</comment>
   </data>
   <data name="Message_License_Error_ProductTrial_Authorization" xml:space="preserve">
-    <value>体验版声源认证时发生了错误。</value>
+    <value>认证体验版声源时发生了错误。</value>
   </data>
   <data name="Message_License_Error_ProxyServer" xml:space="preserve">
     <value>代理服务器认证时发生了错误。</value>
@@ -2732,7 +2737,7 @@ http://cevio.jp/
     <value>许可认证时服务器产生了错误，因此将离线启动。</value>
   </data>
   <data name="Message_License_Warning_ProductNotFoundForProductKey" xml:space="preserve">
-    <value>输入的序列号对应的声库还没有安装。
+    <value>输入的序列号对应的声库尚未安装。
 请按照购买声库的说明先安装声库。</value>
   </data>
   <data name="Message_License_Warning_ProductNotFound_Download" xml:space="preserve">
@@ -2774,8 +2779,8 @@ http://cevio.jp/</value>
 要认证并使用制品版，请重启本程序。</value>
   </data>
   <data name="Message_PeriodicLicenseCheck2" xml:space="preserve">
-    <value>体验版已到期，因此将结束应用程序。
-要继续使用，则需要购买并激活产品。</value>
+    <value>体验版已到期，因此应用程序将被终止。
+要继续使用，则需购买并激活产品。</value>
   </data>
   <data name="Message_PeriodicLicenseCheck3" xml:space="preserve">
     <value>PC的软硬件配置变更次数已超过限制，必须联网才能继续使用。
@@ -2953,7 +2958,7 @@ B.当前系统的区域设置不兼容。
   </data>
   <data name="Message_Warning_UnavailableOnCurrent" xml:space="preserve">
     <value>【{0}】不能在当前版本中使用。
-请使用CeVIO的最新版本。</value>
+请使用CeVIO AI的最新版本。</value>
     <comment>【{0}】は現在のバージョンではご利用になれません。
 CeVIO Creative Studio最新バージョンをご確認ください。</comment>
   </data>
@@ -3286,7 +3291,7 @@ Ulysses (wdwxy12345@gmail.com) from VOICeVIO</value>
     <value>Shift+F11</value>
   </data>
   <data name="Portrait_Menu_ViewMode_PortraitOnly_ToolTip" xml:space="preserve">
-    <value>只显示一个人物画像，通过右键菜单进行播放。</value>
+    <value>隐藏编辑页面，只显示角色画像，通过右键菜单进行播放。</value>
   </data>
   <data name="PreferenceDialog_Ambient_AudioFolder_ClearButton_Title" xml:space="preserve">
     <value>清空</value>
@@ -3354,7 +3359,7 @@ Ulysses (wdwxy12345@gmail.com) from VOICeVIO</value>
     <value>在右侧显示画像边栏(适合大屏幕)。</value>
   </data>
   <data name="PreferenceDialog_Ambient_Image_ImageSelector_Title" xml:space="preserve">
-    <value>选择右侧显示的画像。</value>
+    <value>选择右侧显示的画像：</value>
   </data>
   <data name="PreferenceDialog_Ambient_Image_ImageSelector_ToolTip" xml:space="preserve">
     <value>点击选择画像
@@ -3493,7 +3498,7 @@ Ulysses (wdwxy12345@gmail.com) from VOICeVIO</value>
     <value>如果取消勾选，则总是以[C大调]为基准显示默认歌词。</value>
   </data>
   <data name="PreferenceDialog_Song_DefaultLyric_Title" xml:space="preserve">
-    <value>默认的歌词</value>
+    <value>默认的歌词：</value>
     <comment>既定の歌詞</comment>
   </data>
   <data name="PreferenceDialog_Song_DefaultLyric_ToolTip" xml:space="preserve">
@@ -3571,7 +3576,7 @@ Ulysses (wdwxy12345@gmail.com) from VOICeVIO</value>
     <value>彩虹</value>
   </data>
   <data name="PreferenceDialog_Song_PianoRollColorScheme_Score_List_Simple_Title" xml:space="preserve">
-    <value>Vocaloid</value>
+    <value>简约</value>
   </data>
   <data name="PreferenceDialog_Song_PianoRollColorScheme_Score_Title" xml:space="preserve">
     <value>乐谱编辑界面</value>
@@ -3754,7 +3759,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>文本文件的编码</value>
   </data>
   <data name="PreferenceDialog_Talk_TextFileEncoding_Write_Title" xml:space="preserve">
-    <value>导出</value>
+    <value>导出：</value>
   </data>
   <data name="PreferenceDialog_Talk_Title" xml:space="preserve">
     <value>语音设定</value>
@@ -3803,9 +3808,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>没有可以使用的声源。请进行声源许可验证。</value>
   </data>
   <data name="RuntimeActivationDialog_InputKey_Description" xml:space="preserve">
-    <value>请输入已购买产品的序列号。
-　※下载版产品的序列号请查阅购买时的邮件。
-　※实体包装版「ONE」的序列号位于包装打开后的右上角。</value>
+    <value>请输入已购买产品的序列号。</value>
     <comment>ご購入された製品のシリアルナンバーを入力してください。
 　※ダウンロード版はご購入時のメールを確認してください。
 　※パッケージ版「ONE」は、パッケージを開いた右上に記載。</comment>
@@ -3935,7 +3938,8 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>Ctrl+W</value>
   </data>
   <data name="TalkEditor_Menu_ExportWaveform_ToolTip" xml:space="preserve">
-    <value>将选中的台词以单声道WAV(48kHz 16bit)形式导出。</value>
+    <value>将选中的台词以单声道WAV形式导出。
+可以在选项中指定采样率和比特深度。</value>
   </data>
   <data name="TalkEditor_Menu_InputContinuously" xml:space="preserve">
     <value>连续输入台词(_F)</value>
@@ -4071,7 +4075,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>试听/停止 [Shift+Space]</value>
   </data>
   <data name="TalkEditor_PresetSelector_AddItem_Title" xml:space="preserve">
-    <value>(添加)</value>
+    <value>(保存)</value>
   </data>
   <data name="TalkEditor_PresetSelector_Title" xml:space="preserve">
 	  <value>预设</value>
@@ -4382,13 +4386,15 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>导出每个片段的WAV(_W)...</value>
   </data>
   <data name="TrackLane_Menu_Export_WaveformForEachText_ToolTip" xml:space="preserve">
-    <value>将此音轨的所有片段分别输出为WAV格式（mono 48kHz 16bit）音频。</value>
+    <value>将此音轨的所有片段分别输出为单声道WAV格式音频。
+可以在选项中指定采样率和比特深度。</value>
   </data>
   <data name="TrackLane_Menu_Export_Waveform_InputGesture" xml:space="preserve">
     <value>Ctrl+W</value>
   </data>
   <data name="TrackLane_Menu_Export_Waveform_ToolTip" xml:space="preserve">
-    <value>将此内容输出为WAV格式（mono 48kHz 16bit）音频。</value>
+    <value>将此内容输出为单声道WAV格式音频。
+可以在选项中指定采样率和比特深度。</value>
   </data>
   <data name="TrackLane_Menu_Extra_AddAudio" xml:space="preserve">
     <value>添加音频音轨(_A)</value>
@@ -4570,7 +4576,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>取消全选</value>
   </data>
   <data name="TrackSelectionDialog_TargetTracks_ViewSwitch_Title" xml:space="preserve">
-    <value>不显示不适用的音轨</value>
+    <value>隐藏不适用的音轨</value>
   </data>
   <data name="TrackSelectionDialog_TrackList_Title" xml:space="preserve">
     <value>音轨一览</value>
@@ -4943,5 +4949,139 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
   <data name="TrackLane_Menu_AutoAlignsOtherTracksToo_Audio_ToolTip" xml:space="preserve">
 	  <value>使其他音轨的台词不会产生重叠。
 （启用“自动排列台词”时，会同时作用于语音元素。）</value>
+  </data>
+  <data name="PhraseClipDialog_OverwriteNotice_RegisterButton_Title" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="UpdateAnnounceDialog_ShowHelpButton2_Title" xml:space="preserve">
+    <value>详细 / 手动更新</value>
+  </data>
+  <data name="PreferenceDialog_Ambient_WaveOutputFormat_SampleRate_ToolTip" xml:space="preserve">
+    <value>目前，混音的位深度固定为48bit。</value>
+  </data>
+  <data name="CastReorderDialog_SortingMethod_Title" xml:space="preserve">
+    <value>现在的顺序：</value>
+  </data>
+  <data name="CastReorderDialog_Description" xml:space="preserve">
+    <value>可以通过拖拽改变项目的顺序。</value>
+  </data>
+  <data name="Message_Warning_CannotOutputWaveFileOnOffline" xml:space="preserve">
+    <value>由于处于脱机状态，目前无法导出WAV。
+请连接到互联网并重新启动应用程序。</value>
+  </data>
+  <data name="Message_Warning_TracksAreNotFreezableOnOffline" xml:space="preserve">
+    <value>由于处于脱机状态，目前无法冻结音轨。
+请连接到互联网并重新启动应用程序。</value>
+  </data>
+  <data name="Message_License_Confirm_CannotOutputWaveFileOnOffline" xml:space="preserve">
+    <value>由于处于脱机状态，目前无法导出WAV。
+是否要连接到互联网以检查许可证？</value>
+  </data>
+  <data name="MainMenu_Help_Trial" xml:space="preserve">
+    <value>体验版(_T)</value>
+  </data>
+  <data name="TalkEditor_Menu_BringPlaybackCursorHere" xml:space="preserve">
+    <value>从这里开始播放</value>
+  </data>
+  <data name="PreferenceDialog_Ambient_Image_CastDisplayOrderSettingButton_Title" xml:space="preserve">
+    <value>角色显示顺序设置</value>
+  </data>
+  <data name="MainMenu_Song_GuideLine_Timing_DetailLine_InputGesture" xml:space="preserve">
+    <value>Ctrl+I</value>
+  </data>
+  <data name="MainMenu_Song_EditMode_Overlay_Volume_InputGesture" xml:space="preserve">
+    <value>Shift+3</value>
+  </data>
+  <data name="CastReorderDialog_SongCastList_Title" xml:space="preserve">
+    <value>歌唱角色</value>
+  </data>
+  <data name="MainMenu_Song_EditMode_Overlay_Timing_InputGesture" xml:space="preserve">
+    <value>Shift+2</value>
+  </data>
+  <data name="MainMenu_Song_EditMode_Overlay_Vibrato_Frequency_InputGesture" xml:space="preserve">
+    <value>Shift+6</value>
+  </data>
+  <data name="MainMenu_Help_Trial_ToolTip" xml:space="preserve">
+    <value>免费试用「铃木梓梓弥 歌唱声源」。</value>
+  </data>
+  <data name="TalkEditor_Menu_BringPlaybackCursorHere_InputGesture" xml:space="preserve">
+    <value>F5</value>
+  </data>
+  <data name="MainMenu_Song_EditMode_Overlay_Pitch_InputGesture" xml:space="preserve">
+    <value>Shift+4</value>
+  </data>
+  <data name="MainMenu_Song_EditMode_Overlay_Vibrato_Amplitude_InputGesture" xml:space="preserve">
+    <value>Shift+5</value>
+  </data>
+  <data name="MainMenu_Song_EditMode_Overlay_Alpha_InputGesture" xml:space="preserve">
+    <value>Shift+7</value>
+  </data>
+  <data name="CastReorderDialog_SortingMethod_List_InstallationDateOrder" xml:space="preserve">
+    <value>安装时间顺序</value>
+  </data>
+  <data name="CastReorderDialog_SortingMethod_List_CustomOrder" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="CastReorderDialog_Title" xml:space="preserve">
+    <value>角色显示顺序设置</value>
+  </data>
+  <data name="PhraseClipDialog_OverwriteNotice_CancelButton_Title" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="TalkEditor_Menu_BringPlaybackCursorHere_ToolTip" xml:space="preserve">
+    <value>从这句台词开始播放。</value>
+  </data>
+  <data name="PreferenceDialog_Ambient_WaveOutputFormat_SampleRate_Title" xml:space="preserve">
+    <value>采样率：</value>
+  </data>
+  <data name="CastReorderDialog_TalkCastList_Title" xml:space="preserve">
+    <value>语音角色</value>
+  </data>
+  <data name="MainMenu_Song_CommonizeKeySignatures" xml:space="preserve">
+    <value>全轨道共用调号(_K)</value>
+  </data>
+  <data name="MainMenu_Song_CommonizeKeySignatures_ToolTip" xml:space="preserve">
+    <value>同步所有歌曲轨道的调号（Key）设置。
+该设置只会应用于当前项目。</value>
+  </data>
+  <data name="CastReorderDialog_SortingMethod_List_Default" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="PhraseClipDialog_OverwriteNotice_Message" xml:space="preserve">
+    <value>已注册了标记相同的台词。</value>
+  </data>
+  <data name="PhraseClipDialog_OverwriteNotice_OverwriteButton_Title" xml:space="preserve">
+    <value>导出</value>
+  </data>
+  <data name="Message_Information_LimitedTrial_After" xml:space="preserve">
+    <value>「铃木梓梓弥 歌唱声源」的免费试用期已经结束。</value>
+  </data>
+  <data name="CastReorderDialog_SortingMethod_List_NameOrder" xml:space="preserve">
+    <value>名称顺序</value>
+  </data>
+  <data name="Message_License_Error_CouldNotGetProductKeyForTrial" xml:space="preserve">
+    <value>体验版认证失败。
+请稍后再试。</value>
+  </data>
+  <data name="RuntimeActivationDialog_InputKey_Description2" xml:space="preserve">
+    <value>　※对于实体版，可以在随附的卡片、手册或包装上找到。
+　※对于下载版，请查阅您购买时收到的电子邮件。</value>
+  </data>
+  <data name="Message_Information_LimitedTrial_RequiresSongEditor" xml:space="preserve">
+    <value>如果已购买并激活了「CeVIO AI 歌唱编辑器」，
+则可以免费试用「铃木梓梓弥 歌唱声源」，无任何功能限制。</value>
+  </data>
+  <data name="Message_Confirm_LimitedTrial_StartNow" xml:space="preserve">
+    <value>要开始免费试用「铃木梓梓弥 歌唱声源」吗？
+9月16日之前可以免费试用，无任何功能限制。</value>
+  </data>
+  <data name="Message_Information_LimitedTrial_Before" xml:space="preserve">
+    <value>「铃木梓梓弥 歌唱声源」的免费试用将于8月5日中午12时开始。</value>
+  </data>
+  <data name="Message_Information_LimitedTrial_AlreadyRegistered" xml:space="preserve">
+    <value>已激活「铃木梓梓弥 歌唱声源」。</value>
+  </data>
+  <data name="PreferenceDialog_Ambient_Image_CastDisplayOrderSettingButton_ToolTip" xml:space="preserve">
+    <value>变更诸如「添加音轨」「版本信息」等的角色排列顺序。</value>
   </data>
 </root>
