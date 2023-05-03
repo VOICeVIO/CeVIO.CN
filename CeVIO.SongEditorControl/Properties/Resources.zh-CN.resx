@@ -428,7 +428,7 @@
     <value>删除小节(_X)...</value>
   </data>
   <data name="PianoRollMenu_PropertiesToolTip" xml:space="preserve">
-    <value>设置音符的详细属性，包括呼吸和连音。
+    <value>设置音符的详细属性。
 选中多个音符可同时设置。数值可用+-来指定相对值。</value>
   </data>
   <data name="PianoRollMenu_Mode_Timing" xml:space="preserve">
@@ -683,7 +683,7 @@
 	  <value>假声</value>
   </data>
   <data name="PianoRollMenuItem_FalsettoToolTip" xml:space="preserve">
-	  <value>标记当前歌词使用假声。
+	  <value>标记当前歌词使用假声演唱。
 是否采用假声根据角色音域和当前音的高低来确定。</value>
   </data>
   <data name="PianoRollMenu_Attribute" xml:space="preserve">
@@ -703,5 +703,204 @@
   </data>
   <data name="Staccato" xml:space="preserve">
 	  <value>断音</value>
+  </data>
+  <data name="AlpLine" xml:space="preserve">
+    <value>音色(ALP)线</value>
+  </data>
+  <data name="MenuPasteLyrics" xml:space="preserve">
+    <value>仅粘贴歌词</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>恢复到默认设置</value>
+  </data>
+  <data name="PianoRollMenu_View_ColorSetting" xml:space="preserve">
+    <value>颜色设定</value>
+  </data>
+  <data name="ResetColorsMessageText" xml:space="preserve">
+    <value>要放弃当前的配色方案，恢复到默认设定吗？</value>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolRolledTongue" xml:space="preserve">
+    <value>卷舌</value>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolHelpToolTip" xml:space="preserve">
+    <value>显示特殊符号的说明页。</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="VoiceHusky" xml:space="preserve">
+    <value>沙哑度</value>
+  </data>
+  <data name="VifLine" xml:space="preserve">
+    <value>颤音周期(VIF)线</value>
+  </data>
+  <data name="ViaLine" xml:space="preserve">
+    <value>颤音振幅(VIA)线</value>
+  </data>
+  <data name="Overlay" xml:space="preserve">
+    <value>叠加显示的不透明度</value>
+  </data>
+  <data name="MenuExactCopy" xml:space="preserve">
+    <value>混合复制(_M)</value>
+  </data>
+  <data name="PianoRollMenu_SlurEnd" xml:space="preserve">
+    <value>连音结束(_E)</value>
+  </data>
+  <data name="PianoRollMenu_CommonKeysToolTip" xml:space="preserve">
+    <value>同步所有歌曲轨道的调号（Key）设置。
+每个项目的设置是独立的。</value>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolToolTip" xml:space="preserve">
+    <value>为歌词设置歌唱特征符号。
+由于各式各样的因素，也会有特征不出现的情况。</value>
+  </data>
+  <data name="VoicePitchShiftToolTip" xml:space="preserve">
+    <value>以440Hz为基准偏移导出的声音的音高。</value>
+  </data>
+  <data name="Message_Error_ShowHelp" xml:space="preserve">
+    <value>无法访问网站。
+请检查您的互联网连接和默认浏览器设置。</value>
+  </data>
+  <data name="PianoRollMenu_ResetAdjustments" xml:space="preserve">
+    <value>重置调整(_X)</value>
+  </data>
+  <data name="AdjustedLine" xml:space="preserve">
+    <value>调整后的线</value>
+  </data>
+  <data name="VoicePitchShift" xml:space="preserve">
+    <value>音高偏移</value>
+  </data>
+  <data name="DefaultPhonemeLine" xml:space="preserve">
+    <value>音素线</value>
+  </data>
+  <data name="AdjustedPhonemeLine" xml:space="preserve">
+    <value>调整后的音素线</value>
+  </data>
+  <data name="VolLine" xml:space="preserve">
+    <value>音量(VOL)线</value>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolTrembling" xml:space="preserve">
+    <value>颤音</value>
+  </data>
+  <data name="PianoRollMenu_Staccato" xml:space="preserve">
+    <value>断音</value>
+  </data>
+  <data name="PianoRollMenu_View_ColorSettingToolTip" xml:space="preserve">
+    <value>可以修改参数调整页面的线条颜色。</value>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolHelp" xml:space="preserve">
+    <value>特殊符号的帮助(_H)</value>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolRelax" xml:space="preserve">
+    <value>放松</value>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolRaise" xml:space="preserve">
+    <value>音高跳跃</value>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolHusky" xml:space="preserve">
+    <value>嘶哑</value>
+  </data>
+  <data name="ColorSettingDialogTitle" xml:space="preserve">
+    <value>颜色设置</value>
+  </data>
+  <data name="Falsetto" xml:space="preserve">
+    <value>假声</value>
+  </data>
+  <data name="PianoRollMenu_Accent" xml:space="preserve">
+    <value>重音</value>
+  </data>
+  <data name="PitLine" xml:space="preserve">
+    <value>音高(PIT)线</value>
+  </data>
+  <data name="PianoRollMenu_CommonKeys" xml:space="preserve">
+    <value>全轨道共用调号</value>
+  </data>
+  <data name="PianoRollMenu_Breath" xml:space="preserve">
+    <value>呼吸(_B)</value>
+  </data>
+  <data name="PianoRollMenu_SlurBegin" xml:space="preserve">
+    <value>连音开始(_O)</value>
+  </data>
+  <data name="Confirmation" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="VoiceAlphaToolTip" xml:space="preserve">
+    <value>向下声音会更像孩子，向上声音会更像大人。</value>
+  </data>
+  <data name="PianoRollMenu_RemoveSymbols" xml:space="preserve">
+    <value>删除特殊符号(_N)</value>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbol" xml:space="preserve">
+    <value>特殊符号(_V)</value>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolWhisper" xml:space="preserve">
+    <value>耳语</value>
+  </data>
+  <data name="VoiceRap" xml:space="preserve">
+    <value>说唱</value>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolRapPitchFall" xml:space="preserve">
+    <value>降低说唱音调</value>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolRapFalsetto" xml:space="preserve">
+    <value>用假声说唱</value>
+  </data>
+  <data name="CommonKeyMessageText" xml:space="preserve">
+    <value>要将该轨道的调号应用到其他轨道上，并从现在起同步所有轨道的调号吗？
+
+该操作无法撤销。</value>
+  </data>
+  <data name="PianoRollMenu_VowelTimingCorrection" xml:space="preserve">
+    <value>元音时间修正(_V)</value>
+  </data>
+  <data name="FalsettoToolTip" xml:space="preserve">
+    <value>为歌词设定假声符号。
+受角色和音高偏低的音符的影响，发出的声音可能不是假声。</value>
+  </data>
+  <data name="VoiceEmotionToolTip" xml:space="preserve">
+    <value>改变歌唱的方式。</value>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolHeadFall" xml:space="preserve">
+    <value>拉低音头</value>
+  </data>
+  <data name="PianoRollMenu_Falsetto" xml:space="preserve">
+    <value>假声(_F)</value>
+  </data>
+  <data name="DefaultStatusLine" xml:space="preserve">
+    <value>状态线</value>
+  </data>
+  <data name="AdjustedStatusLine" xml:space="preserve">
+    <value>已调整的状态线</value>
+  </data>
+  <data name="PianoRollMenu_ResetAdjustmentsToolTip" xml:space="preserve">
+    <value>删除选择范围内所有的调整值。</value>
+  </data>
+  <data name="VoicePitchTuneToolTip" xml:space="preserve">
+    <value>越向上，歌手将越忠实地按照乐谱的音程演唱。</value>
+  </data>
+  <data name="VoicePitchTune" xml:space="preserve">
+    <value>精准音高</value>
+  </data>
+  <data name="MenuExactCopyToolTip" xml:space="preserve">
+    <value>将初始值与调整值一并复制。</value>
+  </data>
+  <data name="Timing" xml:space="preserve">
+    <value>时间(TMG)</value>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolIrritation" xml:space="preserve">
+    <value>恼怒</value>
+  </data>
+  <data name="VoiceHuskyToolTip" xml:space="preserve">
+    <value>越向上，声音越沙哑。</value>
+  </data>
+  <data name="PianoRollMenu_RemoveSymbolsToolTip" xml:space="preserve">
+    <value>删除选择音符的歌词中，除假声以外的特殊符号。
+（假声符号可以通过音符属性删除。）</value>
+  </data>
+  <data name="PianoRollMenu_VowelTimingCorrectionToolTip" xml:space="preserve">
+    <value>调整时间，使元音位于音符开头。</value>
+  </data>
+  <data name="MenuPasteLyricsToolTip" xml:space="preserve">
+    <value>歌词将应用到与复制源位置一致的音符上。</value>
   </data>
 </root>

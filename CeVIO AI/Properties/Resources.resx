@@ -3559,9 +3559,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
   </data>
   <data name="RuntimeActivationDialog_InputKey_Description" xml:space="preserve">
     <value />
-    <comment>ご購入された製品のシリアルナンバーを入力してください。
-　※ダウンロード版はご購入時のメールを確認してください。
-　※パッケージ版「ONE」は、パッケージを開いた右上に記載。</comment>
+    <comment>ご購入された製品のシリアルナンバーを入力してください。</comment>
   </data>
   <data name="RuntimeActivationDialog_TargetProducts_Description" xml:space="preserve">
     <value />
@@ -4763,5 +4761,14 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
   <data name="Dialog_FileFilter_MidiFile_Import" xml:space="preserve">
     <value>すべてのMIDIファイル|*.mid;*.midi|Standard MIDIファイル|*.mid|Standard MIDIファイル|*.midi</value>
     <comment>すべてのMIDIファイル|*.mid;*.midi|Standard MIDIファイル|*.mid|Standard MIDIファイル|*.midi</comment>
+  </data>
+  <data name="MainMenu_Song_EditMode_Overlay_Volume_InputGesture" xml:space="preserve">
+    <value>Shift+3</value>
+  </data>
+  <data name="MainMenu_Song_EditMode_Overlay_Timing_InputGesture" xml:space="preserve">
+    <value>Shift+2</value>
+  </data>
+  <data name="MainMenu_Song_EditMode_Overlay_Vibrato_Frequency_InputGesture" xml:space="preserve">
+    <value>Shift+6</value>
   </data>
 </root>

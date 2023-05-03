@@ -19,7 +19,7 @@ namespace CeVIO.SongEditorControl.Properties {
     // 类通过类似于 ResGen 或 Visual Studio 的工具自动生成的。
     // 若要添加或移除成员，请编辑 .ResX 文件，然后重新运行 ResGen
     // (以 /str 作为命令选项)，或重新生成 VS 项目。
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -57,6 +57,15 @@ namespace CeVIO.SongEditorControl.Properties {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 アクセント 的本地化字符串。
+        /// </summary>
+        internal static string Accent {
+            get {
+                return ResourceManager.GetString("Accent", resourceCulture);
             }
         }
         
@@ -791,6 +800,24 @@ namespace CeVIO.SongEditorControl.Properties {
         }
         
         /// <summary>
+        ///   查找类似 属性(_S) 的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_Attribute {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_Attribute", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 試聴(_A) 的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_Audition {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_Audition", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似  的本地化字符串。
         /// </summary>
         internal static string PianoRollMenu_DeleteMeasure {
@@ -805,6 +832,24 @@ namespace CeVIO.SongEditorControl.Properties {
         internal static string PianoRollMenu_DeleteMeasureToolTip {
             get {
                 return ResourceManager.GetString("PianoRollMenu_DeleteMeasureToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 英語歌詞の自動分割 的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_DividesEnglishLyrics {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_DividesEnglishLyrics", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 英語の歌詞入力時、1音符1音節に自動分割します。 的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_DividesEnglishLyricsToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_DividesEnglishLyricsToolTip", resourceCulture);
             }
         }
         
@@ -877,6 +922,24 @@ namespace CeVIO.SongEditorControl.Properties {
         internal static string PianoRollMenu_InsertMeasureToolTip {
             get {
                 return ResourceManager.GetString("PianoRollMenu_InsertMeasureToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 音符を結合(_B) 的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_MergeNotes {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_MergeNotes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 選択範囲の音符を1音符にまとめます。 的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_MergeNotesToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_MergeNotesToolTip", resourceCulture);
             }
         }
         
@@ -1232,6 +1295,15 @@ namespace CeVIO.SongEditorControl.Properties {
         }
         
         /// <summary>
+        ///   查找类似 スラー(_S) 的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_Slur {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_Slur", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 精密なパラメータ表示(_S) 的本地化字符串。
         /// </summary>
         internal static string PianoRollMenu_StrictParameterDisplay {
@@ -1247,6 +1319,24 @@ namespace CeVIO.SongEditorControl.Properties {
         internal static string PianoRollMenu_StrictParameterDisplayToolTip {
             get {
                 return ResourceManager.GetString("PianoRollMenu_StrictParameterDisplayToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 楽譜編集画面でタイミング調整(_T) 的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_TimingEditOnScore {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_TimingEditOnScore", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 楽譜編集画面の下段で音素単位のタイミング調整を行う。 的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_TimingEditOnScoreToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_TimingEditOnScoreToolTip", resourceCulture);
             }
         }
         
@@ -1449,6 +1539,25 @@ namespace CeVIO.SongEditorControl.Properties {
         }
         
         /// <summary>
+        ///   查找类似 タイミングの状態ライン(_I) 的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_View_TimingDetailLine {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_View_TimingDetailLine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 タイミング調整画面に音素内の状態変化を示すラインを表示。
+        ///非表示のとき状態ラインは自動調整。 的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenu_View_TimingDetailLineToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenu_View_TimingDetailLineToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似  的本地化字符串。
         /// </summary>
         internal static string PianoRollMenu_View_TuningLine {
@@ -1463,6 +1572,25 @@ namespace CeVIO.SongEditorControl.Properties {
         internal static string PianoRollMenu_View_TuningLineToolTip {
             get {
                 return ResourceManager.GetString("PianoRollMenu_View_TuningLineToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 ファルセット 的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenuItem_Falsetto {
+            get {
+                return ResourceManager.GetString("PianoRollMenuItem_Falsetto", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 歌詞にファルセット記号を指定します。
+        ///キャストや音の低さによっては、ファルセットにならない場合があります。 的本地化字符串。
+        /// </summary>
+        internal static string PianoRollMenuItem_FalsettoToolTip {
+            get {
+                return ResourceManager.GetString("PianoRollMenuItem_FalsettoToolTip", resourceCulture);
             }
         }
         
@@ -1548,6 +1676,15 @@ namespace CeVIO.SongEditorControl.Properties {
         }
         
         /// <summary>
+        ///   查找类似 スタッカート 的本地化字符串。
+        /// </summary>
+        internal static string Staccato {
+            get {
+                return ResourceManager.GetString("Staccato", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似  的本地化字符串。
         /// </summary>
         internal static string Target {
@@ -1616,6 +1753,15 @@ namespace CeVIO.SongEditorControl.Properties {
         internal static string VoiceAlpha {
             get {
                 return ResourceManager.GetString("VoiceAlpha", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 感情 的本地化字符串。
+        /// </summary>
+        internal static string VoiceEmotion {
+            get {
+                return ResourceManager.GetString("VoiceEmotion", resourceCulture);
             }
         }
     }
