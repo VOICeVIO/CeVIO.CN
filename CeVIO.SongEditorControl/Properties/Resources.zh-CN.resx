@@ -798,7 +798,7 @@
     <value>音高跳跃</value>
   </data>
   <data name="PianoRollMenu_SpecialSymbolHusky" xml:space="preserve">
-    <value>粗哑</value>
+    <value>嘶哑</value>
   </data>
   <data name="ColorSettingDialogTitle" xml:space="preserve">
     <value>颜色设置</value>

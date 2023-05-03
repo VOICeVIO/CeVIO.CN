@@ -699,14 +699,14 @@
   </data>
   <data name="MainMenu_File_Export_WaveformForEachText_ToolTip" xml:space="preserve">
     <value>将选择的语音音轨导出为单声道WAV格式音频。
-可以在选项中指定采样率和比特深度。</value>
+可以在选项中指定采样率和位深度。</value>
   </data>
   <data name="MainMenu_File_Export_WaveformOfSong" xml:space="preserve">
     <value>导出歌唱部分为WAV音频文件(_S)...</value>
   </data>
   <data name="MainMenu_File_Export_WaveformOfSong_ToolTip" xml:space="preserve">
     <value>将选择的歌唱音轨导出为单声道WAV格式音频。
-可以在选项中指定采样率和比特深度。</value>
+可以在选项中指定采样率和位深度。</value>
   </data>
   <data name="MainMenu_File_Import" xml:space="preserve">
     <value>导入(_I)</value>
@@ -3939,7 +3939,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
   </data>
   <data name="TalkEditor_Menu_ExportWaveform_ToolTip" xml:space="preserve">
     <value>将选中的台词以单声道WAV形式导出。
-可以在选项中指定采样率和比特深度。</value>
+可以在选项中指定采样率和位深度。</value>
   </data>
   <data name="TalkEditor_Menu_InputContinuously" xml:space="preserve">
     <value>连续输入台词(_F)</value>
@@ -4387,14 +4387,14 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
   </data>
   <data name="TrackLane_Menu_Export_WaveformForEachText_ToolTip" xml:space="preserve">
     <value>将此音轨的所有片段分别输出为单声道WAV格式音频。
-可以在选项中指定采样率和比特深度。</value>
+可以在选项中指定采样率和位深度。</value>
   </data>
   <data name="TrackLane_Menu_Export_Waveform_InputGesture" xml:space="preserve">
     <value>Ctrl+W</value>
   </data>
   <data name="TrackLane_Menu_Export_Waveform_ToolTip" xml:space="preserve">
     <value>将此内容输出为单声道WAV格式音频。
-可以在选项中指定采样率和比特深度。</value>
+可以在选项中指定采样率和位深度。</value>
   </data>
   <data name="TrackLane_Menu_Extra_AddAudio" xml:space="preserve">
     <value>添加音频音轨(_A)</value>
