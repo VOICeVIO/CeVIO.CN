@@ -117,819 +117,591 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="PianoRollMenu_View_GuideLineToolTip" xml:space="preserve">
-    <value>楽譜編集画面にクオンタイズの補助カーソルを表示します。</value>
-  </data>
-  <data name="PianoRollMenu_Tool_BulkSelect" xml:space="preserve">
-    <value>まとめ選択ツール(_2)</value>
-  </data>
-  <data name="ResetColorsMessageText" xml:space="preserve">
-    <value>現在の色を破棄して初期設定に戻しますか？</value>
-  </data>
-  <data name="PianoRollMenu_TimingEditOnScore" xml:space="preserve">
-    <value>楽譜編集画面でタイミング調整(_T)</value>
-  </data>
-  <data name="PianoRollMenu_VibratoDisableToolTip" xml:space="preserve">
-    <value>このトラック全体でビブラートを無効化します。</value>
-  </data>
-  <data name="PianoRollMenu_SpecialSymbolRolledTongue" xml:space="preserve">
-    <value>巻き舌</value>
-  </data>
-  <data name="PianoRollMenu_View_TuningLineToolTip" xml:space="preserve">
-    <value>調整画面にも拍やクオンタイズのラインを表示します。</value>
-  </data>
-  <data name="PianoRollMenu_Mode_Normal" xml:space="preserve">
-    <value>楽譜を編集(_1)</value>
-  </data>
-  <data name="MidiImportDialogCaption2" xml:space="preserve">
-    <value>トラック)</value>
-  </data>
-  <data name="MidiImportDialogCaption1" xml:space="preserve">
-    <value>読み込むトラックを選択します。(最大</value>
-  </data>
-  <data name="BeatRowToolTip" xml:space="preserve">
-    <value>拍子行(全トラック共通)
-ダブルクリックで編集。ドラッグで移動。追加はペンでダブルクリック。</value>
-  </data>
-  <data name="OneNoteMultipleSyllablesToolTip" xml:space="preserve">
-    <value>音符毎にスペースで区切られた単語や音節を割り当てます。</value>
-  </data>
-  <data name="MenuPaste" xml:space="preserve">
-    <value>貼り付け(_P)</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Eraser" type="System.Byte[], mscorlib">
-    <value>
-        AAACAAEAICAAAAAAAACoCAAAFgAAACgAAAAgAAAAQAAAAAEACAAAAAAAgAQAAAAAAAAAAAAAAAAAAAAA
-        AAD/9esEkJCQBGZmZgT///8EEBAQBAAAAAQzMzMEzMzMBJmZmQRBAFwAcABwAGEARABhAHQAUgBcAGEA
-        bwBpAG0AZwBuAGkAXABvAHIAcwBtAGYAbwBfAHQAYQBkAGEAdAAzAFwAeAAyADIAMwBiAC4AcABtAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAABsAVAAA+gEAGKtMd8z6AQAYAOQAAAEAdX0AAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAABAAAC8AAAeAADnwAgApiLAAOfAAAAAAAAAAAAAAAAAEUAAAAoAAD7AQAYAgAAAADwAph4KAOf+5QA
-        GDzDd8w8S3fMNA53jgC0AAA6AAKYAJgCmC3oAphaAQozAJgAAC2QApj69AAYLaUCmN9Fd8sAAAAAAJgA
-        AC3GApgB2AAAqhQDn/tGABgCtwAAAAAAAADwAph4AAOfAEUAAAAARQAAAAAAibADnyRQApiPKAKYAgAA
-        AABAApgA8AAAeMQDn/u+ABg4OHfMAZoCmDind8w0AHeOAAAAAAD4Aph4+AOfePgDn3jzA594AAOfAAAA
-        AFsAADMA2AKYqpgDny0BApgAAAAAAJgCmC0TApgH/gBd/5j//y0EApgAAAQAEKIAACBGggAC8AAAeA4D
-        nwADAAAAAwAAAEYAAAJ/AAAHsAAABaIAACDGggABCAAAANgAAKqwA58FAAAAAAgAAACoAAAuAAKYAJgA
-        AC0DApgAsAAABfgAAHjYA5+qsAOfBUYAAAIAAAAAAwAAAAABAAAwAAAOAQAAAOQBAfoDABgAJAAA/NUA
-        GHEzd9AH/gBd/wP//wBEAAASAAKYAPgAAHj4A5940gOf+fJ3yrmwdXkFsAAABfgAAPs4ABgUAHcf3QMQ
-        BQBsAAAAPAAA/KEAGHpQEAQSCwKYFgMQBAAoAAAWABAEAFgAAMRYEAXEABAFABQAAPwEABgReBAE/BgA
-        GGtYApjEBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
-        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
-        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
-        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
-        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
-        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
-        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
-        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
-        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
-        BQUFBQUFBQUFBQUFBQUFBQUFBQUEBAQEBAQEBAQEBAQFBQUFBQUFBQUFBQUFBQUFBQUFBQQDAwMDAwMD
-        AwMDBAUFBQUFBQUFBQUFBQUFBQUFBQUDBAMDAwMDAwMDAwMEBQUFBQUFBQUFBQUFBQUFBQUFAwMEAwMD
-        AwMDAwMDAwQFBQUFBQUFBQUFBQUFBQUFBQMDAwQEBAQEBAQEBAQEBAUFBQUFBQUFBQUFBQUFBQUDAwMF
-        AwMDAwMDAwMDAwQFBQUFBQUFBQUFBQUFBQUFAwMDBQMDAwMDAwMDAwMEBQUFBQUFBQUFBQUFBQUFBQMD
-        AwUDAwMDAwMDAwMDBAUFBQUFBQUFBQUFBQUFBQUDAwMFAwMDAwMDAwMDAwQFBQUFBQUFBQUFBQUFBQUF
-        AwMDBQMDAwMDAwMDAwMEBQUFBQUFBQUFBQUFBQUFBQMDAwUDAwMDAwMDAwMDBAUFBQUFBQUFBQUFBQUF
-        BQUFAwMFAwMDAwMDAwMDAwQFBQUFBQUFBQUFBQUFBQUFBQUDBQMDAwMDAwMDAwMEBQUFBQUFBQUFBQUF
-        BQUFBQUFBQUDAwMDAwMDAwMDBAUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
-        BQUFBQUFBQUFBf//////////////////////////////////////////////////////////////////
-        /////////////////////////8AD//+AA///AAP//gAD//wAA//4AAf/8AAP/+AAH//AAD//gAB//wAA
-        //8AAf//AAP//wAH//+AD///
-</value>
-  </data>
-  <data name="LyricError" xml:space="preserve">
-    <value>発音できない文字が含まれています。
-歌詞は全角かな／全角カナで入力してください。</value>
-  </data>
-  <data name="PianoRollMenu_Tool_Line" xml:space="preserve">
-    <value>ラインツール(_4)</value>
-  </data>
-  <data name="VibratoDisabled" xml:space="preserve">
-    <value>ビブラート無効</value>
-  </data>
-  <data name="BeatChangeConfirmationDialogTitle" xml:space="preserve">
-    <value>確認</value>
-  </data>
-  <data name="MidiImportDialogSelect" xml:space="preserve">
-    <value>選択</value>
-  </data>
-  <data name="Accent" xml:space="preserve">
-    <value>アクセント</value>
-  </data>
-  <data name="PianoRollMenu_EnterLyricsWithPhoneme" xml:space="preserve">
-    <value>音素で歌詞入力(_P)</value>
-  </data>
-  <data name="PianoRollMenu_OverLay_VibratoAmplitudeToolTip" xml:space="preserve">
-    <value>ビブラートの振幅を重ねます。</value>
-  </data>
-  <data name="DefaultStatusLine" xml:space="preserve">
-    <value>状態ライン</value>
-  </data>
-  <data name="NoteDialogTitle" xml:space="preserve">
-    <value>音符のプロパティ</value>
-  </data>
-  <data name="AdjustNotesPosition" xml:space="preserve">
-    <value>音符の長さを補正しました。</value>
-  </data>
-  <data name="AdjustedStatusLine" xml:space="preserve">
-    <value>調整した状態ライン</value>
-  </data>
-  <data name="PianoRollMenu_DeleteMeasureToolTip" xml:space="preserve">
-    <value>位置と長さを指定して小節を削除します。</value>
-  </data>
-  <data name="PianoRollMenu_ResetAdjustmentsToolTip" xml:space="preserve">
-    <value>選択範囲の全調整値を削除します。</value>
-  </data>
-  <data name="VoicePitchTuneToolTip" xml:space="preserve">
-    <value>上げるほど、楽譜の音程に忠実に歌います。</value>
-  </data>
-  <data name="PianoRollMenu_View_TimingDetailLineToolTip" xml:space="preserve">
-    <value>タイミング調整画面に音素内の状態変化を示すラインを表示。
-非表示のとき状態ラインは自動調整。</value>
-  </data>
-  <data name="Breath" xml:space="preserve">
-    <value>ブレス</value>
-  </data>
-  <data name="Attribute" xml:space="preserve">
-    <value>属性</value>
-  </data>
-  <data name="Cancel" xml:space="preserve">
-    <value>キャンセル</value>
-  </data>
-  <data name="SplitterToolTip" xml:space="preserve">
-    <value>分割位置を調整(Ctrl+左クリックで既定位置)</value>
-  </data>
-  <data name="PianoRollMenu_NotesOfOtherTracks" xml:space="preserve">
-    <value>別トラックの音符(_P)</value>
-  </data>
-  <data name="PianoRollMenu_Falsetto" xml:space="preserve">
-    <value>ファルセット(_F)</value>
-  </data>
-  <data name="PianoRollMenu_SpecialSymbolHeadFall" xml:space="preserve">
-    <value>先頭フォール</value>
-  </data>
-  <data name="PianoRollMenu_SpecialSymbolRapFalsetto" xml:space="preserve">
-    <value>ラップで裏返り</value>
-  </data>
-  <data name="VoiceEmotionToolTip" xml:space="preserve">
-    <value>歌い方を変えます。</value>
-  </data>
-  <data name="PianoRollMenu_SpecialSymbolHelpToolTip" xml:space="preserve">
-    <value>特殊記号の説明ページを表示します。</value>
-  </data>
-  <data name="PianoRollMenu_EnterLyricsCollectively" xml:space="preserve">
-    <value>歌詞のまとめ入力(_I)...</value>
-  </data>
-  <data name="VoicePitchTune" xml:space="preserve">
-    <value>チューン</value>
-  </data>
-  <data name="Length" xml:space="preserve">
-    <value>長さ:</value>
-  </data>
-  <data name="SpaceDelimitedToolTip" xml:space="preserve">
-    <value>音符毎にスペースで区切られた文字を割り当てます。
-2文字以上の歌詞も割り当て可能です。</value>
-  </data>
-  <data name="DeleteMeasureDialog" xml:space="preserve">
-    <value>小節の削除</value>
-  </data>
-  <data name="MidiImportDialogCaptionB1" xml:space="preserve">
-    <value>テンポ(</value>
-  </data>
-  <data name="MidiImportDialogCaptionB3" xml:space="preserve">
-    <value>)も読み込む</value>
-  </data>
-  <data name="MidiImportDialogCaptionB2" xml:space="preserve">
-    <value>)と拍子(</value>
-  </data>
-  <data name="PianoRollMenu_Mode" xml:space="preserve">
-    <value>調整モード(_M)</value>
-  </data>
-  <data name="PianoRollMenu_View" xml:space="preserve">
-    <value>表示(_V)</value>
-  </data>
-  <data name="PianoRollMenu_Slur" xml:space="preserve">
-    <value>スラー(_S)</value>
-  </data>
-  <data name="VoiceHuskyToolTip" xml:space="preserve">
-    <value>上げるほど、かすれ気味な声になります。</value>
-  </data>
-  <data name="InsertMeasureDialog" xml:space="preserve">
-    <value>小節の挿入</value>
-  </data>
-  <data name="MenuExactCopyToolTip" xml:space="preserve">
-    <value>既定値の部分も調整値と一緒にコピーします。</value>
-  </data>
-  <data name="Staccato" xml:space="preserve">
-    <value>スタッカート</value>
-  </data>
-  <data name="SlurEnd" xml:space="preserve">
-    <value>スラー終了</value>
-  </data>
-  <data name="PianoRollMenu_VowelTimingCorrectionToolTip" xml:space="preserve">
-    <value>母音が音符の先頭に来るようタイミングを補正します。</value>
-  </data>
-  <data name="MusicXmlImportDialogTitle" xml:space="preserve">
-    <value>MusicXMLインポート</value>
-  </data>
-  <data name="PianoRollMenu_SpecialSymbolIrritation" xml:space="preserve">
-    <value>いきり</value>
-  </data>
-  <data name="PianoRollMenu_Mode_Pitch" xml:space="preserve">
-    <value>ピッチを調整(_4)</value>
-  </data>
-  <data name="PianoRollMenu_View_TimingDetailLine" xml:space="preserve">
-    <value>タイミングの状態ライン(_I)</value>
-  </data>
-  <data name="Dynamics" xml:space="preserve">
-    <value>強弱記号</value>
-  </data>
-  <data name="PianoRollMenu_Mode_Alpha" xml:space="preserve">
-    <value>声質の詳細を調整(_7)</value>
-  </data>
-  <data name="PianoRollMenu_Tool_Pen" xml:space="preserve">
-    <value>ペンツール(_3)</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>対象</value>
-  </data>
-  <data name="Timing" xml:space="preserve">
-    <value>タイミング</value>
-  </data>
-  <data name="VoiceRap" xml:space="preserve">
-    <value>ラップ</value>
-  </data>
-  <data name="PianoRollMenu_Mode_VibratoFrequencyToolTip" xml:space="preserve">
-    <value>ビブラートの周期調整画面に切り替えます。</value>
-  </data>
-  <data name="SlurToolTip" xml:space="preserve">
-    <value>スラー開始から終了までをなめらかに歌います。
-音符を複数選択して[Ctrl+R]でも設定可能。</value>
-  </data>
-  <data name="FalsettoToolTip" xml:space="preserve">
-    <value>歌詞にファルセット記号を設定。
-キャストや音の低さによっては、ファルセットにならない場合があります。</value>
-  </data>
-  <data name="PianoRollMenu_FillSpacesToolTip" xml:space="preserve">
-    <value>選択中または全ての音符の細かい隙間(休符)を埋めます。</value>
-  </data>
-  <data name="Position" xml:space="preserve">
-    <value>位置</value>
-  </data>
-  <data name="PianoRollMenu_SpecialSymbolWhisper" xml:space="preserve">
-    <value>ささやき</value>
-  </data>
-  <data name="MidiImportFormatError" xml:space="preserve">
-    <value>フォーマット2は非対応です。</value>
-  </data>
-  <data name="PianoRollMenu_SpecialSymbol" xml:space="preserve">
-    <value>特殊記号(_V)</value>
-  </data>
-  <data name="PianoRollMenu_Audition" xml:space="preserve">
-    <value>試聴(_L)</value>
-  </data>
-  <data name="PianoRollMenu_VowelTimingCorrection" xml:space="preserve">
-    <value>母音のタイミング補正(_V)</value>
-  </data>
-  <data name="PianoRollMenu_MergeNotes" xml:space="preserve">
-    <value>音符の結合(_B)</value>
-  </data>
-  <data name="MenuSelectAll" xml:space="preserve">
-    <value>すべて選択(_A)</value>
-  </data>
-  <data name="OneNoteOneMoraToolTip" xml:space="preserve">
-    <value>音符毎に1文字ずつ割り当てます。
-小文字が続く場合のみ2文字割り当てられます。</value>
-  </data>
-  <data name="PianoRollMenu_RemoveSymbolsToolTip" xml:space="preserve">
-    <value>選択音符の歌詞に含まれるファルセット以外の特殊記号を除去します。
-(ファルセットは音符のプロパティから除去可能。)</value>
-  </data>
-  <data name="BeatChangeConfirmationDialogText" xml:space="preserve">
-    <value>拍子を編集すると、全ソングトラックの調号の位置が補正されます。</value>
-  </data>
-  <data name="MenuPasteLyricsToolTip" xml:space="preserve">
-    <value>コピー元と位置が合う音符に歌詞を反映します。</value>
-  </data>
-  <data name="PianoRollMenu_OverLay_VibratoFrequency" xml:space="preserve">
-    <value>ビブラートの周期を表示(_6)</value>
-  </data>
-  <data name="ChannelNumber" xml:space="preserve">
-    <value>チャンネル</value>
-  </data>
-  <data name="CommonKeyMessageText" xml:space="preserve">
-    <value>このトラックの調号を他のトラックにも反映して、以後、調号を全ソングトラック共通にしますか？
-
-※この操作はアンドゥできません。</value>
-  </data>
-  <data name="PianoRollMenu_View_KeyRowToolTip" xml:space="preserve">
-    <value>ルーラーに調号(キー)行を表示します。</value>
-  </data>
-  <data name="PianoRollMenu_Quantize" xml:space="preserve">
-    <value>クオンタイズ(_Q)</value>
-  </data>
-  <data name="PianoRollMenu_RemoveSymbols" xml:space="preserve">
-    <value>特殊記号の削除(_N)</value>
-  </data>
-  <data name="PianoRollMenu_OverLay_Volume" xml:space="preserve">
-    <value>ボリュームを表示(_3)</value>
-  </data>
-  <data name="PianoRollMenu_SpecialSymbolRapPitchFall" xml:space="preserve">
-    <value>ラップでフォール</value>
-  </data>
-  <data name="PianoRollMenu_Properties" xml:space="preserve">
-    <value>プロパティ(_R)...</value>
-  </data>
-  <data name="PianoRollMenu_OverLay_Timing" xml:space="preserve">
-    <value>タイミングを表示(_2)</value>
-  </data>
-  <data name="Confirmation" xml:space="preserve">
-    <value>確認</value>
-  </data>
-  <data name="TempoRowToolTip" xml:space="preserve">
-    <value>テンポ行(全トラック共通)
-ダブルクリックで編集。ドラッグで移動。追加はペンでダブルクリック。</value>
-  </data>
-  <data name="AllTracks" xml:space="preserve">
-    <value>全ソングトラック</value>
-  </data>
-  <data name="BeatDialogTitle" xml:space="preserve">
-    <value>拍子のプロパティ</value>
-  </data>
-  <data name="PianoRollMenu_Quantize_Triplet8" xml:space="preserve">
-    <value>1/8 3連符</value>
-  </data>
-  <data name="PianoRollMenu_Quantize_Triplet2" xml:space="preserve">
-    <value>1/2 3連符</value>
-  </data>
-  <data name="PianoRollMenu_Quantize_Triplet4" xml:space="preserve">
-    <value>1/4 3連符</value>
-  </data>
-  <data name="PianoRollMenu_EnterLyricsWithPhonemeToolTip" xml:space="preserve">
-    <value>歌詞を音素記号で入力します。</value>
-  </data>
-  <data name="MidiImportNoTrackError" xml:space="preserve">
-    <value>トラックがありません。</value>
-  </data>
-  <data name="MidiImportDialogTitle" xml:space="preserve">
-    <value>MIDIインポート</value>
-  </data>
-  <data name="VoiceAlphaToolTip" xml:space="preserve">
-    <value>下げると子供っぽい声、上げると大人っぽい声になります。</value>
-  </data>
-  <data name="MidiImportDialogNotes" xml:space="preserve">
-    <value>音符</value>
-  </data>
-  <data name="PianoRollMenu_SlurBegin" xml:space="preserve">
-    <value>スラー開始(_O)</value>
-  </data>
-  <data name="FillSpacesDialogTitle" xml:space="preserve">
-    <value>休符の除去</value>
-  </data>
-  <data name="PianoRollMenu_DeleteMeasure" xml:space="preserve">
-    <value>小節の削除(_X)...</value>
-  </data>
-  <data name="PianoRollMenu_Tool_Eraser" xml:space="preserve">
-    <value>消しゴムツール(_5)</value>
-  </data>
-  <data name="SpaceDelimited" xml:space="preserve">
-    <value>スペース区切り</value>
-  </data>
-  <data name="PianoRollMenu_Mode_VibratoAmplitude" xml:space="preserve">
-    <value>ビブラートの振幅を調整(_5)</value>
-  </data>
-  <data name="OneNoteSingleSyllable" xml:space="preserve">
-    <value>1音符1音節</value>
-  </data>
-  <data name="PianoRollMenu_View_DynamicsRowToolTip" xml:space="preserve">
-    <value>ルーラーに強弱記号行を表示します。</value>
-  </data>
-  <data name="PianoRollMenu_Breath" xml:space="preserve">
-    <value>ブレス(_B)</value>
-  </data>
-  <data name="PianoRollMenu_Mode_NormalToolTip" xml:space="preserve">
-    <value>楽譜編集画面に切り替えます。</value>
-  </data>
-  <data name="PianoRollMenu_CommonKeys" xml:space="preserve">
-    <value>調号は全トラック共通(_K)</value>
-  </data>
-  <data name="Audition" xml:space="preserve">
-    <value>試聴/停止 [Shift+Space]</value>
-  </data>
-  <data name="PianoRollMenu_View_KeyRow" xml:space="preserve">
-    <value>調号行(_K)</value>
-  </data>
-  <data name="PitLine" xml:space="preserve">
-    <value>PITのライン</value>
-  </data>
-  <data name="PianoRollMenu_Accent" xml:space="preserve">
-    <value>アクセント(_A)</value>
-  </data>
-  <data name="PianoRollMenu_EnterLyricsCollectivelyToolTip" xml:space="preserve">
-    <value>選択中または先頭の音符から歌詞をまとめて入力します。</value>
+  <data name="PianoRollMenu_Quantize_Triplet16" xml:space="preserve">
+    <value>1/16(3连音)</value>
   </data>
   <data name="PianoRollMenu_OverLay_AlphaToolTip" xml:space="preserve">
-    <value>声質の詳細を重ねます。</value>
+    <value>重叠显示音色。</value>
   </data>
-  <data name="PianoRollMenu_Tool_Select" xml:space="preserve">
-    <value>選択ツール(_1)</value>
+  <data name="MidiImportDialogCaptionB2" xml:space="preserve">
+    <value>)和拍子(</value>
+  </data>
+  <data name="MidiImportDialogCaptionB3" xml:space="preserve">
+    <value>)也一并读取</value>
+  </data>
+  <data name="PianoRollMenu_Quantize_Triplet2" xml:space="preserve">
+    <value>1/2(3连音)</value>
+  </data>
+  <data name="PianoRollMenu_Quantize_Triplet4" xml:space="preserve">
+    <value>1/4(3连音)</value>
+  </data>
+  <data name="PianoRollMenu_Quantize_Triplet8" xml:space="preserve">
+    <value>1/8(3连音)</value>
+  </data>
+  <data name="OneNoteSingleSyllable" xml:space="preserve">
+    <value>1音符1音节</value>
+  </data>
+  <data name="OneNoteOneMora" xml:space="preserve">
+    <value>1音符1字符</value>
   </data>
   <data name="OK" xml:space="preserve">
     <value>OK</value>
   </data>
-  <data name="PianoRollMenu_Quantize_Triplet16" xml:space="preserve">
-    <value>1/16 3連符</value>
-  </data>
-  <data name="CalculatingParameters" xml:space="preserve">
-    <value>パラメータ計算中</value>
-  </data>
-  <data name="Falsetto" xml:space="preserve">
-    <value>ファルセット</value>
-  </data>
-  <data name="ColorSettingDialogTitle" xml:space="preserve">
-    <value>色の設定</value>
-  </data>
-  <data name="PianoRollMenu_Mode_TimingToolTip" xml:space="preserve">
-    <value>タイミング調整画面に切り替えます。</value>
-  </data>
-  <data name="PianoRollMenu_NotesOfOtherTracksToolTip" xml:space="preserve">
-    <value>楽譜編集画面に別トラックの音符も表示します。
-（ミュートしたトラックの音符は表示しません。）</value>
-  </data>
-  <data name="MidiImportHeaderError" xml:space="preserve">
-    <value>ヘッダーの読み込みに失敗しました。</value>
-  </data>
-  <data name="PianoRollMenu_InsertMeasureToolTip" xml:space="preserve">
-    <value>位置と長さを指定して小節を挿入します。
-末尾の追加は、[Shift+マウスホイール]や右スクロールボタンでも可能。</value>
-  </data>
-  <data name="Key" xml:space="preserve">
-    <value>調号(キー)</value>
-  </data>
-  <data name="Other" xml:space="preserve">
-    <value>その他</value>
-  </data>
-  <data name="Lyric" xml:space="preserve">
-    <value>歌詞:</value>
-  </data>
-  <data name="PianoRollMenu_SpecialSymbolHusky" xml:space="preserve">
-    <value>ガサガサ</value>
-  </data>
-  <data name="Tempo" xml:space="preserve">
-    <value>テンポ</value>
-  </data>
-  <data name="Reset" xml:space="preserve">
-    <value>初期設定に戻す</value>
-  </data>
-  <data name="Sound" xml:space="preserve">
-    <value>音</value>
-  </data>
-  <data name="Pitch" xml:space="preserve">
-    <value>高さ:</value>
-  </data>
-  <data name="PianoRollMenu_OverLay_VolumeToolTip" xml:space="preserve">
-    <value>ボリュームを重ねます。</value>
-  </data>
-  <data name="PianoRollMenu_SpecialSymbolRaise" xml:space="preserve">
-    <value>はね上げ</value>
-  </data>
-  <data name="PianoRollMenu_SpecialSymbolRelax" xml:space="preserve">
-    <value>抜き</value>
-  </data>
-  <data name="PianoRollMenu_SpecialSymbolHelp" xml:space="preserve">
-    <value>特殊記号のヘルプ(_H)</value>
-  </data>
-  <data name="MidiImportTimeBaseError" xml:space="preserve">
-    <value>実時間単位は非対応です（ティック指定に対応）。</value>
-  </data>
-  <data name="PianoRollMenu_OverLay_VibratoFrequencyToolTip" xml:space="preserve">
-    <value>ビブラートの周期を重ねます。</value>
-  </data>
-  <data name="LyricDialogError" xml:space="preserve">
-    <value>発音できない文字が含まれています。
-歌詞は全角かな／全角カナで入力してください。
-このまま音符に反映しますか？</value>
-  </data>
-  <data name="MenuDelete" xml:space="preserve">
-    <value>削除(_D)</value>
-  </data>
-  <data name="PianoRollMenu_View_BeatRowToolTip" xml:space="preserve">
-    <value>ルーラーに拍子行を表示します。</value>
-  </data>
-  <data name="LyricDialogTitle" xml:space="preserve">
-    <value>歌詞のまとめ入力</value>
-  </data>
-  <data name="PianoRollMenu_FillSpaces" xml:space="preserve">
-    <value>休符の除去(_F)...</value>
-  </data>
-  <data name="PianoRollMenu_Mode_PitchToolTip" xml:space="preserve">
-    <value>ピッチ調整画面に切り替えます。
-ビブラートの振幅や周期を重ねるとビブラート反映ピッチも重ね表示します。</value>
-  </data>
-  <data name="KeyDialogTitle" xml:space="preserve">
-    <value>調号のプロパティ</value>
-  </data>
-  <data name="OneNoteSingleSyllableToolTip" xml:space="preserve">
-    <value>音符毎に1音節ずつ割り当てます。
-(表記の分割位置は自動推定のため、正しくないことがあります。)</value>
-  </data>
-  <data name="PianoRollMenu_View_ColorSetting" xml:space="preserve">
-    <value>色の設定(_S)...</value>
-  </data>
-  <data name="AlpLine" xml:space="preserve">
-    <value>ALPのライン</value>
-  </data>
-  <data name="MenuPasteLyrics" xml:space="preserve">
-    <value>歌詞のみ貼り付け(_Q)</value>
-  </data>
-  <data name="PianoRollMenu_View_GuideLine" xml:space="preserve">
-    <value>ガイドカーソル(_C)</value>
-  </data>
-  <data name="MenuUndo" xml:space="preserve">
-    <value>元に戻す(_U)</value>
-  </data>
-  <data name="MenuCopy" xml:space="preserve">
-    <value>コピー(_C)</value>
-  </data>
-  <data name="PianoRollMenu_View_TempoRowToolTip" xml:space="preserve">
-    <value>ルーラーにテンポ行を表示します。</value>
-  </data>
-  <data name="PianoRollMenu_View_ColorSettingToolTip" xml:space="preserve">
-    <value>調整画面のラインの色を変更できます。</value>
-  </data>
-  <data name="PianoRollMenu_PropertiesToolTip2" xml:space="preserve">
-    <value>値を編集します。</value>
-  </data>
-  <data name="VoiceAlpha" xml:space="preserve">
-    <value>声質</value>
-  </data>
-  <data name="KeyRowToolTip" xml:space="preserve">
-    <value>調号(キー)行
-ダブルクリックで編集。ドラッグで移動。追加はペンでダブルクリック。</value>
-  </data>
-  <data name="PianoRollMenu_Staccato" xml:space="preserve">
-    <value>スタッカート(_S)</value>
-  </data>
-  <data name="VoiceHusky" xml:space="preserve">
-    <value>ハスキー</value>
-  </data>
-  <data name="PhoneticWindowTitleJa" xml:space="preserve">
-    <value>日本語 音素パレット</value>
-  </data>
-  <data name="PhoneticWindowTitleEn" xml:space="preserve">
-    <value>英語 音素パレット</value>
-  </data>
-  <data name="MenuExactCopy" xml:space="preserve">
-    <value>ミックスコピー(_M)</value>
-  </data>
-  <data name="AdjustNotesLength" xml:space="preserve">
-    <value>音符の位置を補正しました。</value>
-  </data>
-  <data name="DynamicsDialogTitle" xml:space="preserve">
-    <value>強弱記号のプロパティ</value>
-  </data>
-  <data name="PianoRollMenu_View_QuantizeLine" xml:space="preserve">
-    <value>クオンタイズのライン(_Q)</value>
-  </data>
-  <data name="VoiceEmotion" xml:space="preserve">
-    <value>感情</value>
-  </data>
-  <data name="Overlay" xml:space="preserve">
-    <value>重ね表示の不透明度</value>
-  </data>
-  <data name="PianoRollMenu_View_BeatLineToolTip" xml:space="preserve">
-    <value>拍のラインを表示します。</value>
-  </data>
-  <data name="MidiImportChannelSelect" xml:space="preserve">
-    <value>1トラックに全チャンネルが含まれるファイルです。
-チャンネルをトラックに割り当てますか？</value>
-  </data>
-  <data name="ViaLine" xml:space="preserve">
-    <value>VIAのライン</value>
-  </data>
-  <data name="VifLine" xml:space="preserve">
-    <value>VIFのライン</value>
-  </data>
-  <data name="PianoRollMenu_OverLay_TimingToolTip" xml:space="preserve">
-    <value>タイミングを重ねます。</value>
-  </data>
-  <data name="PianoRollMenu_OverLay_Alpha" xml:space="preserve">
-    <value>声質の詳細を表示(_7)</value>
-  </data>
-  <data name="PianoRollMenu_OverLay_Pitch" xml:space="preserve">
-    <value>ピッチを表示(_4)</value>
-  </data>
-  <data name="PianoRollMenu_View_DynamicsRow" xml:space="preserve">
-    <value>強弱記号行(_D)</value>
-  </data>
-  <data name="AuditionDisabledMessage" xml:space="preserve">
-    <value>フリーズしたトラックは試聴できません。再生してください。</value>
-  </data>
-  <data name="ParametersCannotBeCalculated" xml:space="preserve">
-    <value>再生中はパラメータ計算できません</value>
-  </data>
-  <data name="PianoRollMenu_SpecialSymbolTrembling" xml:space="preserve">
-    <value>ふるえ</value>
-  </data>
-  <data name="PianoRollMenu_VibratoDisable" xml:space="preserve">
-    <value>ビブラート無効(_V)</value>
-  </data>
-  <data name="VolLine" xml:space="preserve">
-    <value>VOLのライン</value>
-  </data>
-  <data name="PianoRollMenu_Mode_VibratoAmplitudeToolTip" xml:space="preserve">
-    <value>ビブラートの振幅調整画面に切り替えます。</value>
-  </data>
-  <data name="PianoRollMenu_Mode_Timing" xml:space="preserve">
-    <value>タイミングを調整(_2)</value>
-  </data>
-  <data name="InvalidVoice" xml:space="preserve">
-    <value>ボイスが読み込まれていません</value>
-  </data>
-  <data name="PianoRollMenu_View_TuningLine" xml:space="preserve">
-    <value>調整画面にもライン表示(_V)</value>
-  </data>
-  <data name="CurrentTrack" xml:space="preserve">
-    <value>現在のトラック</value>
-  </data>
-  <data name="PianoRollMenu_View_BeatLine" xml:space="preserve">
-    <value>拍のライン(_G)</value>
-  </data>
-  <data name="LyricDialogCaption4" xml:space="preserve">
-    <value>音符毎にスペースで区切られた文字を割り当てます。</value>
-  </data>
-  <data name="LyricDialogCaption2" xml:space="preserve">
-    <value>音符)</value>
-  </data>
-  <data name="LyricDialogCaption3" xml:space="preserve">
-    <value>選択中の音符から歌詞を設定します。(最大</value>
-  </data>
-  <data name="LyricDialogCaption1" xml:space="preserve">
-    <value>先頭の音符から歌詞を設定します。(最大</value>
-  </data>
-  <data name="PianoRollMenu_DividesEnglishLyrics" xml:space="preserve">
-    <value>英語歌詞の自動分割(_E)</value>
-  </data>
-  <data name="AdjustedPhonemeLine" xml:space="preserve">
-    <value>調整した音素ライン</value>
-  </data>
-  <data name="DefaultPhonemeLine" xml:space="preserve">
-    <value>音素ライン</value>
-  </data>
-  <data name="DynamicsRowToolTip" xml:space="preserve">
-    <value>強弱記号行
-ダブルクリックで編集。ドラッグで移動。追加はペンでダブルクリック。</value>
-  </data>
-  <data name="PianoRollMenu_TimingEditOnScoreToolTip" xml:space="preserve">
-    <value>楽譜編集画面の下段で音素単位のタイミング調整を行う。</value>
-  </data>
-  <data name="PianoRollMenu_DividesEnglishLyricsToolTip" xml:space="preserve">
-    <value>英語の歌詞入力時、1音符1音節に自動分割します。</value>
-  </data>
-  <data name="PianoRollMenu_MergeNotesToolTip" xml:space="preserve">
-    <value>選択範囲の音符を1音符にまとめます。</value>
-  </data>
-  <data name="PianoRollMenu_View_BeatRow" xml:space="preserve">
-    <value>拍子行(_B)</value>
-  </data>
-  <data name="BeatNumber" xml:space="preserve">
-    <value>拍子:</value>
-  </data>
-  <data name="PianoRollMenu_OverLay_PitchToolTip" xml:space="preserve">
-    <value>ピッチを重ねます。重ね表示にはビブラートを反映。</value>
-  </data>
-  <data name="OneNoteOneMora" xml:space="preserve">
-    <value>1音符1文字</value>
-  </data>
-  <data name="PianoRollMenu_Mode_Volume" xml:space="preserve">
-    <value>ボリュームを調整(_3)</value>
-  </data>
-  <data name="VoicePitchShift" xml:space="preserve">
-    <value>ピッチ</value>
-  </data>
-  <data name="PianoRollMenu_OverLay_VibratoAmplitude" xml:space="preserve">
-    <value>ビブラートの振幅を表示(_5)</value>
-  </data>
-  <data name="LyricTextBoxMenuPhonetic" xml:space="preserve">
-    <value>音素で歌詞入力(_M)</value>
-  </data>
-  <data name="MidiImportTrackError" xml:space="preserve">
-    <value>トラックの読み込みに失敗しました。</value>
-  </data>
-  <data name="MenuCut" xml:space="preserve">
-    <value>切り取り(_T)</value>
-  </data>
-  <data name="AdjustNotesPositionLength" xml:space="preserve">
-    <value>音符の位置と長さを補正しました。</value>
-  </data>
-  <data name="MusicXmlImportConfirmationText" xml:space="preserve">
-    <value>テンポと拍子を読み込みますか？
-（全トラックに反映されます。）</value>
-  </data>
-  <data name="PianoRollMenu_Mode_VibratoFrequency" xml:space="preserve">
-    <value>ビブラートの周期を調整(_6)</value>
-  </data>
-  <data name="MeasureRowToolTip" xml:space="preserve">
-    <value>小節行
-ダブルクリックで再生／停止。
-（各行共通）左クリックでポジションカーソル移動。
-（各行共通）水平ドラッグで簡易スクロール。垂直ドラッグで簡易ズーム。</value>
-  </data>
-  <data name="PianoRollMenu_View_QuantizeLineToolTip" xml:space="preserve">
-    <value>クオンタイズのラインを表示します。</value>
-  </data>
-  <data name="Phonemes" xml:space="preserve">
-    <value>音素:</value>
-  </data>
-  <data name="PianoRollMenu_Mode_AlphaToolTip" xml:space="preserve">
-    <value>時間軸で声質を細かく調整する画面に切り替えます。</value>
-  </data>
-  <data name="AdjustedLine" xml:space="preserve">
-    <value>調整したライン</value>
-  </data>
-  <data name="PianoRollMenu_Overlay" xml:space="preserve">
-    <value>重ね表示(_P)</value>
-  </data>
-  <data name="PianoRollMenu_PropertiesToolTip" xml:space="preserve">
-    <value>音符の詳細を編集します。
-音符を複数選択してまとめて変更可能。数値の+-指定可能。</value>
-  </data>
-  <data name="LyricTextBoxMenuPhoneticToolTip" xml:space="preserve">
-    <value>歌詞を音素記号で入力します。</value>
-  </data>
-  <data name="SlurBegin" xml:space="preserve">
-    <value>スラー開始</value>
-  </data>
-  <data name="MidiImportDialogCheckBoxText" xml:space="preserve">
-    <value>テンポと拍子を読み込む</value>
-  </data>
-  <data name="PianoRollMenu_ResetAdjustments" xml:space="preserve">
-    <value>調整のリセット(_X)</value>
-  </data>
-  <data name="TrackName" xml:space="preserve">
-    <value>トラック名</value>
-  </data>
-  <data name="AutoAudition" xml:space="preserve">
-    <value>自動試聴</value>
-  </data>
-  <data name="PianoRollMenu_View_TempoRow" xml:space="preserve">
-    <value>テンポ行(_T)</value>
-  </data>
-  <data name="Duration" xml:space="preserve">
-    <value>長さ:</value>
-  </data>
-  <data name="PianoRollMenu_Mode_VolumeToolTip" xml:space="preserve">
-    <value>ボリューム調整画面に切り替えます。</value>
-  </data>
-  <data name="Message_Error_ShowHelp" xml:space="preserve">
-    <value>Webサイトへのアクセスに失敗しました。
-インターネット接続や既定のブラウザ設定をご確認ください。</value>
-  </data>
-  <data name="PianoRollMenu_InsertMeasure" xml:space="preserve">
-    <value>小節の挿入(_B)...</value>
+  <data name="Tick" xml:space="preserve">
+    <value>Tick</value>
   </data>
   <data name="OneNoteMultipleSyllables" xml:space="preserve">
-    <value>スペース区切り</value>
+    <value>按空格分割</value>
   </data>
-  <data name="VoicePitchShiftToolTip" xml:space="preserve">
-    <value>出力音声のピッチを440Hz基準でシフトします。</value>
+  <data name="LyricDialogCaption4" xml:space="preserve">
+    <value>按空格划分并分配每个音符的歌词。</value>
   </data>
-  <data name="PianoRollMenu_OtherOperations" xml:space="preserve">
-    <value>その他の操作(_O)</value>
+  <data name="SpaceDelimitedToolTip" xml:space="preserve">
+    <value>按空格将歌词分配到音符。
+此时一个音符可能包含2个及以上的字符。</value>
   </data>
-  <data name="TempoDialogTitle" xml:space="preserve">
-    <value>テンポのプロパティ</value>
+  <data name="LyricTextBoxMenuPhonetic" xml:space="preserve">
+    <value>按音素输入歌词(_M)</value>
   </data>
-  <data name="FillSpacesDuration" xml:space="preserve">
-    <value>この長さ以下を埋める</value>
+  <data name="PianoRollMenu_EnterLyricsWithPhoneme" xml:space="preserve">
+    <value>按音素输入歌词(_P)</value>
   </data>
-  <data name="BreathToolTip" xml:space="preserve">
-    <value>息継ぎをします。</value>
+  <data name="LyricError" xml:space="preserve">
+    <value>包含不能发音的字符。
+请用全角假名输入歌词。</value>
   </data>
-  <data name="PianoRollMenu_SpecialSymbolToolTip" xml:space="preserve">
-    <value>歌詞に歌唱特性の記号を設定。
-様々な条件により、特性が現れない場合もあります。</value>
+  <data name="LyricDialogError" xml:space="preserve">
+    <value>包含不能发音的字符。
+请用全角假名输入歌词。
+仍要使用这些歌词吗？</value>
+  </data>
+  <data name="BeatChangeConfirmationDialogText" xml:space="preserve">
+    <value>编辑拍子后，将对所有歌唱音轨的调号的位置进行修正。</value>
+  </data>
+  <data name="PianoRollMenu_PropertiesToolTip2" xml:space="preserve">
+    <value>编辑曲速、拍子、调号。</value>
+  </data>
+  <data name="ParametersCannotBeCalculated" xml:space="preserve">
+    <value>播放中无法计算参数</value>
+  </data>
+  <data name="MidiImportFormatError" xml:space="preserve">
+    <value>不支持MIDI格式2。</value>
+  </data>
+  <data name="MidiImportTimeBaseError" xml:space="preserve">
+    <value>不支持实际时间单位（支持Tick单位）。</value>
+  </data>
+  <data name="PianoRollMenu_Mode" xml:space="preserve">
+    <value>参数调整(_M)</value>
+  </data>
+  <data name="CalculatingParameters" xml:space="preserve">
+    <value>参数计算中</value>
+  </data>
+  <data name="InsertMeasureDialog" xml:space="preserve">
+    <value>插入小节</value>
+  </data>
+  <data name="PianoRollMenu_InsertMeasure" xml:space="preserve">
+    <value>插入小节(_B)...</value>
+  </data>
+  <data name="PianoRollMenu_Mode_VibratoAmplitude" xml:space="preserve">
+    <value>颤音振幅(VIA)调整(_5)</value>
+  </data>
+  <data name="PianoRollMenu_Mode_VibratoFrequency" xml:space="preserve">
+    <value>颤音周期(VIF)调整(_6)</value>
+  </data>
+  <data name="MenuUndo" xml:space="preserve">
+    <value>撤销(_U)</value>
+  </data>
+  <data name="MidiImportChannelSelect" xml:space="preserve">
+	  <value>此文件在1个音轨中包含所有的通道(Channel)。
+要将通道(Channel)分割到不同的音轨中吗？</value>
+  </data>
+  <data name="LyricDialogCaption1" xml:space="preserve">
+    <value>从开头的音符开始设置歌词。(最大</value>
+  </data>
+  <data name="SlurToolTip" xml:space="preserve">
+    <value>从连音开始标记到结束标记为止流畅地演唱。
+在乐谱编辑界面选中多个连续音符并按[Ctrl+R]也可以设置。</value>
+  </data>
+  <data name="PianoRollMenu_EnterLyricsCollectivelyToolTip" xml:space="preserve">
+    <value>从选中的第一个音符的位置开始输入歌词。</value>
+  </data>
+  <data name="LyricDialogCaption3" xml:space="preserve">
+    <value>从选中的音符开始设置歌词。(最大</value>
+  </data>
+  <data name="CurrentTrack" xml:space="preserve">
+    <value>当前音轨</value>
+  </data>
+  <data name="MidiImportDialogTitle" xml:space="preserve">
+    <value>导入MIDI</value>
+  </data>
+  <data name="MusicXmlImportDialogTitle" xml:space="preserve">
+    <value>导入MusicXML</value>
+  </data>
+  <data name="Key" xml:space="preserve">
+    <value>调号(Key)</value>
+  </data>
+  <data name="KeyRowToolTip" xml:space="preserve">
+    <value>调号(Key)行
+双击编辑。拖动移动。用画笔工具双击空白处添加。</value>
+  </data>
+  <data name="KeyDialogTitle" xml:space="preserve">
+    <value>调号属性</value>
+  </data>
+  <data name="BeatChangeConfirmationDialogTitle" xml:space="preserve">
+    <value>调号位置修正确认</value>
+  </data>
+  <data name="PianoRollMenu_View_KeyRow" xml:space="preserve">
+    <value>调号行(_K)</value>
+  </data>
+  <data name="SplitterToolTip" xml:space="preserve">
+    <value>调整分隔位置(Ctrl+左键单击恢复默认)</value>
+  </data>
+  <data name="MidiImportDialogCheckBoxText" xml:space="preserve">
+    <value>读取曲速和拍子</value>
+  </data>
+  <data name="Target" xml:space="preserve">
+    <value>对象:</value>
+  </data>
+  <data name="PianoRollMenu_Tool_BulkSelect" xml:space="preserve">
+    <value>范围选择工具(_2)</value>
+  </data>
+  <data name="MenuCopy" xml:space="preserve">
+    <value>复制(_C)</value>
+  </data>
+  <data name="PianoRollMenu_View_GuideLineToolTip" xml:space="preserve">
+    <value>高亮显示离鼠标最近的量化线。</value>
+  </data>
+  <data name="Lyric" xml:space="preserve">
+    <value>歌词</value>
+  </data>
+  <data name="PianoRollMenu_View_GuideLine" xml:space="preserve">
+    <value>光标指示器(_C)</value>
+  </data>
+  <data name="ChannelNumber" xml:space="preserve">
+    <value>轨道</value>
+  </data>
+  <data name="Breath" xml:space="preserve">
+    <value>呼吸</value>
+  </data>
+  <data name="PianoRollMenu_Tool_Pen" xml:space="preserve">
+    <value>画笔工具(_3)</value>
+  </data>
+  <data name="MenuCut" xml:space="preserve">
+    <value>剪切(_T)</value>
+  </data>
+  <data name="PianoRollMenu_VibratoDisableToolTip" xml:space="preserve">
+    <value>将本音轨的所有颤音无效化。</value>
+  </data>
+  <data name="PianoRollMenu_FillSpacesToolTip" xml:space="preserve">
+    <value>将选中的音符区间中的长音符进行扩展以填满其中的间隙。</value>
+  </data>
+  <data name="SpaceDelimited" xml:space="preserve">
+    <value>空格分隔</value>
+  </data>
+  <data name="PianoRollMenu_Mode_Normal" xml:space="preserve">
+    <value>乐谱编辑(_1)</value>
+  </data>
+  <data name="SlurEnd" xml:space="preserve">
+    <value>连音结束</value>
+  </data>
+  <data name="SlurBegin" xml:space="preserve">
+    <value>连音开始</value>
+  </data>
+  <data name="PianoRollMenu_Quantize" xml:space="preserve">
+    <value>量化(_Q)</value>
+  </data>
+  <data name="PianoRollMenu_View_QuantizeLine" xml:space="preserve">
+    <value>量化线(_Q)</value>
+  </data>
+  <data name="MidiImportNoTrackError" xml:space="preserve">
+    <value>没有音轨。</value>
+  </data>
+  <data name="OneNoteSingleSyllableToolTip" xml:space="preserve">
+    <value>每个音节占用1个音符。
+(由于是自动推算，可能存在不准确的情况。)</value>
+  </data>
+  <data name="OneNoteOneMoraToolTip" xml:space="preserve">
+    <value>每个字符对应一个音符。
+只有当连续出现小写（半角）字符时才会把两个字符划分到一个音符。</value>
+  </data>
+  <data name="OneNoteMultipleSyllablesToolTip" xml:space="preserve">
+    <value>每遇到空格则分配1个音符。</value>
   </data>
   <data name="Beat" xml:space="preserve">
     <value>拍子</value>
   </data>
-  <data name="Tick" xml:space="preserve">
-    <value>ティック:</value>
+  <data name="BeatNumber" xml:space="preserve">
+    <value>拍子</value>
   </data>
-  <data name="PianoRollMenu_Attribute" xml:space="preserve">
-    <value>属性(_S)</value>
+  <data name="BeatDialogTitle" xml:space="preserve">
+    <value>拍子属性</value>
   </data>
-  <data name="PianoRollMenu_CommonKeysToolTip" xml:space="preserve">
-    <value>調号(キー)を全ソングトラック共通にします。
-プロジェクト毎の設定です。</value>
+  <data name="PianoRollMenu_View_BeatLine" xml:space="preserve">
+    <value>拍子网格线(_G)</value>
+  </data>
+  <data name="PianoRollMenu_View_BeatRow" xml:space="preserve">
+    <value>拍子行(_B)</value>
+  </data>
+  <data name="BeatRowToolTip" xml:space="preserve">
+    <value>拍子行(全音轨共用)
+双击编辑。拖拽移动。用画笔工具双击空白处添加。</value>
+  </data>
+  <data name="PianoRollMenu_OtherOperations" xml:space="preserve">
+	  <value>其他操作(_O)</value>
+  </data>
+  <data name="PianoRollMenu_NotesOfOtherTracks" xml:space="preserve">
+    <value>其他音轨的音符(_P)</value>
+  </data>
+  <data name="Dynamics" xml:space="preserve">
+    <value>强弱记号</value>
+  </data>
+  <data name="DynamicsDialogTitle" xml:space="preserve">
+    <value>强弱记号属性</value>
+  </data>
+  <data name="DynamicsRowToolTip" xml:space="preserve">
+    <value>强弱记号行
+双击编辑。拖拽移动。用画笔工具双击空白处添加。</value>
+  </data>
+  <data name="PianoRollMenu_View_DynamicsRow" xml:space="preserve">
+    <value>强弱记号行(_D)</value>
+  </data>
+  <data name="PianoRollMenu_Mode_VibratoAmplitudeToolTip" xml:space="preserve">
+    <value>切换到颤音振幅调整界面。</value>
+  </data>
+  <data name="PianoRollMenu_Mode_VibratoFrequencyToolTip" xml:space="preserve">
+    <value>切换到颤音周期调整界面。</value>
+  </data>
+  <data name="PianoRollMenu_Mode_NormalToolTip" xml:space="preserve">
+    <value>切换到乐谱编辑界面。</value>
+  </data>
+  <data name="PianoRollMenu_Mode_TimingToolTip" xml:space="preserve">
+    <value>切换到时间调整界面。可调整每个音素的长短。</value>
+  </data>
+  <data name="PianoRollMenu_Mode_PitchToolTip" xml:space="preserve">
+    <value>切换到音高调整界面。
+当与颤音振幅/周期重叠显示时，会额外显示颤音的音高。</value>
+  </data>
+  <data name="PianoRollMenu_Mode_VolumeToolTip" xml:space="preserve">
+    <value>切换到音量调整界面。可调整每个时刻的音量。</value>
+  </data>
+  <data name="PianoRollMenu_Mode_AlphaToolTip" xml:space="preserve">
+    <value>切换到音色调整界面。</value>
+  </data>
+  <data name="Tempo" xml:space="preserve">
+    <value>曲速</value>
+  </data>
+  <data name="MidiImportDialogCaptionB1" xml:space="preserve">
+    <value>曲速(</value>
+  </data>
+  <data name="TempoDialogTitle" xml:space="preserve">
+    <value>曲速属性</value>
+  </data>
+  <data name="PianoRollMenu_View_TempoRow" xml:space="preserve">
+    <value>曲速行(_T)</value>
+  </data>
+  <data name="TempoRowToolTip" xml:space="preserve">
+    <value>曲速行(全音轨共用)
+双击编辑。拖拽移动。用画笔工具双击空白处添加。</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="VibratoDisabled" xml:space="preserve">
+    <value>取消颤音</value>
+  </data>
+  <data name="PianoRollMenu_VibratoDisable" xml:space="preserve">
+    <value>取消颤音(_V)</value>
+  </data>
+  <data name="MenuSelectAll" xml:space="preserve">
+    <value>全选(_A)</value>
+  </data>
+  <data name="PhoneticWindowTitleJa" xml:space="preserve">
+    <value>日语 音素面板</value>
+  </data>
+  <data name="MenuDelete" xml:space="preserve">
+    <value>删除(_D)</value>
+  </data>
+  <data name="DeleteMeasureDialog" xml:space="preserve">
+    <value>删除小节</value>
+  </data>
+  <data name="PianoRollMenu_DeleteMeasure" xml:space="preserve">
+    <value>删除小节(_X)...</value>
+  </data>
+  <data name="PianoRollMenu_PropertiesToolTip" xml:space="preserve">
+    <value>设置音符的详细属性，包括呼吸和连音。
+选中多个音符可同时设置。数值可用+-来指定相对值。</value>
+  </data>
+  <data name="PianoRollMenu_Mode_Timing" xml:space="preserve">
+    <value>时间(TMG)调整(_2)</value>
+  </data>
+  <data name="PianoRollMenu_EnterLyricsWithPhonemeToolTip" xml:space="preserve">
+    <value>使用音素记号输入歌词。</value>
+  </data>
+  <data name="Audition" xml:space="preserve">
+    <value>试听/停止 [Shift+Space]</value>
+  </data>
+  <data name="Attribute" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="PianoRollMenu_Properties" xml:space="preserve">
+    <value>属性(_R)...</value>
+  </data>
+  <data name="AllTracks" xml:space="preserve">
+    <value>所有音轨</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="MidiImportHeaderError" xml:space="preserve">
+    <value>文件头读取失败。</value>
+  </data>
+  <data name="InvalidVoice" xml:space="preserve">
+    <value>无法读取声源</value>
+  </data>
+  <data name="PianoRollMenu_View" xml:space="preserve">
+    <value>显示(_V)</value>
+  </data>
+  <data name="PianoRollMenu_OverLay_VibratoAmplitude" xml:space="preserve">
+    <value>显示颤音振幅(_5)</value>
+  </data>
+  <data name="PianoRollMenu_OverLay_VibratoFrequency" xml:space="preserve">
+    <value>显示颤音周期(_6)</value>
+  </data>
+  <data name="PianoRollMenu_View_KeyRowToolTip" xml:space="preserve">
+    <value>显示调号（KEY）行的标尺。</value>
+  </data>
+  <data name="PianoRollMenu_View_BeatRowToolTip" xml:space="preserve">
+    <value>显示拍子（BEAT）行的标尺。</value>
+  </data>
+  <data name="PianoRollMenu_View_BeatLineToolTip" xml:space="preserve">
+    <value>显示拍子行的网格线。</value>
+  </data>
+  <data name="PianoRollMenu_View_DynamicsRowToolTip" xml:space="preserve">
+    <value>显示强弱记号（DYNAMICS）行的标尺。</value>
+  </data>
+  <data name="PianoRollMenu_View_TempoRowToolTip" xml:space="preserve">
+    <value>显示曲速（TEMPO）行的标尺。</value>
+  </data>
+  <data name="PianoRollMenu_OverLay_Timing" xml:space="preserve">
+    <value>显示时间(_2)</value>
+  </data>
+  <data name="PianoRollMenu_OverLay_Pitch" xml:space="preserve">
+    <value>显示音高(_4)</value>
+  </data>
+  <data name="PianoRollMenu_OverLay_Volume" xml:space="preserve">
+    <value>显示音量(_3)</value>
+  </data>
+  <data name="PianoRollMenu_OverLay_Alpha" xml:space="preserve">
+    <value>显示音色(_7)</value>
+  </data>
+  <data name="PianoRollMenu_View_QuantizeLineToolTip" xml:space="preserve">
+    <value>显示最小量化单位的网格线。</value>
+  </data>
+  <data name="PianoRollMenu_Tool_Eraser" xml:space="preserve">
+    <value>橡皮擦工具(_5)</value>
+  </data>
+  <data name="FillSpacesDialogTitle" xml:space="preserve">
+    <value>消除短空白</value>
+  </data>
+  <data name="PianoRollMenu_FillSpaces" xml:space="preserve">
+    <value>消除短空白(_F)...</value>
   </data>
   <data name="MeasureNumber" xml:space="preserve">
-    <value>小節:</value>
+    <value>小节</value>
   </data>
-  <data name="PianoRollMenu_SlurEnd" xml:space="preserve">
-    <value>スラー終了(_E)</value>
+  <data name="MeasureRowToolTip" xml:space="preserve">
+    <value>小节行
+双击播放／停止。
+（各行通用）左键单击移动光标。
+（各行通用）水平拖动滚动。垂直拖动缩放。</value>
+  </data>
+  <data name="MidiImportDialogSelect" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="PianoRollMenu_Tool_Select" xml:space="preserve">
+    <value>选择工具(_1)</value>
+  </data>
+  <data name="MidiImportDialogCaption1" xml:space="preserve">
+    <value>选择要读取的音轨。(最大</value>
+  </data>
+  <data name="MusicXmlImportConfirmationText" xml:space="preserve">
+    <value>要读取曲速和拍子信息吗？
+（将作用于所有音轨）</value>
+  </data>
+  <data name="FillSpacesDuration" xml:space="preserve">
+    <value>要去除的空白的最大长度</value>
+  </data>
+  <data name="AuditionDisabledMessage" xml:space="preserve">
+	  <value>已冻结的音轨无法试听，请直接播放。</value>
+  </data>
+  <data name="AdjustNotesLength" xml:space="preserve">
+    <value>已修正音符位置。</value>
+  </data>
+  <data name="AdjustNotesPositionLength" xml:space="preserve">
+    <value>已修正音符位置和长度。</value>
+  </data>
+  <data name="AdjustNotesPosition" xml:space="preserve">
+    <value>已修正音符长度。</value>
+  </data>
+  <data name="Sound" xml:space="preserve">
+    <value>音</value>
+  </data>
+  <data name="MidiImportDialogNotes" xml:space="preserve">
+    <value>音符</value>
+  </data>
+  <data name="LyricDialogCaption2" xml:space="preserve">
+    <value>音符)</value>
+  </data>
+  <data name="NoteDialogTitle" xml:space="preserve">
+    <value>音符属性</value>
+  </data>
+  <data name="Pitch" xml:space="preserve">
+    <value>音高</value>
+  </data>
+  <data name="PianoRollMenu_Mode_Pitch" xml:space="preserve">
+    <value>音高(PIT)调整(_4)</value>
+  </data>
+  <data name="MidiImportDialogCaption2" xml:space="preserve">
+    <value>音轨)</value>
+  </data>
+  <data name="MidiImportTrackError" xml:space="preserve">
+    <value>音轨读取失败。</value>
+  </data>
+  <data name="TrackName" xml:space="preserve">
+    <value>音轨名</value>
+  </data>
+  <data name="PianoRollMenu_Mode_Volume" xml:space="preserve">
+    <value>音量(VOL)调整(_3)</value>
+  </data>
+  <data name="VoiceAlpha" xml:space="preserve">
+    <value>音色</value>
+  </data>
+  <data name="PianoRollMenu_Mode_Alpha" xml:space="preserve">
+    <value>音色(ALP)调整(_7)</value>
+  </data>
+  <data name="Phonemes" xml:space="preserve">
+    <value>音素</value>
+  </data>
+  <data name="PhoneticWindowTitleEn" xml:space="preserve">
+    <value>英语 音素面板</value>
+  </data>
+  <data name="LyricTextBoxMenuPhoneticToolTip" xml:space="preserve">
+    <value>用音素记号输入歌词。</value>
+  </data>
+  <data name="PianoRollMenu_View_TuningLineToolTip" xml:space="preserve">
+    <value>在调整界面也显示拍子或是量化的网格线。</value>
+  </data>
+  <data name="PianoRollMenu_View_TuningLine" xml:space="preserve">
+    <value>在调整界面也显示网格线(_V)</value>
+  </data>
+  <data name="PianoRollMenu_NotesOfOtherTracksToolTip" xml:space="preserve">
+    <value>在乐谱编辑界面也显示别的音轨中的音符。
+（不会显示已静音的音轨的音符。）</value>
+  </data>
+  <data name="BreathToolTip" xml:space="preserve">
+	  <value>在这里换气。</value>
+  </data>
+  <data name="PianoRollMenu_InsertMeasureToolTip" xml:space="preserve">
+    <value>在指定的位置插入指定长度的小节。
+要在末尾添加小节，可以直接使用[Shift+鼠标滚轮]向下(右)滚动。</value>
+  </data>
+  <data name="PianoRollMenu_DeleteMeasureToolTip" xml:space="preserve">
+    <value>在指定的位置删除指定长度的小节。</value>
+  </data>
+  <data name="MenuPaste" xml:space="preserve">
+    <value>粘贴(_P)</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>长度</value>
+  </data>
+  <data name="Length" xml:space="preserve">
+    <value>长度:</value>
+  </data>
+  <data name="LyricDialogTitle" xml:space="preserve">
+    <value>长段歌词输入</value>
+  </data>
+  <data name="PianoRollMenu_EnterLyricsCollectively" xml:space="preserve">
+    <value>长段歌词输入(_I)...</value>
+  </data>
+  <data name="PianoRollMenu_Tool_Line" xml:space="preserve">
+    <value>直线工具(_4)</value>
+  </data>
+  <data name="PianoRollMenu_Overlay" xml:space="preserve">
+    <value>重叠显示(_P)</value>
+  </data>
+  <data name="PianoRollMenu_OverLay_VibratoAmplitudeToolTip" xml:space="preserve">
+    <value>重叠显示颤音振幅（VIA）。</value>
+  </data>
+  <data name="PianoRollMenu_OverLay_VibratoFrequencyToolTip" xml:space="preserve">
+    <value>重叠显示颤音周期（VIF）。</value>
+  </data>
+  <data name="PianoRollMenu_OverLay_TimingToolTip" xml:space="preserve">
+    <value>重叠显示时间（TMG）。</value>
+  </data>
+  <data name="PianoRollMenu_OverLay_PitchToolTip" xml:space="preserve">
+    <value>重叠显示音高（PIT）。重叠显示时额外显示颤音。</value>
+  </data>
+  <data name="PianoRollMenu_OverLay_VolumeToolTip" xml:space="preserve">
+    <value>重叠显示音量（VOL）。</value>
+  </data>
+  <data name="AutoAudition" xml:space="preserve">
+    <value>自动试听</value>
+  </data>
+  <data name="PianoRollMenu_StrictParameterDisplay" xml:space="preserve">
+    <value>显示精确的参数值(_S)</value>
+  </data>
+  <data name="PianoRollMenu_StrictParameterDisplayToolTip" xml:space="preserve">
+    <value>通过整条音轨的数据计算并显示参数值（慢/精确）。
+若不启用，则只通过当前显示的区域来计算（快/近似）。</value>
+  </data>
+  <data name="PianoRollMenu_View_TimingDetailLine" xml:space="preserve">
+	  <value>显示音素状态线(_I)</value>
+  </data>
+  <data name="PianoRollMenu_View_TimingDetailLineToolTip" xml:space="preserve">
+	  <value>在时间(TMG)调整界面上显示更详细的音素状态线。
+若不显示，则根据音素线自动调整。</value>
+  </data>
+  <data name="PianoRollMenu_TimingEditOnScoreToolTip" xml:space="preserve">
+	  <value>在乐谱编辑界面的下侧显示时间(TMG)调整栏，可快速调整音素时间。</value>
+  </data>
+  <data name="PianoRollMenu_TimingEditOnScore" xml:space="preserve">
+	  <value>在乐谱编辑界面调整时间(TMG)(_T)</value>
+  </data>
+  <data name="VoiceEmotion" xml:space="preserve">
+	  <value>感情</value>
+  </data>
+  <data name="PianoRollMenu_DividesEnglishLyrics" xml:space="preserve">
+	  <value>自动分割英语歌词(_D)</value>
+  </data>
+  <data name="PianoRollMenu_DividesEnglishLyricsToolTip" xml:space="preserve">
+	  <value>输入英语歌词时，按照1个音符对应1个音节的模式自动分配歌词。</value>
+  </data>
+  <data name="Accent" xml:space="preserve">
+	  <value>重音</value>
+  </data>
+  <data name="PianoRollMenuItem_Falsetto" xml:space="preserve">
+	  <value>假声</value>
+  </data>
+  <data name="PianoRollMenuItem_FalsettoToolTip" xml:space="preserve">
+	  <value>标记当前歌词使用假声。
+是否采用假声根据角色音域和当前音的高低来确定。</value>
+  </data>
+  <data name="PianoRollMenu_Attribute" xml:space="preserve">
+	  <value>发音属性(_S)</value>
+  </data>
+  <data name="PianoRollMenu_Audition" xml:space="preserve">
+	  <value>试听(_A)</value>
+  </data>
+  <data name="PianoRollMenu_MergeNotes" xml:space="preserve">
+	  <value>合并音符(_B)</value>
+  </data>
+  <data name="PianoRollMenu_MergeNotesToolTip" xml:space="preserve">
+	  <value>将选择范围内的音符合并为1个音符。</value>
+  </data>
+  <data name="PianoRollMenu_Slur" xml:space="preserve">
+	  <value>连音(_S)</value>
+  </data>
+  <data name="Staccato" xml:space="preserve">
+	  <value>断音</value>
   </data>
 </root>

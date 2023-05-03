@@ -117,31 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ToolTipIntonation" xml:space="preserve">
-    <value>抑揚:</value>
+  <data name="ToolTipAlpha" xml:space="preserve">
+    <value>音色:</value>
   </data>
   <data name="ToolTipPitch" xml:space="preserve">
-    <value>高さ:</value>
-  </data>
-  <data name="ToolTipSpeed" xml:space="preserve">
-    <value>速さ:</value>
-  </data>
-  <data name="ToolTipAlpha" xml:space="preserve">
-    <value>声質:</value>
-  </data>
-  <data name="ToolTipHusky" xml:space="preserve">
-    <value>ハスキー:</value>
+    <value>音高:</value>
   </data>
   <data name="ToolTip" xml:space="preserve">
-    <value>ダブルクリックで数値入力</value>
+    <value>双击输入数值</value>
   </data>
   <data name="ToolTipVolume" xml:space="preserve">
-    <value>大きさ:</value>
+    <value>音量:</value>
   </data>
-  <data name="ToolTipPitchTune" xml:space="preserve">
-    <value>ピッチ忠実度:</value>
+  <data name="ToolTipIntonation" xml:space="preserve">
+    <value>语调:</value>
   </data>
-  <data name="ToolTipPitchShift" xml:space="preserve">
-    <value>基準ピッチ:</value>
+  <data name="ToolTipSpeed" xml:space="preserve">
+    <value>语速:</value>
   </data>
 </root>

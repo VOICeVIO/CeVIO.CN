@@ -118,169 +118,168 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ToolBarMenu_VerticalLocationMiddle" xml:space="preserve">
-    <value>中段</value>
+    <value>中间</value>
   </data>
   <data name="Indicator_TimeMenu_Seconds" xml:space="preserve">
     <value>秒</value>
   </data>
   <data name="Indicator_QuantizeMenu_Triplet16" xml:space="preserve">
-    <value>1/16 3連符</value>
+    <value>1/16(3连音)</value>
   </data>
   <data name="ToolBarMenu_VerticalLocationTop" xml:space="preserve">
-    <value>上段</value>
+    <value>顶部</value>
   </data>
   <data name="ToolBarMenu_VerticalLocationBottom" xml:space="preserve">
-    <value>下段</value>
+    <value>底部</value>
   </data>
   <data name="AutoScrollButtonToolTip" xml:space="preserve">
-    <value>再生中の自動スクロール [F7]</value>
+    <value>播放时自动滚动 [F7]</value>
   </data>
   <data name="ShowVibratoAmplitudeButtonToolTip" xml:space="preserve">
-    <value>ビブラートの振幅を表示 [Shift+5]</value>
+    <value>显示颤音振幅</value>
   </data>
   <data name="EditPitchButtonToolTip" xml:space="preserve">
-    <value>ピッチを調整 [4]
-ビブラートを含まない基本ピッチを調整。
-VIA,VIFを重ねるとビブラート反映ピッチも重ね表示。</value>
+    <value>音高(PIT)调整 [4]
+调整每个音每个时刻的音高（不考虑颤音）。
+当与VIA/VIF参数重叠显示时，会额外显示颤音的效果。</value>
   </data>
   <data name="Indicator_TimeMenu_Bars" xml:space="preserve">
-    <value>小節</value>
+    <value>小节</value>
   </data>
   <data name="PenButtonToolTip" xml:space="preserve">
-    <value>ペンツール [Ctrl+3]
-楽譜編集：音符やテンポなどの入力や選択、移動。
-調整画面：値を調整。Alt押下で既定値接続調整。
-(左Ctrl押下中：消しゴムツール)</value>
-  </data>
-  <data name="MasterVolumeToolTipHead" xml:space="preserve">
-    <value>マスターボリューム:</value>
-  </data>
-  <data name="MasterVolumeToolTipTail" xml:space="preserve">
-    <value>ドラッグで調整。Shift+ドラッグで微調整。
-Ctrl+左クリックで既定値。ダブルクリックで数値入力。</value>
+    <value>画笔工具 [Ctrl+3]
+乐谱编辑：输入（或移动）音符或标记。
+调整界面：调整参数值。按住Alt绘制则可被原始值切断。
+（按住左Ctrl：橡皮擦工具）</value>
   </data>
   <data name="ToolBarMenu_HorizontalLocation" xml:space="preserve">
-    <value>左右の表示位置(_H)</value>
+    <value>水平显示位置(_V)</value>
   </data>
   <data name="BulkButtonToolTip" xml:space="preserve">
-    <value>まとめ選択ツール [Ctrl+2]
-範囲内の音符と全調整値をまとめて選択。Alt押下でクオンタイズなし。
-(左Ctrl押下中：ペンツール)</value>
+    <value>范围选择工具 [Ctrl+2]
+选择范围内所有的音符或参数值。按住Alt键不吸附量化线。
+（按住左Ctrl：画笔工具）</value>
   </data>
   <data name="EraserButtonToolTip" xml:space="preserve">
-    <value>消しゴムツール [Ctrl+5]
-楽譜編集：音符やテンポなどを削除。
-調整画面：調整した値を削除。(PIT/VIA/VIF)Shift押下で元の値を無効化。
-(左Ctrl押下中：選択ツール)</value>
+    <value>橡皮擦工具 [Ctrl+5]
+乐谱编辑：删除音符或标记。。
+調整界面：清除参数的调整值。(PIT/VIA/VIF)按住Shift绘制可将原始值也无效化。
+（按住左Ctrl：选择工具）</value>
   </data>
   <data name="RepeatButtonToolTip" xml:space="preserve">
-    <value>繰り返し [テンキーの/]</value>
+    <value>循环 [小键盘 /]</value>
   </data>
   <data name="ShowTimingButtonToolTip" xml:space="preserve">
-    <value>タイミングを表示 [Shift+2]</value>
+    <value>显示时间</value>
   </data>
   <data name="Indicator_QuantizeMenu_Triplet8" xml:space="preserve">
-    <value>1/8 3連符</value>
+    <value>1/8(3连音)</value>
   </data>
   <data name="Indicator_QuantizeMenu_Triplet4" xml:space="preserve">
-    <value>1/4 3連符</value>
+    <value>1/4(3连音)</value>
   </data>
   <data name="Indicator_QuantizeMenu_Triplet2" xml:space="preserve">
-    <value>1/2 3連符</value>
+    <value>1/2(3连音)</value>
   </data>
   <data name="PlayButtonToolTip" xml:space="preserve">
-    <value>再生 [Space]</value>
+    <value>播放 [Space]</value>
   </data>
   <data name="Indicator_BeatToolTip" xml:space="preserve">
-    <value>ポジションカーソル位置の拍子
-クリックで変更。追加はピアノロールの拍子行。</value>
+    <value>光标处的拍子
+点击以修改。将会添加到钢琴卷帘的拍子行。</value>
   </data>
   <data name="ToolBarMenu_VerticalLocation" xml:space="preserve">
-    <value>上下の表示位置(_V)</value>
+    <value>垂直显示位置(_H)</value>
   </data>
   <data name="ToolBarMenu_HorizontalLocationRight" xml:space="preserve">
-    <value>右寄せ</value>
-  </data>
-  <data name="ShowAlphaButtonToolTip" xml:space="preserve">
-    <value>声質の詳細を表示 [Shift+7]</value>
+    <value>右侧</value>
   </data>
   <data name="EditTimingButtonToolTip" xml:space="preserve">
-    <value>タイミングを調整 [2]
-[Ctrl+I]で状態ライン表示([Alt]で一時切替)。
-下段で音符単位の調整(状態ライン表示中は音素単位)。</value>
+    <value>时间(TMG)调整 [2]
+点击PIT等按钮的文字部分可以重叠显示。
+拖动黑色方框的边界线，可以对整个音符及前后的状态进行整体调整。</value>
   </data>
   <data name="ShowVibratoFrequencyButtonToolTip" xml:space="preserve">
-    <value>ビブラートの周期を表示 [Shift+6]</value>
+    <value>显示颤音周期</value>
   </data>
   <data name="EditScoreButtonToolTip" xml:space="preserve">
-    <value>楽譜を編集 [1]</value>
+    <value>乐谱编辑 [1]</value>
   </data>
   <data name="ToolBarMenu_HorizontalLocationCenter" xml:space="preserve">
-    <value>中央</value>
+    <value>中间</value>
   </data>
   <data name="ShowPitchButtonToolTip" xml:space="preserve">
-    <value>ピッチを表示 [Shift+4]
-重ね表示にはビブラートを反映。</value>
+    <value>显示音高
+当重叠显示时会额外显示颤音效果。</value>
   </data>
   <data name="StopButtonToolTip" xml:space="preserve">
-    <value>停止 [テンキーの0]
-停止中は再生開始位置、先頭の順に移動。</value>
+    <value>停止 [小键盘 0]
+停止状态下再点击会依次回到播放开始位置、歌曲开头。</value>
   </data>
   <data name="Indicator_QuantizeToolTip" xml:space="preserve">
-    <value>音符のクオンタイズ
-[Shift+Q]で次、[Shift+W]で前、[Shift+T]で3連符。</value>
+    <value>音符量化
+点击以更换。</value>
   </data>
   <data name="Indicator_TempoToolTip" xml:space="preserve">
-    <value>ポジションカーソル位置のテンポ
-クリックで変更。追加はピアノロールのテンポ行。</value>
+    <value>光标处的曲速
+点击以修改。将会添加到钢琴卷帘的曲速行。</value>
   </data>
   <data name="BeginMarkerButtonToolTip" xml:space="preserve">
-    <value>始点マーカー
-Alt押下移動で秒/小節にスナップ。</value>
+    <value>起点标记</value>
   </data>
   <data name="HeadButtonToolTip" xml:space="preserve">
-    <value>先頭 [テンキーの.]</value>
+    <value>回开头 [小键盘 .]</value>
   </data>
   <data name="ShowVolumeButtonToolTip" xml:space="preserve">
-    <value>ボリュームを表示 [Shift+3]</value>
+    <value>显示音量</value>
   </data>
   <data name="EditVibratoFrequencyButtonToolTip" xml:space="preserve">
-    <value>ビブラートの周期を調整 [6]
-PIT等の文字クリックで重ね表示。</value>
+    <value>颤音周期(VIF)调整 [6]
+点击PIT等按钮的文字部分可以重叠显示。</value>
   </data>
   <data name="LineButtonToolTip" xml:space="preserve">
-    <value>ラインツール [Ctrl+4]
-楽譜編集：ペンツールと同じ働き。
-調整画面：(TMG以外)直線を引く。Alt押下で既定値接続調整。Shift押下で水平線。
-(左Ctrl押下中：消しゴムツール)</value>
+    <value>直线工具 [Ctrl+4]
+乐谱编辑：与画笔工具相同。
+调整界面：(除TMG外)绘制直线。按住Alt绘制则可被原始值切断。按住Shift绘制水平线。
+（按住左Ctrl：橡皮擦工具）</value>
   </data>
   <data name="Indicator_TimeToolTip" xml:space="preserve">
-    <value>ポジションカーソルの位置
-左クリックで位置指定。右クリックで秒／小節の表示切替。</value>
+    <value>时间轴光标位置
+鼠标左键指定位置。鼠标右键切换显示方式。</value>
   </data>
   <data name="EditVibratoAmplitudeButtonToolTip" xml:space="preserve">
-    <value>ビブラートの振幅を調整 [5]
-PIT等の文字クリックで重ね表示。</value>
-  </data>
-  <data name="EditAlphaButtonToolTip" xml:space="preserve">
-    <value>声質の詳細を調整 [7]
-時間軸で声質を変化。</value>
+    <value>颤音振幅(VIA)调整 [5]
+点击PIT等按钮的文字部分可以重叠显示。</value>
   </data>
   <data name="EndMarkerButtonToolTip" xml:space="preserve">
-    <value>終点マーカー
-Alt押下移動で秒/小節にスナップ。</value>
+    <value>终点标记</value>
   </data>
   <data name="EditVolumeButtonToolTip" xml:space="preserve">
-    <value>ボリュームを調整 [3]
-PIT等の文字クリックで重ね表示。</value>
+    <value>音量(VOL)调整 [3]
+点击PIT等按钮的文字部分可以重叠显示。</value>
   </data>
   <data name="ArrowButtonToolTip" xml:space="preserve">
-    <value>選択ツール [Ctrl+1]
-楽譜編集：音符やテンポなどの選択、音符の範囲選択。
-調整画面：コピーや削除の範囲指定。Alt押下でクオンタイズなし。
-(左Ctrl押下中：ペンツール)</value>
+    <value>选择工具 [Ctrl+1]
+乐谱编辑：选择（单个或范围）音符或标记。
+调整界面：指定复制或删除的范围。按住Alt键不吸附量化线。
+（按住左Ctrl：画笔工具）</value>
   </data>
   <data name="ToolBarMenu_HorizontalLocationLeft" xml:space="preserve">
-    <value>左寄せ</value>
+    <value>左侧</value>
+  </data>
+  <data name="MasterVolumeToolTipHead" xml:space="preserve">
+    <value>主音量:</value>
+  </data>
+  <data name="MasterVolumeToolTipTail" xml:space="preserve">
+    <value>拖拽修改。按住Shift拖拽进行细微修改。
+Ctrl+左键单击恢复初始值。双击输入数值。</value>
+  </data>
+  <data name="ShowAlphaButtonToolTip" xml:space="preserve">
+    <value>显示音色</value>
+  </data>
+  <data name="EditAlphaButtonToolTip" xml:space="preserve">
+    <value>音色(ALP)调整 [7]
+在时间轴上调整每一时刻的音色。
+点击PIT等按钮的文字部分可以重叠显示</value>
   </data>
 </root>
