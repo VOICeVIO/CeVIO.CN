@@ -61,7 +61,7 @@ namespace CeVIO.SFE.Signer.Properties {
         }
         
         /// <summary>
-        ///   查找类似 8.3.7.0 的本地化字符串。
+        ///   查找类似 8.5.4.0 的本地化字符串。
         /// </summary>
         public static string CeVIO_AI_resources_dll {
             get {
@@ -79,7 +79,7 @@ namespace CeVIO.SFE.Signer.Properties {
         }
         
         /// <summary>
-        ///   查找类似 8.0.0.0 的本地化字符串。
+        ///   查找类似 8.4.5.1 的本地化字符串。
         /// </summary>
         public static string CeVIO_KnobControl_resources_dll {
             get {
@@ -88,7 +88,7 @@ namespace CeVIO.SFE.Signer.Properties {
         }
         
         /// <summary>
-        ///   查找类似 8.0.0.0 的本地化字符串。
+        ///   查找类似 8.4.5.3 的本地化字符串。
         /// </summary>
         public static string CeVIO_SevenSegmentControl_resources_dll {
             get {
@@ -97,7 +97,7 @@ namespace CeVIO.SFE.Signer.Properties {
         }
         
         /// <summary>
-        ///   查找类似 8.3.6.2 的本地化字符串。
+        ///   查找类似 8.5.3.3 的本地化字符串。
         /// </summary>
         public static string CeVIO_SongEditorControl_resources_dll {
             get {
@@ -106,7 +106,7 @@ namespace CeVIO.SFE.Signer.Properties {
         }
         
         /// <summary>
-        ///   查找类似 8.3.1.10 的本地化字符串。
+        ///   查找类似 8.3.21.1 的本地化字符串。
         /// </summary>
         public static string CeVIO_TalkAnalyzeControl_resources_dll {
             get {
@@ -115,7 +115,7 @@ namespace CeVIO.SFE.Signer.Properties {
         }
         
         /// <summary>
-        ///   查找类似 8.3.6.2 的本地化字符串。
+        ///   查找类似 8.5.3.3 的本地化字符串。
         /// </summary>
         public static string CeVIO_ToolBarControl_resources_dll {
             get {

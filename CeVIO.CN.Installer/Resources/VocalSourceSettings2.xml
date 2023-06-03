@@ -753,4 +753,23 @@
 	  </ComponentSettings>
   </VocalSource>
 
+  <!--
+    ■ 機流音ソング
+  -->
+  <VocalSource Id="CSNV-JPM-KRN" ProductCode="2112f754-1486-3c5e-cdc8-289f31ff50e6">
+	  <DisplayName>
+		  <Notation Locale="en">Kirune</Notation>
+		  <Notation Locale="ja-JP">機流音</Notation>
+		  <Notation Locale="zh-CN">机流音</Notation>
+	  </DisplayName>
+
+	  <ComponentSettings>
+		  <Component Id="techno-sp_ja_JP_m868_svss.tsnvoice" Name="CSNV-JPM-KRN_NORMAL" InitialValue="1.0">
+			  <Title Locale="en" LongForm="Normal" ShortForm="Normal"/>
+			  <Title Locale="ja-JP" LongForm="普通" ShortForm="普通"/>
+			  <Title Locale="zh-CN" LongForm="普通" ShortForm="普通"/>
+		  </Component>
+	  </ComponentSettings>
+  </VocalSource>
+
 </VocalSources>
