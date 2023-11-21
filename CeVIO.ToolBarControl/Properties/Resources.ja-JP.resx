@@ -136,7 +136,7 @@
     <value>播放时自动滚动 [F7]</value>
   </data>
   <data name="ShowVibratoAmplitudeButtonToolTip" xml:space="preserve">
-    <value>显示颤音振幅</value>
+	  <value>显示颤音振幅 [Shift+5]</value>
   </data>
   <data name="EditPitchButtonToolTip" xml:space="preserve">
     <value>音高(PIT)调整 [4]
@@ -170,7 +170,7 @@
     <value>循环 [小键盘 /]</value>
   </data>
   <data name="ShowTimingButtonToolTip" xml:space="preserve">
-    <value>显示时间</value>
+	  <value>显示时间 [Shift+2]</value>
   </data>
   <data name="Indicator_QuantizeMenu_Triplet8" xml:space="preserve">
     <value>1/8(3连音)</value>
@@ -200,7 +200,7 @@
 拖动黑色方框的边界线，可以对整个音符及前后的状态进行整体调整。</value>
   </data>
   <data name="ShowVibratoFrequencyButtonToolTip" xml:space="preserve">
-    <value>显示颤音周期</value>
+	  <value>显示颤音周期 [Shift+6]</value>
   </data>
   <data name="EditScoreButtonToolTip" xml:space="preserve">
     <value>乐谱编辑 [1]</value>
@@ -209,7 +209,7 @@
     <value>中间</value>
   </data>
   <data name="ShowPitchButtonToolTip" xml:space="preserve">
-    <value>显示音高
+	  <value>显示音高 [Shift+4]
 当重叠显示时会额外显示颤音效果。</value>
   </data>
   <data name="StopButtonToolTip" xml:space="preserve">
@@ -231,7 +231,7 @@
     <value>回开头 [小键盘 .]</value>
   </data>
   <data name="ShowVolumeButtonToolTip" xml:space="preserve">
-    <value>显示音量</value>
+	  <value>显示音量 [Shift+3]</value>
   </data>
   <data name="EditVibratoFrequencyButtonToolTip" xml:space="preserve">
     <value>颤音周期(VIF)调整 [6]
@@ -275,11 +275,27 @@
 Ctrl+左键单击恢复初始值。双击输入数值。</value>
   </data>
   <data name="ShowAlphaButtonToolTip" xml:space="preserve">
-    <value>显示音色</value>
+	  <value>显示音色 [Shift+7]</value>
   </data>
   <data name="EditAlphaButtonToolTip" xml:space="preserve">
     <value>音色(ALP)调整 [7]
 在时间轴上调整每一时刻的音色。
 点击PIT等按钮的文字部分可以重叠显示</value>
+  </data>
+  <data name="ToolBarMenu_NumericFont" xml:space="preserve">
+	  <value>数字字体(_F)</value>
+  </data>
+  <data name="ToolBarMenu_NumericFontNormal" xml:space="preserve">
+	  <value>普通</value>
+  </data>
+  <data name="ToolBarMenu_NumericFontDot" xml:space="preserve">
+	  <value>点阵</value>
+  </data>
+  <data name="ShowHuskyButtonToolTip" xml:space="preserve">
+	  <value>显示沙哑度 [Shift+8]</value>
+  </data>
+  <data name="EditHuskyButtonToolTip" xml:space="preserve">
+	  <value>沙哑度(HUS)调整 [8]
+在时间轴上调整每一时刻的沙哑度。</value>
   </data>
 </root>

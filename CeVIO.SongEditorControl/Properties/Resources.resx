@@ -939,4 +939,364 @@
     <value>属性(_S)</value>
     <comment>属性(_S)</comment>
   </data>
+  <data name="ResetColorsMessageText" xml:space="preserve">
+    <value>現在の色を破棄して初期設定に戻しますか？</value>
+    <comment>現在の色を破棄して初期設定に戻しますか？</comment>
+  </data>
+  <data name="DefaultStatusLine" xml:space="preserve">
+    <value>状態ライン</value>
+    <comment>状態ライン</comment>
+  </data>
+  <data name="HusLine" xml:space="preserve">
+    <value>HUSのライン</value>
+    <comment>HUSのライン</comment>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolTrembling2" xml:space="preserve">
+    <value>＾ ふるえ</value>
+    <comment>＾ ふるえ</comment>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolTrembling1" xml:space="preserve">
+    <value>＠ ふるえ</value>
+    <comment>＠ ふるえ</comment>
+  </data>
+  <data name="AdjustedStatusLine" xml:space="preserve">
+    <value>調整した状態ライン</value>
+    <comment>調整した状態ライン</comment>
+  </data>
+  <data name="PianoRollMenu_ResetAdjustmentsToolTip" xml:space="preserve">
+    <value>選択範囲の全調整値を削除します。</value>
+    <comment>選択範囲の全調整値を削除します。</comment>
+  </data>
+  <data name="VoicePitchTuneToolTip" xml:space="preserve">
+    <value>上げるほど、楽譜の音程に忠実に歌います。</value>
+    <comment>上げるほど、楽譜の音程に忠実に歌います。</comment>
+  </data>
+  <data name="PianoRollMenu_Falsetto" xml:space="preserve">
+    <value>ファルセット(_F)</value>
+    <comment>ファルセット(_F)</comment>
+  </data>
+  <data name="VoiceEmotionToolTip" xml:space="preserve">
+    <value>歌い方を変えます。</value>
+    <comment>歌い方を変えます。</comment>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolHelpToolTip" xml:space="preserve">
+    <value>特殊記号の説明ページを表示します。</value>
+    <comment>特殊記号の説明ページを表示します。</comment>
+  </data>
+  <data name="VoicePitchTune" xml:space="preserve">
+    <value>チューン</value>
+    <comment>チューン</comment>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolHusky2" xml:space="preserve">
+    <value>＾ ガサガサ</value>
+    <comment>＾ ガサガサ</comment>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolHusky1" xml:space="preserve">
+    <value>＠ ガサガサ</value>
+    <comment>＠ ガサガサ</comment>
+  </data>
+  <data name="VoiceHuskyToolTip" xml:space="preserve">
+    <value>上げるほど、かすれ気味な声になります。</value>
+    <comment>上げるほど、かすれ気味な声になります。</comment>
+  </data>
+  <data name="MenuExactCopyToolTip" xml:space="preserve">
+    <value>既定値の部分も調整値と一緒にコピーします。</value>
+    <comment>既定値の部分も調整値と一緒にコピーします。</comment>
+  </data>
+  <data name="PianoRollMenu_VowelTimingCorrectionToolTip" xml:space="preserve">
+    <value>母音が音符の先頭に来るようにタイミングを補正します。</value>
+    <comment>母音が音符の先頭に来るようにタイミングを補正します。</comment>
+  </data>
+  <data name="PianoRollMenu_Mode_Husky" xml:space="preserve">
+    <value>ハスキーの詳細を調整(_8)</value>
+    <comment>ハスキーの詳細を調整(_8)</comment>
+  </data>
+  <data name="Timing" xml:space="preserve">
+    <value>タイミング</value>
+    <comment>タイミング</comment>
+  </data>
+  <data name="VoiceRap" xml:space="preserve">
+    <value>ラップ</value>
+    <comment>ラップ</comment>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolHeadFall3" xml:space="preserve">
+    <value>％ 先頭フォール</value>
+    <comment>％ 先頭フォール</comment>
+  </data>
+  <data name="FalsettoToolTip" xml:space="preserve">
+    <value>歌詞にファルセット記号を設定。
+キャストや音の低さによっては、ファルセットにならない場合があります。</value>
+    <comment>歌詞にファルセット記号を設定。
+キャストや音の低さによっては、ファルセットにならない場合があります。</comment>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbol" xml:space="preserve">
+    <value>特殊記号(_M)</value>
+    <comment>特殊記号(_M)</comment>
+  </data>
+  <data name="PianoRollMenu_VowelTimingCorrection" xml:space="preserve">
+    <value>母音のタイミング補正(_V)</value>
+    <comment>母音のタイミング補正(_V)</comment>
+  </data>
+  <data name="PianoRollMenu_RemoveSymbolsToolTip" xml:space="preserve">
+    <value>選択音符の歌詞に含まれるファルセット以外の特殊記号を除去します。
+(ファルセットは音符のプロパティから除去可能。)</value>
+    <comment>選択音符の歌詞に含まれるファルセット以外の特殊記号を除去します。
+(ファルセットは音符のプロパティから除去可能。)</comment>
+  </data>
+  <data name="MenuPasteLyricsToolTip" xml:space="preserve">
+    <value>コピー元と位置が合う音符に歌詞を反映します。</value>
+    <comment>コピー元と位置が合う音符に歌詞を反映します。</comment>
+  </data>
+  <data name="CommonKeyMessageText" xml:space="preserve">
+    <value>このトラックの調号を他のトラックにも反映して、以後、調号を全ソングトラック共通にしますか？
+
+※この操作はアンドゥできません。</value>
+    <comment>このトラックの調号を他のトラックにも反映して、以後、調号を全ソングトラック共通にしますか？
+
+※この操作はアンドゥできません。</comment>
+  </data>
+  <data name="PianoRollMenu_RemoveSymbols" xml:space="preserve">
+    <value>特殊記号の削除(_N)</value>
+    <comment>特殊記号の削除(_N)</comment>
+  </data>
+  <data name="Confirmation" xml:space="preserve">
+    <value>確認</value>
+    <comment>確認</comment>
+  </data>
+  <data name="PianoRollMenu_View_AntiAliasingToolTip" xml:space="preserve">
+    <value>ディスプレイ拡大率100%時もピアノロールにアンチエイリアスを適用。
+オフでシャープな表示。</value>
+    <comment>ディスプレイ拡大率100%時もピアノロールにアンチエイリアスを適用。
+オフでシャープな表示。</comment>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolRaise1" xml:space="preserve">
+    <value>＠ はね上げ</value>
+    <comment>＠ はね上げ</comment>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolRelax3" xml:space="preserve">
+    <value>％ 抜き</value>
+    <comment>％ 抜き</comment>
+  </data>
+  <data name="VoiceAlphaToolTip" xml:space="preserve">
+    <value>下げると子供っぽい声、上げると大人っぽい声になります。</value>
+    <comment>下げると子供っぽい声、上げると大人っぽい声になります。</comment>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolRapPitchFall5" xml:space="preserve">
+    <value>＿ ラップでフォール</value>
+    <comment>＿ ラップでフォール</comment>
+  </data>
+  <data name="PianoRollMenu_SlurBegin" xml:space="preserve">
+    <value>スラー開始(_O)</value>
+    <comment>スラー開始(_O)</comment>
+  </data>
+  <data name="PianoRollMenu_Breath" xml:space="preserve">
+    <value>ブレス(_B)</value>
+    <comment>ブレス(_B)</comment>
+  </data>
+  <data name="PianoRollMenu_ExportWaveformToolTip" xml:space="preserve">
+    <value>このトラックをモノラルWAV形式で書き出します。
+サンプリングレートとビット深度はオプションで指定可能。</value>
+    <comment>このトラックをモノラルWAV形式で書き出します。
+サンプリングレートとビット深度はオプションで指定可能。</comment>
+  </data>
+  <data name="PianoRollMenu_CommonKeys" xml:space="preserve">
+    <value>調号は全トラック共通(_K)</value>
+    <comment>調号は全トラック共通(_K)</comment>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolFallAttack4" xml:space="preserve">
+    <value>＝ 下降アタック</value>
+    <comment>＝ 下降アタック</comment>
+  </data>
+  <data name="PitLine" xml:space="preserve">
+    <value>PITのライン</value>
+    <comment>PITのライン</comment>
+  </data>
+  <data name="PianoRollMenu_Accent" xml:space="preserve">
+    <value>アクセント(_A)</value>
+    <comment>アクセント(_A)</comment>
+  </data>
+  <data name="PianoRollMenu_AutoBulkSelectToolTip" xml:space="preserve">
+    <value>音符の移動時、範囲内に調整があれば自動的にまとめ選択します。
+垂直移動はピッチ、横移動はタイミング以外で判定。</value>
+    <comment>音符の移動時、範囲内に調整があれば自動的にまとめ選択します。
+垂直移動はピッチ、横移動はタイミング以外で判定。</comment>
+  </data>
+  <data name="Falsetto" xml:space="preserve">
+    <value>ファルセット</value>
+    <comment>ファルセット</comment>
+  </data>
+  <data name="ColorSettingDialogTitle" xml:space="preserve">
+    <value>色の設定</value>
+    <comment>色の設定</comment>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolSpitOut2" xml:space="preserve">
+    <value>＾ 吐き捨て</value>
+    <comment>＾ 吐き捨て</comment>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolSpitOut3" xml:space="preserve">
+    <value>％ 吐き捨て</value>
+    <comment>％ 吐き捨て</comment>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>その他</value>
+    <comment>その他</comment>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>初期設定に戻す</value>
+    <comment>初期設定に戻す</comment>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolHelp" xml:space="preserve">
+    <value>特殊記号のヘルプ(_H)</value>
+    <comment>特殊記号のヘルプ(_H)</comment>
+  </data>
+  <data name="PianoRollMenu_View_AntiAliasing" xml:space="preserve">
+    <value>アンチエイリアス(_A)</value>
+    <comment>アンチエイリアス(_A)</comment>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolRapFalsetto4" xml:space="preserve">
+    <value>＝ ラップで裏返り</value>
+    <comment>＝ ラップで裏返り</comment>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolHoarseVoice1" xml:space="preserve">
+    <value>＠ かすれ</value>
+    <comment>＠ かすれ</comment>
+  </data>
+  <data name="PianoRollMenu_View_ColorSetting" xml:space="preserve">
+    <value>色の設定(_S)...</value>
+    <comment>色の設定(_S)...</comment>
+  </data>
+  <data name="AlpLine" xml:space="preserve">
+    <value>ALPのライン</value>
+    <comment>ALPのライン</comment>
+  </data>
+  <data name="MenuPasteLyrics" xml:space="preserve">
+    <value>歌詞のみ貼り付け(_Q)</value>
+    <comment>歌詞のみ貼り付け(_Q)</comment>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolIrritation3" xml:space="preserve">
+    <value>％ いきり</value>
+    <comment>％ いきり</comment>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolIrritation2" xml:space="preserve">
+    <value>＾ いきり</value>
+    <comment>＾ いきり</comment>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolIrritation1" xml:space="preserve">
+    <value>＠ いきり</value>
+    <comment>＠ いきり</comment>
+  </data>
+  <data name="PianoRollMenu_View_ColorSettingToolTip" xml:space="preserve">
+    <value>調整画面のラインの色を変更できます。</value>
+    <comment>調整画面のラインの色を変更できます。</comment>
+  </data>
+  <data name="PianoRollMenu_Staccato" xml:space="preserve">
+    <value>スタッカート(_S)</value>
+    <comment>スタッカート(_S)</comment>
+  </data>
+  <data name="VoiceHusky" xml:space="preserve">
+    <value>ハスキー</value>
+    <comment>ハスキー</comment>
+  </data>
+  <data name="MenuExactCopy" xml:space="preserve">
+    <value>ミックスコピー(_M)</value>
+    <comment>ミックスコピー(_M)</comment>
+  </data>
+  <data name="PianoRollMenu_ExportWaveform" xml:space="preserve">
+    <value>WAV書き出し(_W)...</value>
+    <comment>WAV書き出し(_W)...</comment>
+  </data>
+  <data name="Overlay" xml:space="preserve">
+    <value>重ね表示の不透明度</value>
+    <comment>重ね表示の不透明度</comment>
+  </data>
+  <data name="PianoRollMenu_OverLay_HuskyToolTip" xml:space="preserve">
+    <value>ハスキーの詳細を重ねます。</value>
+    <comment>ハスキーの詳細を重ねます。</comment>
+  </data>
+  <data name="ViaLine" xml:space="preserve">
+    <value>VIAのライン</value>
+    <comment>VIAのライン</comment>
+  </data>
+  <data name="VifLine" xml:space="preserve">
+    <value>VIFのライン</value>
+    <comment>VIFのライン</comment>
+  </data>
+  <data name="PianoRollMenu_OverLay_Husky" xml:space="preserve">
+    <value>ハスキーの詳細を表示(_7)</value>
+    <comment>ハスキーの詳細を表示(_7)</comment>
+  </data>
+  <data name="PianoRollMenu_AutoBulkSelect" xml:space="preserve">
+    <value>自動まとめ選択(_A)</value>
+    <comment>自動まとめ選択(_A)</comment>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolWhisper2" xml:space="preserve">
+    <value>＾ ささやき</value>
+    <comment>＾ ささやき</comment>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolWhisper3" xml:space="preserve">
+    <value>％ ささやき</value>
+    <comment>％ ささやき</comment>
+  </data>
+  <data name="VolLine" xml:space="preserve">
+    <value>VOLのライン</value>
+    <comment>VOLのライン</comment>
+  </data>
+  <data name="AdjustedPhonemeLine" xml:space="preserve">
+    <value>調整した音素ライン</value>
+    <comment>調整した音素ライン</comment>
+  </data>
+  <data name="DefaultPhonemeLine" xml:space="preserve">
+    <value>音素ライン</value>
+    <comment>音素ライン</comment>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolRolledTongue2" xml:space="preserve">
+    <value>＾ 巻き舌</value>
+    <comment>＾ 巻き舌</comment>
+  </data>
+  <data name="VoicePitchShift" xml:space="preserve">
+    <value>ピッチ</value>
+    <comment>ピッチ</comment>
+  </data>
+  <data name="AdjustedLine" xml:space="preserve">
+    <value>調整したライン</value>
+    <comment>調整したライン</comment>
+  </data>
+  <data name="PianoRollMenu_Mode_HuskyToolTip" xml:space="preserve">
+    <value>時間軸でハスキーを調整する画面に切り替えます。</value>
+    <comment>時間軸でハスキーを調整する画面に切り替えます。</comment>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolEdgeVoice3" xml:space="preserve">
+    <value>％ エッジボイス</value>
+    <comment>％ エッジボイス</comment>
+  </data>
+  <data name="PianoRollMenu_ResetAdjustments" xml:space="preserve">
+    <value>調整のリセット(_X)</value>
+    <comment>調整のリセット(_X)</comment>
+  </data>
+  <data name="Message_Error_ShowHelp" xml:space="preserve">
+    <value>Webサイトへのアクセスに失敗しました。
+インターネット接続や既定のブラウザ設定をご確認ください。</value>
+    <comment>Webサイトへのアクセスに失敗しました。
+インターネット接続や既定のブラウザ設定をご確認ください。</comment>
+  </data>
+  <data name="VoicePitchShiftToolTip" xml:space="preserve">
+    <value>出力音声のピッチを440Hz基準でシフトします。</value>
+    <comment>出力音声のピッチを440Hz基準でシフトします。</comment>
+  </data>
+  <data name="PianoRollMenu_SpecialSymbolToolTip" xml:space="preserve">
+    <value>歌詞に歌唱特性の記号を設定。
+様々な条件により、特性が現れない場合もあります。</value>
+    <comment>歌詞に歌唱特性の記号を設定。
+様々な条件により、特性が現れない場合もあります。</comment>
+  </data>
+  <data name="PianoRollMenu_CommonKeysToolTip" xml:space="preserve">
+    <value>調号(キー)を全ソングトラック共通にします。
+プロジェクト毎の設定です。</value>
+    <comment>調号(キー)を全ソングトラック共通にします。
+プロジェクト毎の設定です。</comment>
+  </data>
+  <data name="PianoRollMenu_SlurEnd" xml:space="preserve">
+    <value>スラー終了(_E)</value>
+    <comment>スラー終了(_E)</comment>
+  </data>
 </root>

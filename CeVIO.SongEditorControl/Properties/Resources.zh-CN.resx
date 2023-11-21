@@ -903,4 +903,32 @@
   <data name="MenuPasteLyricsToolTip" xml:space="preserve">
     <value>歌词将应用到与复制源位置一致的音符上。</value>
   </data>
+  <data name="PianoRollMenu_OverLay_HuskyToolTip" xml:space="preserve">
+	  <value>重叠显示沙哑度（HUS）。</value>
+  </data>
+  <data name="PianoRollMenu_Mode_HuskyToolTip" xml:space="preserve">
+	  <value>切换到沙哑度调整界面。</value>
+  </data>
+  <data name="PianoRollMenu_ExportWaveform" xml:space="preserve">
+	  <value>导出WAV音频(_W)...</value>
+  </data>
+  <data name="PianoRollMenu_ExportWaveformToolTip" xml:space="preserve">
+	  <value>将以单声道WAV格式导出此音轨。采样率和位深度可以在选项中指定。</value>
+  </data>
+  <data name="HusLine" xml:space="preserve">
+	  <value>沙哑度(HUS)线</value>
+  </data>
+  <data name="PianoRollMenu_Mode_Husky" xml:space="preserve">
+	  <value>沙哑度(HUS)调整(_8)</value>
+  </data>
+  <data name="PianoRollMenu_OverLay_Husky" xml:space="preserve">
+	  <value>显示沙哑度HUS (_7)</value>
+  </data>
+  <data name="PianoRollMenu_AutoBulkSelectToolTip" xml:space="preserve">
+	  <value>在拖动音符时，如果在音符范围内有参数调整，会自动同时移动参数。
+垂直移动会调整音高(PIT)，水平移动会调整时间(TMG)以外的所有参数。</value>
+  </data>
+  <data name="PianoRollMenu_AutoBulkSelect" xml:space="preserve">
+	  <value>移动音符时自动调整参数(_A)</value>
+  </data>
 </root>

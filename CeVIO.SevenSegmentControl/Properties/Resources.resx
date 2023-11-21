@@ -135,4 +135,16 @@
   <data name="ToolTip" xml:space="preserve">
     <value />
   </data>
+  <data name="ToolTipHusky" xml:space="preserve">
+    <value>ハスキー:</value>
+    <comment>ハスキー:</comment>
+  </data>
+  <data name="ToolTipPitchTune" xml:space="preserve">
+    <value>ピッチ忠実度:</value>
+    <comment>ピッチ忠実度:</comment>
+  </data>
+  <data name="ToolTipPitchShift" xml:space="preserve">
+    <value>基準ピッチ:</value>
+    <comment>基準ピッチ:</comment>
+  </data>
 </root>

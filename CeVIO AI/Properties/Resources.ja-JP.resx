@@ -3929,7 +3929,7 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
     <value>删除选定的行。</value>
   </data>
   <data name="TalkEditor_Menu_ExportWaveform" xml:space="preserve">
-    <value>输出WAV音频(_W)...</value>
+	  <value>导出WAV音频(_W)...</value>
   </data>
   <data name="TalkEditor_Menu_ExportWaveform_InputGesture" xml:space="preserve">
     <value>Ctrl+W</value>
@@ -4943,5 +4943,69 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
   <data name="TrackLane_Menu_AutoAlignsOtherTracksToo_Audio_ToolTip" xml:space="preserve">
 	  <value>使其他音轨的台词不会产生重叠。
 （启用“自动排列台词”时，会同时作用于语音元素。）</value>
+  </data>
+  <data name="MainMenu_View_Transport_VerticalLocation" xml:space="preserve">
+	  <value>走带控制器上下位置(_V)</value>
+  </data>
+  <data name="MainMenu_View_Transport_VerticalLocation_Bottom" xml:space="preserve">
+	  <value>下部</value>
+  </data>
+  <data name="MainMenu_View_Transport_VerticalLocation_Center" xml:space="preserve">
+	  <value>中部</value>
+  </data>
+  <data name="MainMenu_View_Transport_VerticalLocation_Top" xml:space="preserve">
+	  <value>上部</value>
+  </data>
+  <data name="MainMenu_View_Transport_TimeBase_Bars" xml:space="preserve">
+	  <value>小节</value>
+  </data>
+  <data name="MainMenu_View_Transport_TimeBase_Time" xml:space="preserve">
+	  <value>秒</value>
+  </data>
+  <data name="MainMenu_View_Transport_TimeBase" xml:space="preserve">
+	  <value>时间基准(_B)</value>
+  </data>
+  <data name="MainMenu_View_Transport_HorizontalLocation" xml:space="preserve">
+	  <value>走带控制器左右位置(_H)</value>
+  </data>
+  <data name="MainMenu_View_Transport_HorizontalLocation_Center" xml:space="preserve">
+	  <value>中间</value>
+  </data>
+  <data name="MainMenu_View_Transport_HorizontalLocation_Left" xml:space="preserve">
+	  <value>左侧</value>
+  </data>
+  <data name="MainMenu_View_Transport_HorizontalLocation_Right" xml:space="preserve">
+	  <value>右侧</value>
+  </data>
+  <data name="MainMenu_Song_EditMode_Husky" xml:space="preserve">
+	  <value>沙哑度(HUS)调整(_8)</value>
+  </data>
+  <data name="MainMenu_Song_EditMode_Husky_ToolTip" xml:space="preserve">
+	  <value>将时间轴切换到沙哑度调整界面。</value>
+  </data>
+  <data name="MainMenu_Song_EditMode_Overlay_Husky" xml:space="preserve">
+	  <value>显示沙哑度HUS (_8)</value>
+  </data>
+  <data name="MainMenu_Song_EditMode_Overlay_Husky_ToolTip" xml:space="preserve">
+	  <value>重叠显示沙哑度（HUS）。</value>
+  </data>
+  <data name="TalkEditor_Menu_BringPlaybackCursorHere_ToolTip" xml:space="preserve">
+	  <value>从这句台词开始播放。</value>
+  </data>
+  <data name="MainMenu_Song_CursorMode" xml:space="preserve">
+	  <value>编辑工具(_T)</value>
+  </data>
+  <data name="MainMenu_Song_DividesEnglishLyrics" xml:space="preserve">
+	  <value>自动分割英语歌词(_E)</value>
+  </data>
+  <data name="MainMenu_Song_DividesEnglishLyrics_ToolTip" xml:space="preserve">
+	  <value>输入英语歌词时，按照1音符1音节的规则自动分配歌词。（由于是自动推算，分割位置可能存在不准确的情况。）</value>
+  </data>
+  <data name="MainMenu_Song_SelectEntireDataAutomatically" xml:space="preserve">
+	  <value>移动音符时自动调整参数(_A)</value>
+  </data>
+  <data name="MainMenu_Song_SelectEntireDataAutomatically_ToolTip" xml:space="preserve">
+	  <value>在拖动音符时，如果在音符范围内有参数调整，会自动同时移动参数。
+垂直移动会调整音高(PIT)，水平移动会调整时间(TMG)以外的所有参数。</value>
   </data>
 </root>

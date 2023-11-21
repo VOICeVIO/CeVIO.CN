@@ -135,4 +135,7 @@
   <data name="ToolTipSpeed" xml:space="preserve">
     <value>语速:</value>
   </data>
+  <data name="ToolTipHusky" xml:space="preserve">
+	  <value>沙哑度:</value>
+  </data>
 </root>

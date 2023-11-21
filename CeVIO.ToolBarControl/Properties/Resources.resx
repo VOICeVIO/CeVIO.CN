@@ -327,4 +327,26 @@ Ctrl + Left click to default value. Double-click to enter numerical value.</comm
 時間軸で声質を細かく調整。
 PIT等の文字クリックで重ね表示。</comment>
   </data>
+  <data name="ShowHuskyButtonToolTip" xml:space="preserve">
+    <value>ハスキーの詳細を表示 [Shift+8]</value>
+    <comment>ハスキーの詳細を表示 [Shift+8]</comment>
+  </data>
+  <data name="EditHuskyButtonToolTip" xml:space="preserve">
+    <value>ハスキーの詳細を調整 [8]
+時間軸でハスキーさを変化。</value>
+    <comment>ハスキーの詳細を調整 [8]
+時間軸でハスキーさを変化。</comment>
+  </data>
+  <data name="ToolBarMenu_NumericFontDot" xml:space="preserve">
+    <value>ドット</value>
+    <comment>ドット</comment>
+  </data>
+  <data name="ToolBarMenu_NumericFont" xml:space="preserve">
+    <value>数字のフォント(_F)</value>
+    <comment>数字のフォント(_F)</comment>
+  </data>
+  <data name="ToolBarMenu_NumericFontNormal" xml:space="preserve">
+    <value>ノーマル</value>
+    <comment>ノーマル</comment>
+  </data>
 </root>

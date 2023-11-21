@@ -4771,4 +4771,322 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
   <data name="MainMenu_Song_EditMode_Overlay_Vibrato_Frequency_InputGesture" xml:space="preserve">
     <value>Shift+6</value>
   </data>
+  <data name="Message_Information_LimitedTrial_RequiresSongEditor" xml:space="preserve">
+    <value>「CeVIO AI ソングエディタ」ご購入後ライセンス認証すると、
+「すずきつづみ ソングボイス」を機能制限なしで無料体験できます。</value>
+    <comment>「CeVIO AI ソングエディタ」ご購入後ライセンス認証すると、
+「すずきつづみ ソングボイス」を機能制限なしで無料体験できます。</comment>
+  </data>
+  <data name="PreferenceDialog_Song_AdjustmentLineColorSettingButton_Title" xml:space="preserve">
+    <value>調整画面の色の設定</value>
+    <comment>調整画面の色の設定</comment>
+  </data>
+  <data name="PreferenceDialog_Ambient_WaveOutputFormat_SampleRate_Title" xml:space="preserve">
+    <value>サンプリングレート:</value>
+    <comment>サンプリングレート:</comment>
+  </data>
+  <data name="PreferenceDialog_Ambient_Image_CastDisplayOrderSettingButton_Title" xml:space="preserve">
+    <value>キャストの表示順設定</value>
+    <comment>キャストの表示順設定</comment>
+  </data>
+  <data name="TalkEditor_Menu_BringPlaybackCursorHere" xml:space="preserve">
+    <value>ここから再生(_A)</value>
+    <comment>ここから再生(_A)</comment>
+  </data>
+  <data name="MainMenu_View_Transport_HorizontalLocation" xml:space="preserve">
+    <value>ツールバーの左右位置(_H)</value>
+    <comment>ツールバーの左右位置(_H)</comment>
+  </data>
+  <data name="MainMenu_Help_Trial" xml:space="preserve">
+    <value>体験版(_T)</value>
+    <comment>体験版(_T)</comment>
+  </data>
+  <data name="CastReorderDialog_SongCastList_Title" xml:space="preserve">
+    <value>ソングキャスト</value>
+    <comment>ソングキャスト</comment>
+  </data>
+  <data name="Message_Warning_TracksAreNotFreezableOnOffline" xml:space="preserve">
+    <value>現在、オフライン状態のためトラックをフリーズできません。
+インターネットに接続してアプリケーションを再起動してください。</value>
+    <comment>現在、オフライン状態のためトラックをフリーズできません。
+インターネットに接続してアプリケーションを再起動してください。</comment>
+  </data>
+  <data name="CastReorderDialog_Description" xml:space="preserve">
+    <value>項目をドラッグして並びを変更できます。</value>
+    <comment>項目をドラッグして並びを変更できます。</comment>
+  </data>
+  <data name="MainMenu_Talk_RegisterWord_InputGesture" xml:space="preserve">
+    <value>F10</value>
+    <comment>F10</comment>
+  </data>
+  <data name="MainMenu_View_Transport_Font_EmbeddedFont" xml:space="preserve">
+    <value>ノーマル</value>
+    <comment>ノーマル</comment>
+  </data>
+  <data name="MainMenu_View_Transport_HorizontalLocation_Right" xml:space="preserve">
+    <value>右寄せ</value>
+    <comment>右寄せ</comment>
+  </data>
+  <data name="MainMenu_File_Export_WaveformForEachText_InputGesture" xml:space="preserve">
+    <value>F4</value>
+    <comment>F4</comment>
+  </data>
+  <data name="Message_Information_OfflineStartUp" xml:space="preserve">
+    <value>インターネットに接続されていないため、オフライン起動します。
+
+※オフライン起動では、以下の機能が制限されます。
+　・WAV書き出し
+　・トラックのフリーズ
+　・トークのプリレンダリング</value>
+    <comment>インターネットに接続されていないため、オフライン起動します。
+
+※オフライン起動では、以下の機能が制限されます。
+　・WAV書き出し
+　・トラックのフリーズ
+　・トークのプリレンダリング</comment>
+  </data>
+  <data name="MainMenu_Song_EditMode_Overlay_Husky_ToolTip" xml:space="preserve">
+    <value>ハスキーの詳細を重ねます。</value>
+    <comment>ハスキーの詳細を重ねます。</comment>
+  </data>
+  <data name="Message_Confirm_LimitedTrial_StartNow" xml:space="preserve">
+    <value>「すずきつづみ ソングボイス」の体験を開始しますか？
+9月16日まで機能制限なしで無料体験できます。</value>
+    <comment>「すずきつづみ ソングボイス」の体験を開始しますか？
+9月16日まで機能制限なしで無料体験できます。</comment>
+  </data>
+  <data name="PhraseClipDialog_OverwriteNotice_OverwriteButton_Title" xml:space="preserve">
+    <value>上書き</value>
+    <comment>上書き</comment>
+  </data>
+  <data name="MainMenu_Song_EditMode_Husky_InputGesture" xml:space="preserve">
+    <value>8</value>
+    <comment>8</comment>
+  </data>
+  <data name="MainMenu_Song_EditMode_Overlay_Pitch_InputGesture" xml:space="preserve">
+    <value>Shift+4</value>
+    <comment>Shift+4</comment>
+  </data>
+  <data name="Message_Information_LimitedTrial_After" xml:space="preserve">
+    <value>「すずきつづみ ソングボイス」の無料体験期間は終了しました。</value>
+    <comment>「すずきつづみ ソングボイス」の無料体験期間は終了しました。</comment>
+  </data>
+  <data name="MainMenu_View_Transport_HorizontalLocation_Left" xml:space="preserve">
+    <value>左寄せ</value>
+    <comment>左寄せ</comment>
+  </data>
+  <data name="Window_Portrait_Splitter_ToolTip" xml:space="preserve">
+    <value>分割位置を調整。
+Ctrl+左クリックで既定位置。ダブルクリックで画像の幅。</value>
+    <comment>分割位置を調整。
+Ctrl+左クリックで既定位置。ダブルクリックで画像の幅。</comment>
+  </data>
+  <data name="MainMenu_View_Transport_Font_DottedImage" xml:space="preserve">
+    <value>ドット</value>
+    <comment>ドット</comment>
+  </data>
+  <data name="PreferenceDialog_Ambient_WaveOutputFormat_SampleRate_ToolTip" xml:space="preserve">
+    <value>現在、ミックスダウンは48kHz固定です。</value>
+    <comment>現在、ミックスダウンは48kHz固定です。</comment>
+  </data>
+  <data name="MainMenu_Song_CursorMode" xml:space="preserve">
+    <value>編集ツール(_T)</value>
+    <comment>編集ツール(_T)</comment>
+  </data>
+  <data name="CastReorderDialog_SortingMethod_List_InstallationDateOrder" xml:space="preserve">
+    <value>インストール順</value>
+    <comment>インストール順</comment>
+  </data>
+  <data name="MainMenu_View_Transport_VerticalLocation_Top" xml:space="preserve">
+    <value>上段</value>
+    <comment>上段</comment>
+  </data>
+  <data name="UpdateAnnounceDialog_ShowHelpButton2_Title" xml:space="preserve">
+    <value>詳細 / 手動アップデート</value>
+    <comment>詳細 / 手動アップデート</comment>
+  </data>
+  <data name="MainMenu_Song_DividesEnglishLyrics" xml:space="preserve">
+    <value>英語歌詞の自動分割(_E)</value>
+    <comment>英語歌詞の自動分割(_E)</comment>
+  </data>
+  <data name="RuntimeActivationDialog_InputKey_Description2" xml:space="preserve">
+    <value>　※パッケージ版は同梱のカードやマニュアル、パッケージ内側に記載。
+　※ダウンロード版はご購入時のメールをご確認ください。</value>
+    <comment>　※パッケージ版は同梱のカードやマニュアル、パッケージ内側に記載。
+　※ダウンロード版はご購入時のメールをご確認ください。</comment>
+  </data>
+  <data name="TalkEditor_Menu_BringPlaybackCursorHere_ToolTip" xml:space="preserve">
+    <value>このセリフから再生を開始します。</value>
+    <comment>このセリフから再生を開始します。</comment>
+  </data>
+  <data name="MainMenu_Song_EditMode_Husky_ToolTip" xml:space="preserve">
+    <value>時間軸でハスキーを調整する画面に切り替えます。</value>
+    <comment>時間軸でハスキーを調整する画面に切り替えます。</comment>
+  </data>
+  <data name="MainMenu_Song_EditMode_Overlay_Husky_InputGesture" xml:space="preserve">
+    <value>Shift+8</value>
+    <comment>Shift+8</comment>
+  </data>
+  <data name="MainMenu_Help_Trial_ToolTip" xml:space="preserve">
+    <value>「すずきつづみ ソングボイス」を無料体験します。</value>
+    <comment>「すずきつづみ ソングボイス」を無料体験します。</comment>
+  </data>
+  <data name="MainMenu_Help_Manual_InputGesture" xml:space="preserve">
+    <value>F1</value>
+    <comment>F1</comment>
+  </data>
+  <data name="MainMenu_View_Transport_TimeBase_Time" xml:space="preserve">
+    <value>秒</value>
+    <comment>秒</comment>
+  </data>
+  <data name="MainMenu_View_Transport_TimeBase_Bars" xml:space="preserve">
+    <value>小節</value>
+    <comment>小節</comment>
+  </data>
+  <data name="TalkEditor_Menu_BringPlaybackCursorHere_InputGesture" xml:space="preserve">
+    <value>F5</value>
+    <comment>F5</comment>
+  </data>
+  <data name="MainMenu_View_Transport_Font" xml:space="preserve">
+    <value>ツールバーの数字フォント(_F)</value>
+    <comment>ツールバーの数字フォント(_F)</comment>
+  </data>
+  <data name="PhraseClipDialog_OverwriteNotice_CancelButton_Title" xml:space="preserve">
+    <value>キャンセル</value>
+    <comment>キャンセル</comment>
+  </data>
+  <data name="MainMenu_Song_SelectEntireDataAutomatically" xml:space="preserve">
+    <value>自動まとめ選択(_A)</value>
+    <comment>自動まとめ選択(_A)</comment>
+  </data>
+  <data name="CastReorderDialog_SortingMethod_Title" xml:space="preserve">
+    <value>現在の並び:</value>
+    <comment>現在の並び:</comment>
+  </data>
+  <data name="MainMenu_Song_SelectEntireDataAutomatically_ToolTip" xml:space="preserve">
+    <value>音符のドラッグ移動時、範囲内に調整があれば自動的にまとめ選択します。
+垂直移動はピッチ、横移動はタイミング以外で判定。</value>
+    <comment>音符のドラッグ移動時、範囲内に調整があれば自動的にまとめ選択します。
+垂直移動はピッチ、横移動はタイミング以外で判定。</comment>
+  </data>
+  <data name="MainMenu_View_Transport_VerticalLocation" xml:space="preserve">
+    <value>ツールバーの上下位置(_V)</value>
+    <comment>ツールバーの上下位置(_V)</comment>
+  </data>
+  <data name="CastReorderDialog_TalkCastList_Title" xml:space="preserve">
+    <value>トークキャスト</value>
+    <comment>トークキャスト</comment>
+  </data>
+  <data name="PreferenceDialog_Ambient_Image_CastDisplayOrderSettingButton_ToolTip" xml:space="preserve">
+    <value>「トラックの追加」や「バージョン情報」など、リスト内のキャストの並びの変更を行います。</value>
+    <comment>「トラックの追加」や「バージョン情報」など、リスト内のキャストの並びの変更を行います。</comment>
+  </data>
+  <data name="MainMenu_View_Transport_TimeBase" xml:space="preserve">
+    <value>タイムベース(_B)</value>
+    <comment>タイムベース(_B)</comment>
+  </data>
+  <data name="MainMenu_Song_EditMode_Overlay_Alpha_InputGesture" xml:space="preserve">
+    <value>Shift+7</value>
+    <comment>Shift+7</comment>
+  </data>
+  <data name="Message_Information_LimitedTrial_Before" xml:space="preserve">
+    <value>「すずきつづみ ソングボイス」は8月5日12時より無料体験可能です。</value>
+    <comment>「すずきつづみ ソングボイス」は8月5日12時より無料体験可能です。</comment>
+  </data>
+  <data name="CastReorderDialog_SortingMethod_List_Default" xml:space="preserve">
+    <value>既定</value>
+    <comment>既定</comment>
+  </data>
+  <data name="Message_License_Confirm_CannotOutputWaveFileOnOffline" xml:space="preserve">
+    <value>現在、オフライン状態のためWAV書き出しできません。
+インターネットに接続してライセンスを確認しますか？</value>
+    <comment>現在、オフライン状態のためWAV書き出しできません。
+インターネットに接続してライセンスを確認しますか？</comment>
+  </data>
+  <data name="MainMenu_Song_EditMode_Overlay_Husky" xml:space="preserve">
+    <value>ハスキーの詳細を表示(_8)</value>
+    <comment>ハスキーの詳細を表示(_8)</comment>
+  </data>
+  <data name="Fragment_UTF16" xml:space="preserve">
+    <value>UTF-16 LE</value>
+    <comment>UTF-16 LE</comment>
+  </data>
+  <data name="MainMenu_Song_EditMode_Husky" xml:space="preserve">
+    <value>ハスキーの詳細を調整(_8)</value>
+    <comment>ハスキーの詳細を調整(_8)</comment>
+  </data>
+  <data name="Message_Warning_CannotOutputWaveFileOnOffline" xml:space="preserve">
+    <value>現在、オフライン状態のためWAV書き出しできません。
+インターネットに接続してアプリケーションを再起動してください。</value>
+    <comment>現在、オフライン状態のためWAV書き出しできません。
+インターネットに接続してアプリケーションを再起動してください。</comment>
+  </data>
+  <data name="MainMenu_View_Transport_VerticalLocation_Center" xml:space="preserve">
+    <value>中段</value>
+    <comment>中段</comment>
+  </data>
+  <data name="MainMenu_Song_EditMode_Overlay_Vibrato_Amplitude_InputGesture" xml:space="preserve">
+    <value>Shift+5</value>
+    <comment>Shift+5</comment>
+  </data>
+  <data name="MainMenu_View_Transport_VerticalLocation_Bottom" xml:space="preserve">
+    <value>下段</value>
+    <comment>下段</comment>
+  </data>
+  <data name="CastReorderDialog_SortingMethod_List_CustomOrder" xml:space="preserve">
+    <value>カスタム</value>
+    <comment>カスタム</comment>
+  </data>
+  <data name="Message_Information_LimitedTrial_AlreadyRegistered" xml:space="preserve">
+    <value>「すずきつづみ ソングボイス」は既に認証済みです。</value>
+    <comment>「すずきつづみ ソングボイス」は既に認証済みです。</comment>
+  </data>
+  <data name="MainMenu_Song_CommonizeKeySignatures_ToolTip" xml:space="preserve">
+    <value>調号(キー)を全ソングトラック共通にします。
+プロジェクト毎の設定です。</value>
+    <comment>調号(キー)を全ソングトラック共通にします。
+プロジェクト毎の設定です。</comment>
+  </data>
+  <data name="PhraseClipDialog_OverwriteNotice_Message" xml:space="preserve">
+    <value>既に同じ表記のセリフが登録済みです。</value>
+    <comment>既に同じ表記のセリフが登録済みです。</comment>
+  </data>
+  <data name="MainMenu_View_Transport_HorizontalLocation_Center" xml:space="preserve">
+    <value>中央</value>
+    <comment>中央</comment>
+  </data>
+  <data name="Message_License_Error_CouldNotGetProductKeyForTrial" xml:space="preserve">
+    <value>体験版ライセンスの登録に失敗しました。
+時間をおいて再度お試しください。</value>
+    <comment>体験版ライセンスの登録に失敗しました。
+時間をおいて再度お試しください。</comment>
+  </data>
+  <data name="CastReorderDialog_Title" xml:space="preserve">
+    <value>キャストの表示順設定</value>
+    <comment>キャストの表示順設定</comment>
+  </data>
+  <data name="PhraseClipDialog_OverwriteNotice_RegisterButton_Title" xml:space="preserve">
+    <value>追加</value>
+    <comment>追加</comment>
+  </data>
+  <data name="Window_Splitter_ToolTip" xml:space="preserve">
+    <value>分割位置を調整。
+Ctrl+左クリックで既定位置。</value>
+    <comment>分割位置を調整。
+Ctrl+左クリックで既定位置。</comment>
+  </data>
+  <data name="MainMenu_Song_DividesEnglishLyrics_ToolTip" xml:space="preserve">
+    <value>英語の歌詞入力時、1音符1音節に自動分割します。
+(表記の分割位置は自動推定のため、正しくないことがあります。)</value>
+    <comment>英語の歌詞入力時、1音符1音節に自動分割します。
+(表記の分割位置は自動推定のため、正しくないことがあります。)</comment>
+  </data>
+  <data name="CastReorderDialog_SortingMethod_List_NameOrder" xml:space="preserve">
+    <value>名前順</value>
+    <comment>名前順</comment>
+  </data>
+  <data name="MainMenu_Song_CommonizeKeySignatures" xml:space="preserve">
+    <value>調号は全トラック共通(_K)</value>
+    <comment>調号は全トラック共通(_K)</comment>
+  </data>
 </root>

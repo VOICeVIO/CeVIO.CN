@@ -135,4 +135,7 @@
   <data name="ToolTip" xml:space="preserve">
     <value>双击输入数值</value>
   </data>
+  <data name="ToolTipHusky" xml:space="preserve">
+	  <value>沙哑度:</value>
+  </data>
 </root>
