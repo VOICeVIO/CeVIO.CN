@@ -66,7 +66,7 @@
 
 感谢 [uselessbug](https://github.com/uselessbug) 协助测试并反馈BUG。
 
-感谢 [夜轮_NachtgeistW](https://github.com/NachtgeistW) 对CeVIO相关文档进行中文翻译：[CeVIO AI用户指南（非官方译文）](https://cevio-user-guide-unofficial.github.io/CeVIO-AI/)
+感谢 [夜轮_NachtgeistW](https://github.com/NachtgeistW) 对CeVIO相关文档进行中文翻译：[CeVIO AI用户指南](https://zh.ceviodoc.uk/)
 
 ## 挂人
 
