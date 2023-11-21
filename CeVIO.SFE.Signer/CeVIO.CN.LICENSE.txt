@@ -5,9 +5,9 @@ AUTHOR: VOICeVIO/Ulysses (wdwxy12345@gmail.com)
 
 [NC] You can use the patch with a legal copy of CeVIO(*). However, you can NOT use this patch for commercial purposes (e.g. sell this patch, or provide this patch when selling any software).
 
-[SA] You must use the same LICENSE when you share the modified patch(texts).
+[SA] You must use the same or compatible LICENSE when you share the modified patch(texts).
 
-Please read CC BY-NC-SA 4.0 LICENSE here: https://creativecommons.org/licenses/by-nc-sa/4.0/
+Please read the full CC BY-NC-SA 4.0 LICENSE here: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 (*)CeVIO is a trademark of CeVIO(cevio.jp).
 
@@ -20,7 +20,7 @@ CeVIO.CN (CeVIO汉化补丁) 基于CC BY-NC-SA 4.0协议发布。
 
 [非商业性使用] 你可以将此补丁用于正版CeVIO(*)软件。但是，你不能将此补丁本身用于商业用途（例如贩卖此补丁，或在贩卖软件时提供此补丁等）。
 
-[相同方式共享] 你对文本或文件的任何修改都需要以同样的协议(CC BY-NC-SA)发布。
+[相同方式共享] 你对文本或文件的任何修改都需要以同样的或兼容的协议(CC BY-NC-SA)发布。
 
 请务必阅读完整CC BY-NC-SA 4.0协议（若无法访问，请使用代理工具）：https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh
 
