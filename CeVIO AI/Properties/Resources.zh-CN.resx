@@ -5148,4 +5148,13 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
   <data name="PreferenceDialog_Song_AdjustmentLineColorSettingButton_Title" xml:space="preserve">
 	  <value>参数调整界面的指示色设置</value>
   </data>
+  <data name="MainMenu_View_Transport_Font" xml:space="preserve">
+	  <value>工具栏数字字体(_F)</value>
+  </data>
+  <data name="MainMenu_View_Transport_Font_DottedImage" xml:space="preserve">
+	  <value>点阵</value>
+  </data>
+  <data name="MainMenu_View_Transport_Font_EmbeddedFont" xml:space="preserve">
+	  <value>普通</value>
+  </data>
 </root>

@@ -5008,4 +5008,13 @@ WAVの末尾の無音は「セリフ単位のWAV書き出しに反映」で設�
 	  <value>在拖动音符时，如果在音符范围内有参数调整，会自动同时移动参数。
 垂直移动会调整音高(PIT)，水平移动会调整时间(TMG)以外的所有参数。</value>
   </data>
+  <data name="MainMenu_View_Transport_Font" xml:space="preserve">
+	  <value>工具栏数字字体(_F)</value>
+  </data>
+  <data name="MainMenu_View_Transport_Font_DottedImage" xml:space="preserve">
+	  <value>点阵</value>
+  </data>
+  <data name="MainMenu_View_Transport_Font_EmbeddedFont" xml:space="preserve">
+	  <value>普通</value>
+  </data>
 </root>
