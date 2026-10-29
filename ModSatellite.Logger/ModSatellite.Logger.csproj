@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <OutputType>Library</OutputType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWPF>true</UseWPF>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>default</LangVersion>
+	<Description>CeVIO.CN</Description>
+	<Copyright>Copyright © VOICeVIO 2018-2026</Copyright>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common">
+      <HintPath>lib\Microsoft.Practices.EnterpriseLibrary.Common.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging">
+      <HintPath>lib\Microsoft.Practices.EnterpriseLibrary.Logging.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder2, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\Microsoft.Practices.ObjectBuilder2.DLL</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Dynamitey">
+      <Version>2.0.10.189</Version>
+    </PackageReference>
+    <PackageReference Include="Lib.Harmony">
+      <Version>2.2.2</Version>
+    </PackageReference>
+  </ItemGroup>
+</Project>

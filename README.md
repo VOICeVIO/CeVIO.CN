@@ -68,15 +68,6 @@
 
 感谢 [夜轮_NachtgeistW](https://github.com/NachtgeistW) 对CeVIO相关文档进行中文翻译：[CeVIO AI用户指南](https://zh.ceviodoc.uk/)
 
-## 挂人
-
-在感谢CeVIO开发团队的同时，我们仍需对CeVIO开发团队中出现的不和谐音表示抗议。我们深知个人行为并不能代表团队的态度，因此我们不会上纲上线去抵制CeVIO。
-
-但是，我们仍希望大家看清这位简介为“开发者（CeVIO AI / CS）”的 **川出阳一** 先生的真面目。
-
-
-<a href="https://twitter.com/kawade_yoichi/status/1368777076539465728"><img src="https://raw.githubusercontent.com/VOICeVIO/CeVIO.CN/master/img/kawade_yoichi.png" height="650"  alt="Kawade Yoichi"/></a>
-
 ---
 
 by **VOICeVIO**

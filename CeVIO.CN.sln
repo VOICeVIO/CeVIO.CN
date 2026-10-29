@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.1.32421.90
+# Visual Studio Version 18
+VisualStudioVersion = 18.10.12210.168 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CeVIO.SFE.Signer", "CeVIO.SFE.Signer\CeVIO.SFE.Signer.csproj", "{08A6F4D0-8308-4327-98E7-36984DB000F4}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CeVIO.TalkAnalyzeControl", "CeVIO.TalkAnalyzeControl\CeVIO.TalkAnalyzeControl.csproj", "{005B1BD2-C871-4A6A-8AFE-473CDD49698E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CeVIO.ToolBarControl", "CeVIO.ToolBarControl\CeVIO.ToolBarControl.csproj", "{DD3E9C20-1A11-4376-B7F1-F190C7CDBACA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModSatellite.Logger", "ModSatellite.Logger\ModSatellite.Logger.csproj", "{28455969-F294-46D7-9754-663F206D5D3A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -139,12 +141,24 @@ Global
 		{DD3E9C20-1A11-4376-B7F1-F190C7CDBACA}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{DD3E9C20-1A11-4376-B7F1-F190C7CDBACA}.Release|x86.ActiveCfg = Release|Any CPU
 		{DD3E9C20-1A11-4376-B7F1-F190C7CDBACA}.Release|x86.Build.0 = Release|Any CPU
+		{28455969-F294-46D7-9754-663F206D5D3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28455969-F294-46D7-9754-663F206D5D3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28455969-F294-46D7-9754-663F206D5D3A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{28455969-F294-46D7-9754-663F206D5D3A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{28455969-F294-46D7-9754-663F206D5D3A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{28455969-F294-46D7-9754-663F206D5D3A}.Debug|x86.Build.0 = Debug|Any CPU
+		{28455969-F294-46D7-9754-663F206D5D3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28455969-F294-46D7-9754-663F206D5D3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28455969-F294-46D7-9754-663F206D5D3A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{28455969-F294-46D7-9754-663F206D5D3A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{28455969-F294-46D7-9754-663F206D5D3A}.Release|x86.ActiveCfg = Release|Any CPU
+		{28455969-F294-46D7-9754-663F206D5D3A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		RESX_NeutralResourcesLanguage = zh-CN
 		SolutionGuid = {CB31DAE2-E6F3-409E-B521-17A44BCA3F10}
+		RESX_NeutralResourcesLanguage = zh-CN
 	EndGlobalSection
 EndGlobal
